@@ -1,5 +1,5 @@
-<?php /* Smarty version 2.6.12, created on 2016-01-26 16:52:01
-         compiled from erro.html */ ?>
+<?php /* Smarty version 2.6.12, created on 2016-01-26 16:40:25
+         compiled from servicos.html */ ?>
 <!DOCTYPE HTML>
 <html lang="pt-br">
 <head>
@@ -17,7 +17,7 @@ unset($_smarty_tpl_vars);
  ?>
     <link rel="stylesheet" type="text/css" href="<?php echo $this->_tpl_vars['URL']; ?>
 commom/css/estilo.css">
-    <title>BDA</title>
+    <title>Bda</title>
     <!-- Bootstrap -->
     <link href="<?php echo $this->_tpl_vars['URL']; ?>
 commom/css/bootstrap.min.css" rel="stylesheet">
@@ -43,42 +43,41 @@ $this->_smarty_include(array('smarty_include_tpl_file' => "../inc/header.html", 
 $this->_tpl_vars = $_smarty_tpl_vars;
 unset($_smarty_tpl_vars);
  ?>
-        <?php $_smarty_tpl_vars = $this->_tpl_vars;
+            <!-- Banner -->
+            <article class="xidden-xs col-sm-12 col-md-12 mg-top--5">
+                <div id="demo" class="vitrine-index">
+                    <div class="row">
+                        <div class="span12">
+                            <div id="owl-demo" class="owl-carousel">
+                                <div class="item">
+                                    <div class="linha-top-banner-int cor-linha-bn-servicos"></div>
+                                    <div class="bloco-bg-banner-interna"></div>
+                                    <div class="bloco-desc-banner-interna">
+                                        <h1 class="titulo-banner-interna">serviços</h1>
+                                        <h2 class="subtitulo-banner-interna">Lorem ipsum dolor sit amet, consectetur <br> adipiscing elit proin.</h2>
+                                    </div>
+                                    <img src="<?php echo $this->_tpl_vars['URL']; ?>
+commom/img/banner-servicos.jpg" alt="serviços" title="serviços">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+            </article> 
+            <!-- Banner -->   
+            <article class="visible-xs-block banner-interna-faixa cor-linha-bn-servicos pd-none">
+                <div class="width-default">
+                    <h1 class="titulo-faixa-interna">serviços</h1>
+                </div>
+            </article>          
+            <?php $_smarty_tpl_vars = $this->_tpl_vars;
 $this->_smarty_include(array('smarty_include_tpl_file' => "../inc/breadcrumb.html", 'smarty_include_vars' => array()));
 $this->_tpl_vars = $_smarty_tpl_vars;
 unset($_smarty_tpl_vars);
- ?>
-            <section class="conteudo conteudo-top">
-                <article class="bloco-conteudo-interna">
-                    <div class="row">
-                        <div class="linha-titulo-pag"></div>
-                        <div class="bloco-titulo-pag">
-                            <p class="titulo-interna">Página não existe</p>
-                        </div>
-                        <!-- icon-tel -->
-                    </div>
-                    <div class="conteudo-top">
-                        <div class="col-xs-12 col-sm-8 col-md-8 mg-bt-20 pd-none">  
-                             <p class="titulo-interna">Essa página ou produto não existe!</p>
-                        </div>
-                        <div class="col-xs-12 col-sm-4 col-md-4">
-                            <p class="txt-interna-contato">contato</p>
-                            <p class="txt-interna">
-                                Rua Mato Grosso , 131 <br>
-                                Cerâmica   -  São Caetano do Sul – SP <br>
-                                Cep.: 09530-330<br><br>
-                            </p>
-                            <a href="tel:01123111897" class="txt-interna">(11) 2311-1897 <br></a>
-                            <a href="mailto:comercial@expressaobrindes.com.br" class="txt-interna">comercial@expressaobrindes.com.br</a>                        
-                        </div>
-                    </div>
-                </article>
-            </section>
-        <?php $_smarty_tpl_vars = $this->_tpl_vars;
-$this->_smarty_include(array('smarty_include_tpl_file' => "../inc/contato.html", 'smarty_include_vars' => array()));
-$this->_tpl_vars = $_smarty_tpl_vars;
-unset($_smarty_tpl_vars);
- ?>
+ ?>      
+            <section class="conteudo-interna">
+                
+            </section>              
         <?php $_smarty_tpl_vars = $this->_tpl_vars;
 $this->_smarty_include(array('smarty_include_tpl_file' => "../inc/footer.html", 'smarty_include_vars' => array()));
 $this->_tpl_vars = $_smarty_tpl_vars;

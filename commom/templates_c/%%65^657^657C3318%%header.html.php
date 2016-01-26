@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.12, created on 2016-01-26 10:46:03
+<?php /* Smarty version 2.6.12, created on 2016-01-26 16:40:03
          compiled from ../inc/header.html */ ?>
 <div id="fb-root"></div>
 <?php echo '
@@ -41,8 +41,6 @@ commom/img/logo.png" alt="BDA" title="BDA">
                                     <span class="icon-bar"></span>
                                     <span class="icon-bar"></span>
                                 </button>
-                                <!-- <img class="lupa-mobile visible-xs-block mg-menu-busca" src="<?php echo $this->_tpl_vars['URL']; ?>
-commom/img/icon_busca.jpg" alt="Buscar" title="Buscar"> -->
                                 <a class="navbar-brand visible-xs-block" href="<?php echo $this->_tpl_vars['URL']; ?>
 home" title="BDA">
                                     <img src="<?php echo $this->_tpl_vars['URL']; ?>
@@ -69,25 +67,75 @@ commom/img/icon_busca.jpg" alt="Buscar" title="Buscar">
 
                                     <li class="linha-menu-topo <?php if ($this->_tpl_vars['pagina'] == 'home' || $this->_tpl_vars['pagina'] == ""): ?> linha-menu-topo-ativo <?php endif; ?>"><a class="link-menu-topo" href="<?php echo $this->_tpl_vars['URL']; ?>
 home">home</a></li>
-                                    <li class="linha-menu-topo <?php if ($this->_tpl_vars['pagina'] == 'home'): ?> linha-menu-topo-ativo <?php endif; ?>"><a class="link-menu-topo" href="<?php echo $this->_tpl_vars['URL']; ?>
-home">software</a></li>
                                     <li class="dropdown linha-menu-topo">
-                                        <a href="#" class="dropdown-toggle link-menu-topo <?php if ($this->_tpl_vars['menuAtivo'] == 'profissionais'): ?>link-topo-ativo<?php endif; ?> font-normal" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-                                            Soluções</a>
+                                        <a href="<?php echo $this->_tpl_vars['URL']; ?>
+software" class="dropdown-toggle link-menu-topo">
+                                            software</a>
+                                        <?php if ($this->_tpl_vars['pagina'] == 'software' || $this->_tpl_vars['pagina'] == "software-interna"): ?><img class="menu-topo-ativo hidden-xs" src="<?php echo $this->_tpl_vars['URL']; ?>
+commom/img/seta-software.png" alt="software" title="software"><?php endif; ?>
                                         <ul class="dropdown-menu">
-                                            <li><a class="link-menu-topo" href="marcos-antonio-gaban-monteiro.php"><img src="<?php echo $this->_tpl_vars['URL']; ?>
-commom/img/seta-drop.png" alt="" title="">Marcos Antonio Gaban Monteiro</a></li>
-                                            <li><a class="link-menu-topo" href="marcos-antonio-gaban-monteiro.php"><img src="<?php echo $this->_tpl_vars['URL']; ?>
-commom/img/seta-drop.png" alt="" title="">Marcos Antonio Gaban Monteiro</a></li>
-                                            <li><a class="link-menu-topo" href="marcos-antonio-gaban-monteiro.php"><img src="<?php echo $this->_tpl_vars['URL']; ?>
-commom/img/seta-drop.png" alt="" title="">Marcos Antonio Gaban Monteiro</a></li>
-                                      </ul>
+                                            <div class="bloco-dropdown-menu">
+                                                <!-- <li><span class="link-menu-topo">&nbsp;&nbsp;&nbsp;&nbsp;Dell</span></li> -->
+                                                <li><a class="link-menu-topo linha-menu-topo-software" href="<?php echo $this->_tpl_vars['URL']; ?>
+software-interna"><img src="<?php echo $this->_tpl_vars['URL']; ?>
+commom/img/seta-drop-software.png" alt="software" title="software">Software interna</a></li>
+                                                <li><a class="link-menu-topo linha-menu-topo-software" href="<?php echo $this->_tpl_vars['URL']; ?>
+software"><img src="<?php echo $this->_tpl_vars['URL']; ?>
+commom/img/seta-drop-software.png" alt="software" title="software">Software</a></li>
+                                            </div>
+                                        </ul>
                                     </li>
-                                    <li class="linha-menu-topo <?php if ($this->_tpl_vars['pagina'] == 'home'): ?> linha-menu-topo-ativo <?php endif; ?>"><a class="link-menu-topo" href="<?php echo $this->_tpl_vars['URL']; ?>
-home">serviços</a></li>
-                                    <li class="linha-menu-topo <?php if ($this->_tpl_vars['pagina'] == 'home'): ?> linha-menu-topo-ativo <?php endif; ?>"><a class="link-menu-topo" href="<?php echo $this->_tpl_vars['URL']; ?>
-home">treinamentos</a></li>
-                                    
+                                    <li class="dropdown linha-menu-topo">
+                                        <a href="<?php echo $this->_tpl_vars['URL']; ?>
+solucoes" class="dropdown-toggle link-menu-topo">
+                                            Soluções</a>
+                                        <?php if ($this->_tpl_vars['pagina'] == 'solucoes' || $this->_tpl_vars['pagina'] == "solucoes-interna"): ?><img class="menu-topo-ativo hidden-xs" src="<?php echo $this->_tpl_vars['URL']; ?>
+commom/img/seta-solucoes.png" alt="Soluções" title="Soluções"><?php endif; ?>                                            
+                                        <ul class="dropdown-menu">
+                                            <div class="bloco-dropdown-menu">
+                                                <li><a class="link-menu-topo linha-menu-topo-solucoes" href="<?php echo $this->_tpl_vars['URL']; ?>
+solucoes-interna"><img src="<?php echo $this->_tpl_vars['URL']; ?>
+commom/img/seta-drop-solucoes.png" alt="Soluções" title="Soluções">Soluções interna</a></li>
+                                                <li><a class="link-menu-topo linha-menu-topo-solucoes" href="<?php echo $this->_tpl_vars['URL']; ?>
+solucoes"><img src="<?php echo $this->_tpl_vars['URL']; ?>
+commom/img/seta-drop-solucoes.png" alt="Soluções" title="Soluções">Soluções</a></li>
+                                            </div>
+                                        </ul>
+                                    </li>
+                                    <li class="dropdown linha-menu-topo">
+                                        <a href="<?php echo $this->_tpl_vars['URL']; ?>
+servicos" class="dropdown-toggle link-menu-topo">
+                                            serviços</a>
+                                        <?php if ($this->_tpl_vars['pagina'] == 'servicos' || $this->_tpl_vars['pagina'] == "servicos-interna"): ?><img class="menu-topo-ativo hidden-xs" src="<?php echo $this->_tpl_vars['URL']; ?>
+commom/img/seta-servicos.png" alt="serviços" title="serviços"><?php endif; ?>                                            
+                                        <ul class="dropdown-menu">
+                                            <div class="bloco-dropdown-menu">
+                                                <li><a class="link-menu-topo linha-menu-topo-servicos" href="<?php echo $this->_tpl_vars['URL']; ?>
+servicos-interna"><img src="<?php echo $this->_tpl_vars['URL']; ?>
+commom/img/seta-drop-servicos.png" alt="serviços" title="serviços">Serviços interna</a></li>
+                                                <li><a class="link-menu-topo linha-menu-topo-servicos" href="<?php echo $this->_tpl_vars['URL']; ?>
+servicos"><img src="<?php echo $this->_tpl_vars['URL']; ?>
+commom/img/seta-drop-servicos.png" alt="serviços" title="serviços">Serviços</a></li>
+                                            </div>
+                                        </ul>
+                                    </li>
+                                    <li class="dropdown linha-menu-topo">
+                                        <a href="<?php echo $this->_tpl_vars['URL']; ?>
+treinamentos" class="dropdown-toggle link-menu-topo">
+                                            treinamentos</a>
+                                        <?php if ($this->_tpl_vars['pagina'] == 'treinamentos' || $this->_tpl_vars['pagina'] == "treinamentos-interna"): ?><img class="menu-topo-ativo hidden-xs" src="<?php echo $this->_tpl_vars['URL']; ?>
+commom/img/seta-treinamentos.png" alt="treinamentos" title="treinamentos"><?php endif; ?>                                            
+                                        <ul class="dropdown-menu ">
+                                            <div class="bloco-dropdown-menu">
+                                                <li><a class="link-menu-topo linha-menu-topo-treinamentos" href="<?php echo $this->_tpl_vars['URL']; ?>
+treinamentos-interna"><img src="<?php echo $this->_tpl_vars['URL']; ?>
+commom/img/seta-drop-treinamentos.png" alt="treinamentos" title="treinamentos">Treinamentos interna</a></li>
+                                                <li><a class="link-menu-topo linha-menu-topo-treinamentos" href="<?php echo $this->_tpl_vars['URL']; ?>
+treinamentos"><img src="<?php echo $this->_tpl_vars['URL']; ?>
+commom/img/seta-drop-treinamentos.png" alt="treinamentos" title="treinamentos">Treinamentos</a></li>
+                                            </div>
+                                        </ul>
+                                    </li>
                                 </ul>
                             </div>
                         </div>
@@ -129,7 +177,6 @@ commom/img/icon-likedin.png" alt="Acesse nosso Likedin" title="Acesse nosso Like
 commom/img/icon-email.png" alt="contato@bdasolutions.com.br" title="contato@bdasolutions.com.br">
                     <a href="mailto:contato@bdasolutions.com.br" class="contato-topo-mob">contato@bdasolutions.com.br</a>
                 </div>
-                
             </div>
         </div>
     </section>

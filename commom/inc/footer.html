@@ -1,3 +1,28 @@
+    <article class="blog-destaques-home">
+        <div class="width-default">
+            <div class="bloco-txt-assine">
+                <p class="assine-news">Assine nossa Newsletter</p>
+            </div>
+            <div class="col-xs-12 col-sm-8 col-md-8">
+                <form class="" name="newsletter" action="{$URL}" method="post" role="search">
+                    <div>
+                        <input type="hidden" name="acao" value="assine-news">
+                        <div class="col-xs-12 col-sm-5 col-md-5">
+                            <input type="text" name="nome_news" class="form-control pull-left" placeholder="NOME">
+                        </div>
+                        <div class="col-xs-12 col-sm-5 col-md-5">
+                            <input type="email" name="email_news" class="form-control pull-left" placeholder="EMAIL">
+                        </div>
+                        <div class="col-xs-12 col-sm-2 col-md-2">
+                            <button type="submit" class="btn btn-default-site pd-none pull-right" onclick="return validaNewsletter();">
+                                enviar
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </article>
     <footer>
         <article class="rodape">
             <div class="col-xs-12 col-sm-4 col-md-3  hidden-xs border-bloco-footer alinha-footer-mob altura-bloco-footer">

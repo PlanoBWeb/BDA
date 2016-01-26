@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.12, created on 2016-01-26 10:40:25
+<?php /* Smarty version 2.6.12, created on 2016-01-26 16:52:01
          compiled from index.html */ ?>
 <!DOCTYPE HTML>
 <html lang="pt-br">
@@ -17,7 +17,7 @@ unset($_smarty_tpl_vars);
  ?>
 	<link rel="stylesheet" type="text/css" href="<?php echo $this->_tpl_vars['URL']; ?>
 commom/css/estilo.css">
-	<title>Bda</title>
+	<title>BDA</title>
  	<!-- Bootstrap -->
     <link href="<?php echo $this->_tpl_vars['URL']; ?>
 commom/css/bootstrap.min.css" rel="stylesheet">
@@ -44,7 +44,7 @@ $this->_tpl_vars = $_smarty_tpl_vars;
 unset($_smarty_tpl_vars);
  ?>
             <!-- Banner -->
-            <article class="xidden-xs col-sm-12 col-md-12">
+            <article class="xidden-xs col-sm-12 col-md-12 mg-top--5">
                 <div id="demo" class="vitrine-index">
                     <div class="row">
                         <div class="span12">
@@ -89,47 +89,47 @@ commom/img/icon-busca.png" alt="Buscar" title="Buscar">
                             <div class="row bt-destaque-linha-um">
                                 <div class="col-xs-7 col-sm-8 col-md-9">
                                     <h2 class="destaques-home pull-right"><a href="<?php echo $this->_tpl_vars['URL']; ?>
-">Software</a></h2>
+software">Software</a></h2>
                                     <h3 class="txt-destaques-home pull-right"><a href="<?php echo $this->_tpl_vars['URL']; ?>
-">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum </a></h3>
+software">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum </a></h3>
                                 </div>
                                 <div class="col-xs-7 col-sm-4 col-md-3"></div>
                                 <img class="img-destaque-home" src="<?php echo $this->_tpl_vars['URL']; ?>
-commom/img/destaque-software.png" alt="" title="">
+commom/img/destaque-software.png" alt="Software" title="Software">
                             </div>  
                             <div class="row">
                                 <div class="col-xs-7 col-sm-8 col-md-9">
                                     <h2 class="destaques-home pull-right"><a href="<?php echo $this->_tpl_vars['URL']; ?>
-">Soluções</a></h2>
+solucoes">Soluções</a></h2>
                                     <h3 class="txt-destaques-home pull-right"><a href="<?php echo $this->_tpl_vars['URL']; ?>
-">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum </a></h3>
+solucoes">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum </a></h3>
                                 </div>
                                 <div class="col-xs-7 col-sm-4 col-md-3"></div>
                                 <img class="img-destaque-home" src="<?php echo $this->_tpl_vars['URL']; ?>
-commom/img/destaque-solucoes.png" alt="" title="">
+commom/img/destaque-solucoes.png" alt="Soluções" title="Soluções">
                             </div>       
                         </div>
                         <div class="col-xs-12 col-sm-6 col-md-6 max-width-mob">
                             <div class="row bt-destaque-linha-um">
                                 <div class="col-xs-5 col-sm-4 col-md-3"></div>
                                 <img class="img-destaque-home align-left" src="<?php echo $this->_tpl_vars['URL']; ?>
-commom/img/destaque-servicos.png" alt="" title="">
+commom/img/destaque-servicos.png" alt="Serviços" title="Serviços">
                                 <div class="col-xs-7 col-sm-8 col-md-9">
                                     <h2 class="destaques-home pull-left"><a href="<?php echo $this->_tpl_vars['URL']; ?>
-">Serviços</a></h2>
+servicos">Serviços</a></h2>
                                     <h3 class="txt-destaques-home align-left pull-left"><a href="<?php echo $this->_tpl_vars['URL']; ?>
-">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum </a></h3>
+servicos">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum </a></h3>
                                 </div>
                             </div>  
                             <div class="row">
                                 <div class="col-xs-5 col-sm-4 col-md-3"></div>
                                 <img class="img-destaque-home align-left" src="<?php echo $this->_tpl_vars['URL']; ?>
-commom/img/destaque-treinamentos.png" alt="" title="">
+commom/img/destaque-treinamentos.png" alt="Treinamentos" title="Treinamentos">
                                 <div class="col-xs-7 col-sm-8 col-md-9">
                                     <h2 class="destaques-home pull-left"><a href="<?php echo $this->_tpl_vars['URL']; ?>
-">Treinamentos</a></h2>
+treinamentos">Treinamentos</a></h2>
                                     <h3 class="txt-destaques-home align-left pull-left"><a href="<?php echo $this->_tpl_vars['URL']; ?>
-">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum </a></h3>
+treinamentos">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum </a></h3>
                                 </div>
                             </div>       
                         </div>
@@ -326,32 +326,6 @@ commom/img/right.png" title="Direita" alt="Direita">
                     </a>
                 </div>
             </div>
-            <article class="blog-destaques-home">
-                <div class="width-default">
-                    <div class="bloco-txt-assine">
-                        <p class="assine-news">Assine nossa Newsletter</p>
-                    </div>
-                    <div class="col-xs-12 col-sm-8 col-md-8">
-                        <form class="" name="newsletter" action="<?php echo $this->_tpl_vars['URL']; ?>
-" method="post" role="search">
-                            <div>
-                                <input type="hidden" name="acao" value="assine-news">
-                                <div class="col-xs-12 col-sm-5 col-md-5">
-                                    <input type="text" name="nome_news" class="form-control pull-left" placeholder="NOME">
-                                </div>
-                                <div class="col-xs-12 col-sm-5 col-md-5">
-                                    <input type="email" name="email_news" class="form-control pull-left" placeholder="EMAIL">
-                                </div>
-                                <div class="col-xs-12 col-sm-2 col-md-2">
-                                    <button type="submit" class="btn btn-default-site pd-none pull-right" onclick="return validaNewsletter();">
-                                        enviar
-                                    </button>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </article>
         <?php $_smarty_tpl_vars = $this->_tpl_vars;
 $this->_smarty_include(array('smarty_include_tpl_file' => "../inc/footer.html", 'smarty_include_vars' => array()));
 $this->_tpl_vars = $_smarty_tpl_vars;

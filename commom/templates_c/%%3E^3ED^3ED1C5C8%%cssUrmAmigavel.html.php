@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.12, created on 2016-01-26 10:54:41
+<?php /* Smarty version 2.6.12, created on 2016-01-26 11:04:29
          compiled from ../inc/cssUrmAmigavel.html */ ?>
 <style type="text/css">
 	<?php echo '       
@@ -32,10 +32,6 @@
 		    src: url(\'';  echo $this->_tpl_vars['URL'];  echo 'commom/fonts/DINBold.eot\') format(\'embedded-opentype\'),
 		    url(\'';  echo $this->_tpl_vars['URL'];  echo 'commom/fonts/DINBold.ttf\');
 		}	
-
-		body{
-			background: url(\'';  echo $this->_tpl_vars['URL'];  echo 'commom/img/BDA_home.jpg\') !important;
-		}
 	'; ?>
 
 </style>

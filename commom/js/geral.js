@@ -1,3 +1,24 @@
+    // Drop menu mobile
+    $(document).ready(function(){
+        var altura_tela = $(window).width();
+        $(".linha-menu-topo a").click(function(){
+            if (altura_tela <= 768) {
+                event.preventDefault();
+                $(this).parent().find(".dropdown-menu").slideToggle();
+            }
+        });
+    });
+
+    window.onresize = function() {
+        
+        $(".linha-menu-topo a").click(function(){
+            if (window.innerWidth <= 768) {
+                event.preventDefault();
+                $(this).parent().find(".dropdown-menu").slideToggle();
+            }
+        });
+    }
+
     // Destaques Blog Home
     $(document).ready(function() {
         var owl = $("#owl-demo-blog");     
