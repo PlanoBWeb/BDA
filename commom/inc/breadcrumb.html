@@ -1,0 +1,45 @@
+<article class="breadcrumb">
+    <div class="conteudo">
+        <h1 class="titulo-pag-bread hidden-xs">{$breadcrumb}</h1>
+        <ul class="bloco-breadcrumb">
+            <li class="linha-breadcrumb">        	
+                <a href="{$URL}home/">Home</a>
+            </li>
+            <li class="linha-breadcrumb">
+                >
+            </li>
+
+            {if $pagina == "produto"}
+                <li class="linha-breadcrumb">           
+                    <a href="{$URL}produtos">{$breadcrumb}</a>
+                </li>
+                 <li class="linha-breadcrumb">
+                    >
+                </li>
+                <li class="linha-breadcrumb">           
+                    {if $id == "camisetas-personalizadas"}
+                        CAMISETAS PERSONALIZADAS
+                    {elseif $id == "camiseta-formatura"}
+                        CAMISETA FORMATURA
+                    {elseif $id == "camisetas-religiosas"}
+                        CAMISETAS RELIGIOSAS
+                    {/if}
+                </li>
+            {elseif $id == "camisetas"}
+                <li class="linha-breadcrumb">           
+                    <a href="{$URL}produtos">{$breadcrumb}</a>
+                </li>
+                 <li class="linha-breadcrumb">
+                    >
+                </li>
+                <li class="linha-breadcrumb">
+                    Camisetas
+                </li>
+            {else}
+                <li class="linha-breadcrumb">           
+                    {$breadcrumb}
+                </li>
+            {/if}
+        </ul>
+    </div>
+</article>

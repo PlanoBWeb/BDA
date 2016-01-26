@@ -1,0 +1,49 @@
+<form class="form-horizontal " name="contato" method="post" action="{$URL}envia">
+    <input type="hidden" name="pagina" value="{$pagina}">
+    <input type="hidden" name="codigo" value="{$dados[0].codigo}">
+    <div class="row">
+        <img class="pull-left hidden-xs" src="{$URL}commom/img/icon-pessoa.png" alt="Nome" title="Nome">
+        <div class="col-xs-12 col-sm-11 col-md-11 pd-mobile-form-home">
+            <input type="text" name="fale_nome" class="form-home form-control" id="inputNome" placeholder="NOME">
+        </div>
+    </div>
+
+    <div class="row">
+        <img class="pull-left hidden-xs" src="{$URL}commom/img/icon-arroba.png" alt="E-mail" title="E-mail">
+        <div class="col-xs-12 col-sm-11 col-md-11 pd-mobile-form-home">
+            <input type="email" name="fale_email" class="form-home form-control" id="inputEmail3" placeholder="EMAIL">
+        </div>
+    </div>
+
+    <div class="row">
+        <img class="pull-left hidden-xs" src="{$URL}commom/img/icon-telefone.png" alt="Telefone" title="Telefone">
+        <div class="col-xs-12 col-sm-11 col-md-11 pd-mobile-form-home">
+            <input type="text" name="fale_telefone" class="form-home form-control" id="inputEmail3" placeholder="TELEFONE">
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="pull-left" style="width: 30px; height:1px;"></div>
+        <div class="col-xs-12 col-sm-11 col-md-11 pd-mobile-form-home">
+            <textarea name="fale_msg" class="form-home text-area-home form-control" id="inputMsg" placeholder="MENSAGEM"></textarea>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="pull-left" style="width: 30px; height:1px;"></div>
+        <div class="col-xs-12 col-sm-11 col-md-11 pd-mobile-form-home">
+            <select class="form-home form-control" name="onde" id="onde">
+                <option value="">Onde nos encontrou</option>
+                <option value="Google">Google</option>
+                <option value="Indicação">Indicação</option>
+                <option value="E-mail MKT">E-mail MKT</option>
+                <option value="Outros">Outros</option>
+            </select>
+        </div>
+    </div>
+
+
+    <div class="pull-right btn-enviar-fale">
+        <button type="submit" class="btn btn-default-padrao" onclick="return enviardados();">enviar</button>
+    </div>                        
+</form> 
