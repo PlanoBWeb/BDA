@@ -1,5 +1,5 @@
-<?php /* Smarty version 2.6.12, created on 2016-01-26 17:40:12
-         compiled from software-interna.html */ ?>
+<?php /* Smarty version 2.6.12, created on 2016-01-26 19:29:57
+         compiled from contato.html */ ?>
 <!DOCTYPE HTML>
 <html lang="pt-br">
 <head>
@@ -38,7 +38,7 @@ unset($_smarty_tpl_vars);
             <!-- Banner -->
             <article class="banner-interna-faixa cor-linha-bn-software pd-none mg-top--5">
                 <div class="width-default">
-                    <h1 class="titulo-faixa-interna">dell - Information Management</h1>
+                    <h1 class="titulo-faixa-interna">Contato</h1>
                 </div>
             </article> 
             <!-- Banner -->
@@ -48,7 +48,21 @@ $this->_tpl_vars = $_smarty_tpl_vars;
 unset($_smarty_tpl_vars);
  ?>  
             <section class="conteudo-interna">
-                
+                <div class="width-default">
+                    <div class="col-xs-12 col-sm-12 col-md-12 pd-none pd-so-mob">
+                        <p class="titulo-interna-inst">Entre em contato conosco</p>
+                        <p class="txt-interna-inst">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.</p>
+                    </div>
+                    <div class="row">
+                        <div class="bloco-formulario">
+                            <?php $_smarty_tpl_vars = $this->_tpl_vars;
+$this->_smarty_include(array('smarty_include_tpl_file' => "../inc/form.html", 'smarty_include_vars' => array()));
+$this->_tpl_vars = $_smarty_tpl_vars;
+unset($_smarty_tpl_vars);
+ ?>
+                        </div>
+                    </div>
+                </div>
             </section>                             
         <?php $_smarty_tpl_vars = $this->_tpl_vars;
 $this->_smarty_include(array('smarty_include_tpl_file' => "../inc/footer.html", 'smarty_include_vars' => array()));

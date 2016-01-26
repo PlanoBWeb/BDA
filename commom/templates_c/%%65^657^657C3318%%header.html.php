@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.12, created on 2016-01-26 16:40:03
+<?php /* Smarty version 2.6.12, created on 2016-01-26 19:54:55
          compiled from ../inc/header.html */ ?>
 <div id="fb-root"></div>
 <?php echo '
@@ -15,9 +15,28 @@
 <header>
     <div class="bloco-sub-topo hidden-xs">
         <div class="width-default">
-            <img class="pull-right" src="<?php echo $this->_tpl_vars['URL']; ?>
+            <div class="bloco-menu-sup">
+                <img class="pull-right" src="<?php echo $this->_tpl_vars['URL']; ?>
 commom/img/icon-menu.png" alt="Menu" title="Menu">
-            <p class="pull-right menu-top">menu</p>
+                <p class="pull-right menu-top">menu</p>
+            </div>
+            <nav class="menu-sup">
+                <ul class="encapsula-menu--sup">
+                    <li class="linha-menu-sup"><a class="link-menu-sup" href="<?php echo $this->_tpl_vars['URL']; ?>
+quem-somos">Quem somos</a></li>
+                    <li class="linha-menu-sup"><a class="link-menu-sup" href="<?php echo $this->_tpl_vars['URL']; ?>
+parceiros">Parceiros</a></li>
+                    <li class="linha-menu-sup"><a class="link-menu-sup" href="<?php echo $this->_tpl_vars['URL']; ?>
+clientes">Clientes</a></li>
+                    <li class="linha-menu-sup"><a class="link-menu-sup" href="<?php echo $this->_tpl_vars['URL']; ?>
+cases">Cases</a></li>
+                    <li class="linha-menu-sup"><a class="link-menu-sup" href="<?php echo $this->_tpl_vars['URL']; ?>
+blog">Blog</a></li>
+                    <li class="linha-menu-sup"><a class="link-menu-sup" href="<?php echo $this->_tpl_vars['URL']; ?>
+contato">Contato</a></li>
+                </ul>
+                <span class="close-menu-sup">x</span>
+            </nav>
         </div>  
     </div>
     <section class="topo">
@@ -64,7 +83,7 @@ commom/img/icon_busca.jpg" alt="Buscar" title="Buscar">
 
                             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                                 <ul class="nav navbar-nav">
-
+                                    <li class="linha-menu-topo  visible-xs-block">&nbsp;</li>
                                     <li class="linha-menu-topo <?php if ($this->_tpl_vars['pagina'] == 'home' || $this->_tpl_vars['pagina'] == ""): ?> linha-menu-topo-ativo <?php endif; ?>"><a class="link-menu-topo" href="<?php echo $this->_tpl_vars['URL']; ?>
 home">home</a></li>
                                     <li class="dropdown linha-menu-topo">
@@ -136,6 +155,20 @@ commom/img/seta-drop-treinamentos.png" alt="treinamentos" title="treinamentos">T
                                             </div>
                                         </ul>
                                     </li>
+                                    <li class="linha-menu-topo visible-xs-block">&nbsp;</li>
+                                    <li class="linha-menu-topo visible-xs-block">&nbsp;</li>
+                                    <li class="linha-menu-topo visible-xs-block <?php if ($this->_tpl_vars['pagina'] == "quem-somos"): ?> linha-menu-topo-ativo <?php endif; ?>"><a class="link-menu-topo" href="<?php echo $this->_tpl_vars['URL']; ?>
+quem-somos">Quem somos</a></li>
+                                    <li class="linha-menu-topo visible-xs-block <?php if ($this->_tpl_vars['pagina'] == 'parceiros'): ?> linha-menu-topo-ativo <?php endif; ?>"><a class="link-menu-topo" href="<?php echo $this->_tpl_vars['URL']; ?>
+parceiros">Parceiros</a></li>
+                                    <li class="linha-menu-topo visible-xs-block <?php if ($this->_tpl_vars['pagina'] == 'clientes'): ?> linha-menu-topo-ativo <?php endif; ?>"><a class="link-menu-topo" href="<?php echo $this->_tpl_vars['URL']; ?>
+clientes">Clientes</a></li>
+                                    <li class="linha-menu-topo visible-xs-block <?php if ($this->_tpl_vars['pagina'] == 'cases'): ?> linha-menu-topo-ativo <?php endif; ?>"><a class="link-menu-topo" href="<?php echo $this->_tpl_vars['URL']; ?>
+cases">Cases</a></li>
+                                    <li class="linha-menu-topo visible-xs-block <?php if ($this->_tpl_vars['pagina'] == 'home'): ?> linha-menu-topo-ativo <?php endif; ?>"><a class="link-menu-topo" href="<?php echo $this->_tpl_vars['URL']; ?>
+blog">Blog</a></li>
+                                    <li class="linha-menu-topo visible-xs-block <?php if ($this->_tpl_vars['pagina'] == 'home'): ?> linha-menu-topo-ativo <?php endif; ?>"><a class="link-menu-topo" href="<?php echo $this->_tpl_vars['URL']; ?>
+contato">Contato</a></li>
                                 </ul>
                             </div>
                         </div>

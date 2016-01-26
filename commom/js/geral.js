@@ -19,6 +19,15 @@
         });
     }
 
+    // Drop menu Superior
+    $( ".bloco-menu-sup" ).click(function() {
+        $( ".menu-sup" ).slideToggle( "slow");
+    });
+
+    $( ".close-menu-sup" ).click(function() {
+        $( ".menu-sup" ).slideToggle( "slow");
+    });
+
     // Destaques Blog Home
     $(document).ready(function() {
         var owl = $("#owl-demo-blog");     

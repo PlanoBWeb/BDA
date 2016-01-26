@@ -4,8 +4,8 @@
     include_once "url.php";
 
     $smarty->assign("URL", URL);
-    $smarty->assign("breadcrumb", "Quem Somos");
+    $smarty->assign("breadcrumb", "Contato");
     $smarty->assign("pagina", $url['pagina']);
-    $smarty->display("quem-somos.html");
+    $smarty->display("contato.html");
 
 ?>

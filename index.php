@@ -6,7 +6,7 @@
 	$url = str_replace(PASTAPROJETO, "", $url);
 	$url = explode('/', $url);
 
-	$permissao  = array('home', 'envia', 'quem-somos', 'index', 'software', 'software-interna', 'solucoes', 'solucoes-interna', 'servicos', 'servicos-interna', 'treinamentos', 'treinamentos-interna', 'erro', 'produtos', 'produto', 'resultado-busca', 'fale-conosco', 'obrigado-contato', 'obrigado-newsletter', 'obrigado-orcamento');
+	$permissao  = array('home', 'envia', 'quem-somos', 'index', 'software', 'software-interna', 'solucoes', 'solucoes-interna', 'servicos', 'servicos-interna', 'treinamentos', 'treinamentos-interna', 'erro', 'resultado-busca', 'contato', 'obrigado-contato', 'obrigado-newsletter', 'obrigado-orcamento');
 
 	$url['pagina'] = $url[0];
 

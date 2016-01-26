@@ -1,10 +1,10 @@
-<?php /* Smarty version 2.6.12, created on 2016-01-26 14:13:59
+<?php /* Smarty version 2.6.12, created on 2016-01-26 18:01:37
          compiled from ../inc/breadcrumb.html */ ?>
 <article class="conteudo bread-pesquisar">
     <div class="row">
         <div class="col-xs-12 col-sm-6 col-md-6 pd-none">
-            <article class="breadcrumb">
-                <div class="conteudo">
+            <article class="breadcrumb pd-none">
+                <div class="conteudo pd-so-mob">
                     <ul class="bloco-breadcrumb">
                         <li class="linha-breadcrumb">        	
                             <a href="<?php echo $this->_tpl_vars['URL']; ?>

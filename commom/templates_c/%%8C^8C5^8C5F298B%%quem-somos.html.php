@@ -1,3 +1,5 @@
+<?php /* Smarty version 2.6.12, created on 2016-01-26 17:59:51
+         compiled from quem-somos.html */ ?>
 <!DOCTYPE HTML>
 <html lang="pt-br">
 <head>
@@ -6,12 +8,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="robots" content="index, follow">
 	<meta name="description" content="" />
-	<link href="{$URL}commom/img/icon-tab.png" rel="icon">
-    {include file="../inc/cssUrmAmigavel.html"}
-	<link rel="stylesheet" type="text/css" href="{$URL}commom/css/estilo.css">
+	<link href="<?php echo $this->_tpl_vars['URL']; ?>
+commom/img/icon-tab.png" rel="icon">
+    <?php $_smarty_tpl_vars = $this->_tpl_vars;
+$this->_smarty_include(array('smarty_include_tpl_file' => "../inc/cssUrmAmigavel.html", 'smarty_include_vars' => array()));
+$this->_tpl_vars = $_smarty_tpl_vars;
+unset($_smarty_tpl_vars);
+ ?>
+	<link rel="stylesheet" type="text/css" href="<?php echo $this->_tpl_vars['URL']; ?>
+commom/css/estilo.css">
 	<title>BDA</title>
  	<!-- Bootstrap -->
-    <link href="{$URL}commom/css/bootstrap.min.css" rel="stylesheet">
+    <link href="<?php echo $this->_tpl_vars['URL']; ?>
+commom/css/bootstrap.min.css" rel="stylesheet">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -21,7 +30,11 @@
   </head>
   <body>
     <div class="container-fluid pd-none">
-        {include file="../inc/header.html"}
+        <?php $_smarty_tpl_vars = $this->_tpl_vars;
+$this->_smarty_include(array('smarty_include_tpl_file' => "../inc/header.html", 'smarty_include_vars' => array()));
+$this->_tpl_vars = $_smarty_tpl_vars;
+unset($_smarty_tpl_vars);
+ ?>
             <!-- Banner -->
             <article class="banner-interna-faixa cor-linha-bn-software pd-none mg-top--5">
                 <div class="width-default">
@@ -29,7 +42,11 @@
                 </div>
             </article> 
             <!-- Banner -->
-            {include file="../inc/breadcrumb.html"}  
+            <?php $_smarty_tpl_vars = $this->_tpl_vars;
+$this->_smarty_include(array('smarty_include_tpl_file' => "../inc/breadcrumb.html", 'smarty_include_vars' => array()));
+$this->_tpl_vars = $_smarty_tpl_vars;
+unset($_smarty_tpl_vars);
+ ?>  
             <section class="conteudo-interna">
                 <div class="width-default">
                     <div class="col-xs-12 col-sm-7 col-md-7 pd-none pd-so-mob">
@@ -41,11 +58,16 @@
                     </div>
                     <div class="col-xs-12 col-sm-5 col-md-5">
                         <br><br><br>
-                        <img src="{$URL}commom/img/quem-somos.jpg" alt="Nossa história" title="Nossa história">
+                        <img src="<?php echo $this->_tpl_vars['URL']; ?>
+commom/img/quem-somos.jpg" alt="Nossa história" title="Nossa história">
                     </div>
                 </div>
             </section>                             
-        {include file="../inc/footer.html"}
+        <?php $_smarty_tpl_vars = $this->_tpl_vars;
+$this->_smarty_include(array('smarty_include_tpl_file' => "../inc/footer.html", 'smarty_include_vars' => array()));
+$this->_tpl_vars = $_smarty_tpl_vars;
+unset($_smarty_tpl_vars);
+ ?>
     </div>
 </body>
 </html>

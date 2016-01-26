@@ -12,8 +12,21 @@
 <header>
     <div class="bloco-sub-topo hidden-xs">
         <div class="width-default">
-            <img class="pull-right" src="{$URL}commom/img/icon-menu.png" alt="Menu" title="Menu">
-            <p class="pull-right menu-top">menu</p>
+            <div class="bloco-menu-sup">
+                <img class="pull-right" src="{$URL}commom/img/icon-menu.png" alt="Menu" title="Menu">
+                <p class="pull-right menu-top">menu</p>
+            </div>
+            <nav class="menu-sup">
+                <ul class="encapsula-menu--sup">
+                    <li class="linha-menu-sup"><a class="link-menu-sup" href="{$URL}quem-somos">Quem somos</a></li>
+                    <li class="linha-menu-sup"><a class="link-menu-sup" href="{$URL}parceiros">Parceiros</a></li>
+                    <li class="linha-menu-sup"><a class="link-menu-sup" href="{$URL}clientes">Clientes</a></li>
+                    <li class="linha-menu-sup"><a class="link-menu-sup" href="{$URL}cases">Cases</a></li>
+                    <li class="linha-menu-sup"><a class="link-menu-sup" href="{$URL}blog">Blog</a></li>
+                    <li class="linha-menu-sup"><a class="link-menu-sup" href="{$URL}contato">Contato</a></li>
+                </ul>
+                <span class="close-menu-sup">x</span>
+            </nav>
         </div>  
     </div>
     <section class="topo">
@@ -53,7 +66,7 @@
 
                             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                                 <ul class="nav navbar-nav">
-
+                                    <li class="linha-menu-topo  visible-xs-block">&nbsp;</li>
                                     <li class="linha-menu-topo {if $pagina == "home" || $pagina == ""} linha-menu-topo-ativo {/if}"><a class="link-menu-topo" href="{$URL}home">home</a></li>
                                     <li class="dropdown linha-menu-topo">
                                         <a href="{$URL}software" class="dropdown-toggle link-menu-topo">
@@ -100,6 +113,14 @@
                                             </div>
                                         </ul>
                                     </li>
+                                    <li class="linha-menu-topo visible-xs-block">&nbsp;</li>
+                                    <li class="linha-menu-topo visible-xs-block">&nbsp;</li>
+                                    <li class="linha-menu-topo visible-xs-block {if $pagina == "quem-somos"} linha-menu-topo-ativo {/if}"><a class="link-menu-topo" href="{$URL}quem-somos">Quem somos</a></li>
+                                    <li class="linha-menu-topo visible-xs-block {if $pagina == "parceiros"} linha-menu-topo-ativo {/if}"><a class="link-menu-topo" href="{$URL}parceiros">Parceiros</a></li>
+                                    <li class="linha-menu-topo visible-xs-block {if $pagina == "clientes"} linha-menu-topo-ativo {/if}"><a class="link-menu-topo" href="{$URL}clientes">Clientes</a></li>
+                                    <li class="linha-menu-topo visible-xs-block {if $pagina == "cases"} linha-menu-topo-ativo {/if}"><a class="link-menu-topo" href="{$URL}cases">Cases</a></li>
+                                    <li class="linha-menu-topo visible-xs-block {if $pagina == "home"} linha-menu-topo-ativo {/if}"><a class="link-menu-topo" href="{$URL}blog">Blog</a></li>
+                                    <li class="linha-menu-topo visible-xs-block {if $pagina == "home"} linha-menu-topo-ativo {/if}"><a class="link-menu-topo" href="{$URL}contato">Contato</a></li>
                                 </ul>
                             </div>
                         </div>

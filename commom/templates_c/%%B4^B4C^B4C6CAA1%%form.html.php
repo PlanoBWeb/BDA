@@ -1,6 +1,11 @@
-<form class="form-horizontal form-fale" name="contato" method="post" action="{$URL}envia">
-    <input type="hidden" name="pagina" value="{$pagina}">
-    <input type="hidden" name="codigo" value="{$dados[0].codigo}">
+<?php /* Smarty version 2.6.12, created on 2016-01-26 19:29:57
+         compiled from ../inc/form.html */ ?>
+<form class="form-horizontal form-fale" name="contato" method="post" action="<?php echo $this->_tpl_vars['URL']; ?>
+envia">
+    <input type="hidden" name="pagina" value="<?php echo $this->_tpl_vars['pagina']; ?>
+">
+    <input type="hidden" name="codigo" value="<?php echo $this->_tpl_vars['dados'][0]['codigo']; ?>
+">
     <div class="row">
         <div class="col-xs-12 col-sm-2 col-md-2 pd-mobile-form-home">
             <label class="label-right-left" for="fale_nome">Nome:</label>
