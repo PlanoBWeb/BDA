@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.12, created on 2016-01-26 16:19:21
+<?php /* Smarty version 2.6.12, created on 2016-02-15 14:24:55
          compiled from treinamentos.html */ ?>
 <!DOCTYPE HTML>
 <html lang="pt-br">
@@ -17,7 +17,7 @@ unset($_smarty_tpl_vars);
  ?>
     <link rel="stylesheet" type="text/css" href="<?php echo $this->_tpl_vars['URL']; ?>
 commom/css/estilo.css">
-    <title>Bda</title>
+    <title>BDA</title>
     <!-- Bootstrap -->
     <link href="<?php echo $this->_tpl_vars['URL']; ?>
 commom/css/bootstrap.min.css" rel="stylesheet">

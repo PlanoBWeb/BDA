@@ -1,7 +1,7 @@
     // Drop menu mobile
     $(document).ready(function(){
         var altura_tela = $(window).width();
-        $(".linha-menu-topo a").click(function(){
+        $(".linha-menu-topo .dropdown-toggle").click(function(){
             if (altura_tela <= 768) {
                 event.preventDefault();
                 $(this).parent().find(".dropdown-menu").slideToggle();
@@ -11,13 +11,18 @@
 
     window.onresize = function() {
         
-        $(".linha-menu-topo a").click(function(){
+        $(".linha-menu-topo .dropdown-toggle").click(function(){
             if (window.innerWidth <= 768) {
                 event.preventDefault();
                 $(this).parent().find(".dropdown-menu").slideToggle();
             }
         });
     }
+
+    // Abri bloco menu interna
+    $( ".btn-mais" ).click(function() {
+        $( this ).parent().next(".bloco-sub-soft").slideToggle( "slow");
+    });
 
     // Drop menu Superior
     $( ".bloco-menu-sup" ).click(function() {
@@ -360,4 +365,15 @@
         }else{
             window.location.href = url;        
         }
+    });
+
+    // Troca de bloco dos menu interno
+    $(document).ready(function() {
+        $('.linha-desc-interna').on('click', function(event) {
+            var qualDataId = $(this).data("item-id");
+            $('.bloco-desc-prod').hide();
+            $('.linha-desc-interna').removeClass('linha-desc-interna-ativo');
+            $('#aba'+qualDataId).show();
+            $(this).addClass('linha-desc-interna-ativo');
+        });
     });

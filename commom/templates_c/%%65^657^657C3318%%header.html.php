@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.12, created on 2016-01-26 19:54:55
+<?php /* Smarty version 2.6.12, created on 2016-02-15 15:07:58
          compiled from ../inc/header.html */ ?>
 <div id="fb-root"></div>
 <?php echo '
@@ -96,11 +96,11 @@ commom/img/seta-software.png" alt="software" title="software"><?php endif; ?>
                                             <div class="bloco-dropdown-menu">
                                                 <!-- <li><span class="link-menu-topo">&nbsp;&nbsp;&nbsp;&nbsp;Dell</span></li> -->
                                                 <li><a class="link-menu-topo linha-menu-topo-software" href="<?php echo $this->_tpl_vars['URL']; ?>
-software-interna"><img src="<?php echo $this->_tpl_vars['URL']; ?>
-commom/img/seta-drop-software.png" alt="software" title="software">Software interna</a></li>
-                                                <li><a class="link-menu-topo linha-menu-topo-software" href="<?php echo $this->_tpl_vars['URL']; ?>
 software"><img src="<?php echo $this->_tpl_vars['URL']; ?>
 commom/img/seta-drop-software.png" alt="software" title="software">Software</a></li>
+                                                <!-- <li><a class="link-menu-topo linha-menu-topo-software" href="<?php echo $this->_tpl_vars['URL']; ?>
+software-interna"><img src="<?php echo $this->_tpl_vars['URL']; ?>
+commom/img/seta-drop-software.png" alt="software" title="software">Software interna</a></li> -->
                                             </div>
                                         </ul>
                                     </li>
@@ -113,11 +113,11 @@ commom/img/seta-solucoes.png" alt="Soluções" title="Soluções"><?php endif; ?
                                         <ul class="dropdown-menu">
                                             <div class="bloco-dropdown-menu">
                                                 <li><a class="link-menu-topo linha-menu-topo-solucoes" href="<?php echo $this->_tpl_vars['URL']; ?>
-solucoes-interna"><img src="<?php echo $this->_tpl_vars['URL']; ?>
-commom/img/seta-drop-solucoes.png" alt="Soluções" title="Soluções">Soluções interna</a></li>
-                                                <li><a class="link-menu-topo linha-menu-topo-solucoes" href="<?php echo $this->_tpl_vars['URL']; ?>
 solucoes"><img src="<?php echo $this->_tpl_vars['URL']; ?>
 commom/img/seta-drop-solucoes.png" alt="Soluções" title="Soluções">Soluções</a></li>
+                                                <!-- <li><a class="link-menu-topo linha-menu-topo-solucoes" href="<?php echo $this->_tpl_vars['URL']; ?>
+solucoes-interna"><img src="<?php echo $this->_tpl_vars['URL']; ?>
+commom/img/seta-drop-solucoes.png" alt="Soluções" title="Soluções">Soluções interna</a></li> -->
                                             </div>
                                         </ul>
                                     </li>
@@ -130,11 +130,11 @@ commom/img/seta-servicos.png" alt="serviços" title="serviços"><?php endif; ?>
                                         <ul class="dropdown-menu">
                                             <div class="bloco-dropdown-menu">
                                                 <li><a class="link-menu-topo linha-menu-topo-servicos" href="<?php echo $this->_tpl_vars['URL']; ?>
-servicos-interna"><img src="<?php echo $this->_tpl_vars['URL']; ?>
-commom/img/seta-drop-servicos.png" alt="serviços" title="serviços">Serviços interna</a></li>
-                                                <li><a class="link-menu-topo linha-menu-topo-servicos" href="<?php echo $this->_tpl_vars['URL']; ?>
 servicos"><img src="<?php echo $this->_tpl_vars['URL']; ?>
 commom/img/seta-drop-servicos.png" alt="serviços" title="serviços">Serviços</a></li>
+                                                <!-- <li><a class="link-menu-topo linha-menu-topo-servicos" href="<?php echo $this->_tpl_vars['URL']; ?>
+servicos-interna"><img src="<?php echo $this->_tpl_vars['URL']; ?>
+commom/img/seta-drop-servicos.png" alt="serviços" title="serviços">Serviços interna</a></li> -->
                                             </div>
                                         </ul>
                                     </li>
@@ -147,11 +147,11 @@ commom/img/seta-treinamentos.png" alt="treinamentos" title="treinamentos"><?php 
                                         <ul class="dropdown-menu ">
                                             <div class="bloco-dropdown-menu">
                                                 <li><a class="link-menu-topo linha-menu-topo-treinamentos" href="<?php echo $this->_tpl_vars['URL']; ?>
-treinamentos-interna"><img src="<?php echo $this->_tpl_vars['URL']; ?>
-commom/img/seta-drop-treinamentos.png" alt="treinamentos" title="treinamentos">Treinamentos interna</a></li>
-                                                <li><a class="link-menu-topo linha-menu-topo-treinamentos" href="<?php echo $this->_tpl_vars['URL']; ?>
 treinamentos"><img src="<?php echo $this->_tpl_vars['URL']; ?>
 commom/img/seta-drop-treinamentos.png" alt="treinamentos" title="treinamentos">Treinamentos</a></li>
+                                                <!-- <li><a class="link-menu-topo linha-menu-topo-treinamentos" href="<?php echo $this->_tpl_vars['URL']; ?>
+treinamentos-interna"><img src="<?php echo $this->_tpl_vars['URL']; ?>
+commom/img/seta-drop-treinamentos.png" alt="treinamentos" title="treinamentos">Treinamentos interna</a></li> -->
                                             </div>
                                         </ul>
                                     </li>

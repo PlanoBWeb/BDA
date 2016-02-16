@@ -6,6 +6,10 @@
     $smarty->assign("URL", URL);
     $smarty->assign("breadcrumb", "Soluções");
     $smarty->assign("pagina", $url['pagina']);
-    $smarty->display("solucoes.html");
 
+    if ($url['paginaHtml']) {
+    	$smarty->display( $url['paginaHtml'] . ".html");
+    }else{
+    	$smarty->display("solucoes.html");	
+    }
 ?>

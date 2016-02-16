@@ -1,0 +1,58 @@
+<article class="banner-interna-faixa cor-linha-bn-software pd-none mg-top--5">
+    <div class="width-default">
+        <h1 class="titulo-faixa-interna">Blog</h1>
+    </div>
+</article>
+<article class="conteudo bread-pesquisar">
+    <div class="row">
+        <div class="col-xs-12 col-sm-6 col-md-6 pd-none">
+            <article class="breadcrumb pd-none">
+                <div class="conteudo pd-so-mob">
+                    <ul class="bloco-breadcrumb">
+                        <li class="linha-breadcrumb">        	
+                            <a href="{$URL}home/">Home</a>
+                        </li>
+                        <li class="linha-breadcrumb">
+                            >
+                        </li>
+                        <li class="linha-breadcrumb">           
+                            <a href="<?php echo URL; ?>blog">Blog</a>
+                        </li>
+                        <li class="linha-breadcrumb">
+                            >
+                        </li>
+                        <li class="linha-breadcrumb">           
+                            <?php
+                                // if( the_title() ){
+                                //     die("aqui");
+                                //     the_title();
+                                // } else{
+                                //     $post = get_post();
+                                //     if ( $post ) {
+                                //         $categories = get_the_category( $post->ID );
+                                //         echo $categories[0]->cat_name;
+                                //     }
+                                // }
+                                the_title();
+                            ?>
+                        </li>
+
+                    </ul>
+                </div>
+            </article>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-6">
+            <form class="pull-right form-busca" action="<?php echo URL; ?>resultado-busca" method="post" role="search">
+                <div class="form-group form-group-mob">
+                    <input type="hidden" name="acao" value="busca">
+                    <input type="hidden" class="urlAction" name="urlAction" value="<?php echo URL; ?>resultado-busca">
+                    <input type="text" id="buscaValor" name="search" autocomplete="off" class="form-control pull-left campo-busca" placeholder="PESQUISAR...">
+                    <button type="submit" class="btn pd-none pull-right bkground-none">
+                        <img src="<?php echo URL; ?>commom/img/icon-busca.png" alt="Buscar" title="Buscar">
+                    </button>
+                    <div id="carrega-busca-mobile" class="carrega-busca"></div>
+                </div>
+            </form>
+        </div>
+    </div>
+</article> 

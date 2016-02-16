@@ -6,6 +6,10 @@
     $smarty->assign("URL", URL);
     $smarty->assign("breadcrumb", "Software");
     $smarty->assign("pagina", $url['pagina']);
-    $smarty->display("software.html");
+    if ($url['paginaHtml']) {
+    	$smarty->display( $url['paginaHtml'] . ".html");
+    }else{
+    	$smarty->display("software.html");	
+    }
 
 ?>

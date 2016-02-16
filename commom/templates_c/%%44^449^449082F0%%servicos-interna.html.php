@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.12, created on 2016-01-26 14:56:45
+<?php /* Smarty version 2.6.12, created on 2016-02-15 14:58:37
          compiled from servicos-interna.html */ ?>
 <!DOCTYPE HTML>
 <html lang="pt-br">
@@ -17,7 +17,7 @@ unset($_smarty_tpl_vars);
  ?>
 	<link rel="stylesheet" type="text/css" href="<?php echo $this->_tpl_vars['URL']; ?>
 commom/css/estilo.css">
-	<title>Bda</title>
+	<title>BDA</title>
  	<!-- Bootstrap -->
     <link href="<?php echo $this->_tpl_vars['URL']; ?>
 commom/css/bootstrap.min.css" rel="stylesheet">
@@ -35,18 +35,18 @@ $this->_smarty_include(array('smarty_include_tpl_file' => "../inc/header.html", 
 $this->_tpl_vars = $_smarty_tpl_vars;
 unset($_smarty_tpl_vars);
  ?>
-            <!-- Banner -->
-            <article class="banner-interna-faixa cor-linha-bn-servicos pd-none">
-                <div class="width-default">
-                    <h1 class="titulo-faixa-interna">BI & Analytics</h1>
-                </div>
-            </article> 
-            <!-- Banner -->
-            <?php $_smarty_tpl_vars = $this->_tpl_vars;
+            <section class="conteudo-interna">
+                <article class="banner-interna-faixa cor-linha-bn-servicos pd-none mg-top--5">
+                    <div class="width-default">
+                        <h1 class="titulo-faixa-interna">Serviços - Interna</h1>
+                    </div>
+                </article> 
+                <?php $_smarty_tpl_vars = $this->_tpl_vars;
 $this->_smarty_include(array('smarty_include_tpl_file' => "../inc/breadcrumb.html", 'smarty_include_vars' => array()));
 $this->_tpl_vars = $_smarty_tpl_vars;
 unset($_smarty_tpl_vars);
- ?>                               
+ ?>  
+            </section>
         <?php $_smarty_tpl_vars = $this->_tpl_vars;
 $this->_smarty_include(array('smarty_include_tpl_file' => "../inc/footer.html", 'smarty_include_vars' => array()));
 $this->_tpl_vars = $_smarty_tpl_vars;

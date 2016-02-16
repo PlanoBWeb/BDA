@@ -7,6 +7,6 @@
     $smarty->assign("URL", URL);
     $smarty->assign("breadcrumb", "Página não existe");
     $smarty->assign("pagina", $url['pagina']);
-    $smarty->display("erro.html");
+    $smarty->display("index.html");
 
 ?>

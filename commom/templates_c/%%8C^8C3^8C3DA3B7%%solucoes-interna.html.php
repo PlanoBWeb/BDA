@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.12, created on 2016-01-26 16:24:31
+<?php /* Smarty version 2.6.12, created on 2016-02-15 14:54:57
          compiled from solucoes-interna.html */ ?>
 <!DOCTYPE HTML>
 <html lang="pt-br">
@@ -17,7 +17,7 @@ unset($_smarty_tpl_vars);
  ?>
 	<link rel="stylesheet" type="text/css" href="<?php echo $this->_tpl_vars['URL']; ?>
 commom/css/estilo.css">
-	<title>Bda</title>
+	<title>BDA</title>
  	<!-- Bootstrap -->
     <link href="<?php echo $this->_tpl_vars['URL']; ?>
 commom/css/bootstrap.min.css" rel="stylesheet">
@@ -38,7 +38,7 @@ unset($_smarty_tpl_vars);
             <!-- Banner -->
             <article class="banner-interna-faixa cor-linha-bn-solucoes pd-none mg-top--5">
                 <div class="width-default">
-                    <h1 class="titulo-faixa-interna">Gestão de Banco de Dados</h1>
+                    <h1 class="titulo-faixa-interna">Soluções - Internas</h1>
                 </div>
             </article> 
             <!-- Banner -->
@@ -48,7 +48,9 @@ $this->_tpl_vars = $_smarty_tpl_vars;
 unset($_smarty_tpl_vars);
  ?>        
             <section class="conteudo-interna">
-                
+                <article class="width-default">
+                    
+                </article>
             </section>                       
         <?php $_smarty_tpl_vars = $this->_tpl_vars;
 $this->_smarty_include(array('smarty_include_tpl_file' => "../inc/footer.html", 'smarty_include_vars' => array()));
