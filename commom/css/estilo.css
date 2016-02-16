@@ -115,6 +115,9 @@ img{
 li{
     list-style: none;
 }
+.align-center{
+    text-align: center;
+}
 .width-default{
     width:      100%;
     max-width:  1080px;
@@ -277,6 +280,20 @@ header{
     color:          #3a3a3a;
     text-decoration: none;
 }
+.bola-dest{
+    display:            table;
+    border-radius:      50%;
+    margin:             auto;
+    margin-bottom:      15px;
+    width:              123px;
+    height:             123px;
+}
+.bola-rosa{
+    background-color:   #e10452;
+}
+.bola-cinza{
+    background-color:   #5c6d7d;
+}
 .txt-destaques-home{
     color:          #3a3a3a;
     font-size:      1em;
@@ -291,13 +308,13 @@ header{
     color:          #3a3a3a;
     text-decoration: none;
 }
-.img-destaque-home{
+/*.img-destaque-home{
     position:   absolute;
     right:      10px;
-}
-.bt-destaque-linha-um{
+}*/
+/*.bt-destaque-linha-um{
    padding-bottom: 60px; 
-}
+}*/
 .bloco-solucoes-bola{
     height: 130px;
 }
@@ -315,6 +332,11 @@ header{
     padding-bottom: 23px;
     padding:        15px;
     margin-top:     20px;
+}
+.img-dest-home{
+    display:        table;
+    margin:         auto;
+    margin-bottom:  15px;
 }
 .conteudo{
     width:      100%;
@@ -1202,6 +1224,21 @@ footer{
     .dropdown:hover .dropdown-menu{
         display: block;
     }
+    .hover-home:hover{
+        border-bottom: 5px solid #2d3e50;
+    }
+    .hover-software:hover{
+        border-bottom: 10px solid #00b0f0;
+    }
+    .hover-solucoes:hover{
+        border-bottom: 10px solid #e10452;
+    }
+    .hover-servicos:hover{
+        border-bottom: 10px solid #dc6003;
+    }
+    .hover-treinamentos:hover{
+        border-bottom: 10px solid #37780f;
+    }
     .linha-menu-topo:hover{
         background: #c0c5ca;    
     }
@@ -1440,9 +1477,9 @@ footer{
     .link-menu-topo:hover{
         color: #fff !important;
     }
-    .bt-desta-mobile{
+    /*.bt-desta-mobile{
         padding-bottom: 60px;
-    }
+    }*/
     .max-width-mob{
         max-width:  340px;
         float:      none !important;
@@ -1560,6 +1597,9 @@ footer{
     }
     .width-default{
         max-width: 450px;
+    }
+    .bloco-dest-home{
+        margin-bottom: 50px;
     }
 
 

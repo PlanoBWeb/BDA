@@ -77,8 +77,8 @@
                             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                                 <ul class="nav navbar-nav">
                                     <li class="linha-menu-topo  visible-xs-block">&nbsp;</li>
-                                    <li class="linha-menu-topo {if $pagina == "home" || $pagina == ""} linha-menu-topo-ativo {/if}"><a class="link-menu-topo border-top-menu" href="{$URL}home">home</a></li>
-                                    <li class="dropdown linha-menu-topo">
+                                    <li class="linha-menu-topo hover-home {if $pagina == "home" || $pagina == ""} linha-menu-topo-ativo {/if}"><a class="link-menu-topo border-top-menu" href="{$URL}home">home</a></li>
+                                    <li class="dropdown linha-menu-topo hover-software">
                                         <a href="{$URL}software" class="dropdown-toggle link-menu-topo border-top-menu">
                                             software</a>
                                         {if $pagina == "software" || $pagina == "software-interna"}<img class="menu-topo-ativo hidden-xs" src="{$URL}commom/img/seta-software.png" alt="software" title="software">{/if}
@@ -90,7 +90,7 @@
                                             </div>
                                         </ul>
                                     </li>
-                                    <li class="dropdown linha-menu-topo">
+                                    <li class="dropdown linha-menu-topo hover-solucoes">
                                         <a href="{$URL}solucoes" class="dropdown-toggle link-menu-topo border-top-menu">
                                             Soluções</a>
                                         {if $pagina == "solucoes" || $pagina == "solucoes-interna"}<img class="menu-topo-ativo hidden-xs" src="{$URL}commom/img/seta-solucoes.png" alt="Soluções" title="Soluções">{/if}                                            
@@ -101,7 +101,7 @@
                                             </div>
                                         </ul>
                                     </li>
-                                    <li class="dropdown linha-menu-topo">
+                                    <li class="dropdown linha-menu-topo hover-servicos">
                                         <a href="{$URL}servicos" class="dropdown-toggle link-menu-topo border-top-menu">
                                             serviços</a>
                                         {if $pagina == "servicos" || $pagina == "servicos-interna"}<img class="menu-topo-ativo hidden-xs" src="{$URL}commom/img/seta-servicos.png" alt="serviços" title="serviços">{/if}                                            
@@ -112,7 +112,7 @@
                                             </div>
                                         </ul>
                                     </li>
-                                    <li class="dropdown linha-menu-topo">
+                                    <li class="dropdown linha-menu-topo hover-treinamentos">
                                         <a href="{$URL}treinamentos" class="dropdown-toggle link-menu-topo">
                                             treinamentos</a>
                                         {if $pagina == "treinamentos" || $pagina == "treinamentos-interna"}<img class="menu-topo-ativo hidden-xs" src="{$URL}commom/img/seta-treinamentos.png" alt="treinamentos" title="treinamentos">{/if}                                            

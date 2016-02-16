@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.12, created on 2016-02-15 14:23:49
+<?php /* Smarty version 2.6.12, created on 2016-02-16 16:11:52
          compiled from software.html */ ?>
 <!DOCTYPE HTML>
 <html lang="pt-br">
@@ -77,9 +77,9 @@ unset($_smarty_tpl_vars);
  ?>        
             <section class="conteudo-interna">
                 <article class="width-default pd-so-mob">
-                    <p class="txt-interna">
+                    <!-- <p class="txt-interna">
                         <br><br>Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos.
-                    </p>
+                    </p> -->
                     <div class="row">
                         <div class="col-xs-12 col-sm-4 col-md-4">
                             <div class="bloco-softwares">

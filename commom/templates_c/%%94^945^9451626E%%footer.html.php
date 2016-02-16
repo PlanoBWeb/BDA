@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.12, created on 2016-01-26 11:31:42
+<?php /* Smarty version 2.6.12, created on 2016-02-16 16:11:34
          compiled from ../inc/footer.html */ ?>
     <article class="blog-destaques-home">
         <div class="width-default">
@@ -37,7 +37,7 @@ commom/img/logo-footer.png" alt="BDA" title="BDA">
                     </a>
                 </div>
                 <div class="row">
-                    <p class="txt-logo-footer">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. </p>
+                    <!-- <p class="txt-logo-footer">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. </p> -->
                 </div>
             </div>
             <div class="col-xs-12 col-sm-4 col-md-3 border-bloco-footer alinha-footer-mob hidden-sm altura-bloco-footer">

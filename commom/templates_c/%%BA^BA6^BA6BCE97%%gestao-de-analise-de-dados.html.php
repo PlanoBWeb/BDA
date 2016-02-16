@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.12, created on 2016-02-15 16:31:34
+<?php /* Smarty version 2.6.12, created on 2016-02-16 17:12:09
          compiled from gestao-de-analise-de-dados.html */ ?>
 <!DOCTYPE HTML>
 <html lang="pt-br">
@@ -27,6 +27,14 @@ commom/css/bootstrap.min.css" rel="stylesheet">
 		<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
 		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+    <!-- vitrine -->
+    <link rel="stylesheet" type="text/css" href="<?php echo $this->_tpl_vars['URL']; ?>
+commom/css/vitrine/owl.carousel.css">
+    <link rel="stylesheet" type="text/css" href="<?php echo $this->_tpl_vars['URL']; ?>
+commom/css/vitrine/owl.theme.css">
+    <link rel="stylesheet" type="text/css" href="<?php echo $this->_tpl_vars['URL']; ?>
+commom/css/vitrine/owl.transitions.css">
+    <!-- vitrine -->
   </head>
   <body>
     <div class="container-fluid pd-none">
@@ -71,62 +79,64 @@ commom/img/img-default.jpg" alt="BDA" title="BDA" class="">
                         </div>
                     </div>
                     <p class="titulo-interna-inst align-center pd-tp-30">Conheça nossas Soluções</p>
-                    <div class="col-xs-12 col-sm-6 col-md-6 bt-desta-mobile max-width-mob">
-                        <div class="row bloco-solucoes-bola">
-                            <div class="col-xs-8 col-sm-8 col-md-9">
-                                <h2 class="destaques-home"><a href="<?php echo $this->_tpl_vars['URL']; ?>
-solucoes/gestao-de-analise-de-dados/churn-analysis">Churn Analysis</a></h2>
-                                <h3 class="txt-destaques-home"><a href="<?php echo $this->_tpl_vars['URL']; ?>
+                    <div class="row pd-tp-30">
+                        <div class="bloco-destaques-banner pd-bt-30">
+                            <div id="owl-demo-interna">
+                                <div class="item col-xs-12 col-sm-12 col-md-12 bloco-dest-home pd-none">
+                                    <div class="bola-cinza bola-dest"></div>
+                                    <div class="row">
+                                        <h2 class="destaques-home align-center"><a href="<?php echo $this->_tpl_vars['URL']; ?>
+solucoes/gestao-de-analise-de-dados/churn-analysis"> Churn Analysis </a></h2>
+                                        <h3 class="txt-destaques-home align-center"><a href="<?php echo $this->_tpl_vars['URL']; ?>
 solucoes/gestao-de-analise-de-dados/churn-analysis">Saiba mais ></a></h3>
-                            </div>
-                            <div class="col-xs-3 col-sm-4 col-md-3"></div>
-                            <img class="img-destaque-home" src="<?php echo $this->_tpl_vars['URL']; ?>
-commom/img/solucoes-lf-rosa.png" alt="Churn Analysis" title="Churn Analysis">
-                        </div>  
-                        <div class="row bloco-solucoes-bola">
-                            <div class="col-xs-8 col-sm-8 col-md-9">
-                                <h2 class="destaques-home"><a href="<?php echo $this->_tpl_vars['URL']; ?>
-solucoes/gestao-de-analise-de-dados/fraud-detection">Fraud Detection</a></h2>
-                                <h3 class="txt-destaques-home"><a href="<?php echo $this->_tpl_vars['URL']; ?>
-solucoes/gestao-de-analise-de-dados/fraud-detection">Saiba mais > </a></h3>
-                            </div>
-                            <div class="col-xs-3 col-sm-4 col-md-3"></div>
-                            <img class="img-destaque-home" src="<?php echo $this->_tpl_vars['URL']; ?>
-commom/img/solucoes-lf-cinza.png" alt="Fraud Detection" title="Fraud Detection">
-                        </div>
-                        <div class="row bloco-solucoes-bola">
-                            <div class="col-xs-8 col-sm-8 col-md-9">
-                                <h2 class="destaques-home"><a href="<?php echo $this->_tpl_vars['URL']; ?>
-solucoes/gestao-de-analise-de-dados/credit-scoring">Credit Scoring </a></h2>
-                                <h3 class="txt-destaques-home"><a href="<?php echo $this->_tpl_vars['URL']; ?>
+                                    </div>
+                                </div>
+                                <div class="item col-xs-12 col-sm-12 col-md-12 bloco-dest-home pd-none">
+                                    <div class="bola-rosa bola-dest"></div>
+                                    <div class="row">
+                                        <h2 class="destaques-home align-center"><a href="<?php echo $this->_tpl_vars['URL']; ?>
+solucoes/gestao-de-analise-de-dados/fraud-detection"> Fraud Detection </a></h2>
+                                        <h3 class="txt-destaques-home align-center"><a href="<?php echo $this->_tpl_vars['URL']; ?>
+solucoes/gestao-de-analise-de-dados/fraud-detection">Saiba mais ></a></h3>
+                                    </div>
+                                </div> 
+                                <div class="item col-xs-12 col-sm-12 col-md-12 bloco-dest-home pd-none">
+                                    <div class="bola-cinza bola-dest"></div>
+                                    <div class="row">
+                                        <h2 class="destaques-home align-center"><a href="<?php echo $this->_tpl_vars['URL']; ?>
+solucoes/gestao-de-analise-de-dados/credit-scoring"> Credit Scoring </a></h2>
+                                        <h3 class="txt-destaques-home align-center"><a href="<?php echo $this->_tpl_vars['URL']; ?>
 solucoes/gestao-de-analise-de-dados/credit-scoring">Saiba mais ></a></h3>
+                                    </div>
+                                </div>
+                                <div class="item col-xs-12 col-sm-12 col-md-12 bloco-dest-home pd-none">
+                                    <div class="bola-rosa bola-dest"></div>
+                                    <div class="row">
+                                        <h2 class="destaques-home align-center"><a href="<?php echo $this->_tpl_vars['URL']; ?>
+solucoes/gestao-de-analise-de-dados/customer-analytics"> Customer Analytics </a></h2>
+                                        <h3 class="txt-destaques-home align-center"><a href="<?php echo $this->_tpl_vars['URL']; ?>
+solucoes/gestao-de-analise-de-dados/customer-analytics">Saiba mais ></a></h3>
+                                    </div>
+                                </div> 
+                                <div class="item col-xs-12 col-sm-12 col-md-12 bloco-dest-home pd-none">
+                                    <div class="bola-cinza bola-dest"></div>
+                                    <div class="row">
+                                        <h2 class="destaques-home align-center"><a href="<?php echo $this->_tpl_vars['URL']; ?>
+solucoes/gestao-de-analise-de-dados/saude"> Saúde </a></h2>
+                                        <h3 class="txt-destaques-home align-center"><a href="<?php echo $this->_tpl_vars['URL']; ?>
+solucoes/gestao-de-analise-de-dados/saude">Saiba mais ></a></h3>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="col-xs-3 col-sm-4 col-md-3"></div>
-                            <img class="img-destaque-home" src="<?php echo $this->_tpl_vars['URL']; ?>
-commom/img/solucoes-lf-rosa.png" alt="Credit Scoring" title="Credit Scoring">
-                        </div>
-                    </div>
-                    <div class="col-xs-12 col-sm-6 col-md-6 max-width-mob">
-                        <div class="row bloco-solucoes-bola">
-                            <div class="col-xs-5 col-sm-4 col-md-3"></div>
-                            <img class="img-destaque-home align-left" src="<?php echo $this->_tpl_vars['URL']; ?>
-commom/img/solucoes-rt-cinza.png" alt="Customer Analytics" title="Customer Analytics">
-                            <div class="col-xs-7 col-sm-8 col-md-9 pd-none">
-                                <h2 class="destaques-home align-left"><a href="<?php echo $this->_tpl_vars['URL']; ?>
-solucoes/gestao-de-analise-de-dados/customer-analytics">Customer Analytics</a></h2>
-                                <h3 class="txt-destaques-home align-left "><a href="<?php echo $this->_tpl_vars['URL']; ?>
-solucoes/gestao-de-analise-de-dados">Saiba mais ></a></h3>
-                            </div>
-                        </div>  
-                        <div class="row bloco-solucoes-bola">
-                            <div class="col-xs-5 col-sm-4 col-md-3"></div>
-                            <img class="img-destaque-home align-left" src="<?php echo $this->_tpl_vars['URL']; ?>
-commom/img/solucoes-rt-rosa.png" alt="Saúde" title="Saúde">
-                            <div class="col-xs-7 col-sm-8 col-md-9 pd-none">
-                                <h2 class="destaques-home align-left"><a href="<?php echo $this->_tpl_vars['URL']; ?>
-solucoes/gestao-de-analise-de-dados/saude">Saúde</a></h2>
-                                <h3 class="txt-destaques-home align-left "><a href="<?php echo $this->_tpl_vars['URL']; ?>
-solucoes/dell-academic-center">Saiba mais ></a></h3>
+                            <div class="customNavigation visible-xs-block">
+                                <a class="btn prev">
+                                    <img src="<?php echo $this->_tpl_vars['URL']; ?>
+commom/img/left.png" title="Esquerda" alt="Esquerda">
+                                </a>
+                                <a class="btn next">
+                                    <img src="<?php echo $this->_tpl_vars['URL']; ?>
+commom/img/right.png" title="Direita" alt="Direita">
+                                </a>
                             </div>
                         </div>
                     </div>

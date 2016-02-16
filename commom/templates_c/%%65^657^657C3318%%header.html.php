@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.12, created on 2016-02-16 15:06:38
+<?php /* Smarty version 2.6.12, created on 2016-02-16 15:55:07
          compiled from ../inc/header.html */ ?>
 <div id="fb-root"></div>
 <?php echo '
@@ -100,9 +100,9 @@ commom/img/icon_busca.jpg" alt="Buscar" title="Buscar">
                             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                                 <ul class="nav navbar-nav">
                                     <li class="linha-menu-topo  visible-xs-block">&nbsp;</li>
-                                    <li class="linha-menu-topo <?php if ($this->_tpl_vars['pagina'] == 'home' || $this->_tpl_vars['pagina'] == ""): ?> linha-menu-topo-ativo <?php endif; ?>"><a class="link-menu-topo border-top-menu" href="<?php echo $this->_tpl_vars['URL']; ?>
+                                    <li class="linha-menu-topo hover-home <?php if ($this->_tpl_vars['pagina'] == 'home' || $this->_tpl_vars['pagina'] == ""): ?> linha-menu-topo-ativo <?php endif; ?>"><a class="link-menu-topo border-top-menu" href="<?php echo $this->_tpl_vars['URL']; ?>
 home">home</a></li>
-                                    <li class="dropdown linha-menu-topo">
+                                    <li class="dropdown linha-menu-topo hover-software">
                                         <a href="<?php echo $this->_tpl_vars['URL']; ?>
 software" class="dropdown-toggle link-menu-topo border-top-menu">
                                             software</a>
@@ -120,7 +120,7 @@ commom/img/seta-drop-software.png" alt="software" title="software">Software inte
                                             </div>
                                         </ul>
                                     </li>
-                                    <li class="dropdown linha-menu-topo">
+                                    <li class="dropdown linha-menu-topo hover-solucoes">
                                         <a href="<?php echo $this->_tpl_vars['URL']; ?>
 solucoes" class="dropdown-toggle link-menu-topo border-top-menu">
                                             Soluções</a>
@@ -137,7 +137,7 @@ commom/img/seta-drop-solucoes.png" alt="Soluções" title="Soluções">Soluçõe
                                             </div>
                                         </ul>
                                     </li>
-                                    <li class="dropdown linha-menu-topo">
+                                    <li class="dropdown linha-menu-topo hover-servicos">
                                         <a href="<?php echo $this->_tpl_vars['URL']; ?>
 servicos" class="dropdown-toggle link-menu-topo border-top-menu">
                                             serviços</a>
@@ -154,7 +154,7 @@ commom/img/seta-drop-servicos.png" alt="serviços" title="serviços">Serviços i
                                             </div>
                                         </ul>
                                     </li>
-                                    <li class="dropdown linha-menu-topo">
+                                    <li class="dropdown linha-menu-topo hover-treinamentos">
                                         <a href="<?php echo $this->_tpl_vars['URL']; ?>
 treinamentos" class="dropdown-toggle link-menu-topo">
                                             treinamentos</a>

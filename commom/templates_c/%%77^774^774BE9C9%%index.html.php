@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.12, created on 2016-01-26 16:52:01
+<?php /* Smarty version 2.6.12, created on 2016-02-16 16:11:13
          compiled from index.html */ ?>
 <!DOCTYPE HTML>
 <html lang="pt-br">
@@ -85,53 +85,51 @@ commom/img/icon-busca.png" alt="Buscar" title="Buscar">
                         </form>
                     </div>
                     <div class="row pd-tp-30">
-                        <div class="col-xs-12 col-sm-6 col-md-6 bt-desta-mobile max-width-mob">
-                            <div class="row bt-destaque-linha-um">
-                                <div class="col-xs-7 col-sm-8 col-md-9">
-                                    <h2 class="destaques-home pull-right"><a href="<?php echo $this->_tpl_vars['URL']; ?>
+                        <div class="col-xs-12 col-sm-12 col-md-12 max-width-mob">
+                            <div class="col-xs-12 col-sm-3 col-md-3 bloco-dest-home">
+                                <!-- <img class="img-dest-home" src="<?php echo $this->_tpl_vars['URL']; ?>
+commom/img/destaque-software.png" alt="Software" title="Software"> -->
+                                <div class="bola-rosa bola-dest"></div>
+                                <div class="row">
+                                    <h2 class="destaques-home align-center"><a href="<?php echo $this->_tpl_vars['URL']; ?>
 software">Software</a></h2>
-                                    <h3 class="txt-destaques-home pull-right"><a href="<?php echo $this->_tpl_vars['URL']; ?>
-software">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum </a></h3>
+                                    <!-- <h3 class="txt-destaques-home align-center"><a href="<?php echo $this->_tpl_vars['URL']; ?>
+software">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum </a></h3> -->
                                 </div>
-                                <div class="col-xs-7 col-sm-4 col-md-3"></div>
-                                <img class="img-destaque-home" src="<?php echo $this->_tpl_vars['URL']; ?>
-commom/img/destaque-software.png" alt="Software" title="Software">
                             </div>  
-                            <div class="row">
-                                <div class="col-xs-7 col-sm-8 col-md-9">
-                                    <h2 class="destaques-home pull-right"><a href="<?php echo $this->_tpl_vars['URL']; ?>
+                            <div class="col-xs-12 col-sm-3 col-md-3 bloco-dest-home">
+                                <!-- <img class="img-dest-home" src="<?php echo $this->_tpl_vars['URL']; ?>
+commom/img/destaque-solucoes.png" alt="Soluções" title="Soluções"> -->
+                                <div class="bola-cinza bola-dest"></div>
+                                <div class="row">
+                                    <h2 class="destaques-home align-center"><a href="<?php echo $this->_tpl_vars['URL']; ?>
 solucoes">Soluções</a></h2>
-                                    <h3 class="txt-destaques-home pull-right"><a href="<?php echo $this->_tpl_vars['URL']; ?>
-solucoes">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum </a></h3>
+                                    <!-- <h3 class="txt-destaques-home align-center"><a href="<?php echo $this->_tpl_vars['URL']; ?>
+solucoes">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum </a></h3> -->
                                 </div>
-                                <div class="col-xs-7 col-sm-4 col-md-3"></div>
-                                <img class="img-destaque-home" src="<?php echo $this->_tpl_vars['URL']; ?>
-commom/img/destaque-solucoes.png" alt="Soluções" title="Soluções">
-                            </div>       
-                        </div>
-                        <div class="col-xs-12 col-sm-6 col-md-6 max-width-mob">
-                            <div class="row bt-destaque-linha-um">
-                                <div class="col-xs-5 col-sm-4 col-md-3"></div>
-                                <img class="img-destaque-home align-left" src="<?php echo $this->_tpl_vars['URL']; ?>
-commom/img/destaque-servicos.png" alt="Serviços" title="Serviços">
-                                <div class="col-xs-7 col-sm-8 col-md-9">
-                                    <h2 class="destaques-home pull-left"><a href="<?php echo $this->_tpl_vars['URL']; ?>
+                            </div> 
+                            <div class="col-xs-12 col-sm-3 col-md-3 bloco-dest-home">
+                                <!-- <img class="img-dest-home" src="<?php echo $this->_tpl_vars['URL']; ?>
+commom/img/destaque-servicos.png" alt="Serviços" title="Serviços"> -->
+                                <div class="bola-rosa bola-dest"></div>
+                                <div class="row">
+                                    <h2 class="destaques-home align-center"><a href="<?php echo $this->_tpl_vars['URL']; ?>
 servicos">Serviços</a></h2>
-                                    <h3 class="txt-destaques-home align-left pull-left"><a href="<?php echo $this->_tpl_vars['URL']; ?>
-servicos">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum </a></h3>
+                                    <!-- <h3 class="txt-destaques-home align-center"><a href="<?php echo $this->_tpl_vars['URL']; ?>
+servicos">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum </a></h3> -->
                                 </div>
-                            </div>  
-                            <div class="row">
-                                <div class="col-xs-5 col-sm-4 col-md-3"></div>
-                                <img class="img-destaque-home align-left" src="<?php echo $this->_tpl_vars['URL']; ?>
-commom/img/destaque-treinamentos.png" alt="Treinamentos" title="Treinamentos">
-                                <div class="col-xs-7 col-sm-8 col-md-9">
-                                    <h2 class="destaques-home pull-left"><a href="<?php echo $this->_tpl_vars['URL']; ?>
+                            </div>
+                            <div class="col-xs-12 col-sm-3 col-md-3 bloco-dest-home">
+                                <!-- <img class="img-dest-home" src="<?php echo $this->_tpl_vars['URL']; ?>
+commom/img/destaque-treinamentos.png" alt="Treinamentos" title="Treinamentos"> -->
+                                <div class="bola-cinza bola-dest"></div>
+                                <div class="row">
+                                    <h2 class="destaques-home align-center"><a href="<?php echo $this->_tpl_vars['URL']; ?>
 treinamentos">Treinamentos</a></h2>
-                                    <h3 class="txt-destaques-home align-left pull-left"><a href="<?php echo $this->_tpl_vars['URL']; ?>
-treinamentos">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum </a></h3>
+                                    <!-- <h3 class="txt-destaques-home align-center"><a href="<?php echo $this->_tpl_vars['URL']; ?>
+treinamentos">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum </a></h3> -->
                                 </div>
-                            </div>       
+                            </div>     
                         </div>
                     </div>
                 </article>
