@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.12, created on 2016-02-15 15:07:58
+<?php /* Smarty version 2.6.12, created on 2016-02-16 15:06:38
          compiled from ../inc/header.html */ ?>
 <div id="fb-root"></div>
 <?php echo '
@@ -15,6 +15,23 @@
 <header>
     <div class="bloco-sub-topo hidden-xs">
         <div class="width-default">
+            <div class="pull-left hidden-xs">
+                <img class="pull-left icon-topo-mob visible-xs-block" src="<?php echo $this->_tpl_vars['URL']; ?>
+commom/img/icon-tel.png" alt="+55 11 3588-4708" title="+55 11 3588-4708">
+                <a href="tel:5501135884708" class="contato-topo-mob visible-xs-block">+55 11 3588-4708</a>
+                <div class="pull-right icon-redes-topo">
+                    <a class="pull-left" href="https://www.facebook.com/bdasolutions/" target="_blank" alt="Acesse nosso Facebook"><img src="<?php echo $this->_tpl_vars['URL']; ?>
+commom/img/icon-face.png" alt="Acesse nosso Facebook" title="Acesse nosso Facebook"></a>
+                    <a class="pull-left" href="https://plus.google.com/118384974989096345307/" target="_blank" alt="Acesse nosso Google Plus"><img src="<?php echo $this->_tpl_vars['URL']; ?>
+commom/img/icon-google.png" alt="Acesse nosso Google Plus" title="Acesse nosso Google Plus"></a>
+                    <a class="pull-left" href="" target="_blank" alt="Acesse nosso Twitter"><img src="<?php echo $this->_tpl_vars['URL']; ?>
+commom/img/icon-twitter.png" alt="Acesse nosso Twitter" title="Acesse nosso Twitter"></a>
+                    <a class="pull-left" href="https://www.youtube.com/channel/UCpXiTM6jrc9e5zD1WtaCOfA" target="_blank" alt="Acesse nosso canal no Youtube"><img src="<?php echo $this->_tpl_vars['URL']; ?>
+commom/img/icon-youtube.png" alt="Acesse nosso canal no Youtube" title="Acesse nosso canal no Youtube"></a>
+                    <a class="pull-left" href="https://www.linkedin.com/company/bda-solutions" target="_blank" alt="Acesse nosso Likedin"><img src="<?php echo $this->_tpl_vars['URL']; ?>
+commom/img/icon-likedin.png" alt="Acesse nosso Likedin" title="Acesse nosso Likedin"></a>
+                </div>
+            </div>
             <div class="bloco-menu-sup">
                 <img class="pull-right" src="<?php echo $this->_tpl_vars['URL']; ?>
 commom/img/icon-menu.png" alt="Menu" title="Menu">
@@ -48,8 +65,7 @@ home" title="BDA">
 commom/img/logo.png" alt="BDA" title="BDA">
                 </a>
             </div>
-
-            <div class="col-xs-12 col-sm-7 col-md-8 menu-mobile">
+            <div class="col-xs-12 col-sm-7 col-md-8 menu-mobile pull-right">
                 <div class="container-fluid ps-desk">
                     <nav class="navbar navbar-default">
                         <div class="container-fluid">
@@ -84,11 +100,11 @@ commom/img/icon_busca.jpg" alt="Buscar" title="Buscar">
                             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                                 <ul class="nav navbar-nav">
                                     <li class="linha-menu-topo  visible-xs-block">&nbsp;</li>
-                                    <li class="linha-menu-topo <?php if ($this->_tpl_vars['pagina'] == 'home' || $this->_tpl_vars['pagina'] == ""): ?> linha-menu-topo-ativo <?php endif; ?>"><a class="link-menu-topo" href="<?php echo $this->_tpl_vars['URL']; ?>
+                                    <li class="linha-menu-topo <?php if ($this->_tpl_vars['pagina'] == 'home' || $this->_tpl_vars['pagina'] == ""): ?> linha-menu-topo-ativo <?php endif; ?>"><a class="link-menu-topo border-top-menu" href="<?php echo $this->_tpl_vars['URL']; ?>
 home">home</a></li>
                                     <li class="dropdown linha-menu-topo">
                                         <a href="<?php echo $this->_tpl_vars['URL']; ?>
-software" class="dropdown-toggle link-menu-topo">
+software" class="dropdown-toggle link-menu-topo border-top-menu">
                                             software</a>
                                         <?php if ($this->_tpl_vars['pagina'] == 'software' || $this->_tpl_vars['pagina'] == "software-interna"): ?><img class="menu-topo-ativo hidden-xs" src="<?php echo $this->_tpl_vars['URL']; ?>
 commom/img/seta-software.png" alt="software" title="software"><?php endif; ?>
@@ -106,7 +122,7 @@ commom/img/seta-drop-software.png" alt="software" title="software">Software inte
                                     </li>
                                     <li class="dropdown linha-menu-topo">
                                         <a href="<?php echo $this->_tpl_vars['URL']; ?>
-solucoes" class="dropdown-toggle link-menu-topo">
+solucoes" class="dropdown-toggle link-menu-topo border-top-menu">
                                             Soluções</a>
                                         <?php if ($this->_tpl_vars['pagina'] == 'solucoes' || $this->_tpl_vars['pagina'] == "solucoes-interna"): ?><img class="menu-topo-ativo hidden-xs" src="<?php echo $this->_tpl_vars['URL']; ?>
 commom/img/seta-solucoes.png" alt="Soluções" title="Soluções"><?php endif; ?>                                            
@@ -123,7 +139,7 @@ commom/img/seta-drop-solucoes.png" alt="Soluções" title="Soluções">Soluçõe
                                     </li>
                                     <li class="dropdown linha-menu-topo">
                                         <a href="<?php echo $this->_tpl_vars['URL']; ?>
-servicos" class="dropdown-toggle link-menu-topo">
+servicos" class="dropdown-toggle link-menu-topo border-top-menu">
                                             serviços</a>
                                         <?php if ($this->_tpl_vars['pagina'] == 'servicos' || $this->_tpl_vars['pagina'] == "servicos-interna"): ?><img class="menu-topo-ativo hidden-xs" src="<?php echo $this->_tpl_vars['URL']; ?>
 commom/img/seta-servicos.png" alt="serviços" title="serviços"><?php endif; ?>                                            
@@ -187,22 +203,22 @@ commom/img/icon-email.png" alt="contato@bdasolutions.com.br" title="contato@bdas
                     <a href="mailto:contato@bdasolutions.com.br" class="contato-topo-mob">contato@bdasolutions.com.br</a>
                 </div>
             </div> -->
-            <div class="col-xs-12 col-sm-3 col-md-2 pd-none bloco-contato-mob">
+            <div class="col-xs-12 pd-none bloco-contato-mob visible-xs-block">
                 <div class="row">
                     <img class="pull-left icon-topo-mob visible-xs-block" src="<?php echo $this->_tpl_vars['URL']; ?>
 commom/img/icon-tel.png" alt="+55 11 3588-4708" title="+55 11 3588-4708">
                     <a href="tel:5501135884708" class="contato-topo-mob visible-xs-block">+55 11 3588-4708</a>
                     <div class="pull-right icon-redes-topo">
                         <a class="pull-left" href="https://www.facebook.com/bdasolutions/" target="_blank" alt="Acesse nosso Facebook"><img src="<?php echo $this->_tpl_vars['URL']; ?>
-commom/img/icon-face.png" alt="Acesse nosso Facebook" title="Acesse nosso Facebook"></a>
+commom/img/icon-face_.png" alt="Acesse nosso Facebook" title="Acesse nosso Facebook"></a>
                         <a class="pull-left" href="https://plus.google.com/118384974989096345307/" target="_blank" alt="Acesse nosso Google Plus"><img src="<?php echo $this->_tpl_vars['URL']; ?>
-commom/img/icon-google.png" alt="Acesse nosso Google Plus" title="Acesse nosso Google Plus"></a>
+commom/img/icon-google_.png" alt="Acesse nosso Google Plus" title="Acesse nosso Google Plus"></a>
                         <a class="pull-left" href="" target="_blank" alt="Acesse nosso Twitter"><img src="<?php echo $this->_tpl_vars['URL']; ?>
-commom/img/icon-twitter.png" alt="Acesse nosso Twitter" title="Acesse nosso Twitter"></a>
+commom/img/icon-twitter_.png" alt="Acesse nosso Twitter" title="Acesse nosso Twitter"></a>
                         <a class="pull-left" href="https://www.youtube.com/channel/UCpXiTM6jrc9e5zD1WtaCOfA" target="_blank" alt="Acesse nosso canal no Youtube"><img src="<?php echo $this->_tpl_vars['URL']; ?>
-commom/img/icon-youtube.png" alt="Acesse nosso canal no Youtube" title="Acesse nosso canal no Youtube"></a>
+commom/img/icon-youtube_.png" alt="Acesse nosso canal no Youtube" title="Acesse nosso canal no Youtube"></a>
                         <a class="pull-left" href="https://www.linkedin.com/company/bda-solutions" target="_blank" alt="Acesse nosso Likedin"><img src="<?php echo $this->_tpl_vars['URL']; ?>
-commom/img/icon-likedin.png" alt="Acesse nosso Likedin" title="Acesse nosso Likedin"></a>
+commom/img/icon-likedin_.png" alt="Acesse nosso Likedin" title="Acesse nosso Likedin"></a>
                     </div>
                 </div>
                 <div class="row visible-xs-block">
