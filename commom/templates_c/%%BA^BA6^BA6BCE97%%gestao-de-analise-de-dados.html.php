@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.12, created on 2016-02-16 17:12:09
+<?php /* Smarty version 2.6.12, created on 2016-02-22 15:17:43
          compiled from gestao-de-analise-de-dados.html */ ?>
 <!DOCTYPE HTML>
 <html lang="pt-br">
@@ -46,7 +46,7 @@ unset($_smarty_tpl_vars);
             <!-- Banner -->
             <article class="banner-interna-faixa cor-linha-bn-solucoes pd-none mg-top--5">
                 <div class="width-default">
-                    <h1 class="titulo-faixa-interna pd-titulo-faixa-interna">Gestão de Análise de Dados<br> (Estatísticas)</h1>
+                    <h1 class="titulo-faixa-interna pd-titulo-faixa-interna">Gestão de Análise de Dados<br> <span>(Estatísticas)</span></h1>
                 </div>
             </article> 
             <!-- Banner -->
@@ -79,7 +79,7 @@ commom/img/img-default.jpg" alt="BDA" title="BDA" class="">
                         </div>
                     </div>
                     <p class="titulo-interna-inst align-center pd-tp-30">Conheça nossas Soluções</p>
-                    <div class="row pd-tp-30">
+                    <div class="row pd-tp-20">
                         <div class="bloco-destaques-banner pd-bt-30">
                             <div id="owl-demo-interna">
                                 <div class="item col-xs-12 col-sm-12 col-md-12 bloco-dest-home pd-none">

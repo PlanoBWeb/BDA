@@ -45,6 +45,18 @@
         });
     });
 
+    // Destaques tibco
+    $(document).ready(function() {
+        var owl = $("#owl-demo-tibco");     
+        owl.owlCarousel({
+            items : 3, //10 items above 1000px browser width
+            itemsDesktop : [1300,3], //5 items between 1000px and 901px
+            itemsDesktopSmall : [1024,2], // betweem 900px and 601px
+            itemsTablet: [767,1], //2 items between 600 and 0
+            itemsMobile : 1 // itemsMobile disabled - inherit from itemsTablet option
+        });
+    });
+
     // Nossos clientes Home
     $(document).ready(function() {
         var owl = $("#owl-demo-clientes");     
@@ -71,6 +83,26 @@
         owl.owlCarousel({
             items : 5, //10 items above 1000px browser width
             itemsDesktop : [1300,5], //5 items between 1000px and 901px
+            itemsDesktopSmall : [1024,3], // betweem 900px and 601px
+            itemsTablet: [767,1], //2 items between 600 and 0
+            itemsMobile : 1 // itemsMobile disabled - inherit from itemsTablet option
+        });
+     
+        // Custom Navigation Events
+        $(".next").click(function(){
+            owl.trigger('owl.next');
+        })
+        $(".prev").click(function(){
+            owl.trigger('owl.prev');
+        })     
+    });
+
+    // Nossos clientes Home
+    $(document).ready(function() {
+        var owl = $("#owl-demo-home");     
+        owl.owlCarousel({
+            items : 4, //10 items above 1000px browser width
+            itemsDesktop : [1300,4], //5 items between 1000px and 901px
             itemsDesktopSmall : [1024,3], // betweem 900px and 601px
             itemsTablet: [767,1], //2 items between 600 and 0
             itemsMobile : 1 // itemsMobile disabled - inherit from itemsTablet option
@@ -388,12 +420,28 @@
     });
 
     // Troca de bloco dos menu interno
-    $(document).ready(function() {
-        $('.linha-desc-interna').on('click', function(event) {
-            var qualDataId = $(this).data("item-id");
-            $('.bloco-desc-prod').hide();
-            $('.linha-desc-interna').removeClass('linha-desc-interna-ativo');
-            $('#aba'+qualDataId).show();
-            $(this).addClass('linha-desc-interna-ativo');
-        });
+    // $(document).ready(function() {
+    //     $('.linha-desc-interna').on('click', function(event) {
+    //         var qualDataId = $(this).data("item-id");
+    //         $('.bloco-desc-prod').hide();
+    //         $('.linha-desc-interna').removeClass('linha-desc-interna-ativo');
+    //         $('#aba'+qualDataId).show();
+    //         $(this).addClass('linha-desc-interna-ativo');
+    //     });
+    // });
+
+    // Mascara telefone
+    $("#telefone")
+    .mask("(99) 9999-9999?9")
+    .focusout(function (event) {  
+        var target, phone, element;  
+        target = (event.currentTarget) ? event.currentTarget : event.srcElement;  
+        phone = target.value.replace(/\D/g, '');
+        element = $(target);  
+        element.unmask();  
+        if(phone.length > 10) {  
+            element.mask("(99) 99999-999?9");  
+        } else {  
+            element.mask("(99) 9999-9999?9");  
+        }  
     });

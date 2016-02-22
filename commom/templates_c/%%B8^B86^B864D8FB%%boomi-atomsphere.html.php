@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.12, created on 2016-02-15 15:43:35
+<?php /* Smarty version 2.6.12, created on 2016-02-16 17:50:26
          compiled from boomi-atomsphere.html */ ?>
 <!DOCTYPE HTML>
 <html lang="pt-br">
@@ -50,22 +50,9 @@ unset($_smarty_tpl_vars);
             <section class="conteudo-interna">
                 <article class="width-default">
                     <div class="row">
-                        <div class="col-xs-12 col-sm-3 col-md-3">
-                            <div class="encapsula-img-desc-interna">
-                                <img class="pull-left" src="<?php echo $this->_tpl_vars['URL']; ?>
-commom/img/dell4.jpg" alt="BOOM Atomsphere" title="BOOM Atomsphere">
-                            </div>
-                        </div>  
-                        <div class="col-xs-12 col-sm-8 col-md-8">
-                            <nav class="menu-desc-interna">
-                                <ul>
-                                    <li class="linha-desc-interna linha-desc-interna-ativo" data-item-id="1">Descrição</li>
-                                    <li class="linha-desc-interna" data-item-id="2">Benefícios</li>
-                                    <li class="linha-desc-interna" data-item-id="3">Orçamentos</li>
-                                </ul>
-                            </nav>
-                            <div class="encapsula-desc-prod">
-                                <div class="bloco-desc-prod" id="aba1">
+                        <div class="col-xs-12 col-sm-11 col-md-11 pd-none-desk">
+                            <div class="encapsula-desc-prod pd-tp-30">
+                                <div class="bloco-desc-prod">
                                     <h2 class="txt-interna"><strong>Sincronização de dados através de aplicativos</strong></h2>
                                     <p class="txt-interna">Não importa se você trabalha em um ambiente de empresa, ISV ou integrador de sistemas, nem o tamanho da sua empresa e do orçamento, você pode sincronizar os dados entre aplicativos essenciais aos negócios, seja no local ou em nuvem (por exemplo, integração do Salesforce). Elimine os custos associados à integração e à manutenção de integrações usando middleware, equipamentos ou código personalizado herdados. Usando o Boomi, a maior plataforma de integração como serviço (iPaaS) do setor, você obtém:</p>
                                     <!-- <p class="txt-interna"></p>
@@ -75,12 +62,7 @@ commom/img/dell4.jpg" alt="BOOM Atomsphere" title="BOOM Atomsphere">
                                         <li class="linha-ul-interna">Fácil acesso aos seus dados, seja em nuvem ou no local</li>
                                         <li class="linha-ul-interna">Economia significativa em relação às tradicionais soluções de integração</li>
                                     </ul>        
-                                    <a class="btn-download" href="<?php echo $this->_tpl_vars['URL']; ?>
-">
-                                        Download trial <br>30 dias
-                                    </a>
-                                </div>
-                                <div class="bloco-desc-prod" id="aba2">
+                  
                                     <h2 class="txt-interna"><strong>Integração de aplicativos no local em cloud computing rápida, eficiente e simples </strong></h2>
                                     <p class="txt-interna">Crie e implante integrações, em questão de dias e semanas, e não meses e anos. Crie processos de integração imediatamente usando a interface intuitiva de arrastar e soltar. Use o Boomi Suggest, nosso mecanismo de mapeamento de dados habilidade pela comunidade para sugerir mapeamentos de maneira precisa e automática e facilmente mapear campos de dados entre aplicativos. Monitore e mantenha os processos de integração implantados com o painel de controle baseado na web repleto de recursos do Boomi.</p>
                                     <ul class="bloco-linha-interna no-bg">
@@ -89,12 +71,15 @@ commom/img/dell4.jpg" alt="BOOM Atomsphere" title="BOOM Atomsphere">
                                         <li class="linha-ul-interna">Cria mapeamentos de dados de maneira rápida e fácil com o Boomi Suggest, nosso mecanismo de sugestão de mapeamento de dados obtido pelo público</li>
                                         <li class="linha-ul-interna">Gerencia e monitora centralmente todos os processos de integração, seja no local ou em cloud computing, para rastrear o desempenho geral de integração, bem como métricas de execução de processo individuais</li>
                                     </ul>
-                                    <a class="btn-download" href="<?php echo $this->_tpl_vars['URL']; ?>
+                                    <a class="btn-download mg-bt-40" href="<?php echo $this->_tpl_vars['URL']; ?>
 ">
                                         Download trial <br>30 dias
                                     </a>
                                 </div>
-                                <div class="bloco-desc-prod" id="aba3">
+                            </div>
+                            <div class="row">
+                                <center><p class="titulo-interna-inst align-center">Solicite um orçamento</p></center>
+                                <div class="mg-top--20">
                                     <?php $_smarty_tpl_vars = $this->_tpl_vars;
 $this->_smarty_include(array('smarty_include_tpl_file' => "../inc/form.html", 'smarty_include_vars' => array()));
 $this->_tpl_vars = $_smarty_tpl_vars;

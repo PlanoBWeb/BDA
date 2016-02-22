@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.12, created on 2016-02-16 16:59:03
+<?php /* Smarty version 2.6.12, created on 2016-02-22 14:07:09
          compiled from solucoes.html */ ?>
 <!DOCTYPE HTML>
 <html lang="pt-br">
@@ -98,9 +98,9 @@ solucoes/gestao-de-banco-de-dados">Saiba mais ></a></h3>
                                     <div class="bola-rosa bola-dest"></div>
                                     <div class="row">
                                         <h2 class="destaques-home align-center"><a href="<?php echo $this->_tpl_vars['URL']; ?>
-solucoes/bid-data-e-iot">BID Data & IoT<br></a></h2>
+solucoes/big-data-e-iot">BIG Data & IoT<br></a></h2>
                                         <h3 class="txt-destaques-home align-center"><a href="<?php echo $this->_tpl_vars['URL']; ?>
-solucoes/bid-data-e-iot">Saiba mais ></a></h3>
+solucoes/big-data-e-iot">Saiba mais ></a></h3>
                                     </div>
                                 </div> 
                                 <div class="item col-xs-12 col-sm-12 col-md-12 bloco-dest-home pd-none">

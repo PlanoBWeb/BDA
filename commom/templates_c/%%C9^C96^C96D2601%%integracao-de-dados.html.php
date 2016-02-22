@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.12, created on 2016-02-15 11:30:47
+<?php /* Smarty version 2.6.12, created on 2016-02-22 11:01:48
          compiled from integracao-de-dados.html */ ?>
 <!DOCTYPE HTML>
 <html lang="pt-br">
@@ -57,53 +57,53 @@ unset($_smarty_tpl_vars);
                     <div class="row pd-tp-30">
                         <div class="col-xs-12 col-sm-3 col-md-3">
                             <a href="<?php echo $this->_tpl_vars['URL']; ?>
-software/integracao-de-dados/boomi-atomsphere">
+software/dell/integracao-de-dados/boomi-atomsphere">
                                 <img class="pull-left pd-all-10" src="<?php echo $this->_tpl_vars['URL']; ?>
 commom/img/dell3.jpg" alt="Boomi AtomSphere " title="Boomi AtomSphere ">
                             </a>
                             <h2 class="titulo-interna-inst mg-titulo-interna-inst"><a href="<?php echo $this->_tpl_vars['URL']; ?>
-software/integracao-de-dados/boomi-atomsphere">Boomi <br>AtomSphere</a></h2>
+software/dell/integracao-de-dados/boomi-atomsphere">Boomi <br>AtomSphere</a></h2>
                         </div>   
                         <div class="col-xs-12 col-sm-8 col-md-8">     
                             <h3 class="sub-titulo-interna-inst mg-top-none"><strong><a href="<?php echo $this->_tpl_vars['URL']; ?>
-software/integracao-de-dados/boomi-atomsphere">Sincronização de dados através de aplicativos</a></strong></h3>
+software/dell/integracao-de-dados/boomi-atomsphere">Sincronização de dados através de aplicativos</a></strong></h3>
                             <p class="txt-interna"><a href="<?php echo $this->_tpl_vars['URL']; ?>
-software/integracao-de-dados/boomi-atomsphere">Conecte qualquer combinação de aplicativos em nuvem e no local, sem software ou equipamentos, usando a Boomi, a maior plataforma de integração como serviço (iPaaS) do setor.</a></p>
+software/dell/integracao-de-dados/boomi-atomsphere">Conecte qualquer combinação de aplicativos em nuvem e no local, sem software ou equipamentos, usando a Boomi, a maior plataforma de integração como serviço (iPaaS) do setor.</a></p>
                         </div>
                     </div>
                     <div class="row pd-tp-30">
                         <div class="col-xs-12 col-sm-3 col-md-3">
                             <a href="<?php echo $this->_tpl_vars['URL']; ?>
-software/integracao-de-dados/boomi-mdm">
+software/dell/integracao-de-dados/boomi-mdm">
                                 <img class="pull-left pd-all-10" src="<?php echo $this->_tpl_vars['URL']; ?>
 commom/img/dell3.jpg" alt="Boomi MDM " title="Boomi MDM ">
                             </a>
                             <h2 class="titulo-interna-inst mg-titulo-interna-inst"><a href="<?php echo $this->_tpl_vars['URL']; ?>
-software/integracao-de-dados/boomi-mdm">Boomi <br>MDM</a></h2>
+software/dell/integracao-de-dados/boomi-mdm">Boomi <br>MDM</a></h2>
                         </div>   
                         <div class="col-xs-12 col-sm-8 col-md-8">     
                             <h3 class="sub-titulo-interna-inst mg-top-none"><strong><a href="<?php echo $this->_tpl_vars['URL']; ?>
-software/integracao-de-dados/boomi-mdm">Gerenciamento de dados mestre acessível</a></strong></h3>
+software/dell/integracao-de-dados/boomi-mdm">Gerenciamento de dados mestre acessível</a></strong></h3>
                             <p class="txt-interna"><a href="<?php echo $this->_tpl_vars['URL']; ?>
-software/integracao-de-dados/boomi-mdm">Certifique-se de que os seus dados estejam gerenciados, limpos, integrados e sincronizados em tempo real para ter uma visão única e precisa dos dados da empresa em diversos domínios e fontes de dados.</a></p>
+software/dell/integracao-de-dados/boomi-mdm">Certifique-se de que os seus dados estejam gerenciados, limpos, integrados e sincronizados em tempo real para ter uma visão única e precisa dos dados da empresa em diversos domínios e fontes de dados.</a></p>
                         </div>
                     </div>
 
                     <div class="row pd-tp-30">
                         <div class="col-xs-12 col-sm-3 col-md-3">
                             <a href="<?php echo $this->_tpl_vars['URL']; ?>
-software/integracao-de-dados/shareplex">
+software/dell/integracao-de-dados/shareplex">
                                 <img class="pull-left pd-all-10" src="<?php echo $this->_tpl_vars['URL']; ?>
 commom/img/dell3.jpg" alt="Shareplex" title="Shareplex">
                             </a>
                             <h2 class="titulo-interna-inst mg-titulo-interna-inst"><a href="<?php echo $this->_tpl_vars['URL']; ?>
-software/integracao-de-dados/shareplex">Shareplex</a></h2>
+software/dell/integracao-de-dados/shareplex">Shareplex</a></h2>
                         </div>   
                         <div class="col-xs-12 col-sm-8 col-md-8">     
                             <h3 class="sub-titulo-interna-inst mg-top-none"><strong><a href="<?php echo $this->_tpl_vars['URL']; ?>
-software/integracao-de-dados/shareplex">Sincronização de dados através de aplicativos</a></strong></h3>
+software/dell/integracao-de-dados/shareplex">Sincronização de dados através de aplicativos</a></strong></h3>
                             <p class="txt-interna"><a href="<?php echo $this->_tpl_vars['URL']; ?>
-software/integracao-de-dados/shareplex">Conecte qualquer combinação de aplicativos em nuvem e no local, sem software ou equipamentos, usando a Boomi, a maior plataforma de integração como serviço (iPaaS) do setor.</a></p>
+software/dell/integracao-de-dados/shareplex">Conecte qualquer combinação de aplicativos em nuvem e no local, sem software ou equipamentos, usando a Boomi, a maior plataforma de integração como serviço (iPaaS) do setor.</a></p>
                         </div>
                     </div>
                 </article>

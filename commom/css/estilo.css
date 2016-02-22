@@ -101,7 +101,10 @@ img{
     padding: 0px 10px;
 }
 .mg-top--5{
-    margin-top: -5px;
+    margin-top: -5px !important;
+}
+.mg-top--20{
+    margin-top: -20px !important;
 }
 .mg-top-none{
     margin-top: 0px;   
@@ -353,7 +356,7 @@ header{
     position:           relative;
     background-color:   #00aff1;
     padding:            30px 0px 15px 0px;
-    margin-top:         50px;
+    margin-top:         10px;
 }
 
 #owl-demo-blog .item{
@@ -650,7 +653,12 @@ footer{
     text-transform: uppercase;
     padding-top:    55px;
     margin:         0px;
+    /*line-height:    0.9;*/
+    line-height:    0.75;
 }   
+.titulo-faixa-interna span{
+    font-size: 0.5em;
+}
 .pd-titulo-faixa-interna{
     padding-top: 45px;
 } 
@@ -693,7 +701,8 @@ footer{
 .titulo-interna-inst{
     color:          #3a3a3a;
     font-family:    'Raleway-Regular';
-    font-size:      1.6em;
+    /*font-size:      1.6em;*/
+    font-size:      1.4em;
     margin-bottom:  20px;
     text-align:     left;
 }
@@ -746,6 +755,7 @@ footer{
     color:          #fff;
     font-size:      1em;
     list-style:     initial;
+    line-height:    1.4;
 }
 .linha-ul-interna h2{
     font-size:  1.2em;
@@ -777,10 +787,12 @@ footer{
     color: inherit;
 }
 .linha-softwares span{
-    font-size:      1.5em;
-    color:          #00aff1;
-    cursor:         pointer;
-    padding-left:   8px;
+    font-size: 1.5em;
+    color: #00aff1;
+    cursor: pointer;
+    padding: 0px 8px;
+    position: absolute;
+    margin-top: -6px;
 }
 .bloco-softwares{
     max-width:      300px;
@@ -826,11 +838,13 @@ footer{
     color:          #fff;
 }
 .bloco-desc-prod{
-    display: none;
+    display:    table;
+    position:   relative;
 }
+/*
 .encapsula-desc-prod div:first-child {
     display:block;
-}
+}*/
 .bloco-conheca-mais{
     background-color:   #f2f2f2;
     margin:             8px;
@@ -1336,6 +1350,9 @@ footer{
     }
     .navbar-nav{
         float: right !important;
+    }
+    .pd-none-desk{
+        padding: 0px !important;
     }
 
 

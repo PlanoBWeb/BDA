@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.12, created on 2016-02-16 16:11:34
+<?php /* Smarty version 2.6.12, created on 2016-02-17 11:04:16
          compiled from ../inc/footer.html */ ?>
     <article class="blog-destaques-home">
         <div class="width-default">
@@ -45,7 +45,6 @@ commom/img/logo-footer.png" alt="BDA" title="BDA">
                 <div class="row">
                     <div class="col-xs-12 col-sm-6 col-md-6 pd-none">
                         <ul>
-                            <br>
                             <li class="linha-menu-rodape"><a class="link-menu-rodape" href="<?php echo $this->_tpl_vars['URL']; ?>
 quem-somos">Quem somos</a></li>
                             <li class="linha-menu-rodape"><a class="link-menu-rodape" href="<?php echo $this->_tpl_vars['URL']; ?>
@@ -62,7 +61,6 @@ contato">Contato</a></li>
                     </div>   
                     <div class="col-xs-12 col-sm-6 col-md-6 pd-none">
                         <ul class="menu-dois-footer">
-                            <br>
                             <li class="linha-menu-rodape"><a class="link-menu-rodape" href="<?php echo $this->_tpl_vars['URL']; ?>
 software">Software</a></li>
                             <li class="linha-menu-rodape"><a class="link-menu-rodape" href="<?php echo $this->_tpl_vars['URL']; ?>
@@ -132,6 +130,8 @@ commom/js/vitrine/owl.carousel.js"></script>
     <script src="<?php echo $this->_tpl_vars['URL']; ?>
 commom/js/lightbox.js"></script>
     <!-- vitrine -->
+    <script src="<?php echo $this->_tpl_vars['URL']; ?>
+commom/js/mask.js"></script>
     <script src="<?php echo $this->_tpl_vars['URL']; ?>
 commom/js/funcoes.js"></script>
     <script src="<?php echo $this->_tpl_vars['URL']; ?>

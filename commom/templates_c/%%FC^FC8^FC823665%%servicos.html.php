@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.12, created on 2016-02-15 14:55:32
+<?php /* Smarty version 2.6.12, created on 2016-02-22 15:59:37
          compiled from servicos.html */ ?>
 <!DOCTYPE HTML>
 <html lang="pt-br">
@@ -76,8 +76,65 @@ $this->_tpl_vars = $_smarty_tpl_vars;
 unset($_smarty_tpl_vars);
  ?>      
             <section class="conteudo-interna">
-                
-            </section>              
+                <article class="width-default pd-tp-30">
+                    <p class="txt-interna pd-all-10 mg-bt-40">
+                        Nosso serviços são altamente qualificados oferecendo uma grande variedade de soluções dentro dos nossos segmentos de atuação: Serviços Financeiros, Marketing, Saúde & Lifesciences, Energia, Bens de Consumo, Governo, Mineração Indústria e Varejo. Intelligence & Analytics.
+                        <br><br>
+                        Nossas estruturas em serviços comprovados permitem investimentos e entrega de projetos para  gestão da informação, através de  ferramentas de estratégia, planejamento e gestão garantindo assim que você obtenha mais de sua informação. Além disso, a BDA Solutions possui com profissionais de múltiplas competências: consultores de processos, consultores estatísticos, especialistas em soluções de infra-estrutura e em implementação, arquitetos de soluções, consultores e arquitetos de soluções de Business Intelligence.                        
+                    </p>
+                    <div class="row pd-tp-30">
+                        <div class="bloco-destaques-banner pd-bt-30">
+                            <div id="owl-demo-interna">
+                                <div class="item col-xs-12 col-sm-12 col-md-12 bloco-dest-home pd-none">
+                                    <div class="bola-cinza bola-dest"></div>
+                                    <div class="row">
+                                        <h2 class="destaques-home align-center"><a href="<?php echo $this->_tpl_vars['URL']; ?>
+servicos/master-data-management"> Master Data Management </a></h2>
+                                        <h3 class="txt-destaques-home align-center"><a href="<?php echo $this->_tpl_vars['URL']; ?>
+servicos/master-data-management">Saiba mais ></a></h3>
+                                    </div>
+                                </div>
+                                <div class="item col-xs-12 col-sm-12 col-md-12 bloco-dest-home pd-none">
+                                    <div class="bola-rosa bola-dest"></div>
+                                    <div class="row">
+                                        <h2 class="destaques-home align-center"><a href="<?php echo $this->_tpl_vars['URL']; ?>
+servicos/data-intelligence"> Data Intelligence </a></h2>
+                                        <h3 class="txt-destaques-home align-center"><a href="<?php echo $this->_tpl_vars['URL']; ?>
+servicos/data-intelligence">Saiba mais ></a></h3>
+                                    </div>
+                                </div>
+                                <div class="item col-xs-12 col-sm-12 col-md-12 bloco-dest-home pd-none">
+                                    <div class="bola-cinza bola-dest"></div>
+                                    <div class="row">
+                                        <h2 class="destaques-home align-center"><a href="<?php echo $this->_tpl_vars['URL']; ?>
+servicos/implementacao-e-suporte"> Implementação & Suporte </a></h2>
+                                        <h3 class="txt-destaques-home align-center"><a href="<?php echo $this->_tpl_vars['URL']; ?>
+servicos/implementacao-e-suporte">Saiba mais ></a></h3>
+                                    </div>
+                                </div>
+                                <div class="item col-xs-12 col-sm-12 col-md-12 bloco-dest-home pd-none">
+                                    <div class="bola-rosa bola-dest"></div>
+                                    <div class="row">
+                                        <h2 class="destaques-home align-center"><a href="<?php echo $this->_tpl_vars['URL']; ?>
+servicos/consultoria-especializada"> Consultoria Especializada </a></h2>
+                                        <h3 class="txt-destaques-home align-center"><a href="<?php echo $this->_tpl_vars['URL']; ?>
+servicos/consultoria-especializada">Saiba mais ></a></h3>
+                                    </div>
+                                </div>
+                                <div class="item col-xs-12 col-sm-12 col-md-12 bloco-dest-home pd-none">
+                                    <div class="bola-cinza bola-dest"></div>
+                                    <div class="row">
+                                        <h2 class="destaques-home align-center"><a href="<?php echo $this->_tpl_vars['URL']; ?>
+servicos/outsourcing-profissionais-de-ti"> Outsourcing Profissionais de TI </a></h2>
+                                        <h3 class="txt-destaques-home align-center"><a href="<?php echo $this->_tpl_vars['URL']; ?>
+servicos/outsourcing-profissionais-de-ti">Saiba mais ></a></h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </section>                
         <?php $_smarty_tpl_vars = $this->_tpl_vars;
 $this->_smarty_include(array('smarty_include_tpl_file' => "../inc/footer.html", 'smarty_include_vars' => array()));
 $this->_tpl_vars = $_smarty_tpl_vars;

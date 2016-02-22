@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.12, created on 2016-01-26 19:29:57
+<?php /* Smarty version 2.6.12, created on 2016-02-16 17:57:17
          compiled from ../inc/form.html */ ?>
 <form class="form-horizontal form-fale" name="contato" method="post" action="<?php echo $this->_tpl_vars['URL']; ?>
 envia">
@@ -19,9 +19,9 @@ envia">
         <div class="col-sm-5 pd-none-mob pd-mobile-form-home">
             <input type="email" name="fale_email" class="form-control" id="inputEmail3">
         </div>
-        <label for="inputTel" class="col-sm-1 control-label pd-none-mob pd-mobile-form-home">Telefone*</label>
+        <label for="telefone" class="col-sm-1 control-label pd-none-mob pd-mobile-form-home">Telefone*</label>
         <div class="col-sm-4 pd-none-mob pd-mobile-form-home">
-            <input type="tel" name="fale_telefone" class="form-control" id="inputTel">
+            <input type="tel" name="fale_telefone" class="form-control" id="telefone">
         </div>
     </div>
     <div class="row">

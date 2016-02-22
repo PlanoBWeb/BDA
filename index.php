@@ -26,11 +26,11 @@
 	$url['pagina'] = $url[0];
 
 	// Path e páginas das internas ----- //
-	$pgInternas = array('gestao-de-analise-de-dados', 'gestao-de-banco-de-dados', 'integracao-de-dados');
+	$pgInternas = array('gestao-de-analise-de-dados', 'gestao-de-banco-de-dados', 'integracao-de-dados', 'gerenciamento-de-banco-de-dados', 'business-intelligence', 'backup-e-replicacao-de-banco-de-dados', 'advanced-analytics', 'tibco', 'microsoft',  'big-data-e-iot', 'dell-academic-center', 'gestao-de-risco-de-credito', 'business-intelligence-analytics', 'master-data-management', 'data-intelligence', 'implementacao-e-suporte', 'consultoria-especializada', 'outsourcing-profissionais-de-ti');
 	$path = "commom/templates/";
 
 	// ----- Valida se existe páginas internas ----- //
-	if (in_array($url[1], $pgInternas)) {		
+	if (in_array($url[2], $pgInternas) || in_array($url[1], $pgInternas)) {		
 		if ($url[3]) {
 			if (file_exists($path . $url[3] . '.html')) {
 				$url['paginaHtml'] = $url[3];
