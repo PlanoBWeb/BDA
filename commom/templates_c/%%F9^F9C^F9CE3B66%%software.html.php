@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.12, created on 2016-02-22 13:55:10
+<?php /* Smarty version 2.6.12, created on 2016-03-01 18:00:41
          compiled from software.html */ ?>
 <!DOCTYPE HTML>
 <html lang="pt-br">
@@ -71,7 +71,7 @@ $this->_smarty_include(array('smarty_include_tpl_file' => "../inc/breadcrumb.htm
 $this->_tpl_vars = $_smarty_tpl_vars;
 unset($_smarty_tpl_vars);
  ?>        
-            <section class="conteudo-interna">
+            <section class="conteudo-interna pd-tp-30 mg-bt-20">
                 <article class="width-default pd-so-mob">
                     <!-- <p class="txt-interna">
                         <br><br>Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos.
@@ -79,9 +79,13 @@ unset($_smarty_tpl_vars);
                     <div class="row">
                         <div class="col-xs-12 col-sm-4 col-md-4">
                             <div class="bloco-softwares">
-                                <img src="<?php echo $this->_tpl_vars['URL']; ?>
+                                <a href="<?php echo $this->_tpl_vars['URL']; ?>
+software/dell">
+                                    <img src="<?php echo $this->_tpl_vars['URL']; ?>
 commom/img/dell2.jpg" alt="dell" title="dell">
-                                <h2 class="linha-softwares-titulo">DELL</h2>
+                                </a>
+                                <h2 class="linha-softwares-titulo"><a href="<?php echo $this->_tpl_vars['URL']; ?>
+software/dell">DELL</a></h2>
                                 <h3 class="linha-softwares"><a href="<?php echo $this->_tpl_vars['URL']; ?>
 software/dell/integracao-de-dados" title="Integração de Dados e Aplicativos">Integração de Dados e Aplicativos</a>  <span class="btn-mais">+</span> </h3> 
                                 <ul class="mg-none bloco-sub-soft">
@@ -142,12 +146,15 @@ software/dell/advanced-analytics/boomi-atomsphere">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp
                         </div> 
                         <div class="col-xs-12 col-sm-4 col-md-4">
                             <div class="bloco-softwares">
-                                <img src="<?php echo $this->_tpl_vars['URL']; ?>
+                                <a href="<?php echo $this->_tpl_vars['URL']; ?>
+software/tibco">
+                                    <img src="<?php echo $this->_tpl_vars['URL']; ?>
 commom/img/tibco2.jpg" alt="tibco" title="tibco">
+                                </a>
                                 <h2 class="linha-softwares-titulo"><a href="<?php echo $this->_tpl_vars['URL']; ?>
 software/tibco">TIBCO</a></h2>
                                 <h3 class="linha-softwares"><a href="<?php echo $this->_tpl_vars['URL']; ?>
-software/tibco/sportfire-desktop" title="Sportfire Desktop">Sportfire Desktop</a></h3> 
+software/tibco/spotfire-desktop" title="Sportfire Desktop">Sportfire Desktop</a></h3> 
                                 <h3 class="linha-softwares"><a href="<?php echo $this->_tpl_vars['URL']; ?>
 software/tibco/spotfire-platform" title="Spotfire® Platform">Spotfire® Platform </a></h3> 
                                 <h3 class="linha-softwares"><a href="<?php echo $this->_tpl_vars['URL']; ?>
@@ -156,9 +163,13 @@ software/tibco/spotfire-analytics-para-big-data" title="Spotfire® Analytics par
                         </div>
                         <div class="col-xs-12 col-sm-4 col-md-4">
                             <div class="bloco-softwares">
-                                <img src="<?php echo $this->_tpl_vars['URL']; ?>
+                                <a href="<?php echo $this->_tpl_vars['URL']; ?>
+software/microsoft">
+                                    <img src="<?php echo $this->_tpl_vars['URL']; ?>
 commom/img/microsoft.jpg" alt="microsoft" title="microsoft">
-                                <h2 class="linha-softwares-titulo">MICROSOFT</h2>
+                                </a>
+                                <h2 class="linha-softwares-titulo"><a href="<?php echo $this->_tpl_vars['URL']; ?>
+software/microsoft">MICROSOFT</a></h2>
                                 <h3 class="linha-softwares"><a href="<?php echo $this->_tpl_vars['URL']; ?>
 software/microsoft/azure-data-analytics" title="Azure Data Analytics">Azure Data Analytics</a></h3> 
                                 <h3 class="linha-softwares"><a href="<?php echo $this->_tpl_vars['URL']; ?>
@@ -168,7 +179,8 @@ software/microsoft/cortana-analytics" title="Cortana Analytics">Cortana Analytic
                                 <h3 class="linha-softwares"><a href="<?php echo $this->_tpl_vars['URL']; ?>
 software/microsoft/power-bi" title="POWER BI">Power Bi</a></h3> 
                             </div>
-                        </div>        
+                        </div>     
+                        <br>   
                     </div>
                 </article>
             </section>            

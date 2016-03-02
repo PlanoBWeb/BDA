@@ -1,3 +1,4 @@
+/*AQU(i*/
 /* Folha de estilo */
 
 /* Reset */
@@ -76,6 +77,9 @@ img{
 .mg-none{
     margin: 0px;
 }
+.mg-all-2{
+    margin: 2px;
+}
 .pd-lt-30{
     padding-left: 30px !important;
 }
@@ -109,12 +113,44 @@ img{
 .mg-top-none{
     margin-top: 0px;   
 }
+.mg-15-all{
+    margin: 15px !important;
+    float: right;
+}
+.mg-right-25{
+    margin-right: 25px !important;
+}
 .align-center{
     text-align: center !important;
 }
 .navbar-default .navbar-nav>.open>a{
     background: transparent !important; 
 }
+/*Hover site*/
+.hover-default:hover{
+    color: #2d3e50 !important;
+    font-weight: bold;
+}
+.hover-default-footer:hover{
+    color: #4ba5dc !important;
+    font-weight: bold;
+}
+.sub-azul{
+    color: #4ba5dc !important;
+}
+.linha-breadcrumb a:hover{
+    color: #2d3e50 !important;
+    font-weight: bold;   
+}
+.linha-breadcrumb-ativo{
+    color: #2d3e50 !important;
+    font-weight: bold;      
+}
+.linha-softwares a:hover{
+    color: #4ba5dc !important;
+    font-weight: bold;   
+}
+/*Hover site*/
 li{
     list-style: none;
 }
@@ -130,7 +166,7 @@ li{
     position:   relative;
 }
 .cor-linha-bn-software{
-    background:     #00b0f0;
+    /*background:     #4ba5dc;*/
 }
 .cor-linha-bn-solucoes{
     background:     #e10452;   
@@ -140,6 +176,18 @@ li{
 }
 .cor-linha-bn-treinamentos{
     background:     #37780f;
+}
+.abs-right
+{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+.abs-left
+{
+    position: absolute;
+    left: 0px;
+    top: 0px;
 }
 /*Header*/
 header{
@@ -178,6 +226,24 @@ header{
 .link-menu-topo:hover{
     color: #243743 !important;
 }
+.bloco-sub-submenu
+{
+    display:        none;
+    position:       absolute;
+    margin-left:    205px;
+    width:          375px;
+    background:     #2d3e50;
+    top:            7px;
+    padding:        7px;
+}
+/*.sub-submenu:hover .bloco-sub-submenu
+{
+    display: block;
+}*/
+.dropdown-sub-submenu
+{
+
+}
 .img-icon-menu{
     margin-top:     -4px;
     margin-right:   2px;
@@ -201,7 +267,8 @@ header{
 }
 .bloco-dropdown-menu{
     background: #2d3e50 !important;    
-    padding:    12px 20px 5px 14px !important;
+    /*padding:    12px 20px 5px 14px !important;*/
+    padding:    12px 0px 15px 4px !important;
     min-width:  210px;
 }
 .icon-redes-topo a{
@@ -254,7 +321,8 @@ header{
     color: #fff;
 }
 .espaco-header{
-    padding: 20px 0px 10px 0px !important;
+    /*padding: 20px 0px 10px 0px !important;*/
+    padding: 10px 0px 15px 0px !important;
 }
 .form-busca{
     width: 300px !important;
@@ -284,18 +352,56 @@ header{
     text-decoration: none;
 }
 .bola-dest{
-    display:            table;
+    display:            flex;
     border-radius:      50%;
     margin:             auto;
     margin-bottom:      15px;
     width:              123px;
     height:             123px;
+    /*box-shadow:         0 6px 12px #999 !important;    */
+}
+.bola-dest:hover{
+    box-shadow:         0 6px 20px #999 !important;    
 }
 .bola-rosa{
     background-color:   #e10452;
 }
 .bola-cinza{
     background-color:   #5c6d7d;
+}
+.bola-software{
+    background-color:   #4ba5dc;   
+}
+.bola-software-transp
+{
+    background-color:   transparent;
+    border:             2px solid #4ba5dc;
+}
+.bola-solucoes{
+    background-color:   #ef5a88;   
+}
+.bola-servicos{
+    background-color:   #f79447;   
+}
+.bola-treinamentos{
+    background-color:   #39bb9c;   
+}
+.bola-tibco{
+    background-color: #fff;
+    border: 1px solid #ef5a88;
+}
+.bola-tibco:hover{
+    border: 2px solid #ef5a88;   
+}
+.bola-transparente
+{
+    background-color:   transparent;
+    border:             2px solid #15244b;
+}
+.img-bola-center{
+    display:    table;
+    margin:     auto !important;
+    position:   relative;
 }
 .txt-destaques-home{
     color:          #3a3a3a;
@@ -354,7 +460,7 @@ header{
     height:             auto;
     display:            table;
     position:           relative;
-    background-color:   #00aff1;
+    background-color:   #4ba5dc;
     padding:            30px 0px 15px 0px;
     margin-top:         10px;
 }
@@ -510,7 +616,7 @@ footer{
     padding:            30px 0px;
 }
 .titulo-footer{
-    color: #00aff1;
+    color: #4ba5dc;
     font-family:    'Raleway-SemiBold';  
     font-size: 1.6em;
 }
@@ -611,6 +717,7 @@ footer{
     font-family:    'Raleway-Medium';
     float:           left;
     text-decoration: none;
+    /*text-transform:  capitalize !important;*/
     padding:         3px;
 }
 .linha-breadcrumb a{
@@ -618,6 +725,7 @@ footer{
     font-size:       1em;
     font-family:     'Raleway-Medium';
     float:           left;
+    text-transform:  capitalize !important;
     text-decoration: none;
 }
 .linha-breadcrumb a:hover{
@@ -642,6 +750,8 @@ footer{
 .banner-interna-faixa{
     width:              100%;
     height:             130px;
+    max-width:          1090px;
+    margin:             auto;
     display:            table;
     position:           relative;
 }
@@ -653,14 +763,15 @@ footer{
     text-transform: uppercase;
     padding-top:    55px;
     margin:         0px;
-    /*line-height:    0.9;*/
-    line-height:    0.75;
+    line-height:    0.9;
+    /*line-height:    0.75;*/
 }   
 .titulo-faixa-interna span{
     font-size: 0.5em;
 }
 .pd-titulo-faixa-interna{
     padding-top: 45px;
+    /*padding-top: 55px;*/
 } 
 .carrega-busca{
     width:              240px;
@@ -684,10 +795,10 @@ footer{
     margin-bottom:  0;
 }
 .conteudo-interna{
-    min-height: 400px;
+    /*min-height: 400px;*/
 }
 .linha-menu-topo-software:hover{
-    color: #00b0f0 !important;
+    color: #4ba5dc !important;
 }
 .linha-menu-topo-solucoes:hover{
     color: #e10452 !important;
@@ -745,7 +856,7 @@ footer{
     margin:     auto;
 }
 .bloco-linha-interna{
-    background-color:   #00aff1;
+    background-color:   #4ba5dc;
     padding:            10px 0px 20px 40px;
     margin-right:       20px;
     border-radius:      15px;
@@ -788,13 +899,14 @@ footer{
 }
 .linha-softwares span{
     font-size: 1.5em;
-    color: #00aff1;
+    color: #4ba5dc;
     cursor: pointer;
     padding: 0px 8px;
     position: absolute;
     margin-top: -6px;
 }
 .bloco-softwares{
+    width:          100%;
     max-width:      300px;
     margin-bottom:  30px !important;
     display:        table;
@@ -846,7 +958,7 @@ footer{
     display:block;
 }*/
 .bloco-conheca-mais{
-    background-color:   #f2f2f2;
+    /*background-color:   #f2f2f2;*/
     margin:             8px;
     /*padding: 20px 0px 6px 0px;*/
     padding:            20px 10px 6px 10px;
@@ -888,7 +1000,14 @@ footer{
     display:            table;
     margin:             auto;
 }
-
+.font-tam
+{
+    font-size: 1.2em !important;
+}
+.pd-tp-bt-dell{
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
 /*
 .bloco-titulo-pag{
     border:     1px solid #243743;
@@ -1187,6 +1306,9 @@ footer{
 .next, .prev{top:50%}
 .next{right:20px;}
 .prev{left:20px;}
+.owl-carousel .owl-item{
+    float: left;
+}
 
 .projetos-lightbox{
     display:    table;
@@ -1206,7 +1328,8 @@ footer{
         margin-bottom:      0px !important;
     }
     .navbar-nav>li{
-        padding: 40px 0px;
+        /*padding: 40px 0px;*/
+        padding: 35px 0px;
     }
     .link-menu-topo{
         padding:        0px 22px !important;
@@ -1242,7 +1365,7 @@ footer{
         border-bottom: 5px solid #2d3e50;
     }
     .hover-software:hover{
-        border-bottom: 10px solid #00b0f0;
+        border-bottom: 10px solid #4ba5dc;
     }
     .hover-solucoes:hover{
         border-bottom: 10px solid #e10452;
@@ -1258,6 +1381,7 @@ footer{
     }
     .linha-menu-topo:hover .border-top-menu{
         border-right: transparent; 
+        padding-right: 23px !important; 
     }
     .linha-menu-topo-ativo{
         background: #c0c5ca;       
@@ -1353,6 +1477,12 @@ footer{
     }
     .pd-none-desk{
         padding: 0px !important;
+    }
+    .bloco-bola-dell
+    {
+        max-width: 210px;
+        height: auto;
+        float: left;
     }
 
 
@@ -1617,6 +1747,15 @@ footer{
     }
     .bloco-dest-home{
         margin-bottom: 50px;
+    }
+    .mg-15-all{
+        float: none;
+    }
+    .bloco-sub-submenu
+    {
+        position: relative;
+        margin-left: 15px;
+        width: 255px;
     }
 
 

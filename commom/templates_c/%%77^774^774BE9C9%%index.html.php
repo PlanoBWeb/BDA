@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.12, created on 2016-02-17 11:16:23
+<?php /* Smarty version 2.6.12, created on 2016-03-02 10:59:27
          compiled from index.html */ ?>
 <!DOCTYPE HTML>
 <html lang="pt-br">
@@ -54,11 +54,12 @@ unset($_smarty_tpl_vars);
                                         <div class="bloco-desc-banner">
                                             <h1>TIBCO Sportfire</h1>
                                             <p>Desbloqueie o valor em seus dados <br> para vencer no clima competitivo de hoje</p>
-                                            <a class="saiba-mais-vitrine" href="">» Saiba mais</a>
+                                            <a class="saiba-mais-vitrine" href="<?php echo $this->_tpl_vars['URL']; ?>
+software/tibco/spotfire-analytics-para-big-data">» Saiba mais</a>
                                         </div>
                                     </div>
-                                    <img src="<?php echo $this->_tpl_vars['URL']; ?>
-commom/img/banner.jpg" alt="banner" title="banner">
+                                    <img class="img-banner-home" src="<?php echo $this->_tpl_vars['URL']; ?>
+commom/img/banner.jpg" alt="TIBCO Sportfire - Desbloqueie o valor em seus dados <br> para vencer no clima competitivo de hoje" title="TIBCO Sportfire - Desbloqueie o valor em seus dados <br> para vencer no clima competitivo de hoje">
                                 </div>
                             </div>
                         </div>
@@ -88,41 +89,65 @@ commom/img/icon-busca.png" alt="Buscar" title="Buscar">
                         <div class="bloco-destaques-banner pd-bt-30">
                             <div id="owl-demo-home">
                                 <div class="item col-xs-12 col-sm-12 col-md-12 max-width-mob">
-                                    <div class="bola-cinza bola-dest"></div>
+                                    <a href="<?php echo $this->_tpl_vars['URL']; ?>
+software">
+                                        <div class="bola-transparente bola-dest">
+                                            <img class="img-bola-center" src="<?php echo $this->_tpl_vars['URL']; ?>
+commom/img/icon-software.png" alt="Software" title="Software">
+                                        </div>
+                                    </a>
                                     <div class="row">
                                         <h2 class="destaques-home align-center"><a href="<?php echo $this->_tpl_vars['URL']; ?>
-software">Software</a></h2>
-                                        <!-- <h3 class="txt-destaques-home align-center"><a href="<?php echo $this->_tpl_vars['URL']; ?>
-software">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum </a></h3> -->
+software" class="hover-default">Software</a></h2>
                                         <h3 class="txt-destaques-home align-center"><a href="<?php echo $this->_tpl_vars['URL']; ?>
-software">Saiba mais ></a></h3>
+software" class="hover-default">Nossos parceiros em Software evoluindo nossas soluções e serviços conheça > </a></h3>
+                                        <!-- <h3 class="txt-destaques-home align-center"><a href="<?php echo $this->_tpl_vars['URL']; ?>
+software">Saiba mais ></a></h3> -->
                                     </div>
                                 </div>
                                 <div class="item col-xs-12 col-sm-12 col-md-12 bloco-dest-home pd-none">
-                                    <div class="bola-rosa bola-dest"></div>
+                                    <a href="<?php echo $this->_tpl_vars['URL']; ?>
+solucoes">
+                                        <div class="bola-transparente bola-dest">
+                                            <img class="img-bola-center" src="<?php echo $this->_tpl_vars['URL']; ?>
+commom/img/icon-solucoes.png" alt="Soluções" title="Soluções">
+                                        </div>
+                                    </a>
                                     <div class="row">
                                         <h2 class="destaques-home align-center"><a href="<?php echo $this->_tpl_vars['URL']; ?>
-solucoes">Soluções</a></h2>
+solucoes" class="hover-default">Soluções</a></h2>
                                         <h3 class="txt-destaques-home align-center"><a href="<?php echo $this->_tpl_vars['URL']; ?>
-solucoes">Saiba mais ></a></h3>
+solucoes" class="hover-default">Inovações constantes aplicadas no mercado evoluem em nossas linhas de negócios e ofertas direcionadas></a></h3>
                                     </div>
                                 </div> 
                                 <div class="item col-xs-12 col-sm-12 col-md-12 bloco-dest-home pd-none">
-                                    <div class="bola-cinza bola-dest"></div>
+                                    <a href="<?php echo $this->_tpl_vars['URL']; ?>
+servicos">
+                                        <div class="bola-transparente bola-dest">
+                                            <img class="img-bola-center" src="<?php echo $this->_tpl_vars['URL']; ?>
+commom/img/icon-servicos.png" alt="Serviços" title="Serviços">
+                                        </div>
+                                    </a>
                                     <div class="row">
                                         <h2 class="destaques-home align-center"><a href="<?php echo $this->_tpl_vars['URL']; ?>
-servicos">Serviços</a></h2>
+servicos" class="hover-default">Serviços</a></h2>
                                         <h3 class="txt-destaques-home align-center"><a href="<?php echo $this->_tpl_vars['URL']; ?>
-servicos">Saiba mais ></a></h3>
+servicos" class="hover-default">Serviços personalizados ajudarão a planejar e implementar  rapidamente seus projetos integrando a solução do início ao fim do processo></a></h3>
                                     </div>
                                 </div>
                                 <div class="item col-xs-12 col-sm-12 col-md-12 bloco-dest-home pd-none">
-                                    <div class="bola-rosa bola-dest"></div>
+                                    <a href="<?php echo $this->_tpl_vars['URL']; ?>
+treinamentos">
+                                        <div class="bola-transparente bola-dest">
+                                            <img class="img-bola-center" src="<?php echo $this->_tpl_vars['URL']; ?>
+commom/img/icon-treinamentos.png" alt="Treinamentos" title="Treinamentos">
+                                        </div>
+                                    </a>
                                     <div class="row">
                                         <h2 class="destaques-home align-center"><a href="<?php echo $this->_tpl_vars['URL']; ?>
-treinamentos">Treinamentos</a></h2>
+treinamentos" class="hover-default">Treinamentos</a></h2>
                                         <h3 class="txt-destaques-home align-center"><a href="<?php echo $this->_tpl_vars['URL']; ?>
-treinamentos">Saiba mais ></a></h3>
+treinamentos" class="hover-default">Acelere o seu tempo de conhecimento investindo com os treinamento em nossas soluções></a></h3>
                                     </div>
                                 </div> 
                             </div>

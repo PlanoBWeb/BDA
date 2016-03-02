@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.12, created on 2016-02-17 11:54:22
+<?php /* Smarty version 2.6.12, created on 2016-03-02 10:30:14
          compiled from boomi-mdm.html */ ?>
 <!DOCTYPE HTML>
 <html lang="pt-br">
@@ -37,9 +37,13 @@ unset($_smarty_tpl_vars);
  ?>
             <!-- Banner -->
             <article class="banner-interna-faixa cor-linha-bn-software pd-none mg-top--5">
+                <img class="pull-right abs-left hidden-xs" src="<?php echo $this->_tpl_vars['URL']; ?>
+commom/img/bg-software2.jpg" alt="BOOMI MDM" title="BOOMI MDM">
                 <div class="width-default">
                     <h1 class="titulo-faixa-interna">BOOMI MDM</h1>
                 </div>
+                <img class="pull-right abs-right hidden-xs" src="<?php echo $this->_tpl_vars['URL']; ?>
+commom/img/topo-interna-software.jpg" alt="BOOMI MDM" title="BOOMI MDM">
             </article> 
             <!-- Banner -->
             <?php $_smarty_tpl_vars = $this->_tpl_vars;

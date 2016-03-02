@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.12, created on 2016-02-22 11:05:26
+<?php /* Smarty version 2.6.12, created on 2016-03-01 18:34:45
          compiled from backup-e-replicacao-de-banco-de-dados.html */ ?>
 <!DOCTYPE HTML>
 <html lang="pt-br">
@@ -37,9 +37,13 @@ unset($_smarty_tpl_vars);
  ?>
             <!-- Banner -->
             <article class="banner-interna-faixa cor-linha-bn-software pd-none mg-top--5">
+                <img class="pull-right abs-left hidden-xs" src="<?php echo $this->_tpl_vars['URL']; ?>
+commom/img/bg-software2.jpg" alt="Backup e Replicação de Banco de Dados" title="Backup e Replicação de Banco de Dados">
                 <div class="width-default">
                     <h1 class="titulo-faixa-interna pd-titulo-faixa-interna">Backup e Replicação de Banco de Dados <br><span>Garanta a continuidade  e agilidade de seus  negócios utilizando soluções para Backup<br> e replicação dos dados.</span></h1>
                 </div>
+                <img class="pull-right abs-right hidden-xs" src="<?php echo $this->_tpl_vars['URL']; ?>
+commom/img/topo-interna-software.jpg" alt="Backup e Replicação de Banco de Dados" title="Backup e Replicação de Banco de Dados">
             </article> 
             <!-- Banner -->
             <?php $_smarty_tpl_vars = $this->_tpl_vars;
@@ -54,26 +58,26 @@ unset($_smarty_tpl_vars);
 
                         A BDA oferece soluções que garante a continuidade dos negócios, replicando, integrando e fazendo backup de seus bancos de dados. Obtenha relatórios operacionais de descarregamento com alta disponibilidade para um sistema secundário econômico e integre seus repositórios de dados ao copiar somente dados alterados para Hadoop®, SQL Server®, IBM® DB2® e outras plataformas. Nossas soluções também simplificam e aceleram o backup e a recuperação de Oracle® e SQL Server, reduzindo drasticamente, ao mesmo tempo, os custos de armazenamento de dados.
                     </p>
-                    <h2 class="txt-interna"><strong><br><br>Backup do Banco de Dados</strong></h2>
+                    <h2 class="txt-interna"><strong class="sub-azul"><br><br>Backup do Banco de Dados</strong></h2>
                     <div class="row pd-tp-30">
                         <div class="col-xs-12 col-sm-3 col-md-3">
                             <a href="<?php echo $this->_tpl_vars['URL']; ?>
-software/dell/backup-e-replicacao-de-banco-de-dados/liteSpeed-for-sql">
+software/dell/backup-e-replicacao-de-banco-de-dados/litespeed-for-sql">
                                 <img class="pull-left pd-all-10" src="<?php echo $this->_tpl_vars['URL']; ?>
 commom/img/dell3.jpg" alt="LiteSpeed  for SQL" title="LiteSpeed  for SQL">
                             </a>
                             <h3 class="titulo-interna-inst mg-titulo-interna-inst"><a href="<?php echo $this->_tpl_vars['URL']; ?>
-software/dell/backup-e-replicacao-de-banco-de-dados/liteSpeed-for-sql"> LiteSpeed  for SQL </a></h3>
+software/dell/backup-e-replicacao-de-banco-de-dados/litespeed-for-sql"> LiteSpeed  for SQL </a></h3>
                         </div>   
                         <div class="col-xs-12 col-sm-8 col-md-8">     
                             <h4 class="sub-titulo-interna-inst mg-top-none"><strong><a href="<?php echo $this->_tpl_vars['URL']; ?>
-software/dell/backup-e-replicacao-de-banco-de-dados/liteSpeed-for-sql"> Backup, compactação e restauração de alta velocidade do SQL Server </a></strong></h4>
+software/dell/backup-e-replicacao-de-banco-de-dados/litespeed-for-sql"> Backup, compactação e restauração de alta velocidade do SQL Server </a></strong></h4>
                             <p class="txt-interna"><a href="<?php echo $this->_tpl_vars['URL']; ?>
-software/dell/backup-e-replicacao-de-banco-de-dados/liteSpeed-for-sql"> O LiteSpeed for SQL Server garante backup e restauração de alta velocidade e com armazenamento eficiente para bancos de dados SQL Server, com até 85% de economia no tamanho e na duração do backup em comparação às soluções concorrentes. Ao oferecer uma ampla variedade de opções de recuperação, o LiteSpeed garante que os dados certos do SQL Server sejam restaurados e fiquem disponíveis o mais rápido possível, além disso, integra-se ao Amazon S3 para oferecer backup baseado em cloud computing e restauração para instâncias locais e do SQL Server Amazon EC2.  </a></p>
+software/dell/backup-e-replicacao-de-banco-de-dados/litespeed-for-sql"> O LiteSpeed for SQL Server garante backup e restauração de alta velocidade e com armazenamento eficiente para bancos de dados SQL Server, com até 85% de economia no tamanho e na duração do backup em comparação às soluções concorrentes. Ao oferecer uma ampla variedade de opções de recuperação, o LiteSpeed garante que os dados certos do SQL Server sejam restaurados e fiquem disponíveis o mais rápido possível, além disso, integra-se ao Amazon S3 para oferecer backup baseado em cloud computing e restauração para instâncias locais e do SQL Server Amazon EC2.  </a></p>
                         </div> 
                     </div>
 
-                    <h2 class="txt-interna"><strong><br><br>Replicação e Integração do Banco de Dados</strong></h2>
+                    <h2 class="txt-interna"><strong class="sub-azul"><br><br>Replicação e Integração do Banco de Dados</strong></h2>
                     <div class="row pd-tp-30">
                         <div class="col-xs-12 col-sm-3 col-md-3">
                             <a href="<?php echo $this->_tpl_vars['URL']; ?>

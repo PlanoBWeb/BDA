@@ -9,6 +9,25 @@
         });
     });
 
+    // Sub Submenu Topo
+    $('.sub-submenu').mouseenter(function(){
+        $(this).children('.bloco-sub-submenu').css('display', 'block');
+    });
+    $('.sub-submenu').mouseleave(function(){
+        $(this).children('.bloco-sub-submenu').css('display', 'none');
+    });
+
+    $('.sub-submenu-mob').click(function(){
+        event.preventDefault();
+        $(this).children('.bloco-sub-submenu').slideToggle();
+    });
+    // $('.sub-submenu-mob').click(function(){
+    //     event.preventDefault();
+    //     $(this).children('.bloco-sub-submenu').css('display', 'none');
+    // });
+
+
+
     window.onresize = function() {
         
         $(".linha-menu-topo .dropdown-toggle").click(function(){

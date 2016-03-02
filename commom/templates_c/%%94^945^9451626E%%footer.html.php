@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.12, created on 2016-02-17 11:04:16
+<?php /* Smarty version 2.6.12, created on 2016-03-01 17:54:57
          compiled from ../inc/footer.html */ ?>
     <article class="blog-destaques-home">
         <div class="width-default">
@@ -45,29 +45,29 @@ commom/img/logo-footer.png" alt="BDA" title="BDA">
                 <div class="row">
                     <div class="col-xs-12 col-sm-6 col-md-6 pd-none">
                         <ul>
-                            <li class="linha-menu-rodape"><a class="link-menu-rodape" href="<?php echo $this->_tpl_vars['URL']; ?>
+                            <li class="linha-menu-rodape"><a class="link-menu-rodape hover-default-footer" href="<?php echo $this->_tpl_vars['URL']; ?>
 quem-somos">Quem somos</a></li>
-                            <li class="linha-menu-rodape"><a class="link-menu-rodape" href="<?php echo $this->_tpl_vars['URL']; ?>
+                            <li class="linha-menu-rodape"><a class="link-menu-rodape hover-default-footer" href="<?php echo $this->_tpl_vars['URL']; ?>
 parceiros">Parceiros</a></li>
-                            <li class="linha-menu-rodape"><a class="link-menu-rodape" href="<?php echo $this->_tpl_vars['URL']; ?>
+                            <li class="linha-menu-rodape"><a class="link-menu-rodape hover-default-footer" href="<?php echo $this->_tpl_vars['URL']; ?>
 clientes">Clientes</a></li>
-                            <li class="linha-menu-rodape"><a class="link-menu-rodape" href="<?php echo $this->_tpl_vars['URL']; ?>
+                            <li class="linha-menu-rodape"><a class="link-menu-rodape hover-default-footer" href="<?php echo $this->_tpl_vars['URL']; ?>
 cases">Cases</a></li>
-                            <li class="linha-menu-rodape"><a class="link-menu-rodape" href="<?php echo $this->_tpl_vars['URL']; ?>
+                            <li class="linha-menu-rodape"><a class="link-menu-rodape hover-default-footer" href="<?php echo $this->_tpl_vars['URL']; ?>
 blog">Blog</a></li>
-                            <li class="linha-menu-rodape"><a class="link-menu-rodape" href="<?php echo $this->_tpl_vars['URL']; ?>
+                            <li class="linha-menu-rodape"><a class="link-menu-rodape hover-default-footer" href="<?php echo $this->_tpl_vars['URL']; ?>
 contato">Contato</a></li>
                         </ul>
                     </div>   
                     <div class="col-xs-12 col-sm-6 col-md-6 pd-none">
                         <ul class="menu-dois-footer">
-                            <li class="linha-menu-rodape"><a class="link-menu-rodape" href="<?php echo $this->_tpl_vars['URL']; ?>
+                            <li class="linha-menu-rodape"><a class="link-menu-rodape hover-default-footer" href="<?php echo $this->_tpl_vars['URL']; ?>
 software">Software</a></li>
-                            <li class="linha-menu-rodape"><a class="link-menu-rodape" href="<?php echo $this->_tpl_vars['URL']; ?>
+                            <li class="linha-menu-rodape"><a class="link-menu-rodape hover-default-footer" href="<?php echo $this->_tpl_vars['URL']; ?>
 solucoes">Soluções</a></li>
-                            <li class="linha-menu-rodape"><a class="link-menu-rodape" href="<?php echo $this->_tpl_vars['URL']; ?>
+                            <li class="linha-menu-rodape"><a class="link-menu-rodape hover-default-footer" href="<?php echo $this->_tpl_vars['URL']; ?>
 servicos">Serviços</a></li>
-                            <li class="linha-menu-rodape"><a class="link-menu-rodape" href="<?php echo $this->_tpl_vars['URL']; ?>
+                            <li class="linha-menu-rodape"><a class="link-menu-rodape hover-default-footer" href="<?php echo $this->_tpl_vars['URL']; ?>
 treinamentos">Treinamentos</a></li>
                         </ul>
                     </div>        
@@ -80,16 +80,16 @@ treinamentos">Treinamentos</a></li>
                         <br>
                     </p>
                     
-                    <a class="txt-local-footer" href="">
+                    <a class="txt-local-footer hover-default-footer" href="https://goo.gl/maps/ZUeSaoP7UGD2" target="_blank">
                         <img src="<?php echo $this->_tpl_vars['URL']; ?>
 commom/img/icon-local.png" alt="Local" title="Local">
                         Rua Loefgreen, 1.279 - Cep: 04040-031<br>
                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Vila Mariana - São Paulo / SP - Brasil
                         <br><br>
                     </a> 
-                    <a class="txt-local-footer" href="tel:5501135884708"><img src="<?php echo $this->_tpl_vars['URL']; ?>
+                    <a class="txt-local-footer hover-default-footer" href="tel:5501135884708"><img src="<?php echo $this->_tpl_vars['URL']; ?>
 commom/img/icon-tel.png" alt="+55 11 3588-4708" title="+55 11 3588-4708">+55 11 3588-4708</a> <br>          
-                    <a class="txt-local-footer" href="mailto:contato@bdasolutions.com.br"><img src="<?php echo $this->_tpl_vars['URL']; ?>
+                    <a class="txt-local-footer hover-default-footer" href="mailto:contato@bdasolutions.com.br"><img src="<?php echo $this->_tpl_vars['URL']; ?>
 commom/img/icon-email.png" alt="contato@bdasolutions.com.br" title="contato@bdasolutions.com.br">contato@bdasolutions.com.br</a>  
                     <br>              
                 </div>

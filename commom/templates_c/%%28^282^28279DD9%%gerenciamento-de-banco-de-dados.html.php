@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.12, created on 2016-02-22 14:12:19
+<?php /* Smarty version 2.6.12, created on 2016-03-01 18:32:13
          compiled from gerenciamento-de-banco-de-dados.html */ ?>
 <!DOCTYPE HTML>
 <html lang="pt-br">
@@ -37,9 +37,13 @@ unset($_smarty_tpl_vars);
  ?>
             <!-- Banner -->
             <article class="banner-interna-faixa cor-linha-bn-software pd-none mg-top--5">
+                <img class="pull-right abs-left hidden-xs" src="<?php echo $this->_tpl_vars['URL']; ?>
+commom/img/bg-software2.jpg" alt="Gerenciamento de banco de dados" title="Gerenciamento de banco de dados">
                 <div class="width-default">
                     <h1 class="titulo-faixa-interna pd-titulo-faixa-interna">Gerenciamento de banco de dados <br><span>Reduza o Custo de sua Gestão em Banco de Dados</span></h1>
                 </div>
+                <img class="pull-right abs-right hidden-xs" src="<?php echo $this->_tpl_vars['URL']; ?>
+commom/img/topo-interna-software.jpg" alt="Gerenciamento de banco de dados" title="Gerenciamento de banco de dados">
             </article> 
             <!-- Banner -->
             <?php $_smarty_tpl_vars = $this->_tpl_vars;
@@ -56,7 +60,7 @@ unset($_smarty_tpl_vars);
 
                         Esta solução é formada por 3 grupos: Desenvolvimento de Banco de Dados, Administração de Banco de Dados e Monitoramento e Análise do banco de dados.
 
-                        <strong><br><br>Desenvolvimento de Banco de Dados</strong>
+                        <strong class="sub-azul"><br><br>Desenvolvimento de Banco de Dados</strong>
                     </p>
                     <div class="row pd-tp-30">
                         <div class="col-xs-12 col-sm-3 col-md-3">
@@ -110,7 +114,7 @@ software/dell/gerenciamento-de-banco-de-dados/toad-for-oracle"> Aumente a efici�
                         </div> 
                     </div>
                     <p class="txt-interna">
-                        <strong><br><br>Administração de Banco de Dados</strong>
+                        <strong class="sub-azul"><br><br>Administração de Banco de Dados</strong>
                     </p>                    
                     <div class="row pd-tp-30">
                         <div class="col-xs-12 col-sm-3 col-md-3">
@@ -147,7 +151,7 @@ software/dell/gerenciamento-de-banco-de-dados/toad-for-sql-server"> Gerencie fac
                         </div> 
                     </div>
                     <p class="txt-interna">
-                        <strong><br><br>Monitoramento e Análise do banco de dados</strong>
+                        <strong class="sub-azul"><br><br>Monitoramento e Análise do banco de dados</strong>
                     </p> 
                     <div class="row pd-tp-30">
                         <div class="col-xs-12 col-sm-3 col-md-3">

@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.12, created on 2016-02-17 11:43:38
+<?php /* Smarty version 2.6.12, created on 2016-03-01 17:54:57
          compiled from ../inc/breadcrumb.html */ ?>
 <article class="conteudo bread-pesquisar">
     <div class="row">
@@ -13,42 +13,102 @@ home/">Home</a>
                         <li class="linha-breadcrumb">
                             >
                         </li>
-
-                        <?php if ($this->_tpl_vars['pagina'] == 'produto'): ?>
-                            <li class="linha-breadcrumb">           
-                                <a href="<?php echo $this->_tpl_vars['URL']; ?>
-produtos"><?php echo $this->_tpl_vars['breadcrumb']; ?>
-</a>
-                            </li>
-                             <li class="linha-breadcrumb">
-                                >
-                            </li>
-                            <li class="linha-breadcrumb">           
-                                <?php if ($this->_tpl_vars['id'] == "camisetas-personalizadas"): ?>
-                                    CAMISETAS PERSONALIZADAS
-                                <?php elseif ($this->_tpl_vars['id'] == "camiseta-formatura"): ?>
-                                    CAMISETA FORMATURA
-                                <?php elseif ($this->_tpl_vars['id'] == "camisetas-religiosas"): ?>
-                                    CAMISETAS RELIGIOSAS
+                        <?php if ($this->_tpl_vars['url'][3]): ?>                             
+                            <?php $_from = $this->_tpl_vars['permissao']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }if (count($_from)):
+    foreach ($_from as $this->_tpl_vars['paginaBread'] => $this->_tpl_vars['nomeBread']):
+?>                            
+                                <?php if ($this->_tpl_vars['paginaBread'] == $this->_tpl_vars['url'][0]): ?>                                 
+                                    <li class="linha-breadcrumb"><a href="<?php echo $this->_tpl_vars['URL'];  echo $this->_tpl_vars['paginaBread']; ?>
+" class="link-bread"><?php echo $this->_tpl_vars['nomeBread']; ?>
+</a></li><li class="linha-breadcrumb"> > </li>
+                                    <?php $_from = $this->_tpl_vars['permissao']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }if (count($_from)):
+    foreach ($_from as $this->_tpl_vars['paginaBread1'] => $this->_tpl_vars['nomeBread1']):
+?>                                    
+                                        <?php if ($this->_tpl_vars['paginaBread1'] == $this->_tpl_vars['url'][1]): ?>                                         
+                                            <li class="linha-breadcrumb"><a href="<?php echo $this->_tpl_vars['URL'];  echo $this->_tpl_vars['paginaBread']; ?>
+/<?php echo $this->_tpl_vars['paginaBread1']; ?>
+" class="link-bread"><?php echo $this->_tpl_vars['nomeBread1']; ?>
+</a></li>
+                                            <li class="linha-breadcrumb"> > </li>
+                                            <?php $_from = $this->_tpl_vars['permissao']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }if (count($_from)):
+    foreach ($_from as $this->_tpl_vars['paginaBread2'] => $this->_tpl_vars['nomeBread2']):
+?>                                            
+                                                <?php if ($this->_tpl_vars['paginaBread2'] == $this->_tpl_vars['url'][2]): ?>
+                                                    <li class="linha-breadcrumb"><a href="<?php echo $this->_tpl_vars['URL'];  echo $this->_tpl_vars['paginaBread']; ?>
+/<?php echo $this->_tpl_vars['paginaBread1']; ?>
+/<?php echo $this->_tpl_vars['paginaBread2']; ?>
+" class="link-bread"><?php echo $this->_tpl_vars['nomeBread2']; ?>
+</a></li>
+                                                    <li class="linha-breadcrumb"> > </li>
+                                                    <?php $_from = $this->_tpl_vars['permissao']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }if (count($_from)):
+    foreach ($_from as $this->_tpl_vars['paginaBread3'] => $this->_tpl_vars['nomeBread3']):
+?>                                            
+                                                        <?php if ($this->_tpl_vars['paginaBread3'] == $this->_tpl_vars['url'][3]): ?>
+                                                            <li class="linha-breadcrumb linha-breadcrumb-ativo"><?php echo $this->_tpl_vars['nomeBread3']; ?>
+</li>
+                                                        <?php endif; ?>
+                                                    <?php endforeach; endif; unset($_from); ?>  
+                                                <?php endif; ?>
+                                            <?php endforeach; endif; unset($_from); ?>  
+                                        <?php endif; ?>
+                                    <?php endforeach; endif; unset($_from); ?>                                              
                                 <?php endif; ?>
-                            </li>
-                        <?php elseif ($this->_tpl_vars['id'] == 'camisetas'): ?>
-                            <li class="linha-breadcrumb">           
-                                <a href="<?php echo $this->_tpl_vars['URL']; ?>
-produtos"><?php echo $this->_tpl_vars['breadcrumb']; ?>
-</a>
-                            </li>
-                             <li class="linha-breadcrumb">
-                                >
-                            </li>
-                            <li class="linha-breadcrumb">
-                                Camisetas
-                            </li>
-                        <?php else: ?>
-                            <li class="linha-breadcrumb">           
-                                <?php echo $this->_tpl_vars['breadcrumb']; ?>
-
-                            </li>
+                            <?php endforeach; endif; unset($_from); ?>
+                        <?php elseif ($this->_tpl_vars['url'][2]): ?>                             
+                            <?php $_from = $this->_tpl_vars['permissao']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }if (count($_from)):
+    foreach ($_from as $this->_tpl_vars['paginaBread'] => $this->_tpl_vars['nomeBread']):
+?>                            
+                                <?php if ($this->_tpl_vars['paginaBread'] == $this->_tpl_vars['url'][0]): ?>                                 
+                                    <li class="linha-breadcrumb"><a href="<?php echo $this->_tpl_vars['URL'];  echo $this->_tpl_vars['paginaBread']; ?>
+" class="link-bread"><?php echo $this->_tpl_vars['nomeBread']; ?>
+</a></li><li class="linha-breadcrumb"> > </li>
+                                    <?php $_from = $this->_tpl_vars['permissao']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }if (count($_from)):
+    foreach ($_from as $this->_tpl_vars['paginaBread1'] => $this->_tpl_vars['nomeBread1']):
+?>                                    
+                                        <?php if ($this->_tpl_vars['paginaBread1'] == $this->_tpl_vars['url'][1]): ?>                                         
+                                            <li class="linha-breadcrumb"><a href="<?php echo $this->_tpl_vars['URL'];  echo $this->_tpl_vars['paginaBread']; ?>
+/<?php echo $this->_tpl_vars['paginaBread1']; ?>
+" class="link-bread"><?php echo $this->_tpl_vars['nomeBread1']; ?>
+</a></li><li class="linha-breadcrumb"> > </li>
+                                            <?php $_from = $this->_tpl_vars['permissao']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }if (count($_from)):
+    foreach ($_from as $this->_tpl_vars['paginaBread2'] => $this->_tpl_vars['nomeBread2']):
+?>                                            
+                                                <?php if ($this->_tpl_vars['paginaBread2'] == $this->_tpl_vars['url'][2]): ?>
+                                                    <li class="linha-breadcrumb linha-breadcrumb-ativo"><?php echo $this->_tpl_vars['nomeBread2']; ?>
+</li>
+                                                <?php endif; ?>
+                                            <?php endforeach; endif; unset($_from); ?>  
+                                        <?php endif; ?>
+                                    <?php endforeach; endif; unset($_from); ?>                                              
+                                <?php endif; ?>
+                            <?php endforeach; endif; unset($_from); ?>
+                        <?php elseif ($this->_tpl_vars['url'][1]): ?>                             
+                            <?php $_from = $this->_tpl_vars['permissao']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }if (count($_from)):
+    foreach ($_from as $this->_tpl_vars['paginaBread'] => $this->_tpl_vars['nomeBread']):
+?>                            
+                                <?php if ($this->_tpl_vars['paginaBread'] == $this->_tpl_vars['url'][0]): ?>                                 
+                                    <li class="linha-breadcrumb"><a href="<?php echo $this->_tpl_vars['URL'];  echo $this->_tpl_vars['paginaBread']; ?>
+" class="link-bread"><?php echo $this->_tpl_vars['nomeBread']; ?>
+</a></li><li class="linha-breadcrumb"> > </li>
+                                    <?php $_from = $this->_tpl_vars['permissao']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }if (count($_from)):
+    foreach ($_from as $this->_tpl_vars['paginaBread1'] => $this->_tpl_vars['nomeBread1']):
+?>                                    
+                                        <?php if ($this->_tpl_vars['paginaBread1'] == $this->_tpl_vars['url'][1]): ?>                                         
+                                            <li class="linha-breadcrumb linha-breadcrumb-ativo"><?php echo $this->_tpl_vars['nomeBread1']; ?>
+</li>
+                                        <?php endif; ?>
+                                    <?php endforeach; endif; unset($_from); ?>                                              
+                                <?php endif; ?>
+                            <?php endforeach; endif; unset($_from); ?>
+                        <?php elseif ($this->_tpl_vars['url'][0]): ?>                             
+                            <?php $_from = $this->_tpl_vars['permissao']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }if (count($_from)):
+    foreach ($_from as $this->_tpl_vars['paginaBread'] => $this->_tpl_vars['nomeBread']):
+?>                                    
+                                <?php if ($this->_tpl_vars['paginaBread'] == $this->_tpl_vars['url'][0]): ?>                                         
+                                    <li class="linha-breadcrumb linha-breadcrumb-ativo"><?php echo $this->_tpl_vars['nomeBread']; ?>
+</li>
+                                <?php endif; ?>
+                            <?php endforeach; endif; unset($_from); ?>                                              
                         <?php endif; ?>
                     </ul>
                 </div>

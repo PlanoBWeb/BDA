@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.12, created on 2016-02-16 15:55:07
+<?php /* Smarty version 2.6.12, created on 2016-03-02 10:23:28
          compiled from ../inc/header.html */ ?>
 <div id="fb-root"></div>
 <?php echo '
@@ -111,12 +111,58 @@ commom/img/seta-software.png" alt="software" title="software"><?php endif; ?>
                                         <ul class="dropdown-menu">
                                             <div class="bloco-dropdown-menu">
                                                 <!-- <li><span class="link-menu-topo">&nbsp;&nbsp;&nbsp;&nbsp;Dell</span></li> -->
-                                                <li><a class="link-menu-topo linha-menu-topo-software" href="<?php echo $this->_tpl_vars['URL']; ?>
-software"><img src="<?php echo $this->_tpl_vars['URL']; ?>
-commom/img/seta-drop-software.png" alt="software" title="software">Software</a></li>
-                                                <!-- <li><a class="link-menu-topo linha-menu-topo-software" href="<?php echo $this->_tpl_vars['URL']; ?>
-software-interna"><img src="<?php echo $this->_tpl_vars['URL']; ?>
-commom/img/seta-drop-software.png" alt="software" title="software">Software interna</a></li> -->
+                                                <li class="sub-submenu hidden-xs">
+                                                    <a class="link-menu-topo linha-menu-topo-software" href="<?php echo $this->_tpl_vars['URL']; ?>
+software/dell"><img src="<?php echo $this->_tpl_vars['URL']; ?>
+commom/img/seta-drop-software.png" alt="Dell" title="Dell">Dell</a>
+                                                    <div class="bloco-sub-submenu">
+                                                        <ul class="dropdown-sub-submenu">
+                                                            <li><a class="link-menu-topo linha-menu-topo-software" href="<?php echo $this->_tpl_vars['URL']; ?>
+software/dell/integracao-de-dados-e-aplicativos"><img src="<?php echo $this->_tpl_vars['URL']; ?>
+commom/img/seta-drop-software.png" alt="Dell" title="Dell">Integração De Dados</a></li>
+                                                            <li><a class="link-menu-topo linha-menu-topo-software" href="<?php echo $this->_tpl_vars['URL']; ?>
+software/dell/gerenciamento-de-banco-de-dados"><img src="<?php echo $this->_tpl_vars['URL']; ?>
+commom/img/seta-drop-software.png" alt="Dell" title="Dell">Gerenciamento De Banco De Dados</a></li>
+                                                            <li><a class="link-menu-topo linha-menu-topo-software" href="<?php echo $this->_tpl_vars['URL']; ?>
+software/dell/business-intelligence"><img src="<?php echo $this->_tpl_vars['URL']; ?>
+commom/img/seta-drop-software.png" alt="Dell" title="Dell">Busines Intelligence</a></li>
+                                                            <li><a class="link-menu-topo linha-menu-topo-software" href="<?php echo $this->_tpl_vars['URL']; ?>
+software/dell/backup-e-replicacao-de-dados"><img src="<?php echo $this->_tpl_vars['URL']; ?>
+commom/img/seta-drop-software.png" alt="Dell" title="Dell">Backup E Replicação de Dados</a></li>
+                                                            <li><a class="link-menu-topo linha-menu-topo-software" href="<?php echo $this->_tpl_vars['URL']; ?>
+software/dell/advanced-analytics"><img src="<?php echo $this->_tpl_vars['URL']; ?>
+commom/img/seta-drop-software.png" alt="Dell" title="Dell">Advanced Analytics</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </li>
+                                                <li class="sub-submenu-mob visible-xs-block">
+                                                    <a class="link-menu-topo linha-menu-topo-software" href="<?php echo $this->_tpl_vars['URL']; ?>
+software/dell"><img src="<?php echo $this->_tpl_vars['URL']; ?>
+commom/img/seta-drop-software.png" alt="Dell" title="Dell">Dell</a>
+                                                    <div class="bloco-sub-submenu">
+                                                        <ul class="dropdown-sub-submenu">
+                                                            <li><a class="link-menu-topo linha-menu-topo-software" href="<?php echo $this->_tpl_vars['URL']; ?>
+software/dell/integracao-de-dados-e-aplicativos"><img src="<?php echo $this->_tpl_vars['URL']; ?>
+commom/img/seta-drop-software.png" alt="Dell" title="Dell">Integração De Dados</a></li>
+                                                            <li><a class="link-menu-topo linha-menu-topo-software" href="<?php echo $this->_tpl_vars['URL']; ?>
+software/dell/gerenciamento-de-banco-de-dados"><img src="<?php echo $this->_tpl_vars['URL']; ?>
+commom/img/seta-drop-software.png" alt="Dell" title="Dell">Gerenciamento De Banco De Dados</a></li>
+                                                            <li><a class="link-menu-topo linha-menu-topo-software" href="<?php echo $this->_tpl_vars['URL']; ?>
+software/dell/business-intelligence"><img src="<?php echo $this->_tpl_vars['URL']; ?>
+commom/img/seta-drop-software.png" alt="Dell" title="Dell">Busines Intelligence</a></li>
+                                                            <li><a class="link-menu-topo linha-menu-topo-software" href="<?php echo $this->_tpl_vars['URL']; ?>
+software/dell/backup-e-replicacao-de-dados"><img src="<?php echo $this->_tpl_vars['URL']; ?>
+commom/img/seta-drop-software.png" alt="Dell" title="Dell">Backup E Replicação de Dados</a></li>
+                                                            <li><a class="link-menu-topo linha-menu-topo-software" href="<?php echo $this->_tpl_vars['URL']; ?>
+software/dell/advanced-analytics"><img src="<?php echo $this->_tpl_vars['URL']; ?>
+commom/img/seta-drop-software.png" alt="Dell" title="Dell">Advanced Analytics</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </li>
+                                                <li class="link-menu-topo linha-menu-topo-software"><img src="<?php echo $this->_tpl_vars['URL']; ?>
+commom/img/seta-drop-software.png" alt="Tibco" title="Tibco">Tibco</li>
+                                                <li class="link-menu-topo linha-menu-topo-software"><img src="<?php echo $this->_tpl_vars['URL']; ?>
+commom/img/seta-drop-software.png" alt="microsoft" title="microsoft">Microsoft</li>
                                             </div>
                                         </ul>
                                     </li>
