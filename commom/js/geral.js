@@ -44,13 +44,32 @@
     });
 
     // Drop menu Superior
+    // $( ".bloco-menu-sup" ).click(function() {
+    //     $( ".menu-sup" ).slideToggle( "slow");
+    // });
+
+    // $( ".close-menu-sup" ).click(function() {
+    //     $( ".menu-sup" ).slideToggle( "slow");
+    // });
+
     $( ".bloco-menu-sup" ).click(function() {
-        $( ".menu-sup" ).slideToggle( "slow");
+        var left = $(".menu-sup");
+        $( left ).animate({
+            right: parseInt(left.css('right'),10) == 0 ?
+                -left.outerWidth() :
+                0
+        });
     });
 
     $( ".close-menu-sup" ).click(function() {
-        $( ".menu-sup" ).slideToggle( "slow");
+        var left = $(".menu-sup");
+        $( left ).animate({
+            right: parseInt(left.css('right'),10) == 0 ?
+                -left.outerWidth() :
+                0
+        });
     });
+
 
     // Destaques Blog Home
     $(document).ready(function() {

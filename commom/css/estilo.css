@@ -24,6 +24,8 @@ time, mark, audio, video {
 }
 body {
     line-height:1;
+    max-width:  2200px;
+    margin:     auto;
 }
 article,aside,details,figcaption,figure,
 footer,header,hgroup,menu,nav,section {
@@ -83,11 +85,17 @@ img{
 .pd-lt-30{
     padding-left: 30px !important;
 }
+.pd-tp-10{
+    padding-top: 7px !important;
+}
 .pd-tp-20{
     padding-top: 20px !important;
 }
 .pd-tp-30{
     padding-top: 30px !important;
+}
+.pd-tp-50{
+    padding-top: 50px !important;
 }
 .pd-tp-60{
     padding-top: 60px !important;
@@ -105,7 +113,8 @@ img{
     padding: 0px 10px;
 }
 .mg-top--5{
-    margin-top: -5px !important;
+    /*margin-top: -5px !important;*/
+    margin-top: -7px !important;
 }
 .mg-top--20{
     margin-top: -20px !important;
@@ -160,10 +169,36 @@ li{
 .width-default{
     width:      100%;
     max-width:  1080px;
+    /*max-width:  95%;*/
     height:     auto;
     display:    table;
     margin:     auto;
     position:   relative;
+}
+.img-logo-desk
+{
+    max-height: 102px;
+}
+.img-banner-home
+{
+    background-size:    cover; 
+    width:              100%;
+}
+.cor-linha-software
+{
+    color: #4ba5dc !important;
+}
+.cor-linha-solucoes
+{
+    color: #f79447 !important;
+}
+.cor-linha-servicos
+{
+    color: #ef5a88 !important;
+}
+.cor-linha-treinamentos
+{
+    color: #39bb9c !important;
 }
 .cor-linha-bn-software{
     /*background:     #4ba5dc;*/
@@ -219,6 +254,18 @@ header{
     text-decoration: none;
     text-transform:  uppercase !important;
     margin:          0px;
+}
+.dropdown-sub-submenu .link-menu-topo
+{
+    font-family:    'Raleway-Light' !important;
+}   
+.dropdown-menu .link-menu-topo
+{
+    font-family:    'Raleway-Light' !important;
+}   
+.font-light
+{
+    font-family:    'Raleway-Light' !important;
 }
 .link-submenu-ativo{
     color: #243743 !important;
@@ -277,6 +324,7 @@ header{
 .topo{
     width:      100%;
     max-width:  1080px;
+    /*max-width:  95%;*/
     height:     auto;
     display:    table;
     position:   relative;
@@ -288,14 +336,16 @@ header{
     position:   absolute;
     max-width:  500px;
     z-index:    9999;
-    margin-top: 8.5%;
-    margin-left:6%;
+    /*margin-top: 8.5%;*/
+    margin-top: 90px;
+    /*margin-left:6%;*/
 }
 .vitrine-index
     {
     margin-bottom:  20px;
     margin-top:     60px;
-    max-width:      1250px;
+    /*max-width:      1250px;*/
+    max-width:      100%;
     margin:         auto;
     display:        block;
 }
@@ -322,7 +372,8 @@ header{
 }
 .espaco-header{
     /*padding: 20px 0px 10px 0px !important;*/
-    padding: 10px 0px 15px 0px !important;
+    /*padding: 10px 0px 15px 0px !important;*/
+    padding: 4px 0px 10px 0px !important;
 }
 .form-busca{
     width: 300px !important;
@@ -438,9 +489,13 @@ header{
     height:         auto;
     display:        table;
     position:       relative;
-    padding-bottom: 23px;
     padding:        15px;
+    padding-bottom: 8px;
     margin-top:     20px;
+}
+.services-destaque-home .owl-item
+{
+    padding: 0px 15px;
 }
 .img-dest-home{
     display:        table;
@@ -461,8 +516,8 @@ header{
     display:            table;
     position:           relative;
     background-color:   #4ba5dc;
-    padding:            30px 0px 15px 0px;
-    margin-top:         10px;
+    padding:            14px 0px 4px 0px;
+    /*margin-top:         10px;*/
 }
 
 #owl-demo-blog .item{
@@ -565,7 +620,7 @@ header{
     display: none !important;
 }
 .bloco-txt-assine{
-    width:      280px;
+    width:      290px;
     height:     auto;
     float:      left;
     position:   relative;
@@ -613,7 +668,7 @@ footer{
     display:            table;
     position:           relative;
     margin:             auto;
-    padding:            30px 0px;
+    padding:            7px 0px;
 }
 .titulo-footer{
     color: #4ba5dc;
@@ -637,7 +692,7 @@ footer{
     display:        block;
     text-decoration:none;
     color:          #fff;
-    font-size:      0.9em;
+    font-size:      0.85em;
     font-family:    'Raleway-Regular';
 }
 .txt-local-footer:hover{
@@ -662,7 +717,8 @@ footer{
     height:     auto;
     display:    table;
     margin:     auto;
-    padding:    30px 50px 10px 50px;
+    /*padding:    30px 50px 10px 50px;*/
+    padding:    8px 50px 7px 50px;
 }
 .txt-direitos{
     color:      #3a3a3a;
@@ -677,29 +733,43 @@ footer{
 /*Internas*/
 .bloco-desc-banner-interna{
     position:   absolute;
-    left:       35px;
-    top:        190px;
+    /*left:       35px;*/
+    top: 288px;
+    z-index:    999999;
+
+
+/*    max-width:  500px;
+*/
 }
 .bloco-bg-banner-interna{
     width:      540px;
     height:     177px;
-    background: #000;
+    /*background: #000;*/
     opacity:    0.5;
     position:   absolute;
     left:       0;
     top:        180px;   
 }
+.bloco-img-banner-int
+{
+    width:      100%;
+    height:     100%;
+    max-height: 462px;
+    height:     462px;
+    position:   relative;
+    overflow:   hidden;
+}
 .titulo-banner-interna{
+    font-size:      2.8em;
     color:          #fff;
-    font-size:      2.4em;    
-    font-family:    'Raleway-SemiBold';
+    font-family:    'Raleway-Light';
+    margin-top:     0px;
     text-transform: uppercase;
 }
 .subtitulo-banner-interna{
+    font-size:      1.4em;
     color:          #fff;
-    font-size:      1.8em;    
-    font-family:    'Raleway-SemiBold';   
-    line-height:    1.2;
+    font-family:    'Raleway-Regular';
 }
 .bread-pesquisar{
     padding-top: 30px;
@@ -737,7 +807,7 @@ footer{
 }
 .menu-topo-ativo{
     position:   absolute;
-    bottom:     -2px;
+    bottom:     -4px;
     left:       45%;
 }
 .linha-top-banner-int{
@@ -750,7 +820,7 @@ footer{
 .banner-interna-faixa{
     width:              100%;
     height:             130px;
-    max-width:          1090px;
+    /*max-width:          1090px;*/
     margin:             auto;
     display:            table;
     position:           relative;
@@ -883,7 +953,7 @@ footer{
 .linha-softwares{
     font-family:    'Raleway-Medium';
     color:          #000;
-    font-size:      1em;
+    font-size:      0.9em;
     list-style:     none;
     margin:         5px;
 }
@@ -1332,17 +1402,20 @@ footer{
         padding: 35px 0px;
     }
     .link-menu-topo{
-        padding:        0px 22px !important;
+        padding:        0px 20px !important;
     }
-    .border-top-menu{
+    /*.border-top-menu{
         border-right:   1px solid #f4f4f4;
-    }
+    }*/
     .linha-menu-topo{
-        padding:        40px 22px;
+        /*padding:        40px 22px;*/
+        padding-top:       38px !important;
+        padding-bottom:    18px !important;
         /*border-right:    1px solid #f4f4f4; */
     }
     .navbar-nav>li>.dropdown-menu{
-        margin-top: -5px !important;
+        /*margin-top: -5px !important;*/
+        margin-top: -2px !important;
     }
     .navbar-nav>li>.dropdown-menu>li{
         margin: 5px 0px !important;
@@ -1357,6 +1430,7 @@ footer{
     }
     .border-bloco-footer{
         border-right: 1px solid #556271;
+        /*padding-top:  14px !important;*/
     }
     .dropdown:hover .dropdown-menu{
         display: block;
@@ -1376,7 +1450,7 @@ footer{
     .hover-treinamentos:hover{
         border-bottom: 10px solid #37780f;
     }
-    .linha-menu-topo:hover{
+    /*.linha-menu-topo:hover{
         background: #c0c5ca;    
     }
     .linha-menu-topo:hover .border-top-menu{
@@ -1385,7 +1459,7 @@ footer{
     }
     .linha-menu-topo-ativo{
         background: #c0c5ca;       
-    }
+    }*/
     .bloco-dropdown-menu li{
         padding: 5px 0px;
     }
@@ -1422,18 +1496,27 @@ footer{
         cursor:         pointer;
         margin-right:   20px;
     }
+    .block-hidden
+    {
+        width: 100%;
+        min-height: 100%;
+        position: absolute;
+        display: table;
+        overflow: hidden;
+    }
     .menu-sup{
-        display:    none;
-        width:      100%;
-        height:     auto;
-        padding:    15px;
-        position:   absolute;
+        /*display:    none;*/
+        width:      235px;
+        height: 94%;
+        padding: 15px;
+        position: absolute;
         background: #2d3e50;
-        top:        44px;
+        top: 6%;
         z-index:    999;
+        right:      -250px;
     }
     .linha-menu-sup{
-        float: left;
+        /*float: left;*/
     }
     .link-menu-sup{
         font-size:          1.1em;
@@ -1444,8 +1527,13 @@ footer{
         margin:             0px;
     }
     .linha-menu-sup{
-        border-right:       1px solid #fff;
-        padding:            20px; 
+        /*border-right:       1px solid #fff;*/
+        padding:            10px; 
+    }
+    .link-menu-sup:hover
+    {
+        color:          #999 !important;
+        font-weight:    bold;
     }
     .linha-menu-sup:last-child{
         border-right: transparent;   
@@ -1453,7 +1541,8 @@ footer{
     .encapsula-menu--sup{
         display: table;
         position: relative;
-        margin: auto;
+        margin-left: 0px;
+        top: 50px;
     }
     .close-menu-sup{
         font-size:          1.1em;
@@ -1461,19 +1550,22 @@ footer{
         color:              #fff !important;
         text-decoration:    none;
         position:           absolute;
-        right:              10px;
-        top:                10px;
+        /*right:              10px;
+        top:                0px;*/
+        right: 20px;
+        top: 20px;
         text-transform:     uppercase;
         border:             1px solid #fff;
         border-radius:      50%;
-        padding:            2px 5px;
+        padding:            4px 8px;
         cursor:             pointer;
     }
     .destaque-pag-interna{
         padding-top: 120px;
     }
     .navbar-nav{
-        float: right !important;
+        float:          right !important;
+        padding-top:    35px !important;
     }
     .pd-none-desk{
         padding: 0px !important;
@@ -1482,6 +1574,10 @@ footer{
     {
         max-width: 210px;
         height: auto;
+        float: left;
+    }
+    .link-rodape
+    {
         float: left;
     }
 
@@ -1498,7 +1594,7 @@ footer{
     }   
     
     .bloco-dev{
-        width:      190px;
+        width:      230px;
         height:     auto;
         display:    table;
         float:      right;
@@ -1585,7 +1681,8 @@ footer{
         float: right;
     }
     .altura-bloco-footer{
-        height: 240px;
+        height: 200px;
+            padding-top: 14px !important;
     }
     .pd-mobile-form-home{
         padding: 10px 2px !important;
@@ -1963,7 +2060,6 @@ footer{
         padding:         5px 5px;
         line-height:    2;
     }
-
 }
 
 @media all and (min-width: 768px) and (max-width: 1024px) {
@@ -1973,6 +2069,7 @@ footer{
     }
     .nav>li>a{
         padding: 10px 4px !important;
+            font-size: 1em !important;
     }
     #owl-demo-clientes {
         padding-left: 30px;
@@ -1982,7 +2079,8 @@ footer{
         padding-left: 20px;
     }
     .topo{
-        padding: 0px 15px;
+        padding:    0px 15px;
+        height:     138px;
     }
     .bloco-sub-topo{
         padding: 14px 15px;
@@ -2001,11 +2099,25 @@ footer{
         height: 220px;
     }
     .vitrine-index{
-        max-width: 700px;
+        /*max-width: 700px;*/
     }
     .bloco-destaques-banner {
         max-width:      700px;
         padding-left:   40px;
+    }
+    /*.bloco-desc-banner
+    {
+        margin-top: 3.5%;   
+    }*/
+    .bloco-bg-banner-interna
+    {
+        top: 80px;
+    }
+    .bloco-desc-banner-interna
+    {
+        /*top: 90px;*/
+        top:    288px;
+        left:   15px;
     }
 }
 
