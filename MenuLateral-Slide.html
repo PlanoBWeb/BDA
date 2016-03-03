@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		body, html{
+			width: 100%;
+			height: 100%;
+			overflow: hidden;
+		}
+		.bloco-menu-sup{
+	        display:        table;
+	        float:          right;
+	        cursor:         pointer;
+	        margin-right:   20px;
+	        z-index: 9999;
+    		position: relative;
+	    }
+	    .block-hidden
+	    {
+	        width: 100%;
+	        min-height: 100%;
+	        position: absolute;
+	        display: table;
+	        overflow: hidden;
+	    }
+	    .menu-sup{
+	        /*display:    none;*/
+	        width:      235px;
+	        height: 94%;
+	        padding: 15px;
+	        position: absolute;
+	        background: #2d3e50;
+	        top: 6%;
+	        z-index:    999;
+	        right:      -250px;
+	    }
+	    .link-menu-sup{
+	        font-size:          1.1em;
+	        font-family:        'Raleway-Medium';
+	        color:              #fff !important;
+	        text-decoration:    none;
+	        text-transform:     uppercase;
+	        margin:             0px;
+	    }
+	    .linha-menu-sup{
+	        list-style: none;
+	        padding:            10px; 
+	    }
+	    .link-menu-sup:hover
+	    {
+	        color:          #999 !important;
+	        font-weight:    bold;
+	    }
+	    .linha-menu-sup:last-child{
+	        border-right: transparent;   
+	    }
+	    .encapsula-menu--sup{
+	        display: table;
+	        position: relative;
+	        margin-left: 0px;
+	        top: 50px;
+	    }
+	    .close-menu-sup{
+	        font-size:          1.1em;
+	        font-family:        'Raleway-Medium';
+	        color:              #fff !important;
+	        text-decoration:    none;
+	        position:           absolute;
+	        /*right:              10px;
+	        top:                0px;*/
+	        right: 20px;
+	        top: 20px;
+	        text-transform:     uppercase;
+	        border:             1px solid #fff;
+	        border-radius:      50%;
+	        padding:            4px 8px;
+	        cursor:             pointer;
+	    }
+	</style>
+</head>
+<body>
+	<p class="bloco-menu-sup">Abrir</p>
+	<div class="block-hidden hidden-xs">
+	    <nav class="menu-sup">
+	        <ul class="encapsula-menu--sup">
+	            <li class="linha-menu-sup"><a class="link-menu-sup" href="{$URL}quem-somos">Quem somos</a></li>
+	            <li class="linha-menu-sup"><a class="link-menu-sup" href="{$URL}parceiros">Parceiros</a></li>
+	            <li class="linha-menu-sup"><a class="link-menu-sup" href="{$URL}clientes">Clientes</a></li>
+	            <li class="linha-menu-sup"><a class="link-menu-sup" href="{$URL}cases">Cases</a></li>
+	            <li class="linha-menu-sup"><a class="link-menu-sup" href="{$URL}blog">Blog</a></li>
+	            <li class="linha-menu-sup"><a class="link-menu-sup" href="{$URL}contato">Contato</a></li>
+	        </ul>
+	        <span class="close-menu-sup">x</span>
+	    </nav>
+	</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script type="text/javascript">
+		$( ".bloco-menu-sup" ).click(function() {
+	        var left = $(".menu-sup");
+	        $( left ).animate({
+	            right: parseInt(left.css('right'),10) == 0 ?
+	                -left.outerWidth() :
+	                0
+	        });
+	    });
+	    $( ".close-menu-sup" ).click(function() {
+	        var left = $(".menu-sup");
+	        $( left ).animate({
+	            right: parseInt(left.css('right'),10) == 0 ?
+	                -left.outerWidth() :
+	                0
+	        });
+	    });
+	</script>
+</body>
+</html>
