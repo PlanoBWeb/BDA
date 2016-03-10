@@ -2,72 +2,48 @@
 
     include_once "configs/config.php";
     include_once "url.php";
-    // include_once "classes/Categoria.class.php";
-    // $classCat 		= new Categoria();
 
-    include_once "classes/Produto.class.php";
-    $class 		= new Produto();
+    include_once "classes/Busca.class.php";
+    $class 		= new Busca();
 
- //    // Menu lateral
-	// $retornoMenuLat	= $classCat->Pesquisar(null);
-	// if( $retornoMenuLat[0] )
-	// {
-	// 	$smarty->assign("mensagem", $retornoMenuLat[1]);
-	// 	$smarty->assign("redir", $URL."home");
-	// 	$smarty->display("mensagem.html");
-	// 	exit();
-	// }
-
-	// if ($_POST['search']) {
-
-	// 	$totalPorPagina = 10;
-	// 	$_POST['p'] = (!$_POST['p'] ? 1 : $_POST['p']);
-
-	// 	$parametro['busca'] 	= $_POST['search'];
-	// 	$retornoPag = $class->Pesquisar($parametro, null, null);	
-	// 	$retorno 	= $class->Pesquisar($parametro, $totalPorPagina, $_POST['p']);
-	// 	if ($retornoPag[1]) {
-	// 		echo '<ul class="carrega-busca-ajax">';
-	// 		foreach ($retornoPag[1] as $key) {
-	// 			echo '
-	// 				<li class="selectProduto">'.$key["titulo"].'</li>
-	// 			';
-	// 		}	
-	// 		echo '</ul>';
-	// 	}
-	// 	if( $retorno[0] )
-	// 	{
-	// 		$smarty->assign("mensagem", $retorno[1]);
-	// 		$smarty->assign("redir", $URL."home");
-	// 		$smarty->display("mensagem.html");
-	// 		exit();
-	// 	}
-
-	// 	$totalDeRegistros = count($retornoPag[1]); 	
-	// 	$conta = $totalDeRegistros / $totalPorPagina;
-	// 	$totalPaginas = ceil($conta);
-
-	// 	$Numpaginas 	= array();
-	// 	for($j=0; $j <= $totalPaginas; $j++) { 
-	// 		$Numpaginas[$j] = $j;
-	// 	}
-	// 	$ultimaPaginacao = end($Numpaginas);
-	// }else{
-	// 	$retorno[1] = "";
-	// }
 
 	if ($_POST['search']) {
 		$parametro['busca'] 	= $_POST['search'];
-		$retorno = $class->Busca($parametro);	
+
+		$totalPorPagina = 10;
+		$_POST['p'] = (!$_POST['p'] ? 1 : $_POST['p']);
+
+		$retornoPag = $class->pesquisar($parametro, null, null);	
+		$retorno	= $class->pesquisar($parametro, $totalPorPagina, $_POST['p']);
 
 		if ($retorno[1]) {
-		echo '<ul class="carrega-busca-ajax">';
-		foreach ($retorno[1] as $key) {
-			echo '
-				<li class="selectProduto">'.$key["titulo"].'</li>
-			';
-		}	
-		echo '</ul>';
+			echo '<ul class="carrega-busca-ajax">';
+			foreach ($retorno[1] as $key) {
+				echo '
+					<li class="selectProduto">'.$key["tituloBusca"].'</li>
+				';
+			}	
+			echo '</ul>';
+
+			$totalDeRegistros = count($retornoPag[1]); 	
+			$conta = $totalDeRegistros / $totalPorPagina;
+			$totalPaginas = ceil($conta);
+
+			if ($totalPaginas >= 11) {
+				$totalPaginas = 10;
+			}
+
+			$Numpaginas 	= array();
+			for($j=0; $j <= $totalPaginas; $j++) { 
+				$Numpaginas[$j] = $j;
+			}
+			$ultimaPaginacao = end($Numpaginas);
+		}else{
+			echo '<ul class="carrega-busca-ajax">
+			
+					<li class="selectProduto">Nenhum resultado encontrado</li>
+				
+			</ul>';
 		}
 		if( $retorno[0] )
 		{
@@ -79,18 +55,18 @@
 	}else{
 		$retorno[1] = "";
 	}
-	$totalDeRegistros = count($retorno[1]); 
 
-	$smarty->assign("totalDeRegistros", $totalDeRegistros);  
-	$smarty->assign("postBusca", $_POST['search']);  
-	$smarty->assign("id", $url[1]);
-	$smarty->assign("totalPaginas", $totalPaginas);
-	$smarty->assign("numPagina", $_POST['p']);
-	$smarty->assign("Numpaginas", $Numpaginas);
+	$smarty->assign("pagPost", $_POST['p']);
 	$smarty->assign("ultimaPaginacao", $ultimaPaginacao);
+	$smarty->assign("Numpaginas", $Numpaginas);
+	$smarty->assign("postBusca", $_POST['search']);  
+	$smarty->assign("totalPaginas", $totalPaginas);
+
+	$smarty->assign("permissao", $permissao);	
+
 	$smarty->assign("dados", $retorno[1]);
-	$smarty->assign("dadosCatMenu", $retornoMenuLat[1]);
     $smarty->assign("URL", URL);
+    $smarty->assign("url", $url);
     $smarty->assign("breadcrumb", "Resultado Busca");
     $smarty->assign("pagina", $url['pagina']);
     if (!$_POST['buscaAjax']) {

@@ -1,0 +1,216 @@
+<?php /* Smarty version 2.6.12, created on 2016-03-09 19:02:11
+         compiled from gerenciamento-de-banco-de-dados.html */ ?>
+<!DOCTYPE HTML>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="robots" content="index, follow">
+	<meta name="description" content="" />
+	<link href="<?php echo $this->_tpl_vars['URL']; ?>
+commom/img/icon-tab.png" rel="icon">
+    <?php $_smarty_tpl_vars = $this->_tpl_vars;
+$this->_smarty_include(array('smarty_include_tpl_file' => "../inc/cssUrmAmigavel.html", 'smarty_include_vars' => array()));
+$this->_tpl_vars = $_smarty_tpl_vars;
+unset($_smarty_tpl_vars);
+ ?>
+	<link rel="stylesheet" type="text/css" href="<?php echo $this->_tpl_vars['URL']; ?>
+commom/css/estilo.css">
+	<title>BDA</title>
+ 	<!-- Bootstrap -->
+    <link href="<?php echo $this->_tpl_vars['URL']; ?>
+commom/css/bootstrap.min.css" rel="stylesheet">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="container-fluid pd-none">
+        <?php $_smarty_tpl_vars = $this->_tpl_vars;
+$this->_smarty_include(array('smarty_include_tpl_file' => "../inc/header.html", 'smarty_include_vars' => array()));
+$this->_tpl_vars = $_smarty_tpl_vars;
+unset($_smarty_tpl_vars);
+ ?>
+            <!-- Banner -->
+            <article class="banner-interna-faixa cor-linha-bn-software pd-none">
+                <img class="pull-right abs-left hidden-xs" src="<?php echo $this->_tpl_vars['URL']; ?>
+commom/img/bg-software2.jpg" alt="Gerenciamento de banco de dados" title="Gerenciamento de banco de dados">
+                <div class="width-default">
+                    <h1 class="titulo-faixa-interna pd-titulo-faixa-interna">Gerenciamento de banco de dados <br><span>Reduza o Custo de sua Gestão em Banco de Dados</span></h1>
+                </div>
+                <img class="pull-right abs-right hidden-xs" src="<?php echo $this->_tpl_vars['URL']; ?>
+commom/img/topo-interna-software.jpg" alt="Gerenciamento de banco de dados" title="Gerenciamento de banco de dados">
+            </article> 
+            <!-- Banner -->
+            <?php $_smarty_tpl_vars = $this->_tpl_vars;
+$this->_smarty_include(array('smarty_include_tpl_file' => "../inc/breadcrumb.html", 'smarty_include_vars' => array()));
+$this->_tpl_vars = $_smarty_tpl_vars;
+unset($_smarty_tpl_vars);
+ ?>  
+            <section class="conteudo-interna">
+                <article class="width-default pd-mob-conteudo">
+                    <p class="txt-interna">
+                        A BDA oferece soluções para Automatizar tarefas de desenvolvimento e de gerenciamento de banco de dados aumentando a produtividade, otimizando a performance do banco de dados e reduzindo assim os custos da gestão administrativa do seu negócio. <br><br>
+                        Junto com as soluções da DELL, utilize ferramentas com conhecimento integrado para desenvolver o código de aplicativo ideal. Monitore vários bancos de dados heterogêneos em uma única exibição e analise as transações.<br><br>
+                        Esta solução é formada por 3 grupos: Desenvolvimento de Banco de Dados, Administração de Banco de Dados e Monitoramento e Análise do banco de dados.
+                        <strong class="font-cat"><br><br>Desenvolvimento de Banco de Dados</strong>
+                    </p>
+                    <div class="row pd-tp-30">
+                        <div class="col-xs-12 col-sm-3 col-md-3">
+                            <a href="<?php echo $this->_tpl_vars['URL']; ?>
+software/dell/gerenciamento-de-banco-de-dados/toad-development-suite-for-oracle">
+                                <img class="pull-left pd-all-10 pd-lf-0" src="<?php echo $this->_tpl_vars['URL']; ?>
+commom/img/dell3.jpg" alt="Toad Development Suite for Oracle" title="Toad Development Suite for Oracle">
+                            </a>
+                            <h2 class="titulo-interna-inst mg-titulo-interna-inst-0"><a href="<?php echo $this->_tpl_vars['URL']; ?>
+software/dell/gerenciamento-de-banco-de-dados/toad-development-suite-for-oracle"> Toad Development Suite for Oracle </a></h2>
+                        </div>   
+                        <div class="col-xs-12 col-sm-8 col-md-8 pd-left-none">     
+                            <h3 class="sub-titulo-interna-inst mg-top-none"><strong><a class="sub-azul" href="<?php echo $this->_tpl_vars['URL']; ?>
+software/dell/gerenciamento-de-banco-de-dados/toad-development-suite-for-oracle"> Habilite as melhores práticas de desenvolvimento Oracle. </a></strong></h3>
+                            <p class="txt-interna"><a href="<?php echo $this->_tpl_vars['URL']; ?>
+software/dell/gerenciamento-de-banco-de-dados/toad-development-suite-for-oracle"> Certifique-se de que você está usando as melhores práticas de desenvolvimento PL/SQL.  É possível usar essas ferramentas de desenvolvedor da Oracle para reduzir os riscos associados a erros, validação de performance, padrões de codificação inconsistentes, equipes distribuídas com diversos níveis de habilidade, e muito mais.  </a></p>
+                        </div>
+                    </div>
+                    <div class="row pd-tp-30">
+                        <div class="col-xs-12 col-sm-3 col-md-3">
+                            <a href="<?php echo $this->_tpl_vars['URL']; ?>
+software/dell/gerenciamento-de-banco-de-dados/toad-for-sql-server">
+                                <img class="pull-left pd-all-10 pd-lf-0" src="<?php echo $this->_tpl_vars['URL']; ?>
+commom/img/dell3.jpg" alt="Toad for SQL Server" title="Toad for SQL Server">
+                            </a>
+                            <h2 class="titulo-interna-inst mg-titulo-interna-inst"><a href="<?php echo $this->_tpl_vars['URL']; ?>
+software/dell/gerenciamento-de-banco-de-dados/toad-for-sql-server"> Toad for SQL Server </a></h2>
+                        </div>   
+                        <div class="col-xs-12 col-sm-8 col-md-8 pd-left-none">     
+                            <h3 class="sub-titulo-interna-inst mg-top-none"><strong><a class="sub-azul" href="<?php echo $this->_tpl_vars['URL']; ?>
+software/dell/gerenciamento-de-banco-de-dados/toad-for-sql-server"> Execute bancos de dados de maneira mais rápido e mais confiável. </a></strong></h3>
+                            <p class="txt-interna"><a href="<?php echo $this->_tpl_vars['URL']; ?>
+software/dell/gerenciamento-de-banco-de-dados/toad-for-sql-server"> Gerencie facilmente mais bancos de dados do SQL Server e automatize tarefas repetitivas. Execute bancos de dados de maneira mais rápida e confiável, aumentando o trabalho em menos tempo com Toad™ para SQL Server®. Este único conjunto de ferramentas maximiza a produtividade por meio da automação abrangente, fluxos de trabalho intuitivos e conhecimento integrado. </a></p>
+                        </div> 
+                    </div>
+                    <div class="row pd-tp-30">
+                        <div class="col-xs-12 col-sm-3 col-md-3">
+                            <a href="<?php echo $this->_tpl_vars['URL']; ?>
+software/dell/gerenciamento-de-banco-de-dados/toad-for-oracle">
+                                <img class="pull-left pd-all-10 pd-lf-0" src="<?php echo $this->_tpl_vars['URL']; ?>
+commom/img/dell3.jpg" alt="Toad for Oracle" title="Toad for Oracle">
+                            </a>
+                            <h2 class="titulo-interna-inst mg-titulo-interna-inst-20"><a href="<?php echo $this->_tpl_vars['URL']; ?>
+software/dell/gerenciamento-de-banco-de-dados/toad-for-oracle"> Toad for Oracle </a></h2>
+                        </div>   
+                        <div class="col-xs-12 col-sm-8 col-md-8 pd-left-none">     
+                            <h3 class="sub-titulo-interna-inst mg-top-none"><strong><a class="sub-azul" href="<?php echo $this->_tpl_vars['URL']; ?>
+software/dell/gerenciamento-de-banco-de-dados/toad-for-oracle"> Aumentar a produtividade da administração e de desenvolvimento. </a></strong></h3>
+                            <p class="txt-interna"><a href="<?php echo $this->_tpl_vars['URL']; ?>
+software/dell/gerenciamento-de-banco-de-dados/toad-for-oracle"> Aumente a eficiência e a precisão com a funcionalidade, automação e fluxo de trabalho que Toad® for Oracle oferece. Toad™ for Oracle® é a principal solução de produtividade para o desenvolvimento e a administração de banco de dados Oracle®. Essas ferramentas de banco de dados Oracle combinam extensiva automação com fluxos de trabalho intuitivos para fornecer intensa funcionalidade Toad for Oracle  </a></p>
+                        </div> 
+                    </div>
+                    <p class="txt-interna">
+                        <strong class="font-cat"><br><br>Administração de Banco de Dados</strong>
+                    </p>                    
+                    <div class="row pd-tp-30">
+                        <div class="col-xs-12 col-sm-3 col-md-3">
+                            <a href="<?php echo $this->_tpl_vars['URL']; ?>
+software/dell/gerenciamento-de-banco-de-dados/toad-dba-suite-for-oracle">
+                                <img class="pull-left pd-all-10 pd-lf-0" src="<?php echo $this->_tpl_vars['URL']; ?>
+commom/img/dell3.jpg" alt="Toad DBA Suíte for Oracle" title="Toad DBA Suíte for Oracle">
+                            </a>
+                            <h2 class="titulo-interna-inst mg-titulo-interna-inst"><a href="<?php echo $this->_tpl_vars['URL']; ?>
+software/dell/gerenciamento-de-banco-de-dados/toad-dba-suite-for-oracle"> Toad DBA Suíte for Oracle </a></h2>
+                        </div>   
+                        <div class="col-xs-12 col-sm-8 col-md-8 pd-left-none">     
+                            <h3 class="sub-titulo-interna-inst mg-top-none"><strong><a class="sub-azul" href="<?php echo $this->_tpl_vars['URL']; ?>
+software/dell/gerenciamento-de-banco-de-dados/toad-dba-suite-for-oracle"> Aumente a performance e disponibilidade </a></strong></h3>
+                            <p class="txt-interna"><a href="<?php echo $this->_tpl_vars['URL']; ?>
+software/dell/gerenciamento-de-banco-de-dados/toad-dba-suite-for-oracle"> Toad™ DBA Suite for Oracle é um conjunto abrangente de ferramentas de DBA da Oracle que ajudam a automatizar a manutenção, garantem o desempenho ideal e reduzem o risco de mudança. O pacote é útil para resolver problemas antes que eles afetem produção. E, como as tarefas rotineiras são automatizadas, está assegurada para você uma precisão como nunca antes. Você também pode reduzir os riscos associados a gargalos de desempenho, vulnerabilidades do banco de dados, patches, atualizações e muito mais. </a></p>
+                        </div> 
+                    </div>
+                    <div class="row pd-tp-30">
+                        <div class="col-xs-12 col-sm-3 col-md-3">
+                            <a href="<?php echo $this->_tpl_vars['URL']; ?>
+software/dell/gerenciamento-de-banco-de-dados/toad-for-sql-server">
+                                <img class="pull-left pd-all-10 pd-lf-0" src="<?php echo $this->_tpl_vars['URL']; ?>
+commom/img/dell3.jpg" alt="Toad for SQL Server" title="Toad for SQL Server">
+                            </a>
+                            <h2 class="titulo-interna-inst mg-titulo-interna-inst"><a href="<?php echo $this->_tpl_vars['URL']; ?>
+software/dell/gerenciamento-de-banco-de-dados/toad-for-sql-server"> Toad for SQL Server </a></h2>
+                        </div>   
+                        <div class="col-xs-12 col-sm-8 col-md-8 pd-left-none">     
+                            <h3 class="sub-titulo-interna-inst mg-top-none"><strong><a class="sub-azul" href="<?php echo $this->_tpl_vars['URL']; ?>
+software/dell/gerenciamento-de-banco-de-dados/toad-for-sql-server"> Execute bancos de dados de maneira mais rápido e mais confiável. </a></strong></h3>
+                            <p class="txt-interna"><a href="<?php echo $this->_tpl_vars['URL']; ?>
+software/dell/gerenciamento-de-banco-de-dados/toad-for-sql-server"> Gerencie facilmente mais bancos de dados do SQL Server e automatize tarefas repetitivas. Execute bancos de dados de maneira mais rápida e confiável, aumentando o trabalho em menos tempo com Toad™ para SQL Server®. Este único conjunto de ferramentas maximiza a produtividade por meio da automação abrangente, fluxos de trabalho intuitivos e conhecimento integrado. </a></p>
+                        </div> 
+                    </div>
+                    <p class="txt-interna">
+                        <strong class="font-cat"><br><br>Monitoramento e Análise do banco de dados</strong>
+                    </p> 
+                    <div class="row pd-tp-30">
+                        <div class="col-xs-12 col-sm-3 col-md-3">
+                            <a href="<?php echo $this->_tpl_vars['URL']; ?>
+software/dell/gerenciamento-de-banco-de-dados/spotlight-on-sql-server-enterprise">
+                                <img class="pull-left pd-all-10 pd-lf-0" src="<?php echo $this->_tpl_vars['URL']; ?>
+commom/img/dell3.jpg" alt="Spotlight on SQL Server Enterprise" title="Spotlight on SQL Server Enterprise">
+                            </a>
+                            <h2 class="titulo-interna-inst mg-titulo-interna-inst-0"><a href="<?php echo $this->_tpl_vars['URL']; ?>
+software/dell/gerenciamento-de-banco-de-dados/spotlight-on-sql-server-enterprise"> Spotlight on SQL Server Enterprise </a></h2>
+                        </div>   
+                        <div class="col-xs-12 col-sm-8 col-md-8 pd-left-none">     
+                            <h3 class="sub-titulo-interna-inst mg-top-none"><strong><a class="sub-azul" href="<?php echo $this->_tpl_vars['URL']; ?>
+software/dell/gerenciamento-de-banco-de-dados/spotlight-on-sql-server-enterprise"> Monitore, faça o diagnóstico e otimize a performance. </a></strong></h3>
+                            <p class="txt-interna"><a href="<?php echo $this->_tpl_vars['URL']; ?>
+software/dell/gerenciamento-de-banco-de-dados/spotlight-on-sql-server-enterprise"> O Spotlight on SQL Server Enterprise fornece monitoramento incomparável do SQL Server, diagnóstico e otimização dos seus ambientes de banco de dados para garantir sempre a performance máxima. Com as visões gerais intuitivas sobre integridade e performance corporativas, os alertas e ações automatizados, o módulo de ajuste Xpert integrado e o suporte a dispositivos móveis, o Spotlight on SQL Server Enterprise facilita ainda mais obter os dados necessários para garantir a integridade dos bancos de dados SQL Server. </a></p>
+                        </div> 
+                    </div>
+                    <div class="row pd-tp-30">
+                        <div class="col-xs-12 col-sm-3 col-md-3">
+                            <a href="<?php echo $this->_tpl_vars['URL']; ?>
+software/dell/gerenciamento-de-banco-de-dados/foglight-for-databases">
+                                <img class="pull-left pd-all-10 pd-lf-0" src="<?php echo $this->_tpl_vars['URL']; ?>
+commom/img/dell3.jpg" alt="Foglight for Databases" title="Foglight for Databases">
+                            </a>
+                            <h2 class="titulo-interna-inst mg-titulo-interna-inst"><a href="<?php echo $this->_tpl_vars['URL']; ?>
+software/dell/gerenciamento-de-banco-de-dados/foglight-for-databases"> Foglight for Databases </a></h2>
+                        </div>   
+                        <div class="col-xs-12 col-sm-8 col-md-8 pd-left-none">     
+                            <h3 class="sub-titulo-interna-inst mg-top-none"><strong><a class="sub-azul" href="<?php echo $this->_tpl_vars['URL']; ?>
+software/dell/gerenciamento-de-banco-de-dados/foglight-for-databases"> Monitoramento de banco de dados em uma visualização consolidada. </a></strong></h3>
+                            <p class="txt-interna"><a href="<?php echo $this->_tpl_vars['URL']; ?>
+software/dell/gerenciamento-de-banco-de-dados/foglight-for-databases"> O Foglight for Databases permite consolidar e padronizar o gerenciamento da performance do banco de dados em diversos ambientes. Conheça a profunda e completa integração entre plataformas de bancos de dados que promove a colaboração, melhora os níveis de serviço e reduz os custos.<br>Garanta níveis de serviço consistentes em ambientes de bancos de dados de várias plataformas, mesmo ao usar ferramentas originais ou de terceiros. </a></p>
+                        </div> 
+                    </div>                   
+                    <!-- 
+                    <div class="row pd-tp-30">
+                        <div class="col-xs-12 col-sm-3 col-md-3">
+                            <a href="<?php echo $this->_tpl_vars['URL']; ?>
+software/gerenciamento-de-banco-de-dados/">
+                                <img class="pull-left pd-all-10" src="<?php echo $this->_tpl_vars['URL']; ?>
+commom/img/dell3.jpg" alt="" title="">
+                            </a>
+                            <h2 class="titulo-interna-inst mg-titulo-interna-inst"><a href="<?php echo $this->_tpl_vars['URL']; ?>
+software/gerenciamento-de-banco-de-dados/">  </a></h2>
+                        </div>   
+                        <div class="col-xs-12 col-sm-8 col-md-8">     
+                            <h3 class="sub-titulo-interna-inst mg-top-none"><strong><a href="<?php echo $this->_tpl_vars['URL']; ?>
+software/gerenciamento-de-banco-de-dados/">  </a></strong></h3>
+                            <p class="txt-interna"><a href="<?php echo $this->_tpl_vars['URL']; ?>
+software/gerenciamento-de-banco-de-dados/">  </a></p>
+                        </div> 
+                    </div>
+                    -->
+                    <br><br>
+                </article>
+            </section>                             
+        <?php $_smarty_tpl_vars = $this->_tpl_vars;
+$this->_smarty_include(array('smarty_include_tpl_file' => "../inc/footer.html", 'smarty_include_vars' => array()));
+$this->_tpl_vars = $_smarty_tpl_vars;
+unset($_smarty_tpl_vars);
+ ?>
+    </div>
+</body>
+</html>

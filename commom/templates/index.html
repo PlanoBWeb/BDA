@@ -128,89 +128,26 @@
             </section>
             <article class="blog-destaques-home">
                 <div class="bloco-destaques-banner">
-                    <!-- <div class="col-xs-12 col-sm-12 col-md-12">
-                    </div> -->
-                    <div id="owl-demo-blog">
-                        <div class="item">
-                            <div class="img-destaque-blog">
-                                <a href="{$URL}" alt="">
-                                    <img src="{$URL}commom/img/destaque-blog.png" alt="destaque blog" title="destaque blog">
+                    <div id="owl-demo-blog" class="owl-demo-blog-home">
+                        {section name=i loop=$dadosBlog}                                                 
+                            <div class="item">
+                                <div class="img-destaque-blog">
+                                    {$dadosBlog[i].img}
+                                    </div></div> 
+                                </div>
+                                <h2 class="titulo-destaque-blog"><a href="{$dadosBlog[i].link}" alt="{$dadosBlog[i].titulo}">{$dadosBlog[i].titulo}</a></h2><!-- <div> -->
+                                <a href="{$dadosBlog[i].link}" class="txt-destaque-blog">
+                                    {$dadosBlog[i].descricao}
                                 </a>
+                                <div class="linha-destaque-blog"></div>
+                                <div class="row pd-all-10">
+                                    <img class="pull-left icon-destaque-blog" src="{$URL}commom/img/icon-data.png" alt="{$dadosBlog[i].data}" class="{$dadosBlog[i].data}">
+                                    <p class="txt-data-por pull-left">{$dadosBlog[i].data}</p>
+                                    <p class="txt-data-por pull-right">BLOG</p>
+                                    <img class="pull-right icon-destaque-blog" src="{$URL}commom/img/icon-por.png" alt="" class="">                                
+                                </div>
                             </div>
-                            <h2 class="titulo-destaque-blog"><a href="{$URL}" alt="">Conferência Gartner Business Intelligence, Analytics & Information Management</a></h2>
-                            <a href="" class="txt-destaque-blog">Nos dias 24 e 25 de junho, a BDA Solutions | Big Data & Analytics participou da conferência mais...</a>
-                            <div class="linha-destaque-blog"></div>
-                            <div class="row pd-all-10">
-                                <img class="pull-left icon-destaque-blog" src="{$URL}commom/img/icon-data.png" alt="Data da postagem" class="Data da postagem">
-                                <p class="txt-data-por pull-left">23 JUN 15</p>
-                                <p class="txt-data-por pull-right">BLOG</p>
-                                <img class="pull-right icon-destaque-blog" src="{$URL}commom/img/icon-por.png" alt="" class="">                                
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="img-destaque-blog">
-                                <a href="{$URL}" alt="">
-                                    <img src="{$URL}commom/img/destaque-blog.png" alt="destaque blog" title="destaque blog">
-                                </a>
-                            </div>
-                            <h2 class="titulo-destaque-blog"><a href="{$URL}" alt="">Conferência Gartner Business Intelligence, Analytics & Information Management</a></h2>
-                            <a href="" class="txt-destaque-blog">Nos dias 24 e 25 de junho, a BDA Solutions | Big Data & Analytics participou da conferência mais...</a>
-                            <div class="linha-destaque-blog"></div>
-                            <div class="row pd-all-10">
-                                <img class="pull-left icon-destaque-blog" src="{$URL}commom/img/icon-data.png" alt="Data da postagem" class="Data da postagem">
-                                <p class="txt-data-por pull-left">23 JUN 15</p>
-                                <p class="txt-data-por pull-right">BLOG</p>
-                                <img class="pull-right icon-destaque-blog" src="{$URL}commom/img/icon-por.png" alt="" class="">                                
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="img-destaque-blog">
-                                <a href="{$URL}" alt="">
-                                    <img src="{$URL}commom/img/destaque-blog.png" alt="destaque blog" title="destaque blog">
-                                </a>
-                            </div>
-                            <h2 class="titulo-destaque-blog"><a href="{$URL}" alt="">Conferência Gartner Business Intelligence, Analytics & Information Management</a></h2>
-                            <a href="" class="txt-destaque-blog">Nos dias 24 e 25 de junho, a BDA Solutions | Big Data & Analytics participou da conferência mais...</a>
-                            <div class="linha-destaque-blog"></div>
-                            <div class="row pd-all-10">
-                                <img class="pull-left icon-destaque-blog" src="{$URL}commom/img/icon-data.png" alt="Data da postagem" class="Data da postagem">
-                                <p class="txt-data-por pull-left">23 JUN 15</p>
-                                <p class="txt-data-por pull-right">BLOG</p>
-                                <img class="pull-right icon-destaque-blog" src="{$URL}commom/img/icon-por.png" alt="" class="">                                
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="img-destaque-blog">
-                                <a href="{$URL}" alt="">
-                                    <img src="{$URL}commom/img/destaque-blog.png" alt="destaque blog" title="destaque blog">
-                                </a>
-                            </div>
-                            <h2 class="titulo-destaque-blog"><a href="{$URL}" alt="">Conferência Gartner Business Intelligence, Analytics & Information Management</a></h2>
-                            <a href="" class="txt-destaque-blog">Nos dias 24 e 25 de junho, a BDA Solutions | Big Data & Analytics participou da conferência mais...</a>
-                            <div class="linha-destaque-blog"></div>
-                            <div class="row pd-all-10">
-                                <img class="pull-left icon-destaque-blog" src="{$URL}commom/img/icon-data.png" alt="Data da postagem" class="Data da postagem">
-                                <p class="txt-data-por pull-left">23 JUN 15</p>
-                                <p class="txt-data-por pull-right">BLOG</p>
-                                <img class="pull-right icon-destaque-blog" src="{$URL}commom/img/icon-por.png" alt="" class="">                                
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="img-destaque-blog">
-                                <a href="{$URL}" alt="">
-                                    <img src="{$URL}commom/img/destaque-blog.png" alt="destaque blog" title="destaque blog">
-                                </a>
-                            </div>
-                            <h2 class="titulo-destaque-blog"><a href="{$URL}" alt="">Conferência Gartner Business Intelligence, Analytics & Information Management</a></h2>
-                            <a href="" class="txt-destaque-blog">Nos dias 24 e 25 de junho, a BDA Solutions | Big Data & Analytics participou da conferência mais...</a>
-                            <div class="linha-destaque-blog"></div>
-                            <div class="row pd-all-10">
-                                <img class="pull-left icon-destaque-blog" src="{$URL}commom/img/icon-data.png" alt="Data da postagem" class="Data da postagem">
-                                <p class="txt-data-por pull-left">23 JUN 15</p>
-                                <p class="txt-data-por pull-right">BLOG</p>
-                                <img class="pull-right icon-destaque-blog" src="{$URL}commom/img/icon-por.png" alt="" class="">                                
-                            </div>
-                        </div>
+                        {/section}
                     </div>
                 </div>
             </article>

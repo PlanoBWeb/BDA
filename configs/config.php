@@ -30,7 +30,7 @@ if( $_SERVER['SERVER_NAME'] == 'planobweb' || $_SERVER['SERVER_NAME'] == '192.16
 	define("db_host", 'localhost');
 	define("db_user", 'root');
 	define("db_pass", '');
-	define("db_base", 'expressaobrindes');
+	define("db_base", 'bda');
 	define("PATH_SERVIDOR","C:/wamp/www/clientes/Bda/Web/");
 	define("PASTAPROJETO", strtolower("clientes/Bda/Web/"));
 	if ($_SERVER['SERVER_NAME'] == '192.168.0.105') {
@@ -57,6 +57,17 @@ else
 	}	
 }
 
+//Acesso ao MyAdmin
+$resultado=mysql_connect(db_host, db_user, db_pass);
+if (!($resultado)) {
+	echo "Erro ao conectar-se ao MySQL<br>";
+}
+
+//Acesso ao Banco de Dados
+$resultado = mysql_select_db(db_base);
+if (!($resultado)) {
+	echo "Erro ao conectar-se ao Banco de Dados";
+}
 define("TITULO","BDA");
 
 ?>

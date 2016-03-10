@@ -32,6 +32,7 @@
 	$permissao['cases'] 									= "Cases";
 	$permissao['blog'] 										= "Blog";
 	$permissao['contato'] 									= "Contato";
+	$permissao['resultado-busca'] 							= "Resultado Busca";
 	// Produtos SoftWare Dell
 	$permissao['software'] 									= "Software";
 	$permissao['dell'] 										= "Dell";

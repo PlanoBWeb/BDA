@@ -29,7 +29,10 @@
 
 
     window.onresize = function() {
-        
+        // if (window.innerWidth <= 768) 
+        // {
+        //     alert('foi');
+        // } 
         $(".linha-menu-topo .dropdown-toggle").click(function(){
             if (window.innerWidth <= 768) {
                 event.preventDefault();
@@ -392,45 +395,7 @@
         $('.form-busca-desk').submit();
         $("#carrega-busca").hide();
         
-    });
-
-    // Ajax Busca Mobile
-    $(document).ready(function(){
-        $("#buscaValorMobile").keyup(function(){
-            var valorBusca = $('#buscaValorMobile').val();
-            var min_length = 0;
-            var contaValor = $('#buscaValorMobile').val().length;
-            var urlAction = $('.urlAction').val();  
-
-            if (contaValor != min_length) {
-
-                $.ajax({
-                type: "POST",
-                url: urlAction,
-                // data:'busca='+$(this).val(),
-                data: {search: valorBusca, buscaAjax: "buscaAjax", acao: "busca"},
-          
-                    success: function(data){
-                        $("#carrega-busca-mobile").show();
-                        $("#carrega-busca-mobile").html(data);
-                        $("#buscaValorMobile").css("background","#FFF");
-                    }
-                });
-            }else{
-                  $('#carrega-busca-mobile').hide();
-            }
-        });
-    });
-
-    $('#carrega-busca-mobile').on('click','.selectProduto', function(){
-        var valorTxtBusca = $(this).text();
-
-        $("#buscaValorMobile").val(valorTxtBusca);
-        $('.form-busca-mob').submit();
-        $("#carrega-busca-mobile").hide();
-        
-    });
-    
+    });    
 
     // Função para vitirne projetos
     $(document).ready(function() {
