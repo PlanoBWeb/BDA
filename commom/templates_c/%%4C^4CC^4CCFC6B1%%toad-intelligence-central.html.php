@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.12, created on 2016-03-07 14:21:27
+<?php /* Smarty version 2.6.12, created on 2016-03-14 18:31:30
          compiled from toad-intelligence-central.html */ ?>
 <!DOCTYPE HTML>
 <html lang="pt-br">
@@ -36,7 +36,7 @@ $this->_tpl_vars = $_smarty_tpl_vars;
 unset($_smarty_tpl_vars);
  ?>
             <!-- Banner -->
-            <article class="banner-interna-faixa cor-linha-bn-software pd-none mg-top--5">
+            <article class="banner-interna-faixa cor-linha-bn-software pd-none">
                 <img class="pull-right abs-left hidden-xs" src="<?php echo $this->_tpl_vars['URL']; ?>
 commom/img/bg-software2.jpg" alt="Toad Intelligence Central " title="Toad Intelligence Central ">
                 <div class="width-default">
@@ -57,7 +57,7 @@ unset($_smarty_tpl_vars);
                         <div class="col-xs-12 col-sm-11 col-md-11 pd-none-desk">
                             <div class="encapsula-desc-prod pd-tp-30">
                                 <div class="bloco-desc-prod">
-                                    <h2 class="txt-interna"><strong> Conecte perfeitamente dados, arquivos e usuários para colaboração aprimorada. </strong></h2>
+                                    <h2 class="txt-interna"><strong class="font-cat sub-azul"> Conecte perfeitamente dados, arquivos e usuários para colaboração aprimorada. </strong></h2>
                                     <p class="txt-interna">
                                         Compartilhe informações com facilidade entre a sua equipe com o Toad™ Intelligence Central. Este repositório centralizado, que compartilha arquivos do Toad e outros dados, permite uma colaboração eficiente e bem controlada. Não importa se está coletando e preparando dados no Toad Data Point ou se está compartilhando o código PL/SQL e os relatórios de análise de código no Toad for Oracle, é possível publicar centralmente seu trabalho no Toad Intelligence Central. Isso torna fácil e rápido o compartilhamento e a visualização de consultas, arquivos, objetos e conjuntos de dados - dentro da ferramenta certa. Com esse componente do servidor, você reduzirá o risco de falhas nos relatórios, ameaças à segurança e perda de dados ao mesmo tempo em que garante o controle dos dados.<br><br>
 
@@ -67,7 +67,7 @@ unset($_smarty_tpl_vars);
                                         <strong>Scripts de automação</strong> — Crie scripts de automação no Toad e publique-os no Toad Intelligence Central, onde podem ser agendados para execução.
                                         <strong>Suporte do Active Directory®</strong> — Permita que os administradores gerenciem melhor os usuários e as equipes, adicionem e removam usuários de forma fácil e criem logins.
 
-                                    </p><br>
+                                    </p>
                                     <ul class="bloco-linha-interna no-bg">
                                         <li class="linha-ul-interna">Acesso centralizado e controlado aos dados — Obtenha um único ponto de acesso para todos os seus dados.</li>
                                         <li class="linha-ul-interna">Criação de visualizações de SQL — Acesse os dados diretamente da origem através do SQL em vez de movê-los.</li>
@@ -76,25 +76,16 @@ unset($_smarty_tpl_vars);
                                         <li class="linha-ul-interna">Conexão às ferramentas da Dell ― Conecte-se ao Dell Boomi® para a integração com cloud computing do aplicativo e ao Dell Statistica™ para análises avançadas. Combinar essas ferramentas com o Toad fornece uma solução eficiente de gerenciamento de dados.</li>
                                         <li class="linha-ul-interna">Relatório de gerenciamento baseado na Web – Obtenha uma visualização consolidada da qualidade do código ao longo do tempo com relatório on-line de Análise de código (Adicional para o Toad For Oracle)</li>
 									</ul>
-                                    <a class="btn-download mg-bt-40" href="<?php echo $this->_tpl_vars['URL']; ?>
-">
-                                        Download trial <br>30 dias
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <center><p class="titulo-interna-inst align-center">Solicite um orçamento</p></center>
-                                <div class="mg-top--20">
-                                    <?php $_smarty_tpl_vars = $this->_tpl_vars;
-$this->_smarty_include(array('smarty_include_tpl_file' => "../inc/form.html", 'smarty_include_vars' => array()));
-$this->_tpl_vars = $_smarty_tpl_vars;
-unset($_smarty_tpl_vars);
- ?>
                                 </div>
                             </div>
                         </div>   
                         <div class="col-xs-12 col-sm-1 col-md-1"></div>   
                     </div>
+                    <?php $_smarty_tpl_vars = $this->_tpl_vars;
+$this->_smarty_include(array('smarty_include_tpl_file' => "../inc/solicite-download.html", 'smarty_include_vars' => array()));
+$this->_tpl_vars = $_smarty_tpl_vars;
+unset($_smarty_tpl_vars);
+ ?>
                 </article>
             </section>                             
         <?php $_smarty_tpl_vars = $this->_tpl_vars;

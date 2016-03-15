@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.12, created on 2016-03-07 15:02:21
+<?php /* Smarty version 2.6.12, created on 2016-03-14 18:27:23
          compiled from boomi-mdm.html */ ?>
 <!DOCTYPE HTML>
 <html lang="pt-br">
@@ -36,7 +36,7 @@ $this->_tpl_vars = $_smarty_tpl_vars;
 unset($_smarty_tpl_vars);
  ?>
             <!-- Banner -->
-            <article class="banner-interna-faixa cor-linha-bn-software pd-none mg-top--5">
+            <article class="banner-interna-faixa cor-linha-bn-software pd-none">
                 <img class="pull-right abs-left hidden-xs" src="<?php echo $this->_tpl_vars['URL']; ?>
 commom/img/bg-software2.jpg" alt="BOOMI MDM" title="BOOMI MDM">
                 <div class="width-default">
@@ -57,36 +57,27 @@ unset($_smarty_tpl_vars);
                         <div class="col-xs-12 col-sm-11 col-md-11 pd-none-desk">
                             <div class="encapsula-desc-prod pd-tp-30">
                                 <div class="bloco-desc-prod">
-                                    <h2 class="txt-interna"><strong>Gerenciamento de dados mestre acessível.</strong></h2>
+                                    <h2 class="txt-interna"><strong class="font-cat sub-azul">Gerenciamento de dados mestre acessível.</strong></h2>
                                     <p class="txt-interna">O Boomi MDM reúne integração, gerenciamento de dados mestre e serviços de qualidade de dados específicos do domínio em uma única interface unificada para explorar completamente a eficiência e o valor da nuvem. Use-o com qualquer combinação de SaaS e aplicativos instalados localmente e com qualquer combinação de prestador de serviços de qualidade de dados para melhorar a agilidade dos negócios, a eficiência operacional e a consistência dos dados.</p><br>
                                     
-                                    <h2 class="txt-interna"><strong>Benefícios:</strong></h2>
-                                    <p class="txt-interna">
-                                        Acelere o tempo de comercialização com a modelagem de dados colaborativa. A modelagem dos dados do domínio é essencial, mas demorada. Economize horas de modelagem de tentativa e erro com o Boomi MDM. <br><br>
-                                        Faz o inventário de todos os modelos de dados em uso, referenciando a inteligência coletiva de seus recursos de vários locatários recursos, e sugere uma solução ideal que você pode personalizar conforme necessário. <br><br>
-                                        Aproveite o poder da abordagem gerenciada em cloud computing do Dell Boomi MDM para ampliar as fronteiras organizacionais em departamentos, domínios e aplicativos.<br><br>
-                                        Use os fluxos de dados bidirecionais em tempo real para aproveitar todo o potencial dos seus dados em constante alteração. O Dell Boomi MDM captura, agrega e publica alterações contínuas nos aplicativos que são executados na sua empresa. Sua empresa trabalha em tempo real, então seus dados também precisam trabalhar em tempo real.<br><br>
-                                        Unifique os dados mestre nos domínios para eliminar silos de MDM. Diferentemente das soluções de dados mestre específicas do domínio, o Boomi MDM não depende do domínio e suporta dados de qualquer domínio, sejam eles dados do cliente, do produto, do local ou outros dados.<br><br>
-                                    </p>
-                                    <a class="btn-download mg-bt-40" href="<?php echo $this->_tpl_vars['URL']; ?>
-">
-                                        Download trial <br>30 dias
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <center><p class="titulo-interna-inst align-center">Solicite um orçamento</p></center>
-                                <div class="mg-top--20">
-                                    <?php $_smarty_tpl_vars = $this->_tpl_vars;
-$this->_smarty_include(array('smarty_include_tpl_file' => "../inc/form.html", 'smarty_include_vars' => array()));
-$this->_tpl_vars = $_smarty_tpl_vars;
-unset($_smarty_tpl_vars);
- ?>
+                                    <p class="txt-interna"><strong>Benefícios:</strong></p>
+                                    <ul class="bloco-linha-interna no-bg">
+                                        <li class="linha-ul-interna">Acelere o tempo de comercialização com a modelagem de dados colaborativa. A modelagem dos dados do domínio é essencial, mas demorada. Economize horas de modelagem de tentativa e erro com o Boomi MDM. </li>
+                                        <li class="linha-ul-interna">Faz o inventário de todos os modelos de dados em uso, referenciando a inteligência coletiva de seus recursos de vários locatários recursos, e sugere uma solução ideal que você pode personalizar conforme necessário.</li>
+                                        <li class="linha-ul-interna"> Aproveite o poder da abordagem gerenciada em cloud computing do Dell Boomi MDM para ampliar as fronteiras organizacionais em departamentos, domínios e aplicativos.</li>
+                                        <li class="linha-ul-interna">Use os fluxos de dados bidirecionais em tempo real para aproveitar todo o potencial dos seus dados em constante alteração. O Dell Boomi MDM captura, agrega e publica alterações contínuas nos aplicativos que são executados na sua empresa. Sua empresa trabalha em tempo real, então seus dados também precisam trabalhar em tempo real.</li>
+                                        <li class="linha-ul-interna"> Unifique os dados mestre nos domínios para eliminar silos de MDM. Diferentemente das soluções de dados mestre específicas do domínio, o Boomi MDM não depende do domínio e suporta dados de qualquer domínio, sejam eles dados do cliente, do produto, do local ou outros dados.</li>
+                                    </ul>
                                 </div>
                             </div>
                         </div>   
                         <div class="col-xs-12 col-sm-1 col-md-1"></div>   
                     </div>
+                    <?php $_smarty_tpl_vars = $this->_tpl_vars;
+$this->_smarty_include(array('smarty_include_tpl_file' => "../inc/solicite-download.html", 'smarty_include_vars' => array()));
+$this->_tpl_vars = $_smarty_tpl_vars;
+unset($_smarty_tpl_vars);
+ ?>
                 </article>
             </section>                             
         <?php $_smarty_tpl_vars = $this->_tpl_vars;

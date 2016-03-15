@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.12, created on 2016-03-10 11:16:23
+<?php /* Smarty version 2.6.12, created on 2016-03-14 13:52:04
          compiled from index.html */ ?>
 <!DOCTYPE HTML>
 <html lang="pt-br">
@@ -194,11 +194,19 @@ $this->_sections['i']['first']      = ($this->_sections['i']['iteration'] == 1);
 $this->_sections['i']['last']       = ($this->_sections['i']['iteration'] == $this->_sections['i']['total']);
 ?>                                                 
                             <div class="item">
-                                <div class="img-destaque-blog">
-                                    <?php echo $this->_tpl_vars['dadosBlog'][$this->_sections['i']['index']]['img']; ?>
+                                <?php if ($this->_tpl_vars['dadosBlog'][$this->_sections['i']['index']]['img']): ?>
+                                    <div class="img-destaque-blog">
+                                        <?php echo $this->_tpl_vars['dadosBlog'][$this->_sections['i']['index']]['img']; ?>
 
-                                    </div></div> 
-                                </div>
+                                        </div></div> 
+                                    </div>
+                                <?php else: ?>
+                                    <div class="img-destaque-blog">
+                                        <img src="<?php echo $this->_tpl_vars['URL']; ?>
+commom/img/img-default.jpg" alt="<?php echo $this->_tpl_vars['dadosBlog'][$this->_sections['i']['index']]['titulo']; ?>
+">
+                                    </div>
+                                <?php endif; ?>
                                 <h2 class="titulo-destaque-blog"><a href="<?php echo $this->_tpl_vars['dadosBlog'][$this->_sections['i']['index']]['link']; ?>
 " alt="<?php echo $this->_tpl_vars['dadosBlog'][$this->_sections['i']['index']]['titulo']; ?>
 "><?php echo $this->_tpl_vars['dadosBlog'][$this->_sections['i']['index']]['titulo']; ?>
@@ -208,17 +216,19 @@ $this->_sections['i']['last']       = ($this->_sections['i']['iteration'] == $th
                                     <?php echo $this->_tpl_vars['dadosBlog'][$this->_sections['i']['index']]['descricao']; ?>
 
                                 </a>
-                                <div class="linha-destaque-blog"></div>
-                                <div class="row pd-all-10">
-                                    <img class="pull-left icon-destaque-blog" src="<?php echo $this->_tpl_vars['URL']; ?>
+                                <div class="row abs-bottom">
+                                    <div class="linha-destaque-blog"></div>
+                                    <div class="row pd-all-10">
+                                        <img class="pull-left icon-destaque-blog" src="<?php echo $this->_tpl_vars['URL']; ?>
 commom/img/icon-data.png" alt="<?php echo $this->_tpl_vars['dadosBlog'][$this->_sections['i']['index']]['data']; ?>
 " class="<?php echo $this->_tpl_vars['dadosBlog'][$this->_sections['i']['index']]['data']; ?>
 ">
-                                    <p class="txt-data-por pull-left"><?php echo $this->_tpl_vars['dadosBlog'][$this->_sections['i']['index']]['data']; ?>
+                                        <p class="txt-data-por pull-left"><?php echo $this->_tpl_vars['dadosBlog'][$this->_sections['i']['index']]['data']; ?>
 </p>
-                                    <p class="txt-data-por pull-right">BLOG</p>
-                                    <img class="pull-right icon-destaque-blog" src="<?php echo $this->_tpl_vars['URL']; ?>
-commom/img/icon-por.png" alt="" class="">                                
+                                        <!-- <p class="txt-data-por pull-right">BLOG</p>
+                                        <img class="pull-right icon-destaque-blog" src="<?php echo $this->_tpl_vars['URL']; ?>
+commom/img/icon-por.png" alt="" class="">                                 -->
+                                    </div>
                                 </div>
                             </div>
                         <?php endfor; endif; ?>

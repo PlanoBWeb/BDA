@@ -1,8 +1,8 @@
-<?php /* Smarty version 2.6.12, created on 2016-03-10 12:06:39
+<?php /* Smarty version 2.6.12, created on 2016-03-15 09:56:30
          compiled from ../inc/breadcrumb.html */ ?>
 <article class="conteudo bread-pesquisar">
     <div class="row">
-        <div class="col-xs-12 col-sm-6 col-md-6 pd-none">
+        <div class="col-xs-12 col-sm-7 col-md-7 pd-none">
             <article class="breadcrumb pd-none">
                 <div class="conteudo pd-so-mob">
                     <ul class="bloco-breadcrumb">
@@ -114,7 +114,7 @@ home/">Home</a>
                 </div>
             </article>
         </div>
-        <div class="col-xs-12 col-sm-6 col-md-6">
+        <div class="col-xs-12 col-sm-5 col-md-5">
             <form class="pull-right form-busca form-busca-desk" action="<?php echo $this->_tpl_vars['URL']; ?>
 resultado-busca" method="post" role="search">
                 <div class="form-group form-group-mob">

@@ -37,7 +37,7 @@
 	$permissao['software'] 									= "Software";
 	$permissao['dell'] 										= "Dell";
 	$permissao['integracao-de-dados-e-aplicativos'] 		= "Integração de Dados e Aplicativos";
-	$permissao['boomi-atomsphere'] 							= "Boom Atomsphere";
+	$permissao['boomi-atomsphere'] 							= "Boomi Atomsphere";
 	$permissao['boomi-mdm'] 								= "Boomi MDM";
 	$permissao['shareplex'] 								= "Sharplex";
 	$permissao['gerenciamento-de-banco-de-dados'] 			= "Gerenciamento de Banco de Dados";
@@ -51,7 +51,7 @@
 	$permissao['business-intelligence'] 					= "Busines Intelligence";
 	$permissao['toad-intelligence-central'] 				= "Toad Intelligence Central";
 	$permissao['toad-data-point'] 							= "Data Point";
-	$permissao['backup-e-replicacao-de-dados'] 	= "Backup e Replicação de Dados";
+	$permissao['backup-e-replicacao-de-dados'] 				= "Backup e Replicação de Dados";
 	$permissao['litespeed-for-sql'] 						= "Litespeed";
 	$permissao['shareplex-connector-for-hadoop'] 			= "Shareplex Connector for Hadoop";
 	$permissao['advanced-analytics'] 						= "Advanced Analytics";

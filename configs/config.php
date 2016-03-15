@@ -44,6 +44,10 @@ else
 	/* DADOS Online  */
 	define("PATH_SERVIDOR","	E:/Home/planobweb2/Web/clientes/Bda");
 	define("PASTAPROJETO", strtolower("homologacao/"));
+	define("db_host", '179.188.16.36');
+	define("db_user", 'site13932108512');
+	define("db_pass", 'bd9481aa');
+	define("db_base", 'site13932108512');
 
 	$urlWWW = $_SERVER['SERVER_NAME'];
 	$urlWWWFinal = explode('.', $urlWWW);

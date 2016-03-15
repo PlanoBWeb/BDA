@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.12, created on 2016-03-03 17:37:24
+<?php /* Smarty version 2.6.12, created on 2016-03-10 15:21:32
          compiled from dell.html */ ?>
 <!DOCTYPE HTML>
 <html lang="pt-br">
@@ -124,7 +124,96 @@ software/dell/advanced-analytics" class="hover-default">Advanced Analytics</a></
                         </div>
                     </div>
                 </article>
-            </section>                       
+            </section>   
+            <div class="linha-recursos">
+                <div class="width-default">
+                    <p class="title-recursos">Recursos soluções Dell</p>
+                    <img class="seta-recursos" src="<?php echo $this->_tpl_vars['URL']; ?>
+commom/img/seta-recursos.png" alt="Recursos soluções Dell">
+                </div>
+            </div>
+            <div class="row">
+                <div class="width-default">
+                    <div class="col-xs-12 col-sm-4 col-md-4 pd-lf-50">
+                        <div class="row tamanho-titulo-icon">
+                            <img class="pull-left" src="<?php echo $this->_tpl_vars['URL']; ?>
+commom/img/icon-documentacao1.png" alt="" title="">
+                            <a href="<?php echo $this->_tpl_vars['URL']; ?>
+" class="pull-left txt-title-recursos">Documentações</a>
+                        </div>
+                        <div class="row">
+                            <a class="txt-recursos txt-title-recursos" href="<?php echo $this->_tpl_vars['URL']; ?>
+">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in metus vitae sapien consectetur</a>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-4 col-md-4 pd-lf-50">
+                        <div class="row tamanho-titulo-icon">
+                            <img class="pull-left" src="<?php echo $this->_tpl_vars['URL']; ?>
+commom/img/icon-videos.png" alt="" title="">
+                            <a href="<?php echo $this->_tpl_vars['URL']; ?>
+" class="pull-left txt-title-recursos">Vídeos </a>
+                        </div>
+                        <div class="row">
+                            <a class="txt-recursos txt-title-recursos" href="<?php echo $this->_tpl_vars['URL']; ?>
+">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in metus vitae sapien consectetur</a>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-4 col-md-4 pd-lf-50">
+                        <div class="row tamanho-titulo-icon">
+                            <img class="pull-left" src="<?php echo $this->_tpl_vars['URL']; ?>
+commom/img/icon-suporte.png" alt="" title="">
+                            <a href="<?php echo $this->_tpl_vars['URL']; ?>
+" class="pull-left txt-title-recursos">Suporte</a>
+                        </div>
+                        <div class="row">
+                            <a class="txt-recursos txt-title-recursos" href="<?php echo $this->_tpl_vars['URL']; ?>
+">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in metus vitae sapien consectetur</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="row bloco-recursos">
+                <div class="width-default">
+                    <div class="col-xs-12 col-sm-4 col-md-4 pd-lf-50">
+                        <div class="row tamanho-titulo-icon">
+                            <img class="pull-left" src="<?php echo $this->_tpl_vars['URL']; ?>
+commom/img/icon-treinamentos1.png" alt="Treinamentos e Eventos" title="Treinamentos e Eventos">
+                            <a href="<?php echo $this->_tpl_vars['URL']; ?>
+" class="pull-left txt-title-recursos pd-tp-5">Treinamentos <br>e Eventos</a>
+                        </div>
+                        <div class="row">
+                            <a class="txt-recursos txt-title-recursos" href="<?php echo $this->_tpl_vars['URL']; ?>
+">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in metus vitae sapien consectetur</a>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-4 col-md-4 pd-lf-50">
+                        <div class="row tamanho-titulo-icon">
+                            <img class="pull-left" src="<?php echo $this->_tpl_vars['URL']; ?>
+commom/img/icon-solucoes1.png" alt="Soluções" title="Soluções">
+                            <a href="<?php echo $this->_tpl_vars['URL']; ?>
+" class="pull-left txt-title-recursos">Soluções </a>
+                        </div>
+                        <div class="row">
+                            <a class="txt-recursos txt-title-recursos" href="<?php echo $this->_tpl_vars['URL']; ?>
+">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in metus vitae sapien consectetur</a>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-4 col-md-4 pd-lf-50">
+                        <div class="row tamanho-titulo-icon">
+                            <img class="pull-left" src="<?php echo $this->_tpl_vars['URL']; ?>
+commom/img/icon-arroba.png" alt="Solicite contato" title="Solicite contato">
+                            <a href="<?php echo $this->_tpl_vars['URL']; ?>
+" class="pull-left txt-title-recursos">Solicite contato</a>
+                        </div>
+                        <div class="row">
+                            <a class="txt-recursos txt-title-recursos" href="<?php echo $this->_tpl_vars['URL']; ?>
+">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in metus vitae sapien consectetur</a>
+                        </div>
+                    </div>
+                </div>
+            </div>    
+                             
         <?php $_smarty_tpl_vars = $this->_tpl_vars;
 $this->_smarty_include(array('smarty_include_tpl_file' => "../inc/footer.html", 'smarty_include_vars' => array()));
 $this->_tpl_vars = $_smarty_tpl_vars;
@@ -133,7 +222,3 @@ unset($_smarty_tpl_vars);
     </div>
 </body>
 </html>
-
-
-
-

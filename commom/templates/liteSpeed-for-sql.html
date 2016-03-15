@@ -23,7 +23,7 @@
     <div class="container-fluid pd-none">
         {include file="../inc/header.html"}
             <!-- Banner -->
-            <article class="banner-interna-faixa cor-linha-bn-software pd-none mg-top--5">
+            <article class="banner-interna-faixa cor-linha-bn-software pd-none">
                 <img class="pull-right abs-left hidden-xs" src="{$URL}commom/img/bg-software2.jpg" alt="LiteSpeed" title="LiteSpeed">
                 <div class="width-default">
                     <h1 class="titulo-faixa-interna"> LiteSpeed </h1>
@@ -38,7 +38,7 @@
                         <div class="col-xs-12 col-sm-11 col-md-11 pd-none-desk">
                             <div class="encapsula-desc-prod pd-tp-30">
                                 <div class="bloco-desc-prod">
-                                    <h2 class="txt-interna"><strong> Obtenha enorme redução no tempo de backup/restauração do SQL Server e nos custos de armazenamento. </strong></h2>
+                                    <h2 class="txt-interna"><strong class="font-cat sub-azul"> Obtenha enorme redução no tempo de backup/restauração do SQL Server e nos custos de armazenamento. </strong></h2>
                                     <p class="txt-interna">
                                         O LiteSpeed inclui oito níveis de compactação, permitindo que você escolha a melhor combinação de utilização dos recursos da CPU e redução do tamanho de armazenamento de backup para seu ambiente. Como alternativa, o recurso de compactação adaptável coloca o LiteSpeed responsável por ajustar automaticamente a compactação durante o backup para a melhor velocidade de backup sem afetar a performance do banco de dados do SQL Server de forma negativa.<br><br>
                                         <strong>Benefícios:</strong>
@@ -51,20 +51,12 @@
                                         <li class="linha-ul-interna">Integra-se diretamente ao Amazon S3 e IBM® Tivoli® Storage Manager (TSM)</li>
                                         <li class="linha-ul-interna">Faça o backup no Tivoli Storage Manager e restaure diretamente dele. Melhore a velocidade de backup, reduza o armazenamento de backup e elimine a necessidade do agente TDP do TSM SQL Server com o LiteSpeed.</li>
 									</ul>
-                                    <a class="btn-download mg-bt-40" href="{$URL}">
-                                        Download trial <br>30 dias
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <center><p class="titulo-interna-inst align-center">Solicite um orçamento</p></center>
-                                <div class="mg-top--20">
-                                    {include file="../inc/form.html"}
                                 </div>
                             </div>
                         </div>   
                         <div class="col-xs-12 col-sm-1 col-md-1"></div>   
                     </div>
+                    {include file="../inc/solicite-download.html"}
                 </article>
             </section>                             
         {include file="../inc/footer.html"}

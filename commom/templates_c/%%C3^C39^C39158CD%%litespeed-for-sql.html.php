@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.12, created on 2016-03-07 14:21:14
+<?php /* Smarty version 2.6.12, created on 2016-03-14 18:32:03
          compiled from litespeed-for-sql.html */ ?>
 <!DOCTYPE HTML>
 <html lang="pt-br">
@@ -36,7 +36,7 @@ $this->_tpl_vars = $_smarty_tpl_vars;
 unset($_smarty_tpl_vars);
  ?>
             <!-- Banner -->
-            <article class="banner-interna-faixa cor-linha-bn-software pd-none mg-top--5">
+            <article class="banner-interna-faixa cor-linha-bn-software pd-none">
                 <img class="pull-right abs-left hidden-xs" src="<?php echo $this->_tpl_vars['URL']; ?>
 commom/img/bg-software2.jpg" alt="LiteSpeed" title="LiteSpeed">
                 <div class="width-default">
@@ -57,7 +57,7 @@ unset($_smarty_tpl_vars);
                         <div class="col-xs-12 col-sm-11 col-md-11 pd-none-desk">
                             <div class="encapsula-desc-prod pd-tp-30">
                                 <div class="bloco-desc-prod">
-                                    <h2 class="txt-interna"><strong> Obtenha enorme redução no tempo de backup/restauração do SQL Server e nos custos de armazenamento. </strong></h2>
+                                    <h2 class="txt-interna"><strong class="font-cat sub-azul"> Obtenha enorme redução no tempo de backup/restauração do SQL Server e nos custos de armazenamento. </strong></h2>
                                     <p class="txt-interna">
                                         O LiteSpeed inclui oito níveis de compactação, permitindo que você escolha a melhor combinação de utilização dos recursos da CPU e redução do tamanho de armazenamento de backup para seu ambiente. Como alternativa, o recurso de compactação adaptável coloca o LiteSpeed responsável por ajustar automaticamente a compactação durante o backup para a melhor velocidade de backup sem afetar a performance do banco de dados do SQL Server de forma negativa.<br><br>
                                         <strong>Benefícios:</strong>
@@ -70,25 +70,16 @@ unset($_smarty_tpl_vars);
                                         <li class="linha-ul-interna">Integra-se diretamente ao Amazon S3 e IBM® Tivoli® Storage Manager (TSM)</li>
                                         <li class="linha-ul-interna">Faça o backup no Tivoli Storage Manager e restaure diretamente dele. Melhore a velocidade de backup, reduza o armazenamento de backup e elimine a necessidade do agente TDP do TSM SQL Server com o LiteSpeed.</li>
 									</ul>
-                                    <a class="btn-download mg-bt-40" href="<?php echo $this->_tpl_vars['URL']; ?>
-">
-                                        Download trial <br>30 dias
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <center><p class="titulo-interna-inst align-center">Solicite um orçamento</p></center>
-                                <div class="mg-top--20">
-                                    <?php $_smarty_tpl_vars = $this->_tpl_vars;
-$this->_smarty_include(array('smarty_include_tpl_file' => "../inc/form.html", 'smarty_include_vars' => array()));
-$this->_tpl_vars = $_smarty_tpl_vars;
-unset($_smarty_tpl_vars);
- ?>
                                 </div>
                             </div>
                         </div>   
                         <div class="col-xs-12 col-sm-1 col-md-1"></div>   
                     </div>
+                    <?php $_smarty_tpl_vars = $this->_tpl_vars;
+$this->_smarty_include(array('smarty_include_tpl_file' => "../inc/solicite-download.html", 'smarty_include_vars' => array()));
+$this->_tpl_vars = $_smarty_tpl_vars;
+unset($_smarty_tpl_vars);
+ ?>
                 </article>
             </section>                             
         <?php $_smarty_tpl_vars = $this->_tpl_vars;

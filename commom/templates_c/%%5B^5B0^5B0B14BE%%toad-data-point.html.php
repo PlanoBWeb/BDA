@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.12, created on 2016-03-07 14:21:29
+<?php /* Smarty version 2.6.12, created on 2016-03-14 18:31:41
          compiled from toad-data-point.html */ ?>
 <!DOCTYPE HTML>
 <html lang="pt-br">
@@ -36,7 +36,7 @@ $this->_tpl_vars = $_smarty_tpl_vars;
 unset($_smarty_tpl_vars);
  ?>
             <!-- Banner -->
-            <article class="banner-interna-faixa cor-linha-bn-software pd-none mg-top--5">
+            <article class="banner-interna-faixa cor-linha-bn-software pd-none">
                 <img class="pull-right abs-left hidden-xs" src="<?php echo $this->_tpl_vars['URL']; ?>
 commom/img/bg-software2.jpg" alt="Data Point" title="Data Point">
                 <div class="width-default">
@@ -57,11 +57,11 @@ unset($_smarty_tpl_vars);
                         <div class="col-xs-12 col-sm-11 col-md-11 pd-none-desk">
                             <div class="encapsula-desc-prod pd-tp-30">
                                 <div class="bloco-desc-prod">
-                                    <h2 class="txt-interna"><strong> Acesso a dados de auto-atendimento, integração e ferramenta de preparação </strong></h2>
+                                    <h2 class="txt-interna"><strong class="font-cat sub-azul"> Acesso a dados de auto-atendimento, integração e ferramenta de preparação </strong></h2>
                                     <p class="txt-interna">
                                         Acelere a consulta, integração de dados e geração de relatório, simplifique o acesso, análise e provisionamento de dados com o Toad™ Data Point.<br><br>
 
-                                        O Toad Data Point é uma Ferramenta de integração, preparação e acesso a dados de autoatendimento que permite:<br> 
+                                        O Toad Data Point é uma Ferramenta de integração, preparação e acesso a dados de autoatendimento que permite:
                                     </p>
                                     <ul class="bloco-linha-interna no-bg">
                                         <li class="linha-ul-interna">Conectar-se a e integrar todas as suas fontes de dados relacionais e não relacionais.</li>
@@ -70,7 +70,7 @@ unset($_smarty_tpl_vars);
                                         <li class="linha-ul-interna">Automatiza as tarefas de rotina de consulta e relatório.</li>
                                         <li class="linha-ul-interna">Valida dados de maneira rápida e fácil.</li>
 									</ul>
-
+                                    <p class="txt-interna"><strong>Benefícios: </strong></p>
                                     <ul class="bloco-linha-interna no-bg">
                                         <li class="linha-ul-interna">Acessa e reúne todos os seus dados com uma única ferramenta</li>
                                         <li class="linha-ul-interna">Utiliza o Arraste e solte para criar consultas</li>
@@ -78,25 +78,16 @@ unset($_smarty_tpl_vars);
                                         <li class="linha-ul-interna">Automatiza e programa tarefas e fluxos de trabalho frequentes</li>
                                         <li class="linha-ul-interna">Valide dados com a funcionalidade comparar e sincronizar</li>
                                     </ul>
-                                    <a class="btn-download mg-bt-40" href="<?php echo $this->_tpl_vars['URL']; ?>
-">
-                                        Download trial <br>30 dias
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <center><p class="titulo-interna-inst align-center">Solicite um orçamento</p></center>
-                                <div class="mg-top--20">
-                                    <?php $_smarty_tpl_vars = $this->_tpl_vars;
-$this->_smarty_include(array('smarty_include_tpl_file' => "../inc/form.html", 'smarty_include_vars' => array()));
-$this->_tpl_vars = $_smarty_tpl_vars;
-unset($_smarty_tpl_vars);
- ?>
                                 </div>
                             </div>
                         </div>   
                         <div class="col-xs-12 col-sm-1 col-md-1"></div>   
                     </div>
+                    <?php $_smarty_tpl_vars = $this->_tpl_vars;
+$this->_smarty_include(array('smarty_include_tpl_file' => "../inc/solicite-download.html", 'smarty_include_vars' => array()));
+$this->_tpl_vars = $_smarty_tpl_vars;
+unset($_smarty_tpl_vars);
+ ?>
                 </article>
             </section>                             
         <?php $_smarty_tpl_vars = $this->_tpl_vars;

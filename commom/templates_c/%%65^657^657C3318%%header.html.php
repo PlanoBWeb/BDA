@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.12, created on 2016-03-03 17:36:53
+<?php /* Smarty version 2.6.12, created on 2016-03-10 15:48:05
          compiled from ../inc/header.html */ ?>
 <div class="block-hidden hidden-xs">
     <nav class="menu-sup">
@@ -161,10 +161,12 @@ commom/img/seta-drop-software.png" alt="Dell" title="Dell">Advanced Analytics</a
                                                         </ul>
                                                     </div>
                                                 </li>
-                                                <li class="link-menu-topo linha-menu-topo-software"><img src="<?php echo $this->_tpl_vars['URL']; ?>
-commom/img/seta-drop-software.png" alt="Tibco" title="Tibco">Tibco</li>
-                                                <li class="link-menu-topo linha-menu-topo-software"><img src="<?php echo $this->_tpl_vars['URL']; ?>
-commom/img/seta-drop-software.png" alt="microsoft" title="microsoft">Microsoft</li>
+                                                <li class=""><a class="link-menu-topo linha-menu-topo-software" href="<?php echo $this->_tpl_vars['URL']; ?>
+software/dell"><img src="<?php echo $this->_tpl_vars['URL']; ?>
+commom/img/seta-drop-software.png" alt="Tibco" title="Tibco">Tibco</a></li>
+                                                <li class=""><a class="link-menu-topo linha-menu-topo-software" href="<?php echo $this->_tpl_vars['URL']; ?>
+software/dell"><img src="<?php echo $this->_tpl_vars['URL']; ?>
+commom/img/seta-drop-software.png" alt="microsoft" title="microsoft">Microsoft</a></li>
                                             </div>
                                         </ul>
                                     </li>

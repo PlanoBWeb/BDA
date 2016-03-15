@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.12, created on 2016-03-07 14:21:04
+<?php /* Smarty version 2.6.12, created on 2016-03-14 18:32:32
          compiled from statistica.html */ ?>
 <!DOCTYPE HTML>
 <html lang="pt-br">
@@ -36,7 +36,7 @@ $this->_tpl_vars = $_smarty_tpl_vars;
 unset($_smarty_tpl_vars);
  ?>
             <!-- Banner -->
-            <article class="banner-interna-faixa cor-linha-bn-software pd-none mg-top--5">
+            <article class="banner-interna-faixa cor-linha-bn-software pd-none">
                 <img class="pull-right abs-left hidden-xs" src="<?php echo $this->_tpl_vars['URL']; ?>
 commom/img/bg-software2.jpg" alt="Statistica" title="Statistica">
                 <div class="width-default">
@@ -57,7 +57,7 @@ unset($_smarty_tpl_vars);
                         <div class="col-xs-12 col-sm-11 col-md-11 pd-none-desk">
                             <div class="encapsula-desc-prod pd-tp-30">
                                 <div class="bloco-desc-prod">
-                                    <h2 class="txt-interna"><strong> Software de análise de previsão fácil de usar traz a análise para os dados </strong></h2>
+                                    <h2 class="txt-interna"><strong class="font-cat sub-azul"> Software de análise de previsão fácil de usar traz a análise para os dados </strong></h2>
                                     <p class="txt-interna">
                                         Impulsione a inovação e resolva os desafios de negócios com o Dell Statistica. Ao incorporar a analítica em todos os aspectos e ao capacitar uma comunidade mais ampla, você transformará seus negócios e alcançará novos níveis de sucesso. <br><br>
                                         Torne a tomada de decisões baseadas em analítica o combustível que capacita sua organização: <br><strong>Incorpore a analítica em todos os aspectos</strong>: execute qualquer analítica, em qualquer dado, em qualquer lugar, e conduza melhores decisões em toda a sua organização, sem gastar uma fortuna.<br>
@@ -76,25 +76,16 @@ unset($_smarty_tpl_vars);
                                         <li class="linha-ul-interna"><strong>Capacita seus negócios</strong></li>
                                         <li class="linha-ul-interna"><strong>Extrai ideias práticas do texto</strong></li>
 									</ul>
-                                    <a class="btn-download mg-bt-40" href="<?php echo $this->_tpl_vars['URL']; ?>
-">
-                                        Download trial <br>30 dias
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <center><p class="titulo-interna-inst align-center">Solicite um orçamento</p></center>
-                                <div class="mg-top--20">
-                                    <?php $_smarty_tpl_vars = $this->_tpl_vars;
-$this->_smarty_include(array('smarty_include_tpl_file' => "../inc/form.html", 'smarty_include_vars' => array()));
-$this->_tpl_vars = $_smarty_tpl_vars;
-unset($_smarty_tpl_vars);
- ?>
                                 </div>
                             </div>
                         </div>   
                         <div class="col-xs-12 col-sm-1 col-md-1"></div>   
                     </div>
+                    <?php $_smarty_tpl_vars = $this->_tpl_vars;
+$this->_smarty_include(array('smarty_include_tpl_file' => "../inc/solicite-download.html", 'smarty_include_vars' => array()));
+$this->_tpl_vars = $_smarty_tpl_vars;
+unset($_smarty_tpl_vars);
+ ?>
                 </article>
             </section>                             
         <?php $_smarty_tpl_vars = $this->_tpl_vars;

@@ -10,12 +10,16 @@
 
 	$i=0;
 	foreach($dadosBlog as $item){
-		$arDados[$i]['titulo'] 		= limita_caracteres($item -> title, 75, false);
-		$arDados[$i]['link'] 		= $item -> link;
-		$arDados[$i]['img'] 		= stripImagemBlog($item -> description);
-		$arDados[$i]['data'] 		= date('d-m-Y', strtotime($item -> pubDate));
-		$arDados[$i]['descricao'] 	= strip_tags(limita_caracteres(stripDescricaoBlog($item -> description), 103, false));
-		$i++;
+		if ($i == 8) {
+			break;
+		}else{
+			$arDados[$i]['titulo'] 		= limita_caracteres($item -> title, 75, false);
+			$arDados[$i]['link'] 		= $item -> link;
+			$arDados[$i]['img'] 		= stripImagemBlog($item -> description);
+			$arDados[$i]['data'] 		= date('d-m-Y', strtotime($item -> pubDate));
+			$arDados[$i]['descricao'] 	= strip_tags(limita_caracteres(stripDescricaoBlog($item -> description), 110, false));
+			$i++;
+		}
 	}
 	// XML do blog
 

@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.12, created on 2016-03-07 12:31:03
+<?php /* Smarty version 2.6.12, created on 2016-03-14 18:30:04
          compiled from toad-for-sql-server.html */ ?>
 <!DOCTYPE HTML>
 <html lang="pt-br">
@@ -36,7 +36,7 @@ $this->_tpl_vars = $_smarty_tpl_vars;
 unset($_smarty_tpl_vars);
  ?>
             <!-- Banner -->
-            <article class="banner-interna-faixa cor-linha-bn-software pd-none mg-top--5">
+            <article class="banner-interna-faixa cor-linha-bn-software pd-none">
                 <img class="pull-right abs-left hidden-xs" src="<?php echo $this->_tpl_vars['URL']; ?>
 commom/img/bg-software2.jpg" alt="Toad for SQL" title="Toad for SQL">
                 <div class="width-default">
@@ -57,10 +57,10 @@ unset($_smarty_tpl_vars);
                         <div class="col-xs-12 col-sm-11 col-md-11 pd-none-desk">
                             <div class="encapsula-desc-prod pd-tp-30">
                                 <div class="bloco-desc-prod">
-                                    <h2 class="txt-interna"><strong>Execute bancos de dados de maneira mais rápido e mais confiável.</strong></h2>
+                                    <h2 class="txt-interna"><strong class="font-cat sub-azul">Execute bancos de dados de maneira mais rápido e mais confiável.</strong></h2>
                                     <p class="txt-interna">
                                         Execute bancos de dados de maneira mais rápida e confiável, aumentando o trabalho em menos tempo com Toad™ para SQL Server®. Este único conjunto de ferramentas maximiza a produtividade por meio da automação abrangente, fluxos de trabalho intuitivos e conhecimento integrado. Além disso, ele complementa as ferramentas da Microsoft solucionando os principais desafios do SQL Server. Portanto, é possível administrar de forma proativa um grande número de bancos de dados. Facilita também o gerenciamento de mundanças, resolve problemas com rapidez e promove os mais altos níveis de qualidade, performance e capacidade de manutenção de código.
-                                    </p><br>
+                                    </p>
                                     <ul class="bloco-linha-interna no-bg">
                                         <li class="linha-ul-interna"><strong>Compare e sincronize servidor, esquema e dados para identificar diferenças</strong></li>
                                         <li class="linha-ul-interna">Rastreie mudanças ou migre facilmente um banco de dados entre ambientes de produção, teste e desenvolvimento, comparando e sincronizando servidores, esquemas e dados.</li>
@@ -75,25 +75,16 @@ unset($_smarty_tpl_vars);
                                         <!-- <li class="linha-ul-interna"><strong></strong></li>
                                         <li class="linha-ul-interna"></li> -->
 									</ul>
-                                    <a class="btn-download mg-bt-40" href="<?php echo $this->_tpl_vars['URL']; ?>
-">
-                                        Download trial <br>30 dias
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <center><p class="titulo-interna-inst align-center">Solicite um orçamento</p></center>
-                                <div class="mg-top--20">
-                                    <?php $_smarty_tpl_vars = $this->_tpl_vars;
-$this->_smarty_include(array('smarty_include_tpl_file' => "../inc/form.html", 'smarty_include_vars' => array()));
-$this->_tpl_vars = $_smarty_tpl_vars;
-unset($_smarty_tpl_vars);
- ?>
                                 </div>
                             </div>
                         </div>   
                         <div class="col-xs-12 col-sm-1 col-md-1"></div>   
                     </div>
+                    <?php $_smarty_tpl_vars = $this->_tpl_vars;
+$this->_smarty_include(array('smarty_include_tpl_file' => "../inc/solicite-download.html", 'smarty_include_vars' => array()));
+$this->_tpl_vars = $_smarty_tpl_vars;
+unset($_smarty_tpl_vars);
+ ?>
                 </article>
             </section>                             
         <?php $_smarty_tpl_vars = $this->_tpl_vars;

@@ -131,20 +131,28 @@
                     <div id="owl-demo-blog" class="owl-demo-blog-home">
                         {section name=i loop=$dadosBlog}                                                 
                             <div class="item">
-                                <div class="img-destaque-blog">
-                                    {$dadosBlog[i].img}
-                                    </div></div> 
-                                </div>
+                                {if $dadosBlog[i].img}
+                                    <div class="img-destaque-blog">
+                                        {$dadosBlog[i].img}
+                                        </div></div> 
+                                    </div>
+                                {else}
+                                    <div class="img-destaque-blog">
+                                        <img src="{$URL}commom/img/img-default.jpg" alt="{$dadosBlog[i].titulo}">
+                                    </div>
+                                {/if}
                                 <h2 class="titulo-destaque-blog"><a href="{$dadosBlog[i].link}" alt="{$dadosBlog[i].titulo}">{$dadosBlog[i].titulo}</a></h2><!-- <div> -->
                                 <a href="{$dadosBlog[i].link}" class="txt-destaque-blog">
                                     {$dadosBlog[i].descricao}
                                 </a>
-                                <div class="linha-destaque-blog"></div>
-                                <div class="row pd-all-10">
-                                    <img class="pull-left icon-destaque-blog" src="{$URL}commom/img/icon-data.png" alt="{$dadosBlog[i].data}" class="{$dadosBlog[i].data}">
-                                    <p class="txt-data-por pull-left">{$dadosBlog[i].data}</p>
-                                    <p class="txt-data-por pull-right">BLOG</p>
-                                    <img class="pull-right icon-destaque-blog" src="{$URL}commom/img/icon-por.png" alt="" class="">                                
+                                <div class="row abs-bottom">
+                                    <div class="linha-destaque-blog"></div>
+                                    <div class="row pd-all-10">
+                                        <img class="pull-left icon-destaque-blog" src="{$URL}commom/img/icon-data.png" alt="{$dadosBlog[i].data}" class="{$dadosBlog[i].data}">
+                                        <p class="txt-data-por pull-left">{$dadosBlog[i].data}</p>
+                                        <!-- <p class="txt-data-por pull-right">BLOG</p>
+                                        <img class="pull-right icon-destaque-blog" src="{$URL}commom/img/icon-por.png" alt="" class="">                                 -->
+                                    </div>
                                 </div>
                             </div>
                         {/section}
