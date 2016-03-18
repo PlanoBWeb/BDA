@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.12, created on 2016-03-03 17:36:53
+<?php /* Smarty version 2.6.12, created on 2016-03-17 10:42:14
          compiled from ../inc/cssUrmAmigavel.html */ ?>
 <style type="text/css">
 	<?php echo '       
@@ -35,9 +35,27 @@
 		.cor-linha-bn-software{
 			background-image: url(\'';  echo $this->_tpl_vars['URL'];  echo 'commom/img/bg-1px-azul.jpg\');
 		}
-		.bloco-img-banner-int
+		.img-int-software
 		{
 			background-image: 	url(\'';  echo $this->_tpl_vars['URL'];  echo 'commom/img/bg-software.jpg\');	
+			background-size: 	cover;
+			background-repeat: 	no-repeat;
+		}
+		.img-int-solucoes
+		{
+			background-image: 	url(\'';  echo $this->_tpl_vars['URL'];  echo 'commom/img/bg-solucoes.jpg\');	
+			background-size: 	cover;
+			background-repeat: 	no-repeat;
+		}
+		.img-int-servicos
+		{
+			background-image: 	url(\'';  echo $this->_tpl_vars['URL'];  echo 'commom/img/bg-servicos.jpg\');	
+			background-size: 	cover;
+			background-repeat: 	no-repeat;
+		}
+		.img-int-treinamentos
+		{
+			background-image: 	url(\'';  echo $this->_tpl_vars['URL'];  echo 'commom/img/bg-treinamentos.jpg\');	
 			background-size: 	cover;
 			background-repeat: 	no-repeat;
 		}

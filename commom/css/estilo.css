@@ -88,6 +88,10 @@ img{
 .pd-tp-10{
     padding-top: 7px !important;
 }
+.pd-bt-12
+{
+    padding-bottom: 12px !important;
+}
 .pd-tp-20{
     padding-top: 20px !important;
 }
@@ -211,13 +215,13 @@ li{
     /*background:     #4ba5dc;*/
 }
 .cor-linha-bn-solucoes{
-    background:     #e10452;   
+    background:     #ef5a88;   
 }
 .cor-linha-bn-servicos{
-    background:     #dc6003;
+    background:     #f79447;
 }
 .cor-linha-bn-treinamentos{
-    background:     #37780f;
+    background:     #39bb9c;
 }
 .abs-right
 {
@@ -427,7 +431,7 @@ header{
     box-shadow:         0 6px 20px #999 !important;    
 }
 .bola-rosa{
-    background-color:   #e10452;
+    background-color:   #ef5a88;
 }
 .bola-cinza{
     background-color:   #5c6d7d;
@@ -455,6 +459,10 @@ header{
 }
 .bola-tibco:hover{
     border: 2px solid #ef5a88;   
+}
+.bola-int-servicos{
+    background-color: #fff;
+    border: 1px solid #f79447;
 }
 .bola-transparente
 {
@@ -782,6 +790,7 @@ footer{
     position:   absolute;
     /*left:       35px;*/
     top: 288px;
+    /*top: 175px;*/
     z-index:    999999;
 
 
@@ -812,11 +821,13 @@ footer{
     font-family:    'Raleway-Light';
     margin-top:     0px;
     text-transform: uppercase;
+    text-shadow:    2px 2px 1px rgba(0, 0, 0, 1);
 }
 .subtitulo-banner-interna{
     font-size:      1.4em;
     color:          #fff;
     font-family:    'Raleway-Regular';
+    text-shadow:    2px 2px 1px rgba(0, 0, 0, 1);
 }
 .bread-pesquisar{
     padding-top: 30px;
@@ -929,13 +940,13 @@ footer{
     color: #4ba5dc !important;
 }
 .linha-menu-topo-solucoes:hover{
-    color: #e10452 !important;
+    color: #ef5a88 !important;
 }
 .linha-menu-topo-servicos:hover{
-    color: #dc6003 !important;
+    color: #f79447 !important;
 }
 .linha-menu-topo-treinamentos:hover{
-    color: #37780f !important;
+    color: #39bb9c !important;
 }
 .titulo-interna-inst{
     color:          #3a3a3a;
@@ -1024,7 +1035,7 @@ footer{
 }
 .destaque-pag-interna{
     font-family:    'Raleway-SemiBold';
-    color:          #e10452;
+    color:          #ef5a88;
     font-size:      1.6em;
 }
 .linha-softwares{
@@ -1142,7 +1153,7 @@ footer{
 .bloco-servico-bola-interna{
     width:              100px;
     height:             100px;
-    background-color:   #e10452;
+    background-color:   #ef5a88;
     border-radius:      50%;
     display:            table;
     margin:             auto;
@@ -1385,13 +1396,13 @@ footer{
         border-bottom: 10px solid #4ba5dc;
     }
     .hover-solucoes:hover{
-        border-bottom: 10px solid #e10452;
+        border-bottom: 10px solid #ef5a88;
     }
     .hover-servicos:hover{
-        border-bottom: 10px solid #dc6003;
+        border-bottom: 10px solid #f79447;
     }
     .hover-treinamentos:hover{
-        border-bottom: 10px solid #37780f;
+        border-bottom: 10px solid #39bb9c;
     }
     /*.linha-menu-topo:hover{
         background: #c0c5ca;    
@@ -1516,7 +1527,8 @@ footer{
     .bloco-bola-dell
     {
         max-width: 210px;
-        height: auto;
+        /*height: auto;*/
+        height: 195px;
         float: left;
     }
     .link-rodape
@@ -1653,6 +1665,12 @@ footer{
     }
     .pd-mobile-form-home{
         padding: 10px 2px !important;
+    }
+    .left-aling
+    {
+        margin-left:    19.4%;
+        padding-top:    30px;
+        display:        -webkit-inline-box;
     }
 }
 
@@ -1832,6 +1850,10 @@ footer{
     }
     .blog-destaques-home {
         padding: 10px 0px 14px 0px;
+    }
+    .mg-bt-30
+    {
+        margin-bottom: 30px !important;
     }
     
 

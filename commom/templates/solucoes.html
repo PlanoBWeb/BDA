@@ -28,19 +28,21 @@
     <div class="container-fluid pd-none">
         {include file="../inc/header.html"}
             <!-- Banner -->
-            <article class="xidden-xs col-sm-12 col-md-12 mg-top--5">
+            <article class="xidden-xs col-sm-12 col-md-12 pd-none">
                 <div id="demo" class="vitrine-index">
                     <div class="row">
                         <div class="span12">
                             <div id="owl-demo" class="owl-carousel">
                                 <div class="item">
-                                    <div class="linha-top-banner-int cor-linha-bn-solucoes"></div>
-                                    <div class="bloco-bg-banner-interna"></div>
-                                    <div class="bloco-desc-banner-interna">
-                                        <h1 class="titulo-banner-interna">soluções</h1>
-                                        <h2 class="subtitulo-banner-interna">Simplifique a gestão de seu negócio e <br>se concentrar em seus clientes</h2>
+                                    <!-- <div class="linha-top-banner-int cor-linha-bn-solucoes"></div>
+                                    <div class="bloco-bg-banner-interna"></div> -->
+                                    <div class="width-default">
+                                        <div class="bloco-desc-banner-interna">
+                                            <h1 class="titulo-banner-interna">soluções</h1>
+                                            <h2 class="subtitulo-banner-interna">Simplifique a gestão de seu negócio e <br>se concentrar em seus clientes</h2>
+                                        </div>
                                     </div>
-                                    <img src="{$URL}commom/img/banner-solucoes.jpg" alt="soluções" title="soluções">
+                                    <div class="bloco-img-banner-int img-int-solucoes"></div>                                    
                                 </div>
                             </div>
                         </div>
@@ -61,110 +63,131 @@
 
                         A nossa experiência e parcerias com os mais importantes fabricantes do mercado mundial garante soluções e expertise em diversos setores como serviços financeiros, Marketing, Saúde & Lifesciences, Energia, Bens de Consumo, Mineração Indústria entre outros ajudando a formular uma ampla estratégia Analítica para a empresa manter foco firme sobre os seus resultados de negócios. 
                     </p>
-                    <div class="row pd-tp-30">
-                        <div class="bloco-destaques-banner pd-bt-30">
-                            <div id="owl-demo-interna">
-                                <div class="item col-xs-12 col-sm-12 col-md-12 bloco-dest-home pd-none">
-                                    <a href="{$URL}solucoes/gestao-de-banco-de-dados">
-                                        <div class="bola-tibco bola-dest">
-                                            <img class="img-bola-center" src="{$URL}commom/img/icon-gestao.png" alt="Gestão de Banco de Dados" title="Gestão de Banco de Dados">
-                                        </div>
-                                    </a>
-                                    <div class="row">
-                                        <h2 class="destaques-home align-center"><a href="{$URL}solucoes/gestao-de-banco-de-dados" class="hover-default">Gestão de Banco <br> de Dados</a></h2>
-                                        <h3 class="txt-destaques-home align-center"><a href="{$URL}solucoes/gestao-de-banco-de-dados" class="hover-default">Saiba mais ></a></h3>
+                    <div class="row">
+                        <article class="width-default pd-tp-20 pd-tp-bt-dell">
+                            <div class="col-xs-12 bloco-bola-dell pd-none mg-bt-30">         
+                                <a href="{$URL}solucoes/gestao-de-banco-de-dados">
+                                    <div class="bola-tibco bola-dest">
+                                        <img class="img-bola-center" src="{$URL}commom/img/icon-gestao.png" alt="Gestão de Banco de Dados" title="Gestão de Banco de Dados">
                                     </div>
+                                </a>
+                                <div class="row">
+                                    <h2 class="txt-destaques-home align-center"><a href="{$URL}solucoes/gestao-de-banco-de-dados" class="hover-default">Gestão de Banco <br> de Dados</a></h2>
                                 </div>
-                                <div class="item col-xs-12 col-sm-12 col-md-12 bloco-dest-home pd-none">
-                                    <a href="{$URL}solucoes/big-data-e-iot">
-                                        <div class="bola-tibco bola-dest">
-                                            <img class="img-bola-center" src="{$URL}commom/img/icon-iot.png" alt="BIG Data & IoT" title="BIG Data & IoT">
-                                        </div>
-                                    </a>
-                                    <div class="row">
-                                        <h2 class="destaques-home align-center"><a href="{$URL}solucoes/big-data-e-iot" class="hover-default">BIG Data & IoT<br></a></h2>
-                                        <h3 class="txt-destaques-home align-center"><a href="{$URL}solucoes/big-data-e-iot" class="hover-default">Saiba mais ></a></h3>
+                            </div>
+                            <div class="col-xs-12 bloco-bola-dell pd-none mg-bt-30">         
+                                <a href="{$URL}solucoes/big-data-e-iot">
+                                    <div class="bola-tibco bola-dest">
+                                        <img class="img-bola-center" src="{$URL}commom/img/icon-iot.png" alt="BIG Data & IoT" title="BIG Data & IoT">
                                     </div>
-                                </div> 
-                                <div class="item col-xs-12 col-sm-12 col-md-12 bloco-dest-home pd-none">
-                                    <a href="{$URL}solucoes/gestao-de-avaliacao-educacional">
-                                        <div class="bola-tibco bola-dest">
-                                            <img class="img-bola-center" src="{$URL}commom/img/icon-gestao-avaliacao.png" alt="Gestão de Avaliação Educacional" title="Gestão de Avaliação Educacional">
-                                        </div>
-                                    </a>
-                                    <div class="row">
-                                        <h2 class="destaques-home align-center"><a href="{$URL}solucoes/gestao-de-avaliacao-educacional" class="hover-default">Gestão de Avaliação<br> Educacional </a></h2>
-                                        <h3 class="txt-destaques-home align-center"><a href="{$URL}solucoes/gestao-de-avaliacao-educacional" class="hover-default">Saiba mais ></a></h3>
-                                    </div>
+                                </a>
+                                <div class="row">
+                                    <h2 class="txt-destaques-home align-center"><a href="{$URL}solucoes/big-data-e-iot" class="hover-default">BIG Data & IoT<br></a></h2>
                                 </div>
-                                <div class="item col-xs-12 col-sm-12 col-md-12 bloco-dest-home pd-none">
-                                    <a href="{$URL}solucoes/solucoes/social-media">
-                                        <div class="bola-tibco bola-dest">
-                                            <img class="img-bola-center" src="{$URL}commom/img/icon-social-media.png" alt="Social Media" title="Social Media">
-                                        </div>
-                                    </a>
-                                    <div class="row">
-                                        <h2 class="destaques-home align-center"><a href="{$URL}solucoes/social-media" class="hover-default">Social Media<br></a></h2>
-                                        <h3 class="txt-destaques-home align-center"><a href="{$URL}solucoes/social-media" class="hover-default">Saiba mais ></a></h3>
+                            </div>
+                            <div class="col-xs-12 bloco-bola-dell pd-none mg-bt-30">         
+                                <a href="{$URL}solucoes/gestao-de-avaliacao-educacional">
+                                    <div class="bola-tibco bola-dest">
+                                        <img class="img-bola-center" src="{$URL}commom/img/icon-gestao-avaliacao.png" alt="Gestão de Avaliação Educacional" title="Gestão de Avaliação Educacional">
                                     </div>
-                                </div> 
-                                <div class="item col-xs-12 col-sm-12 col-md-12 bloco-dest-home pd-none">
-                                    <a href="{$URL}solucoes/gestao-de-analise-de-dados">   
-                                        <div class="bola-tibco bola-dest">
-                                            <img class="img-bola-center" src="{$URL}commom/img/icon-gestao-analise.png" alt="Gestão de Análise de Dados" title="Gestão de Análise de Dados">
-                                        </div>
-                                    </a>
-                                    <div class="row">
-                                        <h2 class="destaques-home align-center"><a href="{$URL}solucoes/gestao-de-analise-de-dados" class="hover-default"> Gestão de Análise de Dados (Estatísticas) </a></h2>
-                                        <h3 class="txt-destaques-home align-center"><a href="{$URL}solucoes/gestao-de-analise-de-dados" class="hover-default">Saiba mais ></a></h3>
-                                    </div>
+                                </a>
+                                <div class="row">
+                                    <h2 class="txt-destaques-home align-center"><a href="{$URL}solucoes/gestao-de-avaliacao-educacional" class="hover-default">Gestão de Avaliação<br> Educacional</a></h2>
                                 </div>
-                                <div class="item col-xs-12 col-sm-12 col-md-12 bloco-dest-home pd-none">
+                            </div>
+                            <div class="col-xs-12 bloco-bola-dell pd-none mg-bt-30">         
+                                <a href="{$URL}solucoes/social-media">
+                                    <div class="bola-tibco bola-dest">
+                                        <img class="img-bola-center" src="{$URL}commom/img/icon-social-media.png" alt="Social Media" title="Social Media">
+                                    </div>
+                                </a>
+                                <div class="row">
+                                    <h2 class="txt-destaques-home align-center"><a href="{$URL}solucoes/social-media" class="hover-default">Social Media<br></a></h2>
+                                </div>
+                            </div>
+                            <div class="col-xs-12 bloco-bola-dell pd-none mg-bt-30">         
+                                <a href="{$URL}solucoes/gestao-de-analise-de-dados">
+                                    <div class="bola-tibco bola-dest">
+                                        <img class="img-bola-center" src="{$URL}commom/img/icon-gestao-analise.png" alt="Gestão de Análise de Dados" title="Gestão de Análise de Dados">
+                                    </div>
+                                </a>
+                                <div class="row">
+                                    <h2 class="txt-destaques-home align-center"><a href="{$URL}solucoes/gestao-de-analise-de-dados" class="hover-default">Gestão de Análise de<br>Dados (Estatísticas)</a></h2>
+                                </div>
+                            </div> 
+                            <div class="left-aling">
+                                <div class="col-xs-12 bloco-bola-dell pd-none mg-bt-30">         
                                     <a href="{$URL}solucoes/dell-academic-center">
                                         <div class="bola-tibco bola-dest">
                                             <img class="img-bola-center" src="{$URL}commom/img/icon-dell-academic.png" alt="DELL Academic Center" title="DELL Academic Center">
                                         </div>
                                     </a>
                                     <div class="row">
-                                        <h2 class="destaques-home align-center"><a href="{$URL}solucoes/dell-academic-center" class="hover-default"> DELL Academic <br>Center </a></h2>
-                                        <h3 class="txt-destaques-home align-center"><a href="{$URL}solucoes/dell-academic-center" class="hover-default">Saiba mais ></a></h3>
+                                        <h2 class="txt-destaques-home align-center"><a href="{$URL}solucoes/dell-academic-center" class="hover-default">DELL Academic <br>Center</a></h2>
                                     </div>
-                                </div>   
-                                <div class="item col-xs-12 col-sm-12 col-md-12 bloco-dest-home pd-none">
-                                    <a href="{$URL}solucoes/gestao-de-risco-de-credito"> 
+                                </div>
+                                <div class="col-xs-12 bloco-bola-dell pd-none mg-bt-30">         
+                                    <a href="{$URL}solucoes/gestao-de-risco-de-credito">
                                         <div class="bola-tibco bola-dest">
                                             <img class="img-bola-center" src="{$URL}commom/img/icon-gestao-risco.png" alt="Gestão de Risco de Crédito" title="Gestão de Risco de Crédito">
                                         </div>
                                     </a>
                                     <div class="row">
-                                        <h2 class="destaques-home align-center"><a href="{$URL}solucoes/gestao-de-risco-de-credito" class="hover-default"> Gestão de Risco <br>de Crédito </a></h2>
-                                        <h3 class="txt-destaques-home align-center"><a href="{$URL}solucoes/gestao-de-risco-de-credito" class="hover-default">Saiba mais ></a></h3>
+                                        <h2 class="txt-destaques-home align-center"><a href="{$URL}solucoes/gestao-de-risco-de-credito" class="hover-default">Gestão de Risco <br>de Crédito </a></h2>
                                     </div>
                                 </div>
-                                <div class="item col-xs-12 col-sm-12 col-md-12 bloco-dest-home pd-none">
-                                    <a href="{$URL}solucoes/business-intelligence-analytics"> 
+                                <div class="col-xs-12 bloco-bola-dell pd-none mg-bt-30">         
+                                    <a href="{$URL}solucoes/business-intelligence-analytics">
                                         <div class="bola-tibco bola-dest">
                                             <img class="img-bola-center" src="{$URL}commom/img/icon-busines.png" alt="Business Intelligence Analytics" title="Business Intelligence Analytics">
                                         </div>
                                     </a>
                                     <div class="row">
-                                        <h2 class="destaques-home align-center"><a href="{$URL}solucoes/business-intelligence-analytics" class="hover-default"> Business Intelligence<br> Analytics </a></h2>
-                                        <h3 class="txt-destaques-home align-center"><a href="{$URL}solucoes/business-intelligence-analytics" class="hover-default">Saiba mais ></a></h3>
+                                        <h2 class="txt-destaques-home align-center"><a href="{$URL}solucoes/business-intelligence-analytics" class="hover-default">Business Intelligence<br> Analytics</a></h2>
                                     </div>
-                                </div> 
-                            </div>
-                            <div class="customNavigation">
-                                <a class="btn prev">
-                                    <img src="{$URL}commom/img/left.png" title="Esquerda" alt="Esquerda">
-                                </a>
-                                <a class="btn next">
-                                    <img src="{$URL}commom/img/right.png" title="Direita" alt="Direita">
-                                </a>
-                            </div>
-                        </div>
+                                </div>
+                            </div> 
+                        </article>
                     </div>
                 </article>
-            </section>                
+            </section> 
+            <div class="linha-recursos">
+                <div class="width-default">
+                    <p class="title-recursos">Recursos de Soluções </p>
+                    <img class="seta-recursos" src="{$URL}commom/img/seta-recursos.png" alt="Recursos de Soluções ">
+                </div>
+            </div>
+            <div class="row pd-bt-12">
+                <div class="width-default">
+                    <div class="col-xs-12 col-sm-4 col-md-4 pd-lf-50">
+                        <div class="row tamanho-titulo-icon">
+                            <img class="pull-left" src="{$URL}commom/img/icon-documentacao1.png" alt="" title="">
+                            <a href="{$URL}" class="pull-left txt-title-recursos">Documentações</a>
+                        </div>
+                        <div class="row">
+                            <a class="txt-recursos txt-title-recursos" href="{$URL}">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in metus vitae sapien consectetur</a>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-4 col-md-4 pd-lf-50">
+                        <div class="row tamanho-titulo-icon">
+                            <img class="pull-left" src="{$URL}commom/img/icon-videos.png" alt="" title="">
+                            <a href="{$URL}" class="pull-left txt-title-recursos">Vídeos </a>
+                        </div>
+                        <div class="row">
+                            <a class="txt-recursos txt-title-recursos" href="{$URL}">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in metus vitae sapien consectetur</a>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-4 col-md-4 pd-lf-50">
+                        <div class="row tamanho-titulo-icon">
+                            <img class="pull-left" src="{$URL}commom/img/icon-arroba.png" alt="Solicite contato" title="Solicite contato">
+                            <a href="{$URL}" class="pull-left txt-title-recursos">Solicite contato</a>
+                        </div>
+                        <div class="row">
+                            <a class="txt-recursos txt-title-recursos" href="{$URL}">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in metus vitae sapien consectetur</a>
+                        </div>
+                    </div>     
+                </div>
+            </div>          
         {include file="../inc/footer.html"}
     </div>
 </body>

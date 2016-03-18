@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.12, created on 2016-03-03 17:37:20
+<?php /* Smarty version 2.6.12, created on 2016-03-18 10:44:52
          compiled from software.html */ ?>
 <!DOCTYPE HTML>
 <html lang="pt-br">
@@ -54,7 +54,7 @@ unset($_smarty_tpl_vars);
                                             <h2 class="subtitulo-banner-interna">Conheça as soluções e como<br> podemos ajudar</h2>
                                         </div>
                                     </div>
-                                    <div class="bloco-img-banner-int">
+                                    <div class="bloco-img-banner-int img-int-software">
                                         <!-- <img class="img-banner-home" src="<?php echo $this->_tpl_vars['URL']; ?>
 commom/img/bg-software.jpg" alt="software - Conheça as soluções e como<br> podemos ajudar" title="software - Conheça as soluções e como<br> podemos ajudar"> -->
                                     </div>

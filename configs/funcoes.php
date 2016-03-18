@@ -68,4 +68,76 @@
 		return $txtDescricao;
 	}
 
-?>
+	function urlFriendly($u0 = null, $u1 = null, $u2 = null, $u3 = null, $permissao){
+
+		if ($u3) {
+		    if ( array_key_exists($u0, $permissao) && array_key_exists($u1, $permissao[$u0]) && array_key_exists($u2, $permissao[$u0][$u1]) && array_key_exists($u3, $permissao[$u0][$u1][$u2]) ) {
+
+		        $inicialUrl =  $permissao[$u0];
+		        return $inicialUrl;
+
+		        if (array_key_exists($u1, $permissao[$u0])) {
+		            $primeiraUrl =  $permissao[$u0][$u1];
+		            return $primeiraUrl;
+
+		            if (array_key_exists($u2, $permissao[$u0][$u1])) {
+		                $segundaUrl =  $permissao[$u0][$u1][$u2];
+		                return $segundaUrl;
+
+		                if (array_key_exists($u3, $permissao[$u0][$u1][$u2])) {
+		                    $terceiraUrl = $permissao[$u0][$u1][$u2][$u3];
+		                    return $terceiraUrl;
+		                }
+
+		            }
+
+		        }
+		    }else{
+		        $inicialUrl['pagina'] = "erro";
+		        return $inicialUrl;
+		    }
+		}elseif ($u2) {
+		    if ( array_key_exists($u0, $permissao) && array_key_exists($u1, $permissao[$u0]) && array_key_exists($u2, $permissao[$u0][$u1]) ) {
+
+		        $inicialUrl =  $permissao[$u0];
+		        return $inicialUrl;
+
+		        if (array_key_exists($u1, $permissao[$u0])) {
+		            $primeiraUrl =  $permissao[$u0][$u1];
+		            return $primeiraUrl;
+
+		            if (array_key_exists($u2, $permissao[$u0][$u1])) {
+		                $segundaUrl =  $permissao[$u0][$u1][$u2];
+		                return $segundaUrl;
+		            }
+
+		        }
+		    }else{
+		        $inicialUrl['pagina'] = "erro";
+		        return $inicialUrl;
+		    }
+		}elseif ($u1) {
+		    if ( array_key_exists($u0, $permissao) && array_key_exists($u1, $permissao[$u0]) ) {
+
+		        $inicialUrl =  $permissao[$u0];
+		        return $inicialUrl;
+
+		        if (array_key_exists($u1, $permissao[$u0])) {
+		            $primeiraUrl =  $permissao[$u0][$u1];
+		            return $primeiraUrl;
+		        }
+		    }else{
+		        $inicialUrl['pagina'] = "erro";
+		        return $inicialUrl;
+		    }
+		}elseif ($u0) {
+		    if ( array_key_exists($u0, $permissao) ) {
+
+		        $inicialUrl =  $permissao[$u0];
+		        return $inicialUrl;
+		    }else{
+		        $inicialUrl['pagina'] = "erro";
+		        return $inicialUrl;
+		    }
+		}
+	}

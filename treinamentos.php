@@ -6,6 +6,6 @@
     $smarty->assign("URL", URL);
     $smarty->assign("breadcrumb", "Treinamentos");
     $smarty->assign("pagina", $url['pagina']);
-    $smarty->display("treinamentos.html");
-
-?>
+    $smarty->assign("url", $url);
+    $smarty->assign("permissao", $permissao);
+    $smarty->display("treinamentos.html");?>

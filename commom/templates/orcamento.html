@@ -9,7 +9,7 @@
     <link href="{$URL}commom/img/icon-tab.png" rel="icon">
     {include file="../inc/cssUrmAmigavel.html"}
     <link rel="stylesheet" type="text/css" href="{$URL}commom/css/estilo.css">
-    <title>Expressão Brindes</title>
+    <title>BDA</title>
     <!-- Bootstrap -->
     <link href="{$URL}commom/css/bootstrap.min.css" rel="stylesheet">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -18,42 +18,34 @@
         <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
         <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
-    <!-- vitrine -->
-    <link rel="stylesheet" type="text/css" href="{$URL}commom/css/vitrine/owl.carousel.css">
-    <link rel="stylesheet" type="text/css" href="{$URL}commom/css/vitrine/owl.theme.css">
-    <link rel="stylesheet" type="text/css" href="{$URL}commom/css/vitrine/owl.transitions.css">
-    <!-- vitrine -->
   </head>
   <body>
-    <div class="container-fluid pd-none pag-detalhe-prod">
+    <div class="container-fluid pd-none">
         {include file="../inc/header.html"}
-        {include file="../inc/breadcrumb.html"}
-            <section class="conteudo conteudo-top">
-                <article class="bloco-conteudo-interna">
+            <!-- Banner -->
+            <article class="banner-interna-faixa cor-linha-bn-software">
+                <img class="pull-right abs-left hidden-xs" src="{$URL}commom/img/bg-software2.jpg" alt="Orçamento" title="Orçamento"> 
+                <div class="width-default">
+                    <h1 class="titulo-faixa-interna">Orçamento</h1>
+                </div>
+                <img class="pull-right abs-right hidden-xs" src="{$URL}commom/img/topo-interna-software.jpg" alt="Orçamento" title="Orçamento">
+            </article> 
+            <!-- Banner -->
+            {include file="../inc/breadcrumb.html"}  
+            <section class="conteudo-interna">
+                <div class="width-default">
+                    <div class="col-xs-12 col-sm-12 col-md-12 pd-none pd-so-mob">
+                        <p class="titulo-interna-inst">Faça um orçamento</p>
+                        <!-- <p class="txt-interna-inst">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.</p> -->
+                    </div>
                     <div class="row">
-                        <div class="linha-titulo-pag"></div>
-                        <div class="bloco-titulo-pag">
-                            <p class="titulo-interna">orçamento</p>
-                        </div>
-                        <!-- icon-tel -->
-                    </div>
-                    <div class="conteudo-top">
-                        <div class="col-xs-12 col-sm-8 col-md-8 mg-bt-20 pd-none">  
-                            {include file="../inc/form.html"}                        
-                        </div>
-                        <div class="col-xs-12 col-sm-4 col-md-4 hidden-xs">
-                            <p class="txt-interna">
-                            Preencha o formulário para enviar sua dúvida, sugestão e comentários sobre nossos produtos e atendimento.
-                            Responderemos com o maior prazer o mais breve possível.
-                            Obrigado!<br><br>
-
-                            Equipe Expressão Brindes
-                            </p>
+                        <div class="bloco-formulario">
+                            {include file="../inc/form.html"}
                         </div>
                     </div>
-                </article>
-            </section>
-        {include file="../inc/contato.html"}
+                </div>
+                <br><br>
+            </section>                             
         {include file="../inc/footer.html"}
     </div>
 </body>

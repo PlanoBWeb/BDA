@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.12, created on 2016-03-09 17:16:23
+<?php /* Smarty version 2.6.12, created on 2016-03-17 11:01:45
          compiled from servicos.html */ ?>
 <!DOCTYPE HTML>
 <html lang="pt-br">
@@ -44,20 +44,19 @@ $this->_tpl_vars = $_smarty_tpl_vars;
 unset($_smarty_tpl_vars);
  ?>
             <!-- Banner -->
-            <article class="xidden-xs col-sm-12 col-md-12 mg-top--5">
+            <article class="xidden-xs col-sm-12 col-md-12 pd-none">
                 <div id="demo" class="vitrine-index">
                     <div class="row">
                         <div class="span12">
                             <div id="owl-demo" class="owl-carousel">
                                 <div class="item">
-                                    <div class="linha-top-banner-int cor-linha-bn-servicos"></div>
-                                    <div class="bloco-bg-banner-interna"></div>
-                                    <div class="bloco-desc-banner-interna">
-                                        <h1 class="titulo-banner-interna">serviços</h1>
-                                        <h2 class="subtitulo-banner-interna">Lorem ipsum dolor sit amet, consectetur <br> adipiscing elit proin.</h2>
+                                    <div class="width-default">
+                                        <div class="bloco-desc-banner-interna">
+                                            <h1 class="titulo-banner-interna">serviços</h1>
+                                            <!-- <h2 class="subtitulo-banner-interna">Lorem ipsum dolor sit amet, consectetur <br> adipiscing elit proin.</h2> -->
+                                        </div>
                                     </div>
-                                    <img src="<?php echo $this->_tpl_vars['URL']; ?>
-commom/img/banner-servicos.jpg" alt="serviços" title="serviços">
+                                    <div class="bloco-img-banner-int img-int-servicos"></div>                                    
                                 </div>
                             </div>
                         </div>
@@ -82,59 +81,125 @@ unset($_smarty_tpl_vars);
                         <br><br>
                         Nossas estruturas em serviços comprovados permitem investimentos e entrega de projetos para  gestão da informação, através de  ferramentas de estratégia, planejamento e gestão garantindo assim que você obtenha mais de sua informação. Além disso, a BDA Solutions possui com profissionais de múltiplas competências: consultores de processos, consultores estatísticos, especialistas em soluções de infra-estrutura e em implementação, arquitetos de soluções, consultores e arquitetos de soluções de Business Intelligence.                        
                     </p>
-                    <div class="row pd-tp-30">
-                        <div class="bloco-destaques-banner pd-bt-30">
-                            <div id="owl-demo-interna">
-                                <div class="item col-xs-12 col-sm-12 col-md-12 bloco-dest-home pd-none">
-                                    <div class="bola-cinza bola-dest"></div>
-                                    <div class="row">
-                                        <h2 class="destaques-home align-center"><a href="<?php echo $this->_tpl_vars['URL']; ?>
-servicos/master-data-management"> Master Data Management </a></h2>
-                                        <h3 class="txt-destaques-home align-center"><a href="<?php echo $this->_tpl_vars['URL']; ?>
-servicos/master-data-management">Saiba mais ></a></h3>
+                    <div class="row">
+                        <article class="width-default pd-tp-20 pd-tp-bt-dell">
+                            
+                            <div class="col-xs-12 bloco-bola-dell pd-none mg-bt-30">         
+                                <a href="<?php echo $this->_tpl_vars['URL']; ?>
+servicos/master-data-management">
+                                    <div class="bola-int-servicos bola-dest">
+                                        <img class="img-bola-center" src="<?php echo $this->_tpl_vars['URL']; ?>
+commom/img/icon-data-management.png" alt="Master Data Management" title="Master Data Management">
                                     </div>
-                                </div>
-                                <div class="item col-xs-12 col-sm-12 col-md-12 bloco-dest-home pd-none">
-                                    <div class="bola-rosa bola-dest"></div>
-                                    <div class="row">
-                                        <h2 class="destaques-home align-center"><a href="<?php echo $this->_tpl_vars['URL']; ?>
-servicos/data-intelligence"> Data Intelligence </a></h2>
-                                        <h3 class="txt-destaques-home align-center"><a href="<?php echo $this->_tpl_vars['URL']; ?>
-servicos/data-intelligence">Saiba mais ></a></h3>
-                                    </div>
-                                </div>
-                                <div class="item col-xs-12 col-sm-12 col-md-12 bloco-dest-home pd-none">
-                                    <div class="bola-cinza bola-dest"></div>
-                                    <div class="row">
-                                        <h2 class="destaques-home align-center"><a href="<?php echo $this->_tpl_vars['URL']; ?>
-servicos/implementacao-e-suporte"> Implementação & Suporte </a></h2>
-                                        <h3 class="txt-destaques-home align-center"><a href="<?php echo $this->_tpl_vars['URL']; ?>
-servicos/implementacao-e-suporte">Saiba mais ></a></h3>
-                                    </div>
-                                </div>
-                                <div class="item col-xs-12 col-sm-12 col-md-12 bloco-dest-home pd-none">
-                                    <div class="bola-rosa bola-dest"></div>
-                                    <div class="row">
-                                        <h2 class="destaques-home align-center"><a href="<?php echo $this->_tpl_vars['URL']; ?>
-servicos/consultoria-especializada"> Consultoria Especializada </a></h2>
-                                        <h3 class="txt-destaques-home align-center"><a href="<?php echo $this->_tpl_vars['URL']; ?>
-servicos/consultoria-especializada">Saiba mais ></a></h3>
-                                    </div>
-                                </div>
-                                <div class="item col-xs-12 col-sm-12 col-md-12 bloco-dest-home pd-none">
-                                    <div class="bola-cinza bola-dest"></div>
-                                    <div class="row">
-                                        <h2 class="destaques-home align-center"><a href="<?php echo $this->_tpl_vars['URL']; ?>
-servicos/outsourcing-profissionais-de-ti"> Outsourcing Profissionais de TI </a></h2>
-                                        <h3 class="txt-destaques-home align-center"><a href="<?php echo $this->_tpl_vars['URL']; ?>
-servicos/outsourcing-profissionais-de-ti">Saiba mais ></a></h3>
-                                    </div>
+                                </a>
+                                <div class="row">
+                                    <h2 class="txt-destaques-home align-center"><a href="<?php echo $this->_tpl_vars['URL']; ?>
+servicos/master-data-management" class="hover-default">Master Data<br>Management</a></h2>
                                 </div>
                             </div>
-                        </div>
+                            <div class="col-xs-12 bloco-bola-dell pd-none mg-bt-30">         
+                                <a href="<?php echo $this->_tpl_vars['URL']; ?>
+servicos/data-intelligence">
+                                    <div class="bola-int-servicos bola-dest">
+                                        <img class="img-bola-center" src="<?php echo $this->_tpl_vars['URL']; ?>
+commom/img/icon-data-inteligence.png" alt="Data Intelligence" title="Data Intelligence">
+                                    </div>
+                                </a>
+                                <div class="row">
+                                    <h2 class="txt-destaques-home align-center"><a href="<?php echo $this->_tpl_vars['URL']; ?>
+servicos/data-intelligence" class="hover-default">Data Intelligence</a></h2>
+                                </div>
+                            </div>
+                            <div class="col-xs-12 bloco-bola-dell pd-none mg-bt-30">         
+                                <a href="<?php echo $this->_tpl_vars['URL']; ?>
+servicos/implementacao-e-suporte">
+                                    <div class="bola-int-servicos bola-dest">
+                                        <img class="img-bola-center" src="<?php echo $this->_tpl_vars['URL']; ?>
+commom/img/icon-implementacao.png" alt="Implementação & Suporte " title="Implementação & Suporte ">
+                                    </div>
+                                </a>
+                                <div class="row">
+                                    <h2 class="txt-destaques-home align-center"><a href="<?php echo $this->_tpl_vars['URL']; ?>
+servicos/implementacao-e-suporte" class="hover-default">Implementação<br>& Suporte </a></h2>
+                                </div>
+                            </div>
+                            <div class="col-xs-12 bloco-bola-dell pd-none mg-bt-30">         
+                                <a href="<?php echo $this->_tpl_vars['URL']; ?>
+servicos/consultoria-especializada">
+                                    <div class="bola-int-servicos bola-dest">
+                                        <img class="img-bola-center" src="<?php echo $this->_tpl_vars['URL']; ?>
+commom/img/icon-consultoria.png" alt="Consultoria Especializada" title="Consultoria Especializada">
+                                    </div>
+                                </a>
+                                <div class="row">
+                                    <h2 class="txt-destaques-home align-center"><a href="<?php echo $this->_tpl_vars['URL']; ?>
+servicos/consultoria-especializada" class="hover-default">Consultoria<br>Especializada</a></h2>
+                                </div>
+                            </div>
+                            <div class="col-xs-12 bloco-bola-dell pd-none mg-bt-30">         
+                                <a href="<?php echo $this->_tpl_vars['URL']; ?>
+servicos/outsourcing-profissionais-de-ti">
+                                    <div class="bola-int-servicos bola-dest">
+                                        <img class="img-bola-center" src="<?php echo $this->_tpl_vars['URL']; ?>
+commom/img/icon-outsourcing.png" alt="Outsourcing Profissionais de TI " title="Outsourcing Profissionais de TI ">
+                                    </div>
+                                </a>
+                                <div class="row">
+                                    <h2 class="txt-destaques-home align-center"><a href="<?php echo $this->_tpl_vars['URL']; ?>
+servicos/outsourcing-profissionais-de-ti" class="hover-default">Outsourcing<br>Profissionais de TI </a></h2>
+                                </div>
+                            </div>
+                        </article>
                     </div>
                 </article>
-            </section>                
+            </section> 
+            <div class="linha-recursos">
+                <div class="width-default">
+                    <p class="title-recursos">Recursos de Serviços</p>
+                    <img class="seta-recursos" src="<?php echo $this->_tpl_vars['URL']; ?>
+commom/img/seta-recursos.png" alt="Recursos de Serviços">
+                </div>
+            </div>
+            <div class="row pd-bt-12">
+                <div class="width-default">
+                    <div class="col-xs-12 col-sm-4 col-md-4 pd-lf-50">
+                        <div class="row tamanho-titulo-icon">
+                            <img class="pull-left" src="<?php echo $this->_tpl_vars['URL']; ?>
+commom/img/icon-documentacao1.png" alt="" title="">
+                            <a href="<?php echo $this->_tpl_vars['URL']; ?>
+" class="pull-left txt-title-recursos">Documentações</a>
+                        </div>
+                        <div class="row">
+                            <a class="txt-recursos txt-title-recursos" href="<?php echo $this->_tpl_vars['URL']; ?>
+">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in metus vitae sapien consectetur</a>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-4 col-md-4 pd-lf-50">
+                        <div class="row tamanho-titulo-icon">
+                            <img class="pull-left" src="<?php echo $this->_tpl_vars['URL']; ?>
+commom/img/icon-videos.png" alt="" title="">
+                            <a href="<?php echo $this->_tpl_vars['URL']; ?>
+" class="pull-left txt-title-recursos">Vídeos </a>
+                        </div>
+                        <div class="row">
+                            <a class="txt-recursos txt-title-recursos" href="<?php echo $this->_tpl_vars['URL']; ?>
+">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in metus vitae sapien consectetur</a>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-4 col-md-4 pd-lf-50">
+                        <div class="row tamanho-titulo-icon">
+                            <img class="pull-left" src="<?php echo $this->_tpl_vars['URL']; ?>
+commom/img/icon-arroba.png" alt="Solicite contato" title="Solicite contato">
+                            <a href="<?php echo $this->_tpl_vars['URL']; ?>
+" class="pull-left txt-title-recursos">Solicite contato</a>
+                        </div>
+                        <div class="row">
+                            <a class="txt-recursos txt-title-recursos" href="<?php echo $this->_tpl_vars['URL']; ?>
+">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in metus vitae sapien consectetur</a>
+                        </div>
+                    </div>     
+                </div>
+            </div>               
         <?php $_smarty_tpl_vars = $this->_tpl_vars;
 $this->_smarty_include(array('smarty_include_tpl_file' => "../inc/footer.html", 'smarty_include_vars' => array()));
 $this->_tpl_vars = $_smarty_tpl_vars;
