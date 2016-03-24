@@ -98,6 +98,18 @@
         });
     });
 
+    // Destaques microsoft
+    $(document).ready(function() {
+        var owl = $("#owl-demo-microsoft");     
+        owl.owlCarousel({
+            items : 4, //10 items above 1000px browser width
+            itemsDesktop : [1300,4], //5 items between 1000px and 901px
+            itemsDesktopSmall : [1024,3], // betweem 900px and 601px
+            itemsTablet: [767,1], //2 items between 600 and 0
+            itemsMobile : 1 // itemsMobile disabled - inherit from itemsTablet option
+        });
+    });
+
     // Nossos clientes Home
     $(document).ready(function() {
         var owl = $("#owl-demo-clientes");     
@@ -360,6 +372,14 @@
         });
     });
 
+    $(document).ready(function() {
+        $("#owl-demo-tibco").owlCarousel({
+            navigation : true,
+            slideSpeed : 300,
+            paginationSpeed : 400,
+            singleItem : true
+        });
+    });
     // Ajax Busca Desktop
     $(document).ready(function(){
         $("#buscaValor").keyup(function(){

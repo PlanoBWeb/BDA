@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.12, created on 2016-03-18 15:30:08
+<?php /* Smarty version 2.6.12, created on 2016-03-23 16:53:58
          compiled from business-intelligence-analytics.html */ ?>
 <!DOCTYPE HTML>
 <html lang="pt-br">
@@ -36,10 +36,14 @@ $this->_tpl_vars = $_smarty_tpl_vars;
 unset($_smarty_tpl_vars);
  ?>
             <!-- Banner -->
-            <article class="banner-interna-faixa cor-linha-bn-solucoes pd-none mg-top--5">
+            <article class="banner-interna-faixa cor-linha-bn-solucoes pd-none">
+                <img class="pull-right abs-left hidden-xs" src="<?php echo $this->_tpl_vars['URL']; ?>
+commom/img/bg-solucoes1.jpg" alt="Business Intelligence & Analytics" title="Business Intelligence & Analytics"> 
                 <div class="width-default">
-                    <h1 class="titulo-faixa-interna"> Business Intelligence & Analytics </h1>
+                    <h1 class="titulo-faixa-interna"> Business Intelligence & Analytics</h1>
                 </div>
+                <img class="pull-right abs-right hidden-xs" src="<?php echo $this->_tpl_vars['URL']; ?>
+commom/img/bg-solucoes2.jpg" alt="Business Intelligence & Analytics" title="Business Intelligence & Analytics">
             </article> 
             <!-- Banner -->
             <?php $_smarty_tpl_vars = $this->_tpl_vars;
@@ -52,7 +56,7 @@ unset($_smarty_tpl_vars);
                     <div class="col-xs-12 col-sm-12 col-md-12 pd-none pd-so-mob">
                         <p class="txt-interna">
                             <br><img src="<?php echo $this->_tpl_vars['URL']; ?>
-commom/img/spotfire-desktop.jpg" alt="" title="" class="center-block"><br>
+commom/img/BUSINESS-INTELLIGENCE.jpg" alt="Business Intelligence & Analytics" title="Business Intelligence & Analytics" class="center-block"><br>
                             A BDA Solutions tem como compromisso ajudar nossos clientes a alcançar uma vantagem competitiva contínua através de análise de pesquisa avançada e tecnologias de modelagem, combinando diversas fontes de dados que permitam novos Insights visando melhorar as taxas de assertividade, aumentar a fidelidade do cliente e ainda aumento na receita e lucros na sua empresa.
                             <br><br>
                             Com uma equipe altamente qualificada, A BDA avalia a sua necessidade e aplica técnicas analíticas avançadas para melhorar as Tomadas de Decisões.
@@ -70,8 +74,8 @@ commom/img/icon-industria.png" alt="INDUSTRIA" title="INDUSTRIA">
                                             </div>
                                         </a>
                                         <div class="row">
-                                            <h2 class="destaques-home align-center"><a href="<?php echo $this->_tpl_vars['URL']; ?>
-solucoes/business-intelligence-analytics/industria" class="hover-default">INDÚSTRIA</a></h2>
+                                            <h2 class="txt-destaques-home align-center"><a href="<?php echo $this->_tpl_vars['URL']; ?>
+solucoes/business-intelligence-analytics/industria" class="hover-default">Indústria</a></h2>
                                         </div>
                                     </div>
                                     <div class="item col-xs-12 col-sm-12 col-md-12 bloco-dest-home pd-none">
@@ -83,8 +87,8 @@ commom/img/icon-servicos2.png" alt="SERVIÇOS" title="SERVIÇOS">
                                             </div>
                                         </a>
                                         <div class="row">
-                                            <h2 class="destaques-home align-center"><a href="<?php echo $this->_tpl_vars['URL']; ?>
-solucoes/business-intelligence-analytics/servico" class="hover-default">SERVIÇOS</a></h2>
+                                            <h2 class="txt-destaques-home align-center"><a href="<?php echo $this->_tpl_vars['URL']; ?>
+solucoes/business-intelligence-analytics/servico" class="hover-default">Serviços</a></h2>
                                         </div>
                                     </div>
                                     <div class="item col-xs-12 col-sm-12 col-md-12 bloco-dest-home pd-none">
@@ -96,8 +100,8 @@ commom/img/icon-governo.png" alt="GOVERNO" title="GOVERNO">
                                             </div>
                                         </a>
                                         <div class="row">
-                                            <h2 class="destaques-home align-center"><a href="<?php echo $this->_tpl_vars['URL']; ?>
-solucoes/business-intelligence-analytics/governo" class="hover-default">GOVERNO</a></h2>
+                                            <h2 class="txt-destaques-home align-center"><a href="<?php echo $this->_tpl_vars['URL']; ?>
+solucoes/business-intelligence-analytics/governo" class="hover-default">Governo</a></h2>
                                         </div>
                                     </div>
                                 </div>

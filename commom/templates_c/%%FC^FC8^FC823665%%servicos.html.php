@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.12, created on 2016-03-17 11:01:45
+<?php /* Smarty version 2.6.12, created on 2016-03-21 11:49:48
          compiled from servicos.html */ ?>
 <!DOCTYPE HTML>
 <html lang="pt-br">
@@ -161,7 +161,7 @@ commom/img/seta-recursos.png" alt="Recursos de Serviços">
                 </div>
             </div>
             <div class="row pd-bt-12">
-                <div class="width-default">
+                <div class="width-default recursos-servicos-hover">
                     <div class="col-xs-12 col-sm-4 col-md-4 pd-lf-50">
                         <div class="row tamanho-titulo-icon">
                             <img class="pull-left" src="<?php echo $this->_tpl_vars['URL']; ?>

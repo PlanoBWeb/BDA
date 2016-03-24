@@ -8,7 +8,11 @@
     $smarty->assign("breadcrumb", "Soluções");
     $smarty->assign("pagina", $url['pagina']);
     $smarty->assign("permissao", $permissao);
-
+    $smarty->assign("inicialUrl", $inicialUrl);
+    $smarty->assign("primeiraUrl", $primeiraUrl);
+    $smarty->assign("segundaUrl", $segundaUrl);
+    $smarty->assign("terceiraUrl", $terceiraUrl);
+    
     if ($url['paginaHtml']) {
     	$smarty->display( $url['paginaHtml'] . ".html");
     }else{

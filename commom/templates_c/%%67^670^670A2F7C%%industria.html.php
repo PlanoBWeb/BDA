@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.12, created on 2016-03-18 15:30:11
+<?php /* Smarty version 2.6.12, created on 2016-03-23 16:55:28
          compiled from industria.html */ ?>
 <!DOCTYPE HTML>
 <html lang="pt-br">
@@ -36,10 +36,14 @@ $this->_tpl_vars = $_smarty_tpl_vars;
 unset($_smarty_tpl_vars);
  ?>
             <!-- Banner -->
-            <article class="banner-interna-faixa cor-linha-bn-solucoes pd-none mg-top--5">
+            <article class="banner-interna-faixa cor-linha-bn-solucoes pd-none">
+                <img class="pull-right abs-left hidden-xs" src="<?php echo $this->_tpl_vars['URL']; ?>
+commom/img/bg-solucoes1.jpg" alt="Indústria" title="Indústria"> 
                 <div class="width-default">
-                    <h1 class="titulo-faixa-interna"> Indústria </h1>
+                    <h1 class="titulo-faixa-interna"> Indústria</h1>
                 </div>
+                <img class="pull-right abs-right hidden-xs" src="<?php echo $this->_tpl_vars['URL']; ?>
+commom/img/bg-solucoes2.jpg" alt="Indústria" title="Indústria">
             </article> 
             <!-- Banner -->
             <?php $_smarty_tpl_vars = $this->_tpl_vars;
@@ -51,7 +55,7 @@ unset($_smarty_tpl_vars);
                 <article class="width-default">
                     <div class="col-xs-12 col-sm-12 col-md-12 pd-none pd-so-mob">
                         <div class="row pd-tp-30">
-                            <div class="item col-xs-12 col-sm-4 col-md-4 bloco-dest-home pd-none mg-bt-40">
+                            <div class="item col-xs-12 col-sm-3 col-md-3 bloco-dest-home pd-none mg-bt-40">
                                 <a href="<?php echo $this->_tpl_vars['URL']; ?>
 solucoes/business-intelligence-analytics/industria/oil-e-gas">
                                     <div class="bola-tibco bola-dest">
@@ -60,11 +64,11 @@ commom/img/icon-oil.png" alt="OIL & GAS" title="OIL & GAS">
                                     </div>
                                 </a>
                                 <div class="row">
-                                    <h2 class="destaques-home align-center"><a href="<?php echo $this->_tpl_vars['URL']; ?>
-solucoes/business-intelligence-analytics/industria/oil-e-gas" class="hover-default">OIL & GAS</a></h2>
+                                    <h2 class="txt-destaques-home align-center"><a href="<?php echo $this->_tpl_vars['URL']; ?>
+solucoes/business-intelligence-analytics/industria/oil-e-gas" class="hover-default">Oil & Gas</a></h2>
                                 </div>
                             </div>
-                            <div class="item col-xs-12 col-sm-4 col-md-4 bloco-dest-home pd-none mg-bt-40">
+                            <div class="item col-xs-12 col-sm-3 col-md-3 bloco-dest-home pd-none mg-bt-40">
                                 <a href="<?php echo $this->_tpl_vars['URL']; ?>
 solucoes/business-intelligence-analytics/industria/mineracao">
                                     <div class="bola-tibco bola-dest">
@@ -73,11 +77,11 @@ commom/img/icon-mineracao.png" alt="MINERAÇÃO" title="MINERAÇÃO">
                                     </div>
                                 </a>
                                 <div class="row">
-                                    <h2 class="destaques-home align-center"><a href="<?php echo $this->_tpl_vars['URL']; ?>
-solucoes/business-intelligence-analytics/industria/mineracao" class="hover-default">MINERAÇÃO</a></h2>
+                                    <h2 class="txt-destaques-home align-center"><a href="<?php echo $this->_tpl_vars['URL']; ?>
+solucoes/business-intelligence-analytics/industria/mineracao" class="hover-default">Mineração</a></h2>
                                 </div>
                             </div>
-                            <div class="item col-xs-12 col-sm-4 col-md-4 bloco-dest-home pd-none mg-bt-40">
+                            <div class="item col-xs-12 col-sm-3 col-md-3 bloco-dest-home pd-none mg-bt-40">
                                 <a href="<?php echo $this->_tpl_vars['URL']; ?>
 solucoes/business-intelligence-analytics/industria/siderurgia">
                                     <div class="bola-tibco bola-dest">
@@ -86,11 +90,11 @@ commom/img/icon-siderurgia.png" alt="SIDERURGIA" title="SIDERURGIA">
                                     </div>
                                 </a>
                                 <div class="row">
-                                    <h2 class="destaques-home align-center"><a href="<?php echo $this->_tpl_vars['URL']; ?>
-solucoes/business-intelligence-analytics/industria/siderurgia" class="hover-default">SIDERURGIA</a></h2>
+                                    <h2 class="txt-destaques-home align-center"><a href="<?php echo $this->_tpl_vars['URL']; ?>
+solucoes/business-intelligence-analytics/industria/siderurgia" class="hover-default">Siderurgia</a></h2>
                                 </div>
                             </div>
-                            <div class="item col-xs-12 col-sm-4 col-md-4 bloco-dest-home pd-none mg-bt-40">
+                            <div class="item col-xs-12 col-sm-3 col-md-3 bloco-dest-home pd-none mg-bt-40">
                                 <a href="<?php echo $this->_tpl_vars['URL']; ?>
 solucoes/business-intelligence-analytics/industria/automotivo">
                                     <div class="bola-tibco bola-dest">
@@ -99,11 +103,12 @@ commom/img/icon-automotivo.png" alt="AUTOMOTIVO" title="AUTOMOTIVO">
                                     </div>
                                 </a>
                                 <div class="row">
-                                    <h2 class="destaques-home align-center"><a href="<?php echo $this->_tpl_vars['URL']; ?>
-solucoes/business-intelligence-analytics/industria/automotivo" class="hover-default">AUTOMOTIVO</a></h2>
+                                    <h2 class="txt-destaques-home align-center"><a href="<?php echo $this->_tpl_vars['URL']; ?>
+solucoes/business-intelligence-analytics/industria/automotivo" class="hover-default">Automotivo</a></h2>
                                 </div>
                             </div>
-                            <div class="item col-xs-12 col-sm-4 col-md-4 bloco-dest-home pd-none mg-bt-40">
+                            <div class="item hidden-xs col-sm-3 col-md-3 bloco-dest-home pd-none mg-bt-40"></div>
+                            <div class="item col-xs-12 col-sm-3 col-md-3 bloco-dest-home pd-none mg-bt-40">
                                 <a href="<?php echo $this->_tpl_vars['URL']; ?>
 solucoes/business-intelligence-analytics/industria/papel-e-celulose">
                                     <div class="bola-tibco bola-dest">
@@ -112,11 +117,11 @@ commom/img/icon-papel.png" alt="PAPEL E CELULOSE" title="PAPEL E CELULOSE">
                                     </div>
                                 </a>
                                 <div class="row">
-                                    <h2 class="destaques-home align-center"><a href="<?php echo $this->_tpl_vars['URL']; ?>
-solucoes/business-intelligence-analytics/industria/papel-e-celulose" class="hover-default">PAPEL E CELULOSE</a></h2>
+                                    <h2 class="txt-destaques-home align-center"><a href="<?php echo $this->_tpl_vars['URL']; ?>
+solucoes/business-intelligence-analytics/industria/papel-e-celulose" class="hover-default">Papel e celulose</a></h2>
                                 </div>
                             </div>
-                            <div class="item col-xs-12 col-sm-4 col-md-4 bloco-dest-home pd-none mg-bt-40">
+                            <div class="item col-xs-12 col-sm-3 col-md-3 bloco-dest-home pd-none mg-bt-40">
                                 <a href="<?php echo $this->_tpl_vars['URL']; ?>
 solucoes/business-intelligence-analytics/industria/farmaceutico">
                                     <div class="bola-tibco bola-dest">
@@ -125,10 +130,11 @@ commom/img/icon-farmaceutico.png" alt="FARMACEUTICO" title="FARMACEUTICO">
                                     </div>
                                 </a>
                                 <div class="row">
-                                    <h2 class="destaques-home align-center"><a href="<?php echo $this->_tpl_vars['URL']; ?>
-solucoes/business-intelligence-analytics/industria/farmaceutico" class="hover-default">FARMACEUTICO</a></h2>
+                                    <h2 class="txt-destaques-home align-center"><a href="<?php echo $this->_tpl_vars['URL']; ?>
+solucoes/business-intelligence-analytics/industria/farmaceutico" class="hover-default">Farmaceutico</a></h2>
                                 </div>
                             </div>
+                            <div class="item hidden-xs col-sm-3 col-md-3 bloco-dest-home pd-none mg-bt-40"></div>
                         </div>
                         <br><br>                
                     </div>

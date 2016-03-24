@@ -151,8 +151,11 @@
 	            'urlPagina'     => "microsoft",
 	            'breadcrumb'    => "Microsoft",
 	            'linkDownload'  => "",
-	            'azure-data-analytics' => array(
-				 	'urlPagina'     => "azure-data-analytics",
+	     //        'azure-data-analytics' => array(
+				 	// 'urlPagina'     => "azure-data-analytics",
+				 	// 'breadcrumb'    => "Analise e Insights em Dados",
+            	'data-analytics' => array(
+				 	'urlPagina'     => "data-analytics",
 				 	'breadcrumb'    => "Analise e Insights em Dados",
 				),
 				'solucao-big-data-microsoft' => array(
@@ -166,6 +169,10 @@
 				'power-bi' => array(
 				 	'urlPagina'     => "power-bi",
 				 	'breadcrumb'    => "Power Bi",
+				),
+				'microsoft-azure' => array(
+				 	'urlPagina'     => "microsoft-azure",
+				 	'breadcrumb'    => "Microsoft Azure",
 				),
 	        ),
 	    ),
@@ -229,6 +236,8 @@
 				 	'oil-e-gas' => array(
 					 	'urlPagina'     => "oil-e-gas",
 					 	'breadcrumb'    => "OIL & Gás",
+					 	'solicite'    	=> "",
+					 	'download'    	=> "0",
 					),
 					'mineracao' => array(
 					 	'urlPagina'     => "mineracao",
@@ -303,8 +312,6 @@
 		),
 
 	);
-
-
 	// 'software' => array(
 	//  'urlPagina'     => "software",
 	//  'breadcrumb'    => "Software",
@@ -315,42 +322,26 @@
 	if (isset($urlFriendly['pagina'])) {
 		$inicialUrl = $urlFriendly['pagina'];
 	}else{
-		$inicialUrl[] 	= $urlFriendly['urlPagina'];
-		$inicialUrl[] 	= $urlFriendly['breadcrumb'];
-        $primeiraUrl 	= $urlFriendly[$url[1]];
-        $segundaUrl 	= $urlFriendly[$url[1]][$url[2]];
-        $terceiraUrl 	= $urlFriendly[$url[1]][$url[2]][$url[3]];
+		$inicialUrl['urlPagina'] 	= $urlFriendly['urlPagina'];
+		$inicialUrl['breadcrumb'] 	= $urlFriendly['breadcrumb'];
+        $primeiraUrl 				= $urlFriendly[$url[1]];
+        $segundaUrl 				= $urlFriendly[$url[1]][$url[2]];
+        $terceiraUrl 				= $urlFriendly[$url[1]][$url[2]][$url[3]];
+	}
+	
+	if ($url[3]) {
+		$url['paginaHtml'] = $terceiraUrl['urlPagina'];
+	}elseif ($url[2]) {
+		$url['paginaHtml'] = $segundaUrl['urlPagina'];
+	}elseif ($url[1]) {
+		$url['paginaHtml'] = $primeiraUrl['urlPagina'];
+	}else{
+		$url['paginaHtml']= $inicialUrl[0];
 	}
 
 	// ----- Define a pagina ----- //
 	$url['pagina'] = $url[0];
-	
-	// $permissao[''] 										= "";
-	$path = "commom/templates/";
-	// ----- Valida se existe páginas internas ----- //
-	if (array_key_exists($url[2], $permissao) || array_key_exists($url[1], $permissao)) {		
-		if ($url[3]) {
-			if (file_exists($path . $url[3] . '.html')) {
-				$url['paginaHtml'] = $url[3];
-			}else{
-				$url['paginaHtml'] = "index";
-			}
-		}elseif ($url[2]) {
-			if (file_exists($path . $url[2] . '.html')) {
-				$url['paginaHtml'] = $url[2];
-			}else{
-				$url['paginaHtml'] = "index";
-			}
-		}elseif ($url[1]) {
-			if (file_exists($path . $url[1] . '.html')) {
-				$url['paginaHtml'] = $url[1];
-			}else{
-				$url['paginaHtml'] = "index";
-			}
-		}else{
-			$url['paginaHtml'] = "index";
-		}
-	}
+
 	// ----- Faz include da página ----- //
 	if ( $url['pagina'] != "blog" ) {
 		if ($url['pagina'] == "" || $url['pagina'] == "index") {

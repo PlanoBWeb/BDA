@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.12, created on 2016-03-17 10:42:14
+<?php /* Smarty version 2.6.12, created on 2016-03-22 17:31:49
          compiled from ../inc/cssUrmAmigavel.html */ ?>
 <style type="text/css">
 	<?php echo '       
@@ -64,6 +64,36 @@
 			width: 				100%;
 			height: 			320px;
 			background-image: 	url(\'';  echo $this->_tpl_vars['URL'];  echo 'commom/img/banner.jpg\');	
+			background-size: 	cover;
+			background-repeat: 	no-repeat;
+		}
+		.img-int-tibco
+		{
+			background-image: 	url(\'';  echo $this->_tpl_vars['URL'];  echo 'commom/img/img-tibco.jpg\');	
+			background-size: 	cover;
+			background-repeat: 	no-repeat;
+		}
+		.img-int-tibco02
+		{
+			background-image: 	url(\'';  echo $this->_tpl_vars['URL'];  echo 'commom/img/5-maneiras.jpg\');	
+			background-size: 	cover;
+			background-repeat: 	no-repeat;
+		}
+		.img-int-microsoft
+		{
+			background-image: 	url(\'';  echo $this->_tpl_vars['URL'];  echo 'commom/img/bg-microsoft.jpg\');	
+			background-size: 	cover;
+			background-repeat: 	no-repeat;
+		}
+		.img-int-data-analytics
+		{
+			background-image: 	url(\'';  echo $this->_tpl_vars['URL'];  echo 'commom/img/bg-DATA-ANALYTICS.jpg\');	
+			background-size: 	cover;
+			background-repeat: 	no-repeat;
+		}
+		.img-int-power-bi
+		{
+			background-image: 	url(\'';  echo $this->_tpl_vars['URL'];  echo 'commom/img/bg-power-bi.jpg\');	
 			background-size: 	cover;
 			background-repeat: 	no-repeat;
 		}

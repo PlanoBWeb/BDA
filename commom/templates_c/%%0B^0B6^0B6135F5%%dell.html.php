@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.12, created on 2016-03-10 15:21:32
+<?php /* Smarty version 2.6.12, created on 2016-03-21 17:27:45
          compiled from dell.html */ ?>
 <!DOCTYPE HTML>
 <html lang="pt-br">
@@ -127,7 +127,7 @@ software/dell/advanced-analytics" class="hover-default">Advanced Analytics</a></
             </section>   
             <div class="linha-recursos">
                 <div class="width-default">
-                    <p class="title-recursos">Recursos soluções Dell</p>
+                    <p class="title-recursos">Recursos Soluções Dell</p>
                     <img class="seta-recursos" src="<?php echo $this->_tpl_vars['URL']; ?>
 commom/img/seta-recursos.png" alt="Recursos soluções Dell">
                 </div>
@@ -212,8 +212,7 @@ commom/img/icon-arroba.png" alt="Solicite contato" title="Solicite contato">
                         </div>
                     </div>
                 </div>
-            </div>    
-                             
+            </div>  
         <?php $_smarty_tpl_vars = $this->_tpl_vars;
 $this->_smarty_include(array('smarty_include_tpl_file' => "../inc/footer.html", 'smarty_include_vars' => array()));
 $this->_tpl_vars = $_smarty_tpl_vars;

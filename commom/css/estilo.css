@@ -123,6 +123,9 @@ img{
 {
     padding-left: 0px !important;
 }
+.pd-tp-0{
+    padding-top: 0px !important;
+}
 .mg-top--5{
     /*margin-top: -5px !important;*/
     margin-top: -7px !important;
@@ -139,6 +142,10 @@ img{
 }
 .mg-right-25{
     margin-right: 25px !important;
+}
+.mg-tp-80
+{
+    margin-top: 80px !important;
 }
 .align-center{
     text-align: center !important;
@@ -174,6 +181,9 @@ img{
 li{
     list-style: none;
 }
+.ul-com-list li{
+    list-style: initial;
+}
 .align-center{
     text-align: center;
 }
@@ -201,11 +211,11 @@ li{
 }
 .cor-linha-solucoes
 {
-    color: #f79447 !important;
+    color: #ef5a88 !important;
 }
 .cor-linha-servicos
 {
-    color: #ef5a88 !important;
+    color: #f79447 !important;
 }
 .cor-linha-treinamentos
 {
@@ -222,6 +232,14 @@ li{
 }
 .cor-linha-bn-treinamentos{
     background:     #39bb9c;
+}
+.recursos-solucoes-hover a:hover
+{
+    color: #ef5a88 !important;
+}
+.recursos-servicos-hover a:hover
+{
+    color:     #f79447;
 }
 .abs-right
 {
@@ -332,7 +350,8 @@ header{
     background: #2d3e50 !important;    
     /*padding:    12px 20px 5px 14px !important;*/
     padding:    12px 0px 15px 4px !important;
-    min-width:  210px;
+    /*min-width:  210px;*/
+    min-width:  260px;
 }
 .icon-redes-topo a{
     padding: 2px;
@@ -797,6 +816,13 @@ footer{
 /*    max-width:  500px;
 */
 }
+.bloco-desc-banner-interna-tibco{
+    position:   absolute;
+    left:       355px;
+    /*top:        35px;*/
+    top:        164px;
+    z-index:    999999;
+}
 .bloco-bg-banner-interna{
     width:      540px;
     height:     177px;
@@ -1023,7 +1049,8 @@ footer{
     font-family:    'Raleway-Medium';
     color:          #fff;
     font-size:      1em;
-    list-style:     initial;
+    /*list-style:     initial;*/
+    list-style:     none;
     line-height:    1.4;
 }
 .linha-ul-interna h2{
@@ -1342,6 +1369,23 @@ footer{
     float:          left;
     margin:         auto;
 }
+.font-sub-bolas
+{
+    font-size: 0.86em !important;   
+}
+
+.font-tibco
+{
+    font-size: 2em;
+}
+.font-microsoft
+{
+    font-size: 1.1em;
+}
+.align-justify
+{
+    text-align: justify !important;
+}
 @media all and (min-width: 768px) {
     .navbar-default{
         width:              100%;
@@ -1559,7 +1603,19 @@ footer{
         float:          right !important;
         margin-right:   60px;
     }
-
+    .width-meio
+    {
+        width: 50%;
+        height: auto;
+        display: table;
+        position: relative;
+        margin: auto;
+    }
+    .mg-lf-rg-70
+    {
+        margin-left:    70px;
+        margin-right:   70px !Important;
+    }
 
  /*   header{
         padding-bottom: 50px;

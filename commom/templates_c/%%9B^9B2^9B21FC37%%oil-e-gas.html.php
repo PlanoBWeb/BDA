@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.12, created on 2016-03-18 15:30:12
+<?php /* Smarty version 2.6.12, created on 2016-03-23 16:21:41
          compiled from oil-e-gas.html */ ?>
 <!DOCTYPE HTML>
 <html lang="pt-br">
@@ -36,10 +36,14 @@ $this->_tpl_vars = $_smarty_tpl_vars;
 unset($_smarty_tpl_vars);
  ?>
             <!-- Banner -->
-            <article class="banner-interna-faixa cor-linha-bn-solucoes pd-none mg-top--5">
+            <article class="banner-interna-faixa cor-linha-bn-solucoes pd-none">
+                <img class="pull-right abs-left hidden-xs" src="<?php echo $this->_tpl_vars['URL']; ?>
+commom/img/bg-solucoes1.jpg" alt="OIL & Gás" title="OIL & Gás"> 
                 <div class="width-default">
-                    <h1 class="titulo-faixa-interna"> OIL & Gás </h1>
+                    <h1 class="titulo-faixa-interna"> OIL & Gás</h1>
                 </div>
+                <img class="pull-right abs-right hidden-xs" src="<?php echo $this->_tpl_vars['URL']; ?>
+commom/img/bg-solucoes2.jpg" alt="OIL & Gás" title="OIL & Gás">
             </article> 
             <!-- Banner -->
             <?php $_smarty_tpl_vars = $this->_tpl_vars;
@@ -48,10 +52,10 @@ $this->_tpl_vars = $_smarty_tpl_vars;
 unset($_smarty_tpl_vars);
  ?>        
             <section class="conteudo-interna">
-                <article class="width-default">
+                <article class="width-default mg-bt-40">
                     <div class="col-xs-12 col-sm-12 col-md-12 pd-none pd-so-mob">
                         <div class="row pd-tp-30">
-                            <div class="bola-tibco bola-dest pull-left mg-right-25">
+                            <div class="bola-tibco bola-dest pull-left mg-lf-rg-70">
                                 <img class="img-bola-center" src="<?php echo $this->_tpl_vars['URL']; ?>
 commom/img/icon-oil.png" alt="OIL & Gás" title="OIL & Gás">
                             </div>
@@ -61,9 +65,13 @@ commom/img/icon-oil.png" alt="OIL & Gás" title="OIL & Gás">
                                 Como uma abordagem única para lidar com esses desafios, disponibilizando em tempo real, as soluções baseadas em eventos que analisam os dados com a velocidade das operações de campo, capacitam a tomada de decisão e ação nos momentos mais importantes.
                             </p>
                         </div>
-                        <br><br>                
                     </div>
                 </article>
+                <?php $_smarty_tpl_vars = $this->_tpl_vars;
+$this->_smarty_include(array('smarty_include_tpl_file' => "../inc/solicite-download.html", 'smarty_include_vars' => array()));
+$this->_tpl_vars = $_smarty_tpl_vars;
+unset($_smarty_tpl_vars);
+ ?>
             </section>                       
         <?php $_smarty_tpl_vars = $this->_tpl_vars;
 $this->_smarty_include(array('smarty_include_tpl_file' => "../inc/footer.html", 'smarty_include_vars' => array()));

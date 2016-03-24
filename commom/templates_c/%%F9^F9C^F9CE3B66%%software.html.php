@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.12, created on 2016-03-18 10:44:52
+<?php /* Smarty version 2.6.12, created on 2016-03-22 15:59:54
          compiled from software.html */ ?>
 <!DOCTYPE HTML>
 <html lang="pt-br">
@@ -175,13 +175,13 @@ commom/img/microsoft.jpg" alt="microsoft" title="microsoft">
                                 <h2 class="linha-softwares-titulo"><a href="<?php echo $this->_tpl_vars['URL']; ?>
 software/microsoft">MICROSOFT</a></h2>
                                 <h3 class="linha-softwares"><a href="<?php echo $this->_tpl_vars['URL']; ?>
-software/microsoft/azure-data-analytics" title="Azure Data Analytics">Azure Data Analytics</a></h3> 
+software/microsoft/microsoft-azure" title="Azure">Azure</a></h3> 
                                 <h3 class="linha-softwares"><a href="<?php echo $this->_tpl_vars['URL']; ?>
-software/microsoft/solucao-big-data-microsoft" title="Solução Big Data Microsoft">Solução Big Data Microsoft</a></h3> 
+software/microsoft/power-bi" title="Power BI">Power BI</a></h3> 
                                 <h3 class="linha-softwares"><a href="<?php echo $this->_tpl_vars['URL']; ?>
-software/microsoft/cortana-analytics" title="Cortana Analytics">Cortana Analytics</a></h3> 
+software/microsoft/data-analytics" title="Data Analytics">Data Analytics</a></h3> 
                                 <h3 class="linha-softwares"><a href="<?php echo $this->_tpl_vars['URL']; ?>
-software/microsoft/power-bi" title="POWER BI">Power Bi</a></h3> 
+software/microsoft/solucao-big-data-microsoft" title="Big Data">Big Data</a></h3> 
                             </div>
                         </div>     
                         <br>   

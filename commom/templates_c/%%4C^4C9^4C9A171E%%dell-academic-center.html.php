@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.12, created on 2016-03-18 17:58:01
+<?php /* Smarty version 2.6.12, created on 2016-03-23 18:12:20
          compiled from dell-academic-center.html */ ?>
 <!DOCTYPE HTML>
 <html lang="pt-br">
@@ -36,10 +36,14 @@ $this->_tpl_vars = $_smarty_tpl_vars;
 unset($_smarty_tpl_vars);
  ?>
             <!-- Banner -->
-            <article class="banner-interna-faixa cor-linha-bn-solucoes pd-none mg-top--5">
+            <article class="banner-interna-faixa cor-linha-bn-solucoes pd-none">
+                <img class="pull-right abs-left hidden-xs" src="<?php echo $this->_tpl_vars['URL']; ?>
+commom/img/bg-solucoes1.jpg" alt="DELL Academic Center " title="DELL Academic Center "> 
                 <div class="width-default">
                     <h1 class="titulo-faixa-interna"> DELL Academic Center </h1>
                 </div>
+                <img class="pull-right abs-right hidden-xs" src="<?php echo $this->_tpl_vars['URL']; ?>
+commom/img/bg-solucoes2.jpg" alt="DELL Academic Center " title="DELL Academic Center ">
             </article> 
             <!-- Banner -->
             <?php $_smarty_tpl_vars = $this->_tpl_vars;
@@ -61,18 +65,13 @@ commom/img/DELL-ACADEMIC-CENTER.jpg" alt="" title="" class="center-block"><br>
                         <br><br>
                         As áreas que poderão usufruir desse pacote são:                            
                         </p>
-                        <ul class="bloco-linha-interna no-bg">
+                        <ul class="bloco-linha-interna ul-com-list no-bg">
                             <li class="linha-ul-interna">Medicina</li>
                             <li class="linha-ul-interna">Engenharia (Química, Processo etc)</li>
                             <li class="linha-ul-interna">Ciência da Computação</li>
                             <li class="linha-ul-interna">Estatística</li>
                             <li class="linha-ul-interna">Matemática entre outras</li>
                         </ul>
-                        <br>
-                        <a class="btn-download mg-bt-40" href="<?php echo $this->_tpl_vars['URL']; ?>
-">
-                            Download trial <br>30 dias
-                        </a>                        
                     </div>
                 </article>
             </section>                       

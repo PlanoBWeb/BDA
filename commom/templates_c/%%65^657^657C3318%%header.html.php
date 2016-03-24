@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.12, created on 2016-03-10 15:48:05
+<?php /* Smarty version 2.6.12, created on 2016-03-23 18:40:59
          compiled from ../inc/header.html */ ?>
 <div class="block-hidden hidden-xs">
     <nav class="menu-sup">
@@ -161,12 +161,93 @@ commom/img/seta-drop-software.png" alt="Dell" title="Dell">Advanced Analytics</a
                                                         </ul>
                                                     </div>
                                                 </li>
-                                                <li class=""><a class="link-menu-topo linha-menu-topo-software" href="<?php echo $this->_tpl_vars['URL']; ?>
+                                                <!-- <li><a class="link-menu-topo linha-menu-topo-software" href="<?php echo $this->_tpl_vars['URL']; ?>
 software/dell"><img src="<?php echo $this->_tpl_vars['URL']; ?>
-commom/img/seta-drop-software.png" alt="Tibco" title="Tibco">Tibco</a></li>
-                                                <li class=""><a class="link-menu-topo linha-menu-topo-software" href="<?php echo $this->_tpl_vars['URL']; ?>
-software/dell"><img src="<?php echo $this->_tpl_vars['URL']; ?>
-commom/img/seta-drop-software.png" alt="microsoft" title="microsoft">Microsoft</a></li>
+commom/img/seta-drop-software.png" alt="Tibco" title="Tibco">Tibco</a></li> -->
+                                                <li class="sub-submenu hidden-xs">
+                                                    <a class="link-menu-topo linha-menu-topo-software" href="<?php echo $this->_tpl_vars['URL']; ?>
+software/tibco"><img src="<?php echo $this->_tpl_vars['URL']; ?>
+commom/img/seta-drop-software.png" alt="tibco" title="tibco">Tibco</a>
+                                                    <div class="bloco-sub-submenu">
+                                                        <ul class="dropdown-sub-submenu">
+                                                            <li><a class="link-menu-topo linha-menu-topo-software" href="<?php echo $this->_tpl_vars['URL']; ?>
+software/tibco/spotfire-desktop"><img src="<?php echo $this->_tpl_vars['URL']; ?>
+commom/img/seta-drop-software.png" alt="Spotfire Desktop" title="Spotfire Desktop">Spotfire Desktop</a></li>
+                                                            <li><a class="link-menu-topo linha-menu-topo-software" href="<?php echo $this->_tpl_vars['URL']; ?>
+software/tibco/spotfire-platform"><img src="<?php echo $this->_tpl_vars['URL']; ?>
+commom/img/seta-drop-software.png" alt="Spotfire Platform" title="Spotfire Platform">Spotfire Platform</a></li>
+                                                            <li><a class="link-menu-topo linha-menu-topo-software" href="<?php echo $this->_tpl_vars['URL']; ?>
+software/tibco/spotfire-analytics-para-big-data"><img src="<?php echo $this->_tpl_vars['URL']; ?>
+commom/img/seta-drop-software.png" alt="Spotfire Analytics" title="Spotfire Analytics">Spotfire Analytics</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </li>
+                                                <li class="sub-submenu-mob visible-xs-block">
+                                                    <a class="link-menu-topo linha-menu-topo-software" href="<?php echo $this->_tpl_vars['URL']; ?>
+software/"><img src="<?php echo $this->_tpl_vars['URL']; ?>
+commom/img/seta-drop-software.png" alt="Tibco" title="Tibco">Tibco</a>
+                                                    <div class="bloco-sub-submenu">
+                                                        <ul class="dropdown-sub-submenu">
+                                                            <li><a class="link-menu-topo linha-menu-topo-software" href="<?php echo $this->_tpl_vars['URL']; ?>
+software/tibco/spotfire-desktop"><img src="<?php echo $this->_tpl_vars['URL']; ?>
+commom/img/seta-drop-software.png" alt="Spotfire Desktop" title="Spotfire Desktop">Spotfire Desktop</a></li>
+                                                            <li><a class="link-menu-topo linha-menu-topo-software" href="<?php echo $this->_tpl_vars['URL']; ?>
+software/tibco/spotfire-platform"><img src="<?php echo $this->_tpl_vars['URL']; ?>
+commom/img/seta-drop-software.png" alt="Spotfire Platform" title="Spotfire Platform">Spotfire Platform</a></li>
+                                                            <li><a class="link-menu-topo linha-menu-topo-software" href="<?php echo $this->_tpl_vars['URL']; ?>
+software/tibco/spotfire-analytics-para-big-data"><img src="<?php echo $this->_tpl_vars['URL']; ?>
+commom/img/seta-drop-software.png" alt="Spotfire Analytics" title="Spotfire Analytics">Spotfire Analytics</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </li>
+                                                <!-- <li class="sub-submenu hidden-xs"><a class="link-menu-topo linha-menu-topo-software" href="<?php echo $this->_tpl_vars['URL']; ?>
+software/"><img src="<?php echo $this->_tpl_vars['URL']; ?>
+commom/img/seta-drop-software.png" alt="Tibco" title="Tibco">Tibco</a></li> -->
+                                                <!-- <li class=""><a class="link-menu-topo linha-menu-topo-software" href="<?php echo $this->_tpl_vars['URL']; ?>
+software/"><img src="<?php echo $this->_tpl_vars['URL']; ?>
+commom/img/seta-drop-software.png" alt="microsoft" title="microsoft">Microsoft</a></li> -->
+                                                <li class="sub-submenu hidden-xs">
+                                                    <a class="link-menu-topo linha-menu-topo-software" href="<?php echo $this->_tpl_vars['URL']; ?>
+software/microsoft"><img src="<?php echo $this->_tpl_vars['URL']; ?>
+commom/img/seta-drop-software.png" alt="Microsoft" title="Microsoft">Microsoft</a>
+                                                    <div class="bloco-sub-submenu">
+                                                        <ul class="dropdown-sub-submenu">
+                                                            <li><a class="link-menu-topo linha-menu-topo-software" href="<?php echo $this->_tpl_vars['URL']; ?>
+software/microsoft/microsoft-azure"><img src="<?php echo $this->_tpl_vars['URL']; ?>
+commom/img/seta-drop-software.png" alt="Azure" title="Azure">Azure</a></li>
+                                                            <li><a class="link-menu-topo linha-menu-topo-software" href="<?php echo $this->_tpl_vars['URL']; ?>
+software/microsoft/power-bi"><img src="<?php echo $this->_tpl_vars['URL']; ?>
+commom/img/seta-drop-software.png" alt="Power BI" title="Power BI">Power BI</a></li>
+                                                            <li><a class="link-menu-topo linha-menu-topo-software" href="<?php echo $this->_tpl_vars['URL']; ?>
+software/microsoft/data-analytics"><img src="<?php echo $this->_tpl_vars['URL']; ?>
+commom/img/seta-drop-software.png" alt="Data Analytics" title="Data Analytics">Data Analytics</a></li>
+                                                            <li><a class="link-menu-topo linha-menu-topo-software" href="<?php echo $this->_tpl_vars['URL']; ?>
+software/microsoft/solucao-big-data-microsoft"><img src="<?php echo $this->_tpl_vars['URL']; ?>
+commom/img/seta-drop-software.png" alt="Big Data" title="Big Data">Big Data</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </li>
+                                                <li class="sub-submenu-mob visible-xs-block">
+                                                    <a class="link-menu-topo linha-menu-topo-software" href="<?php echo $this->_tpl_vars['URL']; ?>
+software/microsoft"><img src="<?php echo $this->_tpl_vars['URL']; ?>
+commom/img/seta-drop-software.png" alt="Microsoft" title="Microsoft">Microsoft</a>
+                                                    <div class="bloco-sub-submenu">
+                                                        <ul class="dropdown-sub-submenu">
+                                                            <li><a class="link-menu-topo linha-menu-topo-software" href="<?php echo $this->_tpl_vars['URL']; ?>
+software/microsoft/microsoft-azure"><img src="<?php echo $this->_tpl_vars['URL']; ?>
+commom/img/seta-drop-software.png" alt="Azure" title="Azure">Azure</a></li>
+                                                            <li><a class="link-menu-topo linha-menu-topo-software" href="<?php echo $this->_tpl_vars['URL']; ?>
+software/microsoft/power-bi"><img src="<?php echo $this->_tpl_vars['URL']; ?>
+commom/img/seta-drop-software.png" alt="Power BI" title="Power BI">Power BI</a></li>
+                                                            <li><a class="link-menu-topo linha-menu-topo-software" href="<?php echo $this->_tpl_vars['URL']; ?>
+software/microsoft/data-analytics"><img src="<?php echo $this->_tpl_vars['URL']; ?>
+commom/img/seta-drop-software.png" alt="Data Analytics" title="Data Analytics">Data Analytics</a></li>
+                                                            <li><a class="link-menu-topo linha-menu-topo-software" href="<?php echo $this->_tpl_vars['URL']; ?>
+software/microsoft/solucao-big-data-microsoft"><img src="<?php echo $this->_tpl_vars['URL']; ?>
+commom/img/seta-drop-software.png" alt="Big Data" title="Big Data">Big Data</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </li>
                                             </div>
                                         </ul>
                                     </li>
@@ -184,6 +265,33 @@ commom/img/seta-drop-solucoes.png" alt="Soluções" title="Soluções">Soluçõe
                                                 <!-- <li><a class="link-menu-topo linha-menu-topo-solucoes" href="<?php echo $this->_tpl_vars['URL']; ?>
 solucoes-interna"><img src="<?php echo $this->_tpl_vars['URL']; ?>
 commom/img/seta-drop-solucoes.png" alt="Soluções" title="Soluções">Soluções interna</a></li> -->
+                                                <li class="sub-submenu hidden-xs"><a class="link-menu-topo linha-menu-topo-solucoes" href="<?php echo $this->_tpl_vars['URL']; ?>
+"><img src="<?php echo $this->_tpl_vars['URL']; ?>
+commom/img/seta-drop-solucoes.png" alt="Dell Academic Center" title="Dell Academic Center">Dell Academic Center</a></li>
+                                                <!-- <li class="sub-submenu hidden-xs">
+                                                    <a class="link-menu-topo linha-menu-topo-solucoes" href="<?php echo $this->_tpl_vars['URL']; ?>
+"><img src="<?php echo $this->_tpl_vars['URL']; ?>
+commom/img/seta-drop-solucoes.png" alt="" title=""></a>
+                                                    <div class="bloco-sub-submenu">
+                                                        <ul class="dropdown-sub-submenu">
+                                                            <li><a class="link-menu-topo linha-menu-topo-solucoes" href="<?php echo $this->_tpl_vars['URL']; ?>
+"><img src="<?php echo $this->_tpl_vars['URL']; ?>
+commom/img/seta-drop-solucoes.png" alt="" title=""></a></li>
+                                                        </ul>
+                                                    </div>
+                                                </li> -->
+                                                <li class="sub-submenu hidden-xs">
+                                                    <a class="link-menu-topo linha-menu-topo-solucoes" href="<?php echo $this->_tpl_vars['URL']; ?>
+"><img src="<?php echo $this->_tpl_vars['URL']; ?>
+commom/img/seta-drop-solucoes.png" alt="Business Intelligence & Analytics" title="Business Intelligence & Analytics">Business Intelligence & Analytics</a>
+                                                    <!-- <div class="bloco-sub-submenu">
+                                                        <ul class="dropdown-sub-submenu">
+                                                            <li><a class="link-menu-topo linha-menu-topo-solucoes" href="<?php echo $this->_tpl_vars['URL']; ?>
+"><img src="<?php echo $this->_tpl_vars['URL']; ?>
+commom/img/seta-drop-solucoes.png" alt="" title=""></a></li>
+                                                        </ul>
+                                                    </div> -->
+                                                </li>
                                             </div>
                                         </ul>
                                     </li>
