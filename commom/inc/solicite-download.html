@@ -12,7 +12,11 @@
                 <img class="img-icon-link-int" src="{$URL}commom/img/icon-link-solicite.png" alt="Solicite um Orçamento" title="Solicite um Orçamento">
             </a>
             <a class="nome-link-int" href="{$URL}orcamento">
-                Solicite um Orçamento
+                {if $terceiraUrl.txtsolicite}
+                    {$terceiraUrl.txtsolicite}
+                {else}
+                    Solicite um Orçamento
+                {/if}
             </a>
         </div>
     {/if}

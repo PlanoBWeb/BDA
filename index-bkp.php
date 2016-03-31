@@ -76,7 +76,7 @@
 	$permissao['credit-scoring'] 							= "Credit Scoring";
 	$permissao['customer-analytics'] 						= "Customes Analytics";
 	$permissao['saude'] 									= "Saude";
-	$permissao['dell-academic-center'] 						= "Dell Academic Center";
+	$permissao['dell-academic-center'] 						= "Dell Statistica";
 	$permissao['gestao-de-risco-de-credito'] 				= "Gestão de Risco e Crédito";
 	$permissao['business-intelligence-analytics'] 			= "Business Intelligence & Analytics";
 	$permissao['industria'] 								= "Indústria";

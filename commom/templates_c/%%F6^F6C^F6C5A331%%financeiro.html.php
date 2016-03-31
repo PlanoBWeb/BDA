@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.12, created on 2016-03-18 18:01:59
+<?php /* Smarty version 2.6.12, created on 2016-03-30 16:54:58
          compiled from financeiro.html */ ?>
 <!DOCTYPE HTML>
 <html lang="pt-br">
@@ -35,11 +35,15 @@ $this->_smarty_include(array('smarty_include_tpl_file' => "../inc/header.html", 
 $this->_tpl_vars = $_smarty_tpl_vars;
 unset($_smarty_tpl_vars);
  ?>
-            <!-- Banner -->
-            <article class="banner-interna-faixa cor-linha-bn-solucoes pd-none mg-top--5">
+             <!-- Banner -->
+            <article class="banner-interna-faixa cor-linha-bn-solucoes pd-none">
+                <img class="pull-right abs-left hidden-xs" src="<?php echo $this->_tpl_vars['URL']; ?>
+commom/img/bg-solucoes1.jpg" alt="SERVIÇOS FINANCEIROS" title="SERVIÇOS FINANCEIROS"> 
                 <div class="width-default">
-                    <h1 class="titulo-faixa-interna"> SERVIÇOS FINANCEIROS</h1>
+                    <h1 class="titulo-faixa-interna">SERVIÇOS FINANCEIROS</h1>
                 </div>
+                <img class="pull-right abs-right hidden-xs" src="<?php echo $this->_tpl_vars['URL']; ?>
+commom/img/bg-solucoes2.jpg" alt="SERVIÇOS FINANCEIROS" title="SERVIÇOS FINANCEIROS">
             </article> 
             <!-- Banner -->
             <?php $_smarty_tpl_vars = $this->_tpl_vars;
@@ -48,28 +52,39 @@ $this->_tpl_vars = $_smarty_tpl_vars;
 unset($_smarty_tpl_vars);
  ?>        
             <section class="conteudo-interna">
-                <article class="width-default">
+                <article class="width-default mg-bt-40">
                     <div class="col-xs-12 col-sm-12 col-md-12 pd-none pd-so-mob">
                         <div class="row pd-tp-30">
-                            <div class="bola-tibco bola-dest pull-left mg-right-25">
-                                <img class="img-bola-center" src="<?php echo $this->_tpl_vars['URL']; ?>
-commom/img/icon-financeiro.png" alt="SERVIÇOS FINANCEIROS" title="SERVIÇOS FINANCEIROS">
+                            <div class="col-xs-12 pull-left max-int-solucoes-bola pd-none pd-so-mob" style="max-width:300px !Important">
+                                <div class="row pd-none mg-bt-50 bloco-disable-interna">
+                                    <div class="bola-tibco bola-dest">
+                                        <img class="img-bola-center" src="<?php echo $this->_tpl_vars['URL']; ?>
+commom/img/icon-financeiro.png" alt="Serviços finaneiros" title="Serviços finaneiros">
+                                    </div>
+                                    <div class="row">
+                                        <h2 class="txt-destaques-home align-center mg-top--5">Financeiro</h2>
+                                    </div>
+                                </div>
+                                <?php $_smarty_tpl_vars = $this->_tpl_vars;
+$this->_smarty_include(array('smarty_include_tpl_file' => "../inc/solicite-solucoes.html", 'smarty_include_vars' => array()));
+$this->_tpl_vars = $_smarty_tpl_vars;
+unset($_smarty_tpl_vars);
+ ?> 
                             </div>
-                            <p class="txt-interna">
-                                Poderosas análises financeiras para ajudar os intervenientes no mercado institucional e de varejo monitorar e analisar fatores econômicos, bens e investimentos. <br><br>
-
-                                Com a solução de BI você pode executar vários cenários, realizar análises hipotéticas, e entender rapidamente resultados potenciais para planejar em conformidade. Soluções de gerenciamento de informações e serviços podem ser fornecidas para: <br><br>
-                                
-                                <ul class="bloco-linha-interna no-bg">
+                            <div class="col-xs-12 col-sm-8 col-md-8 pd-none pd-so-mob">
+                                <p class="txt-interna">
+                                    Poderosas análises financeiras para ajudar os intervenientes no mercado institucional e de varejo monitorar e analisar fatores econômicos, bens e investimentos. <br><br>
+                                    Com a solução de BI você pode executar vários cenários, realizar análises hipotéticas, e entender rapidamente resultados potenciais para    planejar em conformidade. Soluções de gerenciamento de informações e serviços podem ser fornecidas para: 
+                                </p><br><br>
+                                 <ul class="bloco-linha-interna no-bg ul-com-list">
                                     <li class="linha-ul-interna">Análise de concorrência utilizando os dados e mídias sociais</li>
                                     <li class="linha-ul-interna">Análise de rentabilidade</li>
                                     <li class="linha-ul-interna">Evolução do setor financeiro</li>
                                     <li class="linha-ul-interna">Gerenciamento de riscos</li>
                                     <li class="linha-ul-interna">Requisitos de conformidade regulamentar</li>
                                 </ul>   
-                            </p>
+                            </div>
                         </div>
-                        <br><br>                
                     </div>
                 </article>
             </section>                       

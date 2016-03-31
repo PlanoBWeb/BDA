@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.12, created on 2016-03-22 17:31:49
+<?php /* Smarty version 2.6.12, created on 2016-03-28 14:29:53
          compiled from ../inc/cssUrmAmigavel.html */ ?>
 <style type="text/css">
 	<?php echo '       
@@ -93,9 +93,36 @@
 		}
 		.img-int-power-bi
 		{
-			background-image: 	url(\'';  echo $this->_tpl_vars['URL'];  echo 'commom/img/bg-power-bi.jpg\');	
+			background-image: 	url(\'';  echo $this->_tpl_vars['URL'];  echo 'commom/img/bg-power-bi-g.jpg\');	
 			background-size: 	cover;
 			background-repeat: 	no-repeat;
+		}
+		.img-int-azure
+		{
+			background-image: 	url(\'';  echo $this->_tpl_vars['URL'];  echo 'commom/img/bg-azure.jpg\');	
+			background-size: 	cover;
+			background-repeat: 	no-repeat;
+		}
+		.img-int-academic
+		{
+			background-image: 	url(\'';  echo $this->_tpl_vars['URL'];  echo 'commom/img/bg-academic-g.jpg\');	
+			background-size: 	cover;
+			background-repeat: 	no-repeat;
+		}		
+
+		@media all and (max-width: 1500px) {
+			.img-int-power-bi
+			{
+				background-image: 	url(\'';  echo $this->_tpl_vars['URL'];  echo 'commom/img/bg-power-bi.jpg\');	
+				background-size: 	cover;
+				background-repeat: 	no-repeat;
+			}
+			.img-int-academic
+			{
+				background-image: 	url(\'';  echo $this->_tpl_vars['URL'];  echo 'commom/img/bg-academic.jpg\');	
+				background-size: 	cover;
+				background-repeat: 	no-repeat;
+			}
 		}
 	'; ?>
 

@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.12, created on 2016-03-07 14:22:21
+<?php /* Smarty version 2.6.12, created on 2016-03-31 15:53:12
          compiled from customer-analytics.html */ ?>
 <!DOCTYPE HTML>
 <html lang="pt-br">
@@ -36,10 +36,14 @@ $this->_tpl_vars = $_smarty_tpl_vars;
 unset($_smarty_tpl_vars);
  ?>
             <!-- Banner -->
-            <article class="banner-interna-faixa cor-linha-bn-solucoes pd-none mg-top--5">
+            <article class="banner-interna-faixa cor-linha-bn-solucoes pd-none">
+                <img class="pull-right abs-left hidden-xs" src="<?php echo $this->_tpl_vars['URL']; ?>
+commom/img/bg-solucoes1.jpg" alt="Customer Analytics" title="Customer Analytics"> 
                 <div class="width-default">
-                    <h1 class="titulo-faixa-interna"> Customer Analytics </h1>
+                    <h1 class="titulo-faixa-interna pd-titulo-faixa-interna">Customer Analytics</h1>
                 </div>
+                <img class="pull-right abs-right hidden-xs" src="<?php echo $this->_tpl_vars['URL']; ?>
+commom/img/bg-solucoes2.jpg" alt="Customer Analytics" title="Customer Analytics">
             </article> 
             <!-- Banner -->
             <?php $_smarty_tpl_vars = $this->_tpl_vars;
@@ -50,13 +54,15 @@ unset($_smarty_tpl_vars);
             <section class="conteudo-interna">
                 <article class="width-default">
                     <div class="col-xs-12 col-sm-12 col-md-12 pd-none pd-so-mob">
+                        <img src="<?php echo $this->_tpl_vars['URL']; ?>
+commom/img/customer-analytics.jpg" alt="Customer Analytics" title="Customer Analytics" class="lf-so-desk mg-right-bt-25">
                         <p class="txt-interna">
                         Para entender as necessidades dos clientes, preferências e comportamentos, instituições financeiras como bancos, credores hipotecários, empresas de cartão de crédito e consultores de investimento estão se voltando para as técnicas de mineração de dados poderosos em Soluções de Data Mining. Estas técnicas ajudam essas empresas descobrir tendências ocultas e explicar os padrões que afetam cada aspecto de seu sucesso global. Grandes sucessos e melhores rentabilidades foram alcançados por empresas que utilizam a modelagem preditiva para marketing, análise de crédito, detecção de fraude, previsão e gestão de riscos.
                         <br><br>               
                         As organizações em geral, principalmente, as instituições financeiras escolhem uma grande variedade de dados detalhados do seu cliente, que na maioria das vezes estão segmentados em bancos de dados diferentes e de diversos formatos. Para acompanhar os recentes avanços na tecnologia de banco de dados e software de mineração de dados estas soluções de mercado são extremamente necessárias para gerenciar seus riscos, utilizar todas as informações disponíveis e explorar uma ampla vasta gama de cenários. Agora, estratégias de negócios pode ser desenvolvida de forma mais inteligente e rápida.
-                        </p>
+                        </p><br>
                         <h2 class="txt-interna"><strong> Soluções Aplicadas:  </strong></h2>
-                        <ul class="bloco-linha-interna no-bg">
+                        <ul class="bloco-linha-interna no-bg ul-com-list">
                             <li class="linha-ul-interna"><strong>Ampla faixa de ferramentas </strong> : Incorpora ferramentas para toda a gama de necessidades de scoring de crédito. Preparação de dados, atributo de construção, peso da evidência de codificação, construção de scorecard, seleção de modelo, modelo de avaliação, estabilidade de seleção e população de ponto de corte são todos incorporados em um pacote de software.</li>
                             <li class="linha-ul-interna"><strong>Informações textuais </strong> : Com soluções de Text Mining permite explorar informações ocultas em dados não estruturados (por exemplo, notas textuais) e usá-los para previsão.</li>
                             <li class="linha-ul-interna"><strong>Integração de Dashboard </strong> : Incorporando um plataforma server,  permitirá a entrega de aplicações de inteligência analítica e de negócios para as divisões dentro da empresa através de consultas gerenciadas centralmente, modelos de análise, modelos de relatórios e painéis de controle.</li>
@@ -64,7 +70,54 @@ unset($_smarty_tpl_vars);
                         </ul>
                     </div>
                 </article>
-            </section>                       
+            </section>        
+            <div class="linha-recursos">
+                <div class="width-default">
+                    <p class="title-recursos">Recursos Soluções Churn Analysis</p>
+                    <img class="seta-recursos" src="<?php echo $this->_tpl_vars['URL']; ?>
+commom/img/seta-recursos.png" alt="Churn Analysis">
+                </div>
+            </div>        
+            <div class="row bloco-recursos">
+                <div class="width-default">
+                    <div class="col-xs-12 col-sm-4 col-md-4 pd-lf-50">
+                        <div class="row tamanho-titulo-icon">
+                            <img class="pull-left" src="<?php echo $this->_tpl_vars['URL']; ?>
+commom/img/icon-treinamentos1.png" alt="Treinamentos e Eventos" title="Treinamentos e Eventos">
+                            <a href="<?php echo $this->_tpl_vars['URL']; ?>
+" class="pull-left txt-title-recursos pd-tp-5">Treinamentos <br>e Eventos</a>
+                        </div>
+                        <div class="row">
+                            <a class="txt-recursos txt-title-recursos" href="<?php echo $this->_tpl_vars['URL']; ?>
+">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in metus vitae sapien consectetur</a>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-4 col-md-4 pd-lf-50">
+                        <div class="row tamanho-titulo-icon">
+                            <img class="pull-left" src="<?php echo $this->_tpl_vars['URL']; ?>
+commom/img/icon-solucoes1.png" alt="Soluções" title="Soluções">
+                            <a href="<?php echo $this->_tpl_vars['URL']; ?>
+" class="pull-left txt-title-recursos">Soluções Estatística</a>
+                        </div>
+                        <div class="row">
+                            <a class="txt-recursos txt-title-recursos" href="<?php echo $this->_tpl_vars['URL']; ?>
+">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in metus vitae sapien consectetur</a>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-4 col-md-4 pd-lf-50">
+                        <div class="row tamanho-titulo-icon">
+                            <img class="pull-left" src="<?php echo $this->_tpl_vars['URL']; ?>
+commom/img/icon-pay-pal.png" alt="Solicite contato" title="Solicite contato">
+                            <a href="<?php echo $this->_tpl_vars['URL']; ?>
+" class="pull-left txt-title-recursos pd-tp-5">Compre em 12x<br>sem juros</a>
+                        </div>
+                        <div class="row">
+                            <a class="txt-recursos txt-title-recursos" href="<?php echo $this->_tpl_vars['URL']; ?>
+">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in metus vitae sapien consectetur</a>
+                        </div>
+                    </div>
+                </div> 
+            </div>                
         <?php $_smarty_tpl_vars = $this->_tpl_vars;
 $this->_smarty_include(array('smarty_include_tpl_file' => "../inc/footer.html", 'smarty_include_vars' => array()));
 $this->_tpl_vars = $_smarty_tpl_vars;

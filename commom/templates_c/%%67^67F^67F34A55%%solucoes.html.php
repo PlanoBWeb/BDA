@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.12, created on 2016-03-23 16:21:16
+<?php /* Smarty version 2.6.12, created on 2016-03-31 14:50:43
          compiled from solucoes.html */ ?>
 <!DOCTYPE HTML>
 <html lang="pt-br">
@@ -126,7 +126,7 @@ solucoes/big-data-e-iot" class="hover-default">BIG Data & IoT<br></a></h2>
                             </div>
                             <div class="col-xs-12 bloco-bola-dell pd-none mg-bt-30">         
                                 <a href="<?php echo $this->_tpl_vars['URL']; ?>
-solucoes/dell-academic-center">
+solucoes/dell-statistica">
                                     <div class="bola-tibco bola-dest">
                                         <img class="img-bola-center" src="<?php echo $this->_tpl_vars['URL']; ?>
 commom/img/icon-dell-academic.png" alt="DELL Academic Center" title="DELL Academic Center">
@@ -134,7 +134,7 @@ commom/img/icon-dell-academic.png" alt="DELL Academic Center" title="DELL Academ
                                 </a>
                                 <div class="row">
                                     <h2 class="txt-destaques-home align-center"><a href="<?php echo $this->_tpl_vars['URL']; ?>
-solucoes/dell-academic-center" class="hover-default">DELL Academic <br>Center</a></h2>
+solucoes/dell-statistica" class="hover-default">DELL Statistica</a></h2>
                                 </div>
                             </div>
                             <div class="col-xs-12 bloco-bola-dell pd-none mg-bt-30">         
@@ -164,30 +164,28 @@ commom/img/icon-busines.png" alt="Business Intelligence Analytics" title="Busine
 solucoes/business-intelligence-analytics" class="hover-default">Business Intelligence<br> Analytics</a></h2>
                                     </div>
                                 </div>
-                                <div class="col-xs-12 bloco-bola-dell pd-none mg-bt-30">         
-                                    <a href="<?php echo $this->_tpl_vars['URL']; ?>
-solucoes/gestao-de-avaliacao-educacional">
+                                <div class="col-xs-12 bloco-bola-dell pd-none mg-bt-30 bloco-disable">         
+                                    <!-- <a href="<?php echo $this->_tpl_vars['URL']; ?>
+solucoes/gestao-de-avaliacao-educacional"> -->
                                         <div class="bola-tibco bola-dest">
                                             <img class="img-bola-center" src="<?php echo $this->_tpl_vars['URL']; ?>
 commom/img/icon-gestao-avaliacao.png" alt="Gestão de Avaliação Educacional" title="Gestão de Avaliação Educacional">
                                         </div>
-                                    </a>
+                                    <!-- </a> -->
                                     <div class="row">
-                                        <h2 class="txt-destaques-home align-center"><a href="<?php echo $this->_tpl_vars['URL']; ?>
-solucoes/gestao-de-avaliacao-educacional" class="hover-default">Gestão de Avaliação<br> Educacional</a></h2>
+                                        <h2 class="txt-destaques-home align-center">Gestão de Avaliação<br> Educacional</h2>
                                     </div>
                                 </div>
-                                <div class="col-xs-12 bloco-bola-dell pd-none mg-bt-30">         
-                                    <a href="<?php echo $this->_tpl_vars['URL']; ?>
-solucoes/social-media">
+                                <div class="col-xs-12 bloco-bola-dell pd-none mg-bt-30 bloco-disable">         
+                                    <!-- <a href="<?php echo $this->_tpl_vars['URL']; ?>
+solucoes/social-media"> -->
                                         <div class="bola-tibco bola-dest">
                                             <img class="img-bola-center" src="<?php echo $this->_tpl_vars['URL']; ?>
 commom/img/icon-social-media.png" alt="Social Media" title="Social Media">
                                         </div>
-                                    </a>
+                                    <!-- </a> -->
                                     <div class="row">
-                                        <h2 class="txt-destaques-home align-center"><a href="<?php echo $this->_tpl_vars['URL']; ?>
-solucoes/social-media" class="hover-default">Social Media<br></a></h2>
+                                        <h2 class="txt-destaques-home align-center">Social Media<br></h2>
                                     </div>
                                 </div>
                             </div> 

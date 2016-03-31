@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.12, created on 2016-03-07 14:22:09
+<?php /* Smarty version 2.6.12, created on 2016-03-31 15:54:07
          compiled from gestao-de-analise-de-dados.html */ ?>
 <!DOCTYPE HTML>
 <html lang="pt-br">
@@ -44,10 +44,14 @@ $this->_tpl_vars = $_smarty_tpl_vars;
 unset($_smarty_tpl_vars);
  ?>
             <!-- Banner -->
-            <article class="banner-interna-faixa cor-linha-bn-solucoes pd-none mg-top--5">
+            <article class="banner-interna-faixa cor-linha-bn-solucoes pd-none">
+                <img class="pull-right abs-left hidden-xs" src="<?php echo $this->_tpl_vars['URL']; ?>
+commom/img/bg-solucoes1.jpg" alt="Gestão de Análise de Dados (Estatísticas)" title="Gestão de Análise de Dados (Estatísticas)"> 
                 <div class="width-default">
                     <h1 class="titulo-faixa-interna pd-titulo-faixa-interna">Gestão de Análise de Dados<br> <span>(Estatísticas)</span></h1>
                 </div>
+                <img class="pull-right abs-right hidden-xs" src="<?php echo $this->_tpl_vars['URL']; ?>
+commom/img/bg-solucoes2.jpg" alt="Gestão de Análise de Dados (Estatísticas)" title="Gestão de Análise de Dados (Estatísticas)">
             </article> 
             <!-- Banner -->
             <?php $_smarty_tpl_vars = $this->_tpl_vars;
@@ -56,92 +60,96 @@ $this->_tpl_vars = $_smarty_tpl_vars;
 unset($_smarty_tpl_vars);
  ?>        
             <section class="conteudo-interna">
-                <article class="width-default">
+                <article class="width-default mg-bt-40">
                     <div class="row">
-                        <!-- <div class="col-xs-12 col-sm-3 col-md-3">
-                            <img src="<?php echo $this->_tpl_vars['URL']; ?>
-commom/img/img-default.jpg" alt="BDA" title="BDA" class="">             
-                        </div> -->
-                        <div class="col-xs-12 col-sm-11 col-md-11">
-                            <p class="txt-interna">
-                            A BDA Solutions tem como compromisso ajudar nossos clientes a alcançar uma vantagem competitiva contínua através de análise de pesquisa avançada e tecnologias de modelagem, combinando diversas fontes de dados que permitam novos Insights visando melhorar as taxas de assertividade, aumentar a fidelidade do cliente , aumento na receita e lucros na sua empresa. <br><br> 
-
-                            Com aplicações simples e produtivas conseguimos  identificar padrões de compra de clientes, descobrir associações entre características demográficas de clientes, predizer respostas a campanhas publicitárias, detecção de fraude, correlações escondidas entre diferentes indicadores financeiros, Identificar padrões de comportamento em clientes de risco.<br><br> 
-
-                            Conheça nossas soluções para o seu negócio envolvendo as áreas de:<br>
-                            </p>
-                            <ul class="bloco-linha-interna no-bg">
-                                <li class="linha-ul-interna">Marketing</li>
-                                <li class="linha-ul-interna">Saúde</li>
-                                <li class="linha-ul-interna">Financeiro</li>
-                                <li class="linha-ul-interna">Indústria</li>
-                            </ul>   
+                        <div class="col-xs-12 col-sm-12 col-md-12">
+                            
+                            <div class="col-xs-12 col-sm-4 col-md-4 pd-none">
+                                <img src="<?php echo $this->_tpl_vars['URL']; ?>
+commom/img/gestao-de-analise-de-dados.jpg" alt="Gestão de Análise de Dados (Estatísticas)" title="Gestão de Análise de Dados (Estatísticas)" class="lf-so-desk mg-right-bt-25">
+                            </div>
+                            <div class="col-xs-12 col-sm-7 col-md-7 pd-none">
+                                <p class="txt-interna">
+                                   A BDA Solutions tem como compromisso ajudar nossos clientes a alcançar uma vantagem competitiva contínua através de análise de pesquisa avançada e tecnologias de modelagem, combinando diversas fontes de dados que permitam novos Insights visando melhorar as taxas de assertividade, aumentar a fidelidade do cliente , aumento na receita e lucros na sua empresa. <br><br>
+                                    Com aplicações simples e produtivas conseguimos  identificar padrões de compra de clientes, descobrir associações entre características demográficas de clientes, predizer respostas a campanhas publicitárias, detecção de fraude, correlações escondidas entre diferentes indicadores financeiros, Identificar padrões de comportamento em clientes de risco.<br><br>
+                                    Conheça nossas soluções para o seu NEGÓCIO.<br><br>
+                                </p>
+                            </div>
                         </div>
                     </div>
-                    <p class="titulo-interna-inst align-center pd-tp-30">Conheça nossas Soluções</p>
+                    <p class="sub-titulo-interna-inst mg-top-none align-center"><strong class="sub-rosa">Conheça nossas Soluções</strong></p>
                     <div class="row pd-tp-20">
                         <div class="bloco-destaques-banner pd-bt-30">
-                            <div id="owl-demo-interna">
-                                <div class="item col-xs-12 col-sm-12 col-md-12 bloco-dest-home pd-none">
-                                    <div class="bola-cinza bola-dest"></div>
-                                    <div class="row">
-                                        <h2 class="destaques-home align-center"><a href="<?php echo $this->_tpl_vars['URL']; ?>
-solucoes/gestao-de-analise-de-dados/churn-analysis"> Churn Analysis </a></h2>
-                                        <h3 class="txt-destaques-home align-center"><a href="<?php echo $this->_tpl_vars['URL']; ?>
-solucoes/gestao-de-analise-de-dados/churn-analysis">Saiba mais ></a></h3>
+                            <div class=" hidden-xs col-sm-1 col-md-1 bloco-dest-home pd-none"></div>
+                            <div class="item col-xs-12 col-sm-2 col-md-2 bloco-dest-home pd-none">
+                                <a href="<?php echo $this->_tpl_vars['URL']; ?>
+solucoes/gestao-de-analise-de-dados/churn-analysis">
+                                    <div class="bola-tibco bola-dest">
+                                        <img class="img-bola-center" src="<?php echo $this->_tpl_vars['URL']; ?>
+commom/img/icon-CHURN-ANALYSIS.png" alt="Churn Analysis" title="Churn Analysis">
                                     </div>
-                                </div>
-                                <div class="item col-xs-12 col-sm-12 col-md-12 bloco-dest-home pd-none">
-                                    <div class="bola-rosa bola-dest"></div>
-                                    <div class="row">
-                                        <h2 class="destaques-home align-center"><a href="<?php echo $this->_tpl_vars['URL']; ?>
-solucoes/gestao-de-analise-de-dados/fraud-detection"> Fraud Detection </a></h2>
-                                        <h3 class="txt-destaques-home align-center"><a href="<?php echo $this->_tpl_vars['URL']; ?>
-solucoes/gestao-de-analise-de-dados/fraud-detection">Saiba mais ></a></h3>
-                                    </div>
-                                </div> 
-                                <div class="item col-xs-12 col-sm-12 col-md-12 bloco-dest-home pd-none">
-                                    <div class="bola-cinza bola-dest"></div>
-                                    <div class="row">
-                                        <h2 class="destaques-home align-center"><a href="<?php echo $this->_tpl_vars['URL']; ?>
-solucoes/gestao-de-analise-de-dados/credit-scoring"> Credit Scoring </a></h2>
-                                        <h3 class="txt-destaques-home align-center"><a href="<?php echo $this->_tpl_vars['URL']; ?>
-solucoes/gestao-de-analise-de-dados/credit-scoring">Saiba mais ></a></h3>
-                                    </div>
-                                </div>
-                                <div class="item col-xs-12 col-sm-12 col-md-12 bloco-dest-home pd-none">
-                                    <div class="bola-rosa bola-dest"></div>
-                                    <div class="row">
-                                        <h2 class="destaques-home align-center"><a href="<?php echo $this->_tpl_vars['URL']; ?>
-solucoes/gestao-de-analise-de-dados/customer-analytics"> Customer Analytics </a></h2>
-                                        <h3 class="txt-destaques-home align-center"><a href="<?php echo $this->_tpl_vars['URL']; ?>
-solucoes/gestao-de-analise-de-dados/customer-analytics">Saiba mais ></a></h3>
-                                    </div>
-                                </div> 
-                                <div class="item col-xs-12 col-sm-12 col-md-12 bloco-dest-home pd-none">
-                                    <div class="bola-cinza bola-dest"></div>
-                                    <div class="row">
-                                        <h2 class="destaques-home align-center"><a href="<?php echo $this->_tpl_vars['URL']; ?>
-solucoes/gestao-de-analise-de-dados/saude"> Saúde </a></h2>
-                                        <h3 class="txt-destaques-home align-center"><a href="<?php echo $this->_tpl_vars['URL']; ?>
-solucoes/gestao-de-analise-de-dados/saude">Saiba mais ></a></h3>
-                                    </div>
+                                </a>
+                                <div class="row">
+                                    <h2 class="txt-destaques-home align-center"><a href="<?php echo $this->_tpl_vars['URL']; ?>
+solucoes/gestao-de-analise-de-dados/churn-analysis" class="hover-default">Churn Analysis</a></h2>
                                 </div>
                             </div>
-                            <div class="customNavigation visible-xs-block">
-                                <a class="btn prev">
-                                    <img src="<?php echo $this->_tpl_vars['URL']; ?>
-commom/img/left.png" title="Esquerda" alt="Esquerda">
+                            <div class="item col-xs-12 col-sm-2 col-md-2 bloco-dest-home pd-none">
+                                <a href="<?php echo $this->_tpl_vars['URL']; ?>
+solucoes/gestao-de-analise-de-dados/fraud-detection">
+                                    <div class="bola-tibco bola-dest">
+                                        <img class="img-bola-center" src="<?php echo $this->_tpl_vars['URL']; ?>
+commom/img/icon-FRAUD-DETECTION.png" alt="Fraud Detection" title="Fraud Detection">
+                                    </div>
                                 </a>
-                                <a class="btn next">
-                                    <img src="<?php echo $this->_tpl_vars['URL']; ?>
-commom/img/right.png" title="Direita" alt="Direita">
-                                </a>
+                                <div class="row">
+                                    <h2 class="txt-destaques-home align-center"><a href="<?php echo $this->_tpl_vars['URL']; ?>
+solucoes/gestao-de-analise-de-dados/fraud-detection" class="hover-default">Fraud Detection</a></h2>
+                                </div>
                             </div>
+                            <div class="item col-xs-12 col-sm-2 col-md-2 bloco-dest-home pd-none">
+                                <a href="<?php echo $this->_tpl_vars['URL']; ?>
+solucoes/gestao-de-analise-de-dados/credit-scoring">
+                                    <div class="bola-tibco bola-dest">
+                                        <img class="img-bola-center" src="<?php echo $this->_tpl_vars['URL']; ?>
+commom/img/icon-CREDIT-scoring.png" alt="Credit Scoring" title="Credit Scoring">
+                                    </div>
+                                </a>
+                                <div class="row">
+                                    <h2 class="txt-destaques-home align-center"><a href="<?php echo $this->_tpl_vars['URL']; ?>
+solucoes/gestao-de-analise-de-dados/credit-scoring" class="hover-default">Credit Scoring</a></h2>
+                                </div>
+                            </div>
+                            <div class="item col-xs-12 col-sm-2 col-md-2 bloco-dest-home pd-none bloco-disable">
+                                <!-- <a href="<?php echo $this->_tpl_vars['URL']; ?>
+solucoes/gestao-de-analise-de-dados/health"> -->
+                                    <div class="bola-tibco bola-dest">
+                                        <img class="img-bola-center" src="<?php echo $this->_tpl_vars['URL']; ?>
+commom/img/icon-health.png" alt="Health" title="Health">
+                                    </div>
+                                <!-- </a> -->
+                                <div class="row">
+                                    <h2 class="txt-destaques-home align-center">Health</h2>
+                                </div>
+                            </div>
+                            <div class="item col-xs-12 col-sm-2 col-md-2 bloco-dest-home pd-none">
+                                <a href="<?php echo $this->_tpl_vars['URL']; ?>
+solucoes/gestao-de-analise-de-dados/customer-analytics">
+                                    <div class="bola-tibco bola-dest">
+                                        <img class="img-bola-center" src="<?php echo $this->_tpl_vars['URL']; ?>
+commom/img/icon-CUSTOMER-ANALYTICS.png" alt="Customer Analytics" title="Customer Analytics">
+                                    </div>
+                                </a>
+                                <div class="row">
+                                    <h2 class="txt-destaques-home align-center"><a href="<?php echo $this->_tpl_vars['URL']; ?>
+solucoes/gestao-de-analise-de-dados/customer-analytics" class="hover-default">Customer Analytics</a></h2>
+                                </div>
+                            </div>
+                            <div class="item hidden-xs col-sm-1 col-md-1 bloco-dest-home pd-none"></div>
                         </div>
                     </div>
                 </article>
-            </section>                       
+            </section>   
         <?php $_smarty_tpl_vars = $this->_tpl_vars;
 $this->_smarty_include(array('smarty_include_tpl_file' => "../inc/footer.html", 'smarty_include_vars' => array()));
 $this->_tpl_vars = $_smarty_tpl_vars;

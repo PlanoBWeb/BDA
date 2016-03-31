@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.12, created on 2016-03-21 11:49:48
+<?php /* Smarty version 2.6.12, created on 2016-03-31 17:08:59
          compiled from servicos.html */ ?>
 <!DOCTYPE HTML>
 <html lang="pt-br">
@@ -83,7 +83,6 @@ unset($_smarty_tpl_vars);
                     </p>
                     <div class="row">
                         <article class="width-default pd-tp-20 pd-tp-bt-dell">
-                            
                             <div class="col-xs-12 bloco-bola-dell pd-none mg-bt-30">         
                                 <a href="<?php echo $this->_tpl_vars['URL']; ?>
 servicos/master-data-management">

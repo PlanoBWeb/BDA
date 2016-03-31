@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.12, created on 2016-03-07 14:22:17
+<?php /* Smarty version 2.6.12, created on 2016-03-31 15:45:36
          compiled from fraud-detection.html */ ?>
 <!DOCTYPE HTML>
 <html lang="pt-br">
@@ -36,10 +36,14 @@ $this->_tpl_vars = $_smarty_tpl_vars;
 unset($_smarty_tpl_vars);
  ?>
             <!-- Banner -->
-            <article class="banner-interna-faixa cor-linha-bn-solucoes pd-none mg-top--5">
+            <article class="banner-interna-faixa cor-linha-bn-solucoes pd-none">
+                <img class="pull-right abs-left hidden-xs" src="<?php echo $this->_tpl_vars['URL']; ?>
+commom/img/bg-solucoes1.jpg" alt="Fraud Detection" title="Fraud Detection"> 
                 <div class="width-default">
-                    <h1 class="titulo-faixa-interna">Fraud Detection</h1>
+                    <h1 class="titulo-faixa-interna pd-titulo-faixa-interna">Fraud Detection</h1>
                 </div>
+                <img class="pull-right abs-right hidden-xs" src="<?php echo $this->_tpl_vars['URL']; ?>
+commom/img/bg-solucoes2.jpg" alt="Fraud Detection" title="Fraud Detection">
             </article> 
             <!-- Banner -->
             <?php $_smarty_tpl_vars = $this->_tpl_vars;
@@ -55,7 +59,8 @@ unset($_smarty_tpl_vars);
 commom/img/img-default.jpg" alt="BDA" title="BDA" class="">             
                         </div> -->
                         <div class="col-xs-12 col-sm-11 col-md-11">
-                            <p class="titulo-interna-inst"><strong>Fraud Detection</strong></p>
+                            <img src="<?php echo $this->_tpl_vars['URL']; ?>
+commom/img/fraud-detection.jpg" alt="fraud detection" title="fraud detection" class="lf-so-desk mg-right-bt-25">
                             <p class="txt-interna">
                             O aumento da regulamentação e crescente concorrência no sector bancário e financeiro de domínio estão cada vez mais colocando pressão sobre as empresas para evitar perdas de forma proativa. 
                             <br><br> 
@@ -68,7 +73,7 @@ commom/img/img-default.jpg" alt="BDA" title="BDA" class="">
 
                             <strong>Soluções Aplicadas: </strong>
                             </p>
-                            <ul class="bloco-linha-interna no-bg">
+                            <ul class="bloco-linha-interna no-bg ul-com-list">
                                 <li class="linha-ul-interna"><strong>Análise preditiva de ponta : </strong>Fornece uma grande variedade de algoritmos sofisticados básico para a construção de modelos de  maior para detecção de fraude e melhor ROI para a empresa.</li>
                                 <li class="linha-ul-interna"><strong>Solução empresarial: </strong> Baseado em solução multi-usuário com regras de perfis seguras, permite um ambiente verdadeiramente colaborativo e eficiente para construir, testar e implantar os melhores modelos possíveis para detecção de fraudes.</li>
                                 <li class="linha-ul-interna"><strong>Live Score: </strong>Processa novas transações de acordo como elas acontecem e atualiza modelos de fraude  rapidamente aplicando técnicas com as soluções integradas.</li>
@@ -77,7 +82,54 @@ commom/img/img-default.jpg" alt="BDA" title="BDA" class="">
                         </div>
                     </div>
                 </article>
-            </section>                       
+            </section>      
+            <div class="linha-recursos">
+                <div class="width-default">
+                    <p class="title-recursos">Recursos Soluções Fraud Detection</p>
+                    <img class="seta-recursos" src="<?php echo $this->_tpl_vars['URL']; ?>
+commom/img/seta-recursos.png" alt="Fraud Detection">
+                </div>
+            </div>        
+            <div class="row bloco-recursos">
+                <div class="width-default">
+                    <div class="col-xs-12 col-sm-4 col-md-4 pd-lf-50">
+                        <div class="row tamanho-titulo-icon">
+                            <img class="pull-left" src="<?php echo $this->_tpl_vars['URL']; ?>
+commom/img/icon-treinamentos1.png" alt="Treinamentos e Eventos" title="Treinamentos e Eventos">
+                            <a href="<?php echo $this->_tpl_vars['URL']; ?>
+" class="pull-left txt-title-recursos pd-tp-5">Treinamentos <br>e Eventos</a>
+                        </div>
+                        <div class="row">
+                            <a class="txt-recursos txt-title-recursos" href="<?php echo $this->_tpl_vars['URL']; ?>
+">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in metus vitae sapien consectetur</a>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-4 col-md-4 pd-lf-50">
+                        <div class="row tamanho-titulo-icon">
+                            <img class="pull-left" src="<?php echo $this->_tpl_vars['URL']; ?>
+commom/img/icon-solucoes1.png" alt="Soluções" title="Soluções">
+                            <a href="<?php echo $this->_tpl_vars['URL']; ?>
+" class="pull-left txt-title-recursos">Soluções Estatística</a>
+                        </div>
+                        <div class="row">
+                            <a class="txt-recursos txt-title-recursos" href="<?php echo $this->_tpl_vars['URL']; ?>
+">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in metus vitae sapien consectetur</a>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-4 col-md-4 pd-lf-50">
+                        <div class="row tamanho-titulo-icon">
+                            <img class="pull-left" src="<?php echo $this->_tpl_vars['URL']; ?>
+commom/img/icon-pay-pal.png" alt="Solicite contato" title="Solicite contato">
+                            <a href="<?php echo $this->_tpl_vars['URL']; ?>
+" class="pull-left txt-title-recursos pd-tp-5">Compre em 12x<br>sem juros</a>
+                        </div>
+                        <div class="row">
+                            <a class="txt-recursos txt-title-recursos" href="<?php echo $this->_tpl_vars['URL']; ?>
+">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in metus vitae sapien consectetur</a>
+                        </div>
+                    </div>
+                </div> 
+            </div>                 
         <?php $_smarty_tpl_vars = $this->_tpl_vars;
 $this->_smarty_include(array('smarty_include_tpl_file' => "../inc/footer.html", 'smarty_include_vars' => array()));
 $this->_tpl_vars = $_smarty_tpl_vars;

@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.12, created on 2016-03-17 11:01:05
+<?php /* Smarty version 2.6.12, created on 2016-03-31 17:28:02
          compiled from treinamentos.html */ ?>
 <!DOCTYPE HTML>
 <html lang="pt-br">
@@ -87,7 +87,7 @@ unset($_smarty_tpl_vars);
                         <br><br>
                         Confira nossa programa e temas desenvolvidos:
                     </p>
-                    <ul class="bloco-linha-interna no-bg">
+                    <ul class="bloco-linha-interna no-bg ul-com-list">
                         <li class="linha-ul-interna">Sportfire Tibco Software</li>
                         <li class="linha-ul-interna">Power BI Microsoft Software</li>
                         <li class="linha-ul-interna">Statistica DELL Software</li>

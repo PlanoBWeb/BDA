@@ -186,6 +186,22 @@
 			'big-data-e-iot' => array(
 			 	'urlPagina'     => "big-data-e-iot",
 			 	'breadcrumb'    => "Soluções de Big Data",
+			 	'healthcare' => array(
+				 	'urlPagina'     => "healthcare",
+				 	'breadcrumb'    => "Healthcare",
+				),
+				'varejo-vendas' => array(
+				 	'urlPagina'     => "varejo-vendas",
+				 	'breadcrumb'    => "Varejo",
+				),
+				'government' => array(
+				 	'urlPagina'     => "government",
+				 	'breadcrumb'    => "Government",
+				),	
+				'credit-e-risk' => array(
+				 	'urlPagina'     => "credit-e-risk",
+				 	'breadcrumb'    => "Crédito ",
+				),		
 			),
 			'gestao-de-avaliacao-educacional' => array(
 			 	'urlPagina'     => "gestao-de-avaliacao-educacional",
@@ -214,14 +230,14 @@
 				 	'urlPagina'     => "customer-analytics",
 				 	'breadcrumb'    => "Customes Analytics",
 				),
-				'saude' => array(
-				 	'urlPagina'     => "saude",
+				'health' => array(
+				 	'urlPagina'     => "health",
 				 	'breadcrumb'    => "Saude",
 				),
 			),
-			'dell-academic-center' => array(
-			 	'urlPagina'     => "dell-academic-center",
-			 	'breadcrumb'    => "Dell Academic Center",
+			'dell-statistica' => array(
+			 	'urlPagina'     => "dell-statistica",
+			 	'breadcrumb'    => "Dell Statistica",
 			),
 			'gestao-de-risco-de-credito' => array(
 			 	'urlPagina'     => "gestao-de-risco-de-credito",
@@ -238,6 +254,8 @@
 					 	'breadcrumb'    => "OIL & Gás",
 					 	'solicite'    	=> "",
 					 	'download'    	=> "0",
+					 	'txtsolicite'   => "Solicite uma Demonstração",
+					 	'txtdownload'   => "",
 					),
 					'mineracao' => array(
 					 	'urlPagina'     => "mineracao",
@@ -266,50 +284,96 @@
 				 	'servico-saude' => array(
 					 	'urlPagina'     => "servico-saude",
 					 	'breadcrumb'    => "Saúde",
+					 	'txtsolicite'   => "Solicite uma Demonstração",
+						'txtdownload'   => "",
 					),
 					'educacao' => array(
 					 	'urlPagina'     => "educacao",
 					 	'breadcrumb'    => "Educação",
+					 	'txtsolicite'   => "Solicite uma Demonstração",
+						'txtdownload'   => "",
 					),
 					'energia' => array(
 					 	'urlPagina'     => "energia",
 					 	'breadcrumb'    => "Energia",
+					 	'txtsolicite'   => "Solicite uma Demonstração",
+						'txtdownload'   => "",
 					),
 					'marketing' => array(
 					 	'urlPagina'     => "marketing",
 					 	'breadcrumb'    => "Marketing",
+					 	'txtsolicite'   => "Solicite uma Demonstração",
+						'txtdownload'   => "",
 					),
 					'vendas' => array(
 					 	'urlPagina'     => "vendas",
 					 	'breadcrumb'    => "Vendas",
+					 	'txtsolicite'   => "Solicite uma Demonstração",
+						'txtdownload'   => "",
 					),
 					'financeiro' => array(
 					 	'urlPagina'     => "financeiro",
 					 	'breadcrumb'    => "Financeiro",
+					 	'txtsolicite'   => "Solicite uma Demonstração",
+						'txtdownload'   => "",
 					),
 					'varejo' => array(
 					 	'urlPagina'     => "varejo",
 					 	'breadcrumb'    => "Varejo",
+					 	'txtsolicite'   => "Solicite uma Demonstração",
+						'txtdownload'   => "",
 					),
 					'logistica' => array(
 					 	'urlPagina'     => "logistica",
 					 	'breadcrumb'    => "Logistica",
+					 	'txtsolicite'   => "Solicite uma Demonstração",
+						'txtdownload'   => "",
 					),
 					'cosmeticos' => array(
 					 	'urlPagina'     => "cosmeticos",
 					 	'breadcrumb'    => "Cosmeticos",
+					 	'txtsolicite'   => "Solicite uma Demonstração",
+						'txtdownload'   => "",
 					),
 				),
 				'governo' => array(
 				 	'urlPagina'     => "governo",
 				 	'breadcrumb'    => "Governo",
+				 	'txtsolicite'   => "Solicite uma Demonstração",
+					'txtdownload'   => "",
 				),
-				'' => array(
-				 	'urlPagina'     => "",
-				 	'breadcrumb'    => "",
-				),
+
 			),
 		),
+		'servicos' => array(
+			'urlPagina'     => "servicos",
+			'breadcrumb'    => "Serviços",
+			'master-data-management' => array(
+			 	'urlPagina'     => "master-data-management",
+			 	'breadcrumb'    => "Master data management",
+			),
+			'data-intelligence' => array(
+			 	'urlPagina'     => "data-intelligence",
+			 	'breadcrumb'    => "Data intelligence",
+			),
+			'implementacao-e-suporte' => array(
+			 	'urlPagina'     => "implementacao-e-suporte",
+			 	'breadcrumb'    => "Implementação & suporte",
+			),
+			'consultoria-especializada' => array(
+			 	'urlPagina'     => "consultoria-especializada",
+			 	'breadcrumb'    => "Consultoria especializada",
+			),
+			'outsourcing-profissionais-de-ti' => array(
+			 	'urlPagina'     => "outsourcing-profissionais-de-ti",
+			 	'breadcrumb'    => "Outsourcing profissionais de TI",
+			),
+		),
+		'treinamentos' => array(
+		 	'urlPagina'     => "treinamentos",
+		 	'breadcrumb'    => "Treinamentos",
+		),
+		
 
 	);
 	// 'software' => array(

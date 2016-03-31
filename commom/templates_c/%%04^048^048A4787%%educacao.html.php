@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.12, created on 2016-03-18 18:01:12
+<?php /* Smarty version 2.6.12, created on 2016-03-30 16:29:34
          compiled from educacao.html */ ?>
 <!DOCTYPE HTML>
 <html lang="pt-br">
@@ -36,10 +36,14 @@ $this->_tpl_vars = $_smarty_tpl_vars;
 unset($_smarty_tpl_vars);
  ?>
             <!-- Banner -->
-            <article class="banner-interna-faixa cor-linha-bn-solucoes pd-none mg-top--5">
+            <article class="banner-interna-faixa cor-linha-bn-solucoes pd-none">
+                <img class="pull-right abs-left hidden-xs" src="<?php echo $this->_tpl_vars['URL']; ?>
+commom/img/bg-solucoes1.jpg" alt="Educação" title="Educação"> 
                 <div class="width-default">
-                    <h1 class="titulo-faixa-interna"> Educação </h1>
+                    <h1 class="titulo-faixa-interna"> Educação</h1>
                 </div>
+                <img class="pull-right abs-right hidden-xs" src="<?php echo $this->_tpl_vars['URL']; ?>
+commom/img/bg-solucoes2.jpg" alt="Educação" title="Educação">
             </article> 
             <!-- Banner -->
             <?php $_smarty_tpl_vars = $this->_tpl_vars;
@@ -51,24 +55,34 @@ unset($_smarty_tpl_vars);
                 <article class="width-default">
                     <div class="col-xs-12 col-sm-12 col-md-12 pd-none pd-so-mob">
                         <div class="row pd-tp-30">
-                            <div class="bola-tibco bola-dest pull-left mg-right-25">
-                                <img class="img-bola-center" src="<?php echo $this->_tpl_vars['URL']; ?>
+                            <div class="col-xs-12 pull-left max-int-solucoes-bola pd-none pd-so-mob" style="max-width:300px !Important">
+                                <div class="row pd-none mg-bt-50 bloco-disable-interna">
+                                    <div class="bola-tibco bola-dest">
+                                        <img class="img-bola-center" src="<?php echo $this->_tpl_vars['URL']; ?>
 commom/img/icon-educacao.png" alt="Educação" title="Educação">
+                                    </div>
+                                    <div class="row">
+                                        <h2 class="txt-destaques-home align-center mg-top--5">Educação</h2>
+                                    </div>
+                                </div>
+                                <?php $_smarty_tpl_vars = $this->_tpl_vars;
+$this->_smarty_include(array('smarty_include_tpl_file' => "../inc/solicite-solucoes.html", 'smarty_include_vars' => array()));
+$this->_tpl_vars = $_smarty_tpl_vars;
+unset($_smarty_tpl_vars);
+ ?> 
                             </div>
-                            <p class="txt-interna">
-                                Em face das limitações orçamentais, a concorrência intensa para matrículas de estudantes de outras instituições, demandas governamentais e regulatórias, um mercado de trabalho em constante mudança e pressão para expandir programas acadêmicos com recursos limitados, instituições de ensino superior precisam entender suas operações de negócios, mercado-alvo e ter a capacidade de fazer mais com menos. <br><br>
- 
-                                Assim como suas contrapartes corporativas, instituições de ensino têm uma grande necessidade de "business intelligence". Alguns benefícios essenciais são:<br><br>
-                                
-
-                                <ul class="bloco-linha-interna no-bg">
+                            <div class="col-xs-12 col-sm-8 col-md-8 pd-none pd-so-mob">
+                                <p class="txt-interna">
+                                    Em face das limitações orçamentais, a concorrência intensa para matrículas de estudantes de outras instituições, demandas governamentais e regulatórias, um mercado de trabalho em constante mudança e pressão para expandir programas acadêmicos com recursos limitados, instituições de ensino superior precisam entender suas operações de negócios, mercado-alvo e ter a capacidade de fazer mais com menos. <br><br>
+                                    Assim como suas contrapartes corporativas, instituições de ensino têm uma grande necessidade de "business intelligence". Alguns benefícios essenciais são:<br><br>
+                                </p>
+                                <ul class="bloco-linha-interna no-bg ul-com-list">
                                     <li class="linha-ul-interna">Melhorar a oferta de cursos: Monitorar e avaliar feedback dos alunos e matrículas números para cursos e disciplinas individuais para ajudar de forma mais eficaz do curso e instalações ofertas sob medida para estimular a demanda</li>
                                     <li class="linha-ul-interna">Monitorar indicadores-chave do corpo de estudante: a capacidade de decifrar as lacunas e demandas em serviços para os estudantes, apoiar e ofertas acadêmicas vai levar a um melhor desempenho do estudante, satisfação e bem-estar, e conduzir a valores de inscrição mais altos e melhores resultados académicos</li>
                                     <li class="linha-ul-interna">Gerenciar e desenvolver currículos de acordo com a demanda do mercado</li>
                                 </ul> 
-                            </p>
+                            </div>
                         </div>
-                        <br><br>                
                     </div>
                 </article>
             </section>                       

@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.12, created on 2016-03-23 16:53:58
+<?php /* Smarty version 2.6.12, created on 2016-03-30 15:26:45
          compiled from business-intelligence-analytics.html */ ?>
 <!DOCTYPE HTML>
 <html lang="pt-br">
@@ -54,57 +54,70 @@ unset($_smarty_tpl_vars);
             <section class="conteudo-interna">
                 <article class="width-default">
                     <div class="col-xs-12 col-sm-12 col-md-12 pd-none pd-so-mob">
-                        <p class="txt-interna">
-                            <br><img src="<?php echo $this->_tpl_vars['URL']; ?>
-commom/img/BUSINESS-INTELLIGENCE.jpg" alt="Business Intelligence & Analytics" title="Business Intelligence & Analytics" class="center-block"><br>
-                            A BDA Solutions tem como compromisso ajudar nossos clientes a alcançar uma vantagem competitiva contínua através de análise de pesquisa avançada e tecnologias de modelagem, combinando diversas fontes de dados que permitam novos Insights visando melhorar as taxas de assertividade, aumentar a fidelidade do cliente e ainda aumento na receita e lucros na sua empresa.
-                            <br><br>
-                            Com uma equipe altamente qualificada, A BDA avalia a sua necessidade e aplica técnicas analíticas avançadas para melhorar as Tomadas de Decisões.
-                            <br><br>                            
-                        </p>
-                        <div class="row pd-tp-30">
+                        <div class="row">
+                            <div class="col-xs-12 col-sm-5 col-md-5">
+                                <img src="<?php echo $this->_tpl_vars['URL']; ?>
+commom/img/BUSINESS-INTELLIGENCE.jpg" alt="Business Intelligence & Analytics" title="Business Intelligence & Analytics" class="lf-so-desk">
+                            </div>
+                            <div class="col-xs-12 col-sm-7 col-md-7 pd-none">
+                                <p class="txt-interna">
+                                    A BDA Solutions tem como compromisso ajudar nossos clientes a alcançar uma vantagem competitiva contínua através de análise de pesquisa avançada e tecnologias de modelagem, combinando diversas fontes de dados que permitam novos Insights visando melhorar as taxas de assertividade, aumentar a fidelidade do cliente e ainda aumento na receita e lucros na sua empresa. <br><br>
+
+                                    Com uma equipe altamente qualificada, A BDA avalia a sua necessidade e aplica técnicas analíticas avançadas para melhorar as Tomadas de Decisões.<br><br>
+
+                                    A BDA desenvolve soluções para as principais verticais de negócio contemplando os principais segmentos e área de interesse, ajudando cada vez mais o cliente atuar e implementar uma solução de forma simples e rápida com os dados da sua empresa.                          
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row">
                             <div class="bloco-destaques-banner pd-bt-30">
-                                <div id="owl-demo-tibco">
-                                    <div class="item col-xs-12 col-sm-12 col-md-12 bloco-dest-home pd-none">
-                                        <a href="<?php echo $this->_tpl_vars['URL']; ?>
-solucoes/business-intelligence-analytics/industria">
-                                            <div class="bola-tibco bola-dest">
-                                                <img class="img-bola-center" src="<?php echo $this->_tpl_vars['URL']; ?>
-commom/img/icon-industria.png" alt="INDUSTRIA" title="INDUSTRIA">
-                                            </div>
-                                        </a>
-                                        <div class="row">
-                                            <h2 class="txt-destaques-home align-center"><a href="<?php echo $this->_tpl_vars['URL']; ?>
-solucoes/business-intelligence-analytics/industria" class="hover-default">Indústria</a></h2>
-                                        </div>
-                                    </div>
-                                    <div class="item col-xs-12 col-sm-12 col-md-12 bloco-dest-home pd-none">
-                                        <a href="<?php echo $this->_tpl_vars['URL']; ?>
-solucoes/business-intelligence-analytics/servico">
-                                            <div class="bola-tibco bola-dest">
-                                                <img class="img-bola-center" src="<?php echo $this->_tpl_vars['URL']; ?>
-commom/img/icon-servicos2.png" alt="SERVIÇOS" title="SERVIÇOS">
-                                            </div>
-                                        </a>
-                                        <div class="row">
-                                            <h2 class="txt-destaques-home align-center"><a href="<?php echo $this->_tpl_vars['URL']; ?>
-solucoes/business-intelligence-analytics/servico" class="hover-default">Serviços</a></h2>
-                                        </div>
-                                    </div>
-                                    <div class="item col-xs-12 col-sm-12 col-md-12 bloco-dest-home pd-none">
-                                        <a href="<?php echo $this->_tpl_vars['URL']; ?>
-solucoes/business-intelligence-analytics/governo">
-                                            <div class="bola-tibco bola-dest">
-                                                <img class="img-bola-center" src="<?php echo $this->_tpl_vars['URL']; ?>
-commom/img/icon-governo.png" alt="GOVERNO" title="GOVERNO">
-                                            </div>
-                                        </a>
-                                        <div class="row">
-                                            <h2 class="txt-destaques-home align-center"><a href="<?php echo $this->_tpl_vars['URL']; ?>
-solucoes/business-intelligence-analytics/governo" class="hover-default">Governo</a></h2>
-                                        </div>
+                                <div class="row">
+                                    <div class="hidden-xs col-sm-4 col-md-4 bloco-dest-home pd-none"></div>
+                                    <div class="col-xs-12 col-sm-8 col-md-8 bloco-dest-home pd-none">
+                                        <h3 class="sub-titulo-interna-inst mg-top-none align-center"><strong class="sub-rosa">Conheça as soluções para o seu negócio</strong></h3><br>
                                     </div>
                                 </div>
+                                <div class=" hidden-xs col-sm-5 col-md-5 bloco-dest-home pd-none"></div>
+                                <div class="item col-xs-12 col-sm-2 col-md-2 bloco-dest-home pd-none">
+                                    <a href="<?php echo $this->_tpl_vars['URL']; ?>
+solucoes/business-intelligence-analytics/industria">
+                                        <div class="bola-tibco bola-dest">
+                                            <img class="img-bola-center" src="<?php echo $this->_tpl_vars['URL']; ?>
+commom/img/icon-industria.png" alt="INDUSTRIA" title="INDUSTRIA">
+                                        </div>
+                                    </a>
+                                    <div class="row">
+                                        <h2 class="txt-destaques-home align-center"><a href="<?php echo $this->_tpl_vars['URL']; ?>
+solucoes/business-intelligence-analytics/industria" class="hover-default">Indústria</a></h2>
+                                    </div>
+                                </div>
+                                <div class="item col-xs-12 col-sm-2 col-md-2 bloco-dest-home pd-none">
+                                    <a href="<?php echo $this->_tpl_vars['URL']; ?>
+solucoes/business-intelligence-analytics/servico">
+                                        <div class="bola-tibco bola-dest">
+                                            <img class="img-bola-center" src="<?php echo $this->_tpl_vars['URL']; ?>
+commom/img/icon-servicos2.png" alt="SERVIÇOS" title="SERVIÇOS">
+                                        </div>
+                                    </a>
+                                    <div class="row">
+                                        <h2 class="txt-destaques-home align-center"><a href="<?php echo $this->_tpl_vars['URL']; ?>
+solucoes/business-intelligence-analytics/servico" class="hover-default">Serviços</a></h2>
+                                    </div>
+                                </div>
+                                <div class="item col-xs-12 col-sm-2 col-md-2 bloco-dest-home pd-none">
+                                    <a href="<?php echo $this->_tpl_vars['URL']; ?>
+solucoes/business-intelligence-analytics/governo">
+                                        <div class="bola-tibco bola-dest">
+                                            <img class="img-bola-center" src="<?php echo $this->_tpl_vars['URL']; ?>
+commom/img/icon-governo.png" alt="GOVERNO" title="GOVERNO">
+                                        </div>
+                                    </a>
+                                    <div class="row">
+                                        <h2 class="txt-destaques-home align-center"><a href="<?php echo $this->_tpl_vars['URL']; ?>
+solucoes/business-intelligence-analytics/governo" class="hover-default">Governo</a></h2>
+                                    </div>
+                                </div>
+                                <div class="item hidden-xs col-sm-1 col-md-1 bloco-dest-home pd-none"></div>
                             </div>
                         </div>
                         <br><br>
